@@ -1,11 +1,11 @@
 {
- "version": "0.5.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.3_all.ipk",
- "sha256": "36e5a45fe49edd9ff197668a80e218e7b0e253e935dd29c0a7ba9df84e166b2b",
- "size": 38148,
+ "version": "0.5.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.4_all.ipk",
+ "sha256": "b45f06a5ce6d5972ef43c14db85ea371d544286a7d946783a04cb58018f2a80e",
+ "size": 38516,
  "date": "2026-11-10",
  "notes": {
-  "de": "- Test-Update ohne Funktionsänderung: prüft, dass nach einem Update ROT («Weiter») Stream-Player ohne Absturz direkt in der neuen Version öffnet.",
-  "en": "Test update without functional changes."
+  "de": "- Korrektur: «Update» zeigte nach einem Update manchmal die bereits installierte Version als «neue Version» an. Ursache: Beim Neuladen ohne Neustart konnten Teile des Plugins noch alten Code verwenden. Das Neuladen entfernt jetzt alle alten Teile, und Update-Bildschirm, Startbildschirm und Browser-Seite vergleichen immer mit der tatsächlich installierten Version.",
+  "en": "Fix: \"Update\" sometimes showed the already installed version as a new version."
  }
 }
