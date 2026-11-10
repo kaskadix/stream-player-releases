@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.5.3 – 2026-11-10
+
+- Test-Update ohne Funktionsänderung: prüft, dass nach einem Update ROT («Weiter») Stream-Player ohne Absturz direkt in der neuen Version öffnet.
+
 ## 0.5.2 – 2026-11-10
 
 - Absturz behoben: Nach einem Update führte ROT («Weiter») zum Absturz, weil Stream-Player sich neu öffnen wollte, während der Startbildschirm noch geschlossen wurde. Das Neu-Öffnen wartet jetzt kurz.

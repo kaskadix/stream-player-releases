@@ -1,11 +1,11 @@
 {
- "version": "0.5.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.2_all.ipk",
- "sha256": "0d62bfe5884610c16a5ee11d6c4f4338ef22055e07859b4144c28108dec7f065",
- "size": 38154,
+ "version": "0.5.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.3_all.ipk",
+ "sha256": "36e5a45fe49edd9ff197668a80e218e7b0e253e935dd29c0a7ba9df84e166b2b",
+ "size": 38148,
  "date": "2026-11-10",
  "notes": {
-  "de": "- Absturz behoben: Nach einem Update führte ROT («Weiter») zum Absturz, weil Stream-Player sich neu öffnen wollte, während der Startbildschirm noch geschlossen wurde. Das Neu-Öffnen wartet jetzt kurz.",
-  "en": "Fix: pressing RED after an update no longer crashes."
+  "de": "- Test-Update ohne Funktionsänderung: prüft, dass nach einem Update ROT («Weiter») Stream-Player ohne Absturz direkt in der neuen Version öffnet.",
+  "en": "Test update without functional changes."
  }
 }
