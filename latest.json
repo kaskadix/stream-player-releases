@@ -1,0 +1,11 @@
+{
+ "version": "0.5.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.0_all.ipk",
+ "sha256": "8765a60a1cf30c323d01aadff28eb462b20c8d608a42d318d6027244150674fa",
+ "size": 37876,
+ "date": "2026-11-10",
+ "notes": {
+  "de": "- Eigene Update-Funktion: Menüpunkt «Update» im Startbildschirm zeigt die installierte und die neueste Version mit den Neuerungen; GRÜN lädt das Paket, prüft die Prüfsumme und installiert es. Danach lädt sich Stream-Player ohne Neustart neu.\n- Tägliche Prüfung im Hintergrund (abschaltbar); eine neue Version wird im Startbildschirm angezeigt. Installiert wird nie ohne Tastendruck.\n- Browser-Seite: Abschnitt «Updates» mit Status, täglicher Prüfung und Adresse der Update-Datei.\n- Korrektur: Nach einem Update ohne Neustart erschienen neue Texte (z.B. der Bildschirm «Listen») auf Englisch. Übersetzungen werden jetzt direkt aus der Datei geladen.",
+  "en": "Own update function: menu item \"Update\" shows new versions with release notes and installs them with GREEN, without restarting. Daily background check. Fix: new texts appeared in English after an update without restart."
+ }
+}
