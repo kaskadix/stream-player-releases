@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.5.2 – 2026-11-10
+
+- Absturz behoben: Nach einem Update führte ROT («Weiter») zum Absturz, weil Stream-Player sich neu öffnen wollte, während der Startbildschirm noch geschlossen wurde. Das Neu-Öffnen wartet jetzt kurz.
+
 ## 0.5.1 – 2026-11-10
 
 - Sicherheit: Update-Prüfung und Download laufen nur noch über eine geprüfte, verschlüsselte Verbindung (kein Ausweichen auf ungeprüfte Verbindungen wie beim Laden von Senderlisten).

@@ -1,11 +1,11 @@
 {
- "version": "0.5.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.1_all.ipk",
- "sha256": "2a6457bf00c3d89c0e99f1fa48a367c654602ebe768d663bc85181cc8be9798c",
- "size": 38014,
+ "version": "0.5.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.5.2_all.ipk",
+ "sha256": "0d62bfe5884610c16a5ee11d6c4f4338ef22055e07859b4144c28108dec7f065",
+ "size": 38154,
  "date": "2026-11-10",
  "notes": {
-  "de": "- Sicherheit: Update-Prüfung und Download laufen nur noch über eine geprüfte, verschlüsselte Verbindung (kein Ausweichen auf ungeprüfte Verbindungen wie beim Laden von Senderlisten).\n- Meldungen beim Laden von Listen und bei Updates mit richtigen Umlauten (z.B. «Prüfsumme» statt «Pruefsumme»).\n- Erstes Update, das über die neue Update-Funktion installiert wird.",
-  "en": "Security: update checks and downloads only use verified encrypted connections. Messages with proper German umlauts. First update installed via the new update function."
+  "de": "- Absturz behoben: Nach einem Update führte ROT («Weiter») zum Absturz, weil Stream-Player sich neu öffnen wollte, während der Startbildschirm noch geschlossen wurde. Das Neu-Öffnen wartet jetzt kurz.",
+  "en": "Fix: pressing RED after an update no longer crashes."
  }
 }
