@@ -1,11 +1,11 @@
 {
- "version": "0.6.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.6.1_all.ipk",
- "sha256": "dc5e7bebe3def76bd06fae4e29a4bbb0add74432dbf71bbb0018575aacaa1172",
- "size": 49190,
+ "version": "0.7.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.7.0_all.ipk",
+ "sha256": "ec6470373f880a514ed65ba88aec99c8b8bd0272ea9700bc0276becf990d39a2",
+ "size": 112570,
  "date": "2026-11-12",
  "notes": {
-  "de": "- Infoleiste: Die Stream-Nummer richtet sich jetzt immer nach der Reihenfolge in der Liste. Bisher stand der zuletzt funktionierende Stream beim nächsten Mal als «Stream 1», auch wenn er in der Liste an zweiter Stelle steht.",
-  "en": "Info bar: the stream number now always follows the order in the list."
+  "de": "- Neue Oberfläche: Der Startbildschirm zeigt links die Senderliste der gewählten Gruppe, rechts das laufende Programm im kleinen Bild und darunter Infos zum Sender. Oben die Bereiche Live TV, Filme, Serien, Mediatheken und Suche (die weiteren Bereiche folgen in späteren Versionen).\n- Vorschau: Bleibt die Auswahl kurz auf einem Sender, läuft er im kleinen Bild. OK schaltet ohne Neustart ins Vollbild, EXIT im Vollbild zurück zur Liste.\n- Tasten in der Senderliste: P+/P- Gruppe wechseln, ROT Gruppenliste, GRÜN Listen neu laden, GELB nächster Bereich, BLAU anderer Stream, MENU für Listen, Einstellungen, Update und Info.\n- Neue Infoleiste in drei Stufen (Alles, Sendername und EPG, Minimal); die INFO-Taste wechselt. Anzeigedauer einstellbar.\n- Neues Logo.\n- Neue Einstellungen: Vorschau im kleinen Bild, Infoleiste, Infoleiste anzeigen für.",
+  "en": "New interface: channel list with live preview in a small picture, info about the channel, areas at the top. OK switches to full screen without restarting the stream. New three-level info bar (INFO key), new logo, new settings for preview and info bar."
  }
 }
