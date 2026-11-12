@@ -1,11 +1,11 @@
 {
  "version": "0.6.0",
  "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.6.0_all.ipk",
- "sha256": "738fad3268bb7e4948e38f3dfdc20702e5a86602f799a85b87fd3f3e5205bf16",
- "size": 49008,
+ "sha256": "078e10c7546c1234a324fa1c179764a3a08a9f06d9f74f108c8b9f097d8d821b",
+ "size": 49002,
  "date": "2026-11-12",
  "notes": {
-  "de": "- Neu: **Relay** – die Streams laufen über einen kleinen Helfer auf der Box. Fällt ein Stream aus oder hängt er, wird nach wenigen Sekunden ohne Unterbruch der nächste Ersatz-Stream genommen. Abgelaufene Links werden automatisch erneuert (die Listen werden dafür neu geladen). Die Infoleiste zeigt, welcher Stream gerade läuft.\n- Das Relay läuft als eigenes Programm: Hängt ein Server, bleibt die Box bedienbar.\n- Neue Einstellung «Relay (stabilere Wiedergabe)» auf der Box und im Browser (Vorgabe: ein). Ausgeschaltet oder falls das Relay nicht startet, wird wie bisher direkt abgespielt.",
+  "de": "- Neu: Relay – die Streams laufen über einen kleinen Helfer auf der Box. Fällt ein Stream aus oder hängt er, wird nach wenigen Sekunden ohne Unterbruch der nächste Ersatz-Stream genommen. Abgelaufene Links werden automatisch erneuert (die Listen werden dafür neu geladen). Die Infoleiste zeigt, welcher Stream gerade läuft.\n- Das Relay läuft als eigenes Programm: Hängt ein Server, bleibt die Box bedienbar.\n- Neue Einstellung «Relay (stabilere Wiedergabe)» auf der Box und im Browser (Vorgabe: ein). Ausgeschaltet oder falls das Relay nicht startet, wird wie bisher direkt abgespielt.",
   "en": "New: Relay - streams run through a small helper on the box. If a stream fails or hangs, the next backup stream is taken within seconds without interruption, and expired links are renewed automatically. New setting \"Relay (more stable playback)\" (on by default)."
  }
 }
