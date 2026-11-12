@@ -1,11 +1,11 @@
 {
- "version": "0.6.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.6.0_all.ipk",
- "sha256": "078e10c7546c1234a324fa1c179764a3a08a9f06d9f74f108c8b9f097d8d821b",
- "size": 49002,
+ "version": "0.6.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.6.1_all.ipk",
+ "sha256": "dc5e7bebe3def76bd06fae4e29a4bbb0add74432dbf71bbb0018575aacaa1172",
+ "size": 49190,
  "date": "2026-11-12",
  "notes": {
-  "de": "- Neu: Relay – die Streams laufen über einen kleinen Helfer auf der Box. Fällt ein Stream aus oder hängt er, wird nach wenigen Sekunden ohne Unterbruch der nächste Ersatz-Stream genommen. Abgelaufene Links werden automatisch erneuert (die Listen werden dafür neu geladen). Die Infoleiste zeigt, welcher Stream gerade läuft.\n- Das Relay läuft als eigenes Programm: Hängt ein Server, bleibt die Box bedienbar.\n- Neue Einstellung «Relay (stabilere Wiedergabe)» auf der Box und im Browser (Vorgabe: ein). Ausgeschaltet oder falls das Relay nicht startet, wird wie bisher direkt abgespielt.",
-  "en": "New: Relay - streams run through a small helper on the box. If a stream fails or hangs, the next backup stream is taken within seconds without interruption, and expired links are renewed automatically. New setting \"Relay (more stable playback)\" (on by default)."
+  "de": "- Infoleiste: Die Stream-Nummer richtet sich jetzt immer nach der Reihenfolge in der Liste. Bisher stand der zuletzt funktionierende Stream beim nächsten Mal als «Stream 1», auch wenn er in der Liste an zweiter Stelle steht.",
+  "en": "Info bar: the stream number now always follows the order in the list."
  }
 }
