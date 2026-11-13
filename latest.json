@@ -1,11 +1,11 @@
 {
- "version": "0.7.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.7.2_all.ipk",
- "sha256": "131e3061af945b1c060bfc96ca5c0bf1cb88d818dec84a72eb55f4acb2a55180",
- "size": 113506,
+ "version": "0.8.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.8.0_all.ipk",
+ "sha256": "41f3b226249ade4244dcc345bbcb9bf1062efa219bc44c0464d4e7df65d3a871",
+ "size": 294432,
  "date": "2026-11-13",
  "notes": {
-  "de": "- Schrift in der Infoleiste und im Startbildschirm ist schärfer: Die Infoleiste ist jetzt nicht mehr leicht durchsichtig, und alle Texte haben eine feste Hintergrundfarbe. Vorher franste die Schrift je nach Fernsehbild aus.",
-  "en": "Sharper text in the info bar and on the start screen (solid backgrounds instead of transparency)."
+  "de": "- Neu: Hilfe auf der Box. In der Senderliste über MENU > Hilfe, im Vollbild mit MENU (oder mit der HELP-Taste). Sie zeigt die Tasten des aktuellen Bildschirms und die Adresse der Anleitung.\n- Neu: ausführliche, bebilderte Anleitung im Browser unter http://<Adresse der Box>:8098/anleitung – auch über den Link «Anleitung» auf der Einstellungsseite.",
+  "en": "New: help on the box (MENU > Help, or MENU in full screen) and an illustrated manual in the browser at http://<box>:8098/anleitung."
  }
 }
