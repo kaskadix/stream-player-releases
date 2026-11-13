@@ -1,11 +1,11 @@
 {
- "version": "0.7.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.7.0_all.ipk",
- "sha256": "ec6470373f880a514ed65ba88aec99c8b8bd0272ea9700bc0276becf990d39a2",
- "size": 112570,
- "date": "2026-11-12",
+ "version": "0.7.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.7.1_all.ipk",
+ "sha256": "0a1b7b414e05e1d5fd896c1abe5c528a2cb84378af455ae083119887c3b54fa9",
+ "size": 113498,
+ "date": "2026-11-13",
  "notes": {
-  "de": "- Neue Oberfläche: Der Startbildschirm zeigt links die Senderliste der gewählten Gruppe, rechts das laufende Programm im kleinen Bild und darunter Infos zum Sender. Oben die Bereiche Live TV, Filme, Serien, Mediatheken und Suche (die weiteren Bereiche folgen in späteren Versionen).\n- Vorschau: Bleibt die Auswahl kurz auf einem Sender, läuft er im kleinen Bild. OK schaltet ohne Neustart ins Vollbild, EXIT im Vollbild zurück zur Liste.\n- Tasten in der Senderliste: P+/P- Gruppe wechseln, ROT Gruppenliste, GRÜN Listen neu laden, GELB nächster Bereich, BLAU anderer Stream, MENU für Listen, Einstellungen, Update und Info.\n- Neue Infoleiste in drei Stufen (Alles, Sendername und EPG, Minimal); die INFO-Taste wechselt. Anzeigedauer einstellbar.\n- Neues Logo.\n- Neue Einstellungen: Vorschau im kleinen Bild, Infoleiste, Infoleiste anzeigen für.",
-  "en": "New interface: channel list with live preview in a small picture, info about the channel, areas at the top. OK switches to full screen without restarting the stream. New three-level info bar (INFO key), new logo, new settings for preview and info bar."
+  "de": "- Infoleiste: Die Stufen lassen sich jetzt auch mit der GELBEN Taste wechseln (für Fernbedienungen ohne INFO-Taste). Die INFO-Taste funktioniert jetzt auch bei openATV.\n- Startbildschirm: Der gewählte Bereich oben ist besser lesbar (dunkle Schrift auf Orange).\n- Neues Symbol im Plugin-Browser: gleiche Form wie die anderen Plugins, schärfer und ohne doppelten Namen.",
+  "en": "Info bar levels can now also be switched with the YELLOW key; INFO now works on openATV. Better readable area tabs. New plugin icon."
  }
 }

@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.7.1 – 2026-11-13
+
+- Infoleiste: Die Stufen lassen sich jetzt auch mit der GELBEN Taste wechseln (für Fernbedienungen ohne INFO-Taste). Die INFO-Taste funktioniert jetzt auch bei openATV.
+- Startbildschirm: Der gewählte Bereich oben ist besser lesbar (dunkle Schrift auf Orange).
+- Neues Symbol im Plugin-Browser: gleiche Form wie die anderen Plugins, schärfer und ohne doppelten Namen.
+
 ## 0.7.0 – 2026-11-12
 
 - Neue Oberfläche: Der Startbildschirm zeigt links die Senderliste der gewählten Gruppe, rechts das laufende Programm im kleinen Bild und darunter Infos zum Sender. Oben die Bereiche Live TV, Filme, Serien, Mediatheken und Suche (die weiteren Bereiche folgen in späteren Versionen).
