@@ -1,5 +1,14 @@
 # Stream-Player – Versionen
 
+## 0.9.0 – 2026-11-13
+
+- Neu: VPN-Tunnel (WireGuard). Nur die Sender, die du wählst, laufen über den Tunnel – das normale Fernsehen und der Rest der Box bleiben unverändert. Auch die Namensauflösung läuft durch den Tunnel.
+- Tunnel einrichten im Browser (WireGuard-Datei einfügen oder wählen) oder auf der Box (MENU › VPN-Tunnel, auch Datei von USB-Stick/Festplatte einlesen).
+- Geltungsbereich: für alle Sender, pro Liste oder pro Sender; «direkt» nimmt einzelne aus. Das Genauere gilt vor dem Allgemeineren.
+- Schutz: Zugangsdaten verschlüsselt auf der Box; Anzeigen, Ändern und Löschen nur mit PIN; nach 5 falschen PINs 5 Minuten Sperre. Schutzstufe Standard (Tunnel starten von selbst) oder Hoch (PIN nach jedem Neustart).
+- Ein Sender, der über einen Tunnel laufen soll, läuft nie heimlich direkt: Geht der Tunnel nicht, zeigt die Infoleiste den Grund.
+- Infoleiste «Alles» und kleines Bild zeigen, über welchen Tunnel ein Sender läuft. Anleitung um das Kapitel «VPN-Tunnel» ergänzt.
+
 ## 0.8.1 – 2026-11-13
 
 - Hilfe auf der Box mit QR-Code: mit der Handy-Kamera scannen, und die bebilderte Anleitung öffnet sich direkt auf dem Handy (Handy im gleichen WLAN wie die Box).

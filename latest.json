@@ -1,11 +1,11 @@
 {
- "version": "0.8.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.8.1_all.ipk",
- "sha256": "a20cdac9d31d782f6294b8c44fc81a9d1824db24d19f0b4e56ebf1982ce0e7cf",
- "size": 311462,
+ "version": "0.9.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.0_all.ipk",
+ "sha256": "53fbcf5795caf977891304ab1bf64b441c2fdc871a7abc8861ce8602c4d3a895",
+ "size": 394548,
  "date": "2026-11-13",
  "notes": {
-  "de": "- Hilfe auf der Box mit QR-Code: mit der Handy-Kamera scannen, und die bebilderte Anleitung öffnet sich direkt auf dem Handy (Handy im gleichen WLAN wie die Box).",
-  "en": "Help on the box now shows a QR code: scan it with your phone to open the illustrated manual."
+  "de": "- Neu: VPN-Tunnel (WireGuard). Nur die Sender, die du wählst, laufen über den Tunnel – das normale Fernsehen und der Rest der Box bleiben unverändert. Auch die Namensauflösung läuft durch den Tunnel.\n- Tunnel einrichten im Browser (WireGuard-Datei einfügen oder wählen) oder auf der Box (MENU › VPN-Tunnel, auch Datei von USB-Stick/Festplatte einlesen).\n- Geltungsbereich: für alle Sender, pro Liste oder pro Sender; «direkt» nimmt einzelne aus. Das Genauere gilt vor dem Allgemeineren.\n- Schutz: Zugangsdaten verschlüsselt auf der Box; Anzeigen, Ändern und Löschen nur mit PIN; nach 5 falschen PINs 5 Minuten Sperre. Schutzstufe Standard (Tunnel starten von selbst) oder Hoch (PIN nach jedem Neustart).\n- Ein Sender, der über einen Tunnel laufen soll, läuft nie heimlich direkt: Geht der Tunnel nicht, zeigt die Infoleiste den Grund.\n- Infoleiste «Alles» und kleines Bild zeigen, über welchen Tunnel ein Sender läuft. Anleitung um das Kapitel «VPN-Tunnel» ergänzt.",
+  "en": "New: VPN tunnels (WireGuard) for all channels, per list or per channel - only the chosen channels go through the tunnel. Access data encrypted on the box, protected by a PIN. Set up in the browser or under MENU > VPN tunnels."
  }
 }
