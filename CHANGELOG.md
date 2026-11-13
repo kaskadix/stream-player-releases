@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.8.1 – 2026-11-13
+
+- Hilfe auf der Box mit QR-Code: mit der Handy-Kamera scannen, und die bebilderte Anleitung öffnet sich direkt auf dem Handy (Handy im gleichen WLAN wie die Box).
+
 ## 0.8.0 – 2026-11-13
 
 - Neu: Hilfe auf der Box. In der Senderliste über MENU > Hilfe, im Vollbild mit MENU (oder mit der HELP-Taste). Sie zeigt die Tasten des aktuellen Bildschirms und die Adresse der Anleitung.

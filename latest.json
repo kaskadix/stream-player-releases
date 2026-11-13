@@ -1,11 +1,11 @@
 {
- "version": "0.8.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.8.0_all.ipk",
- "sha256": "41f3b226249ade4244dcc345bbcb9bf1062efa219bc44c0464d4e7df65d3a871",
- "size": 294432,
+ "version": "0.8.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.8.1_all.ipk",
+ "sha256": "a20cdac9d31d782f6294b8c44fc81a9d1824db24d19f0b4e56ebf1982ce0e7cf",
+ "size": 311462,
  "date": "2026-11-13",
  "notes": {
-  "de": "- Neu: Hilfe auf der Box. In der Senderliste über MENU > Hilfe, im Vollbild mit MENU (oder mit der HELP-Taste). Sie zeigt die Tasten des aktuellen Bildschirms und die Adresse der Anleitung.\n- Neu: ausführliche, bebilderte Anleitung im Browser unter http://<Adresse der Box>:8098/anleitung – auch über den Link «Anleitung» auf der Einstellungsseite.",
-  "en": "New: help on the box (MENU > Help, or MENU in full screen) and an illustrated manual in the browser at http://<box>:8098/anleitung."
+  "de": "- Hilfe auf der Box mit QR-Code: mit der Handy-Kamera scannen, und die bebilderte Anleitung öffnet sich direkt auf dem Handy (Handy im gleichen WLAN wie die Box).",
+  "en": "Help on the box now shows a QR code: scan it with your phone to open the illustrated manual."
  }
 }
