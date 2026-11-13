@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.7.2 – 2026-11-13
+
+- Schrift in der Infoleiste und im Startbildschirm ist schärfer: Die Infoleiste ist jetzt nicht mehr leicht durchsichtig, und alle Texte haben eine feste Hintergrundfarbe. Vorher franste die Schrift je nach Fernsehbild aus.
+
 ## 0.7.1 – 2026-11-13
 
 - Infoleiste: Die Stufen lassen sich jetzt auch mit der GELBEN Taste wechseln (für Fernbedienungen ohne INFO-Taste). Die INFO-Taste funktioniert jetzt auch bei openATV.
