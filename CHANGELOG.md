@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.9.7 – 2026-11-14
+
+- Korrektur VPN auf älteren Boxen: Die eigene Routing-Tabelle des Tunnels hat jetzt eine Nummer, die auch das «ip» von busybox annimmt (100–199). Vorher brach der Aufbau mit «invalid argument … to 'table'» ab.
+
 ## 0.9.6 – 2026-11-14
 
 - Korrektur VPN auf älteren Boxen (z.B. VU+ mit openATV 7.6): Das dort installierte neue «ip»-Programm legt keine Tunnel-Schnittstelle an, meldet aber Erfolg. Stream-Player prüft jetzt, ob die Schnittstelle wirklich da ist, und nimmt sonst das «ip» von busybox.

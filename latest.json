@@ -1,11 +1,11 @@
 {
- "version": "0.9.6",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.6_all.ipk",
- "sha256": "9eb836e55948fb96635c495e1535d180a601a0feaaa298d9bd8df74d7276ee09",
- "size": 397092,
+ "version": "0.9.7",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.7_all.ipk",
+ "sha256": "fe535c199612ad811118132fb731fc76c88a790570299025266732ce3222f8ff",
+ "size": 397172,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Korrektur VPN auf älteren Boxen (z.B. VU+ mit openATV 7.6): Das dort installierte neue «ip»-Programm legt keine Tunnel-Schnittstelle an, meldet aber Erfolg. Stream-Player prüft jetzt, ob die Schnittstelle wirklich da ist, und nimmt sonst das «ip» von busybox.\n- Die Weiche «nur Stream-Player durch den Tunnel» hat einen zweiten, unabhängigen Weg (Markierung der Verbindungen), damit sie auf alten und neuen Boxen funktioniert.",
-  "en": "Fix VPN on older boxes (openATV 7.6): fall back to busybox ip; second routing path via connection marks."
+  "de": "- Korrektur VPN auf älteren Boxen: Die eigene Routing-Tabelle des Tunnels hat jetzt eine Nummer, die auch das «ip» von busybox annimmt (100–199). Vorher brach der Aufbau mit «invalid argument … to 'table'» ab.",
+  "en": "Fix VPN on older boxes: routing table number accepted by busybox ip."
  }
 }
