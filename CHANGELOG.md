@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.11.2 – 2026-11-14
+
+- Schnellerer Start: Antwortet ein Stream-Server gar nicht, nimmt Stream-Player schon nach 6 statt 10 Sekunden den nächsten Stream. Das kleine Bild startet etwas früher (nach 0,8 statt 1,2 Sekunden auf einem Sender).
+- Das Protokoll hält fest, wie lange es bis zu den ersten Daten und bis zum Bild dauert – damit wir langsame Sender gezielt verbessern können.
+
 ## 0.11.1 – 2026-11-14
 
 - Schutz: Stream-Player erkennt, wenn das Programm «ip» der Box beschädigt ist (z.B. leere Datei nach dem Installieren von WireGuard), und warnt im Bereich VPN-Tunnel – auf der Box und im Browser. Ohne Reparatur hat die Box nach dem nächsten Neustart womöglich kein Netzwerk mehr.

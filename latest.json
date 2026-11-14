@@ -1,11 +1,11 @@
 {
- "version": "0.11.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.11.1_all.ipk",
- "sha256": "d6f592517d4cb62684adf491c2bda345c9f7d563d9dd72ce0c817c375cac8cfb",
- "size": 513718,
+ "version": "0.11.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.11.2_all.ipk",
+ "sha256": "66512deacd2d4266a38771ef736cbef524a974f6e9bb6784f7abf2ad9bcd14e3",
+ "size": 514140,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Schutz: Stream-Player erkennt, wenn das Programm «ip» der Box beschädigt ist (z.B. leere Datei nach dem Installieren von WireGuard), und warnt im Bereich VPN-Tunnel – auf der Box und im Browser. Ohne Reparatur hat die Box nach dem nächsten Neustart womöglich kein Netzwerk mehr.\n- Anleitung: neuer Abschnitt «Die Box hat nach einem Neustart kein Netzwerk mehr» (Kapitel 12) mit der Reparatur; Hinweis in Kapitel 8 korrigiert.",
-  "en": "Safety: warns when the box's 'ip' program is damaged (e.g. empty after installing WireGuard); manual explains the repair."
+  "de": "- Schnellerer Start: Antwortet ein Stream-Server gar nicht, nimmt Stream-Player schon nach 6 statt 10 Sekunden den nächsten Stream. Das kleine Bild startet etwas früher (nach 0,8 statt 1,2 Sekunden auf einem Sender).\n- Das Protokoll hält fest, wie lange es bis zu den ersten Daten und bis zum Bild dauert – damit wir langsame Sender gezielt verbessern können.",
+  "en": "Faster start: dead stream servers skipped after 6 s; preview starts sooner; start times logged."
  }
 }
