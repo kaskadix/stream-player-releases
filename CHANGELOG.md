@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.25.0 – 2026-11-14
+
+- Neu: **Radio-Kommentar statt TV-Ton** – im Vollbild MENU › Radio-Kommentar: der TV-Ton wird durch einen Radiosender ersetzt, z.B. bei Fussball oder Eishockey.
+- Sender aus der Schweiz (SRF, RTS, RSI), Deutschland (WDR 2, NDR 2, SWR, BR, Deutschlandfunk) und Österreich (Ö3, Ö1, FM4, Radio Wien), Radiosender aus den eigenen Listen und eigene Radio-Adressen (MP3/AAC, auch .m3u/.pls).
+- Das Radio wird verzögert, damit es zum Bild passt: Tasten 1/3 (±1 s) und 4/6 (±5 s), 0 = wieder TV-Ton. Radiosender und Verzögerung werden pro TV-Sender gemerkt.
+- Technik: das Relay ersetzt die Tonspur im Datenstrom und koppelt die Zeitstempel des Radios an das Bild; bleibt das Radio stumm, läuft der TV-Ton weiter.
+- Hilfe auf der Box und Anleitung (Kapitel 5) nachgeführt.
+
 ## 0.24.0 – 2026-11-14
 
 - Neu: **Tonspur wählen** mit der AUDIO-Taste (oder MENU › Tonspur) – im Live-TV und bei Filmen/Mediatheken, z.B. Originalton, Dolby oder Audiodeskription.

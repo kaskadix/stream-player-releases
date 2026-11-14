@@ -1,0 +1,104 @@
+{
+ "stations": [
+  {
+   "name": "Radio SRF 1",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/srf1/mp3/128"
+  },
+  {
+   "name": "Radio SRF 3",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/srf3/mp3/128"
+  },
+  {
+   "name": "Radio SRF 4 News",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/srf4news/mp3/128"
+  },
+  {
+   "name": "Radio SRF Musikwelle",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/srfmw/mp3/128"
+  },
+  {
+   "name": "Radio SRF Virus",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/srfvirus/mp3/128"
+  },
+  {
+   "name": "RTS La 1ère",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/la-1ere/mp3/128"
+  },
+  {
+   "name": "RTS Couleur 3",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/couleur3/mp3/128"
+  },
+  {
+   "name": "RSI Rete Uno",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/reteuno/mp3/128"
+  },
+  {
+   "name": "RSI Rete Tre",
+   "group": "Schweiz",
+   "url": "http://stream.srg-ssr.ch/srgssr/retetre/mp3/128"
+  },
+  {
+   "name": "WDR 2",
+   "group": "Deutschland",
+   "url": "http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3"
+  },
+  {
+   "name": "NDR 2",
+   "group": "Deutschland",
+   "url": "http://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3"
+  },
+  {
+   "name": "SWR3",
+   "group": "Deutschland",
+   "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3"
+  },
+  {
+   "name": "SWR1 Baden-Württemberg",
+   "group": "Deutschland",
+   "url": "https://liveradio.swr.de/sw282p3/swr1bw/play.mp3"
+  },
+  {
+   "name": "Bayern 1",
+   "group": "Deutschland",
+   "url": "http://streams.br.de/bayern1_2.m3u"
+  },
+  {
+   "name": "BR24",
+   "group": "Deutschland",
+   "url": "http://streams.br.de/b5aktuell_2.m3u"
+  },
+  {
+   "name": "Deutschlandfunk",
+   "group": "Deutschland",
+   "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web"
+  },
+  {
+   "name": "Hitradio Ö3",
+   "group": "Österreich",
+   "url": "http://orf-live.ors-shoutcast.at/oe3-q2a"
+  },
+  {
+   "name": "Ö1",
+   "group": "Österreich",
+   "url": "http://orf-live.ors-shoutcast.at/oe1-q2a"
+  },
+  {
+   "name": "FM4",
+   "group": "Österreich",
+   "url": "http://orf-live.ors-shoutcast.at/fm4-q2a"
+  },
+  {
+   "name": "Radio Wien",
+   "group": "Österreich",
+   "url": "http://orf-live.ors-shoutcast.at/wie-q2a"
+  }
+ ]
+}
