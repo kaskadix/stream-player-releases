@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.12.5 – 2026-11-14
+
+- Startbildschirm: Die orange Fläche des Bereichs «Live-TV» ist links wieder schön rund – der Schriftzug «Stream-Player» hat sie vorher leicht überdeckt.
+
 ## 0.12.4 – 2026-11-14
 
 - Neu: **Sender ohne Programm von Hand zuordnen**. Im Browser zeigt «Sender ohne Programm» alle Sender, für die die EPG-Quellen nichts liefern; mit «EPG zuordnen» sucht man den passenden Eintrag in den EPG-Quellen und wählt ihn. «Kein EPG» blendet das Programm bewusst aus, «Automatisch» hebt die Zuordnung auf. Auch in der Sendersuche bei jedem Sender.

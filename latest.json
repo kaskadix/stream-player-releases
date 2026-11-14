@@ -1,11 +1,11 @@
 {
- "version": "0.12.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.4_all.ipk",
- "sha256": "b1b2aeaec6449f60b75c8b7e2c9e266ac03627487ff722b4db23277bae74ffb6",
- "size": 663736,
+ "version": "0.12.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.5_all.ipk",
+ "sha256": "40d99622ad218cb4c417853b6dc532b5c71aacdafb4f150423413de57a16bca9",
+ "size": 663728,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Sender ohne Programm von Hand zuordnen**. Im Browser zeigt «Sender ohne Programm» alle Sender, für die die EPG-Quellen nichts liefern; mit «EPG zuordnen» sucht man den passenden Eintrag in den EPG-Quellen und wählt ihn. «Kein EPG» blendet das Programm bewusst aus, «Automatisch» hebt die Zuordnung auf. Auch in der Sendersuche bei jedem Sender.\n- Startbildschirm: Beschreibung und «Danach» rechts unten werden nicht mehr abgeschnitten («Danach» hat eine eigene Zeile).\n- Anleitung: neuer Abschnitt «Sender ohne Programm von Hand zuordnen» mit Bild.",
-  "en": "New: assign EPG to channels by hand (browser); home screen info no longer cut off."
+  "de": "- Startbildschirm: Die orange Fläche des Bereichs «Live-TV» ist links wieder schön rund – der Schriftzug «Stream-Player» hat sie vorher leicht überdeckt.",
+  "en": "Home screen: the orange 'Live TV' tab is no longer clipped on the left."
  }
 }
