@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.13.2 – 2026-11-14
+
+- Abbrüche nach ein paar Minuten: Lief ein Stream schon eine Weile, verbindet der Relay jetzt immer wieder neu (bis zu 3 Mal hintereinander, dann die anderen Streams) und gibt nicht mehr auf, solange zwischendurch etwas läuft. Vorher war nach wenigen Abbrüchen Schluss.
+- Bricht die Wiedergabe im Vollbild nach Bild trotzdem ab, startet Stream-Player den Sender von selbst neu («Unterbrochen – verbinde neu …»), bis zu 5 Mal hintereinander. Das gilt auch für Streams, die ohne Relay laufen.
+
 ## 0.13.1 – 2026-11-14
 
 - Senderlogos: Keine schwarzen Balken mehr oben und unten. Passt ein Logo nicht genau ins Feld, wird der Rand jetzt in der Farbe der Logo-Kachel aufgefüllt.
