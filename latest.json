@@ -1,11 +1,11 @@
 {
- "version": "0.16.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.16.0_all.ipk",
- "sha256": "9553626a71122912be9c38a9039132591e8a2d88e77f8d2d40f0801aa29c61f8",
- "size": 980700,
+ "version": "0.17.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.17.0_all.ipk",
+ "sha256": "3c16011219ba97b4fad97b8122345e5cc84eb1dcb4c6e9194ae8c9f131566e72",
+ "size": 985156,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Mediatheken neu aufgebaut: Jede Mediathek beginnt mit einem **Menü** – «Sendung verpasst?» (letzte 7 Tage), «Sendungen A–Z», «Suchen …» und die Bereiche ihrer Startseite. Nichts mehr hinter Tasten versteckt.\n- Neu: **«Alle Mediatheken durchsuchen …»** in der Übersicht – alle Sender auf einmal.\n- Neu: **«Weitere Sender»** – ORF, 3sat, ZDFneo, ZDFinfo, NDR, WDR, BR, MDR, HR, SWR, rbb, SR, Radio Bremen, phoenix, KiKA, ARD alpha, ONE, tagesschau24, funk, DW.\n- «Sendung verpasst?», A–Z für ZDF und arte, die Suche über alle und die weiteren Sender kommen von MediathekViewWeb (ohne Bilder).\n- ROT führt in einer Mediathek zurück ins Menü, P+/P- blättert seitenweise.\n- «Mediatheken testen» prüft zusätzlich MediathekViewWeb.\n- Anleitung Kapitel 9 und Hilfe auf der Box nachgeführt.",
-  "en": "Media libraries rebuilt: menu per library (missed programmes, A-Z, search, areas), search across all, 20 more channels via MediathekViewWeb."
+  "de": "- Neu: **Meine Sendungen** – Sendungen aus allen Mediatheken merken (MENU › «… merken») und in der Übersicht direkt öffnen. Entfernen ebenfalls über MENU.\n- Folgen aus MediathekViewWeb heissen wie bei der ARD: «S01E02 Titel» statt «Titel (S01/E02)».\n- Anleitung und Hilfe nachgeführt.",
+  "en": "New: My programmes - remember programmes from all media libraries (MENU). Episode titles unified."
  }
 }

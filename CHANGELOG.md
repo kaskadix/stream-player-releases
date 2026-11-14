@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.17.0 – 2026-11-14
+
+- Neu: **Meine Sendungen** – Sendungen aus allen Mediatheken merken (MENU › «… merken») und in der Übersicht direkt öffnen. Entfernen ebenfalls über MENU.
+- Folgen aus MediathekViewWeb heissen wie bei der ARD: «S01E02 Titel» statt «Titel (S01/E02)».
+- Anleitung und Hilfe nachgeführt.
+
 ## 0.16.0 – 2026-11-14
 
 - Mediatheken neu aufgebaut: Jede Mediathek beginnt mit einem **Menü** – «Sendung verpasst?» (letzte 7 Tage), «Sendungen A–Z», «Suchen …» und die Bereiche ihrer Startseite. Nichts mehr hinter Tasten versteckt.
