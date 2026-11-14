@@ -1,11 +1,11 @@
 {
- "version": "0.26.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.26.0_all.ipk",
- "sha256": "36153d5036309cca266e9166475d5658903a521a01ff099ca89c2acdbe7bd300",
- "size": 1250196,
+ "version": "0.26.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.26.1_all.ipk",
+ "sha256": "47585539651cd967b3c5c272ce427371c61fd15d033a8b0092242886fb237017",
+ "size": 1251080,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Untertitel aus dem Internet** bei Filmen und Serien (Plex, Mediatheken, Xtream, freie Filme): SUBTITLE › «Im Internet suchen» fragt alle Quellen gleichzeitig:\n  - **Plex** (Untertitel-Suche des eigenen Plex-Servers, ohne Konto)\n  - **OpenSubtitles.com** und **SubDL** (mit Gratis-Schlüssel, im Browser einzutragen)\n  - **Podnapisi** und **Addic7ed** (über Gestdown, nur Serien) ohne Konto\n- Separate Untertitel-Dateien auf dem Plex-Server erscheinen jetzt unter SUBTITLE.\n- Eigene Untertitel-Dateien (SRT, WebVTT, ASS) von USB-Stick, Festplatte oder Netzwerk.\n- Untertitel-Zeit anpassen (früher/später); Untertitel und Verschiebung werden pro Video gemerkt.\n- Einstellungsseite: neuer Bereich «Untertitel aus dem Internet» mit Sprache, Schlüsseln und Test.\n- Hilfe auf der Box und Anleitung (Kapitel 8) nachgeführt.",
-  "en": "Subtitles from the internet: search Plex, OpenSubtitles, SubDL, Podnapisi and Addic7ed while a video plays (SUBTITLE key); own subtitle files; timing adjustment; remembered per video."
+  "de": "- SubDL: «nichts gefunden» gilt nicht mehr als Fehler («bad_answer»); andere Meldungen von SubDL werden im Klartext angezeigt.\n- Podnapisi: Verbindung mit der älteren Verschlüsselung dieses Servers (vorher «Nicht erreichbar»).\n- Einstellungsseite: gespeicherte Schlüssel stehen als «gespeichert: sub…Tc» da (nur angedeutet, aus Sicherheitsgründen).\n- Test der Untertitel-Quellen sucht mit «Inception» und zeigt Fehler mit Einzelheiten.",
+  "en": "Subtitles: SubDL 'not found' is no longer an error, Podnapisi connects with older TLS, saved keys shown as hint."
  }
 }

@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.26.1 – 2026-11-14
+
+- SubDL: «nichts gefunden» gilt nicht mehr als Fehler («bad_answer»); andere Meldungen von SubDL werden im Klartext angezeigt.
+- Podnapisi: Verbindung mit der älteren Verschlüsselung dieses Servers (vorher «Nicht erreichbar»).
+- Einstellungsseite: gespeicherte Schlüssel stehen als «gespeichert: sub…Tc» da (nur angedeutet, aus Sicherheitsgründen).
+- Test der Untertitel-Quellen sucht mit «Inception» und zeigt Fehler mit Einzelheiten.
+
 ## 0.26.0 – 2026-11-14
 
 - Neu: **Untertitel aus dem Internet** bei Filmen und Serien (Plex, Mediatheken, Xtream, freie Filme): SUBTITLE › «Im Internet suchen» fragt alle Quellen gleichzeitig:
