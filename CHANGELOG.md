@@ -1,5 +1,15 @@
 # Stream-Player – Versionen
 
+## 0.15.0 – 2026-11-14
+
+- Neu: **Mediatheken** – Play SRF, ARD Mediathek, ZDF Mediathek und arte im Bereich «Mediatheken», ohne Konto.
+- Startseiten mit ihren Bereichen (P+/P-), Sendungen A–Z (SRF, ARD), Serien mit Staffeln, Suche (ROT › ganz unten), «Mehr anzeigen …».
+- Bild, Beschreibung, Dauer und Datum zu jedem Video. Angefangene Videos merkt sich die Box: «Weiterschauen» in der Übersicht, OK spielt an der gemerkten Stelle weiter (BLAU: von Anfang).
+- Geo-Sperren werden angezeigt («nur DE», «nur DE/FR»); kommt kein Bild, sagt die Box warum. Kopiergeschützte Videos werden erkannt.
+- Einstellungsseite: «Mediatheken testen» prüft von der Box aus, ob jede Mediathek antwortet und ein Video liefert.
+- Abspielen: Kommt nach 20 Sekunden kein Bild, erscheint ein Hinweis statt eines schwarzen Bildes.
+- Anleitung: neues Kapitel 9 «Mediatheken»; Hilfe auf der Box für den neuen Bereich.
+
 ## 0.14.0 – 2026-11-14
 
 - Neu: **Filme und Serien** von deinem eigenen **Plex-Server** in den Bereichen «Filme» und «Serien» – mit Poster, Beschreibung, Laufzeit und Fortschritt.

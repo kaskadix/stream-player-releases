@@ -1,11 +1,11 @@
 {
- "version": "0.14.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.14.0_all.ipk",
- "sha256": "92338cdb4a7fff66a4bb87a4b02753dd9157e79e9933b971eaf2d2373751d4fa",
- "size": 783594,
+ "version": "0.15.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.15.0_all.ipk",
+ "sha256": "cccfdb746a0a0e383ef9a0c94f48daa8b8b28b80f5e32ccb22947092bb844efb",
+ "size": 888202,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Filme und Serien** von deinem eigenen **Plex-Server** in den Bereichen «Filme» und «Serien» – mit Poster, Beschreibung, Laufzeit und Fortschritt.\n- Verbinden ohne Passwort auf der Box: OK drücken, den angezeigten Code auf plex.tv/link eingeben. Gespeichert wird nur ein Zugangsschlüssel, nur auf der Box.\n- Gruppen: «Weiterschauen», jede Plex-Bibliothek, «Neu: …». Serien öffnen sich in Staffeln und Folgen; EXIT geht eine Ebene zurück.\n- Abspielen an der gemerkten Stelle (BLAU: von Anfang), Pause, Springen mit LINKS/RECHTS und den Zahlentasten. Am Ende einer Folge startet nach 10 Sekunden die nächste.\n- Der Fortschritt geht an Plex: Weiterschauen klappt auch auf Handy und Fernseher.\n- Einstellungsseite: neuer Bereich «Filme und Serien (Plex)» mit Status und «Trennen».\n- Anleitung: neues Kapitel 8 «Filme und Serien (Plex)»; Hilfe auf der Box für Filme/Serien und das Abspielen.",
-  "en": "New: Movies and series from your own Plex server (connect with a code at plex.tv/link, continue watching, next episode, progress shared with Plex). Browser: Plex status and disconnect."
+  "de": "- Neu: **Mediatheken** – Play SRF, ARD Mediathek, ZDF Mediathek und arte im Bereich «Mediatheken», ohne Konto.\n- Startseiten mit ihren Bereichen (P+/P-), Sendungen A–Z (SRF, ARD), Serien mit Staffeln, Suche (ROT › ganz unten), «Mehr anzeigen …».\n- Bild, Beschreibung, Dauer und Datum zu jedem Video. Angefangene Videos merkt sich die Box: «Weiterschauen» in der Übersicht, OK spielt an der gemerkten Stelle weiter (BLAU: von Anfang).\n- Geo-Sperren werden angezeigt («nur DE», «nur DE/FR»); kommt kein Bild, sagt die Box warum. Kopiergeschützte Videos werden erkannt.\n- Einstellungsseite: «Mediatheken testen» prüft von der Box aus, ob jede Mediathek antwortet und ein Video liefert.\n- Abspielen: Kommt nach 20 Sekunden kein Bild, erscheint ein Hinweis statt eines schwarzen Bildes.\n- Anleitung: neues Kapitel 9 «Mediatheken»; Hilfe auf der Box für den neuen Bereich.",
+  "en": "New: Media libraries - Play SRF, ARD Mediathek, ZDF Mediathek and arte (start pages, A-Z, series, search, continue watching, geo-block hints). Browser: media library self-test."
  }
 }
