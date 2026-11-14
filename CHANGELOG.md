@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.15.1 – 2026-11-14
+
+- Behoben: Unter Filme, Serien oder Mediatheken erschienen manchmal plötzlich die Live-TV-Sender in der Liste (wenn im Hintergrund Logos oder Programmdaten fertig geladen waren).
+- arte: Videos und Serien werden jetzt an ihrer arte-Kennung erkannt (auch ohne Angabe der Dauer).
+- «Mediatheken testen» prüft bis zu vier Bereiche und zeigt genauer, was gefunden wurde. Eine Geo-Sperre wird nur noch genannt, wenn sie dich betrifft.
+
 ## 0.15.0 – 2026-11-14
 
 - Neu: **Mediatheken** – Play SRF, ARD Mediathek, ZDF Mediathek und arte im Bereich «Mediatheken», ohne Konto.

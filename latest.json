@@ -1,11 +1,11 @@
 {
- "version": "0.15.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.15.0_all.ipk",
- "sha256": "cccfdb746a0a0e383ef9a0c94f48daa8b8b28b80f5e32ccb22947092bb844efb",
- "size": 888202,
+ "version": "0.15.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.15.1_all.ipk",
+ "sha256": "773f3ce3ea48b096db4242a93b7c32df0c61a961f44ef6aa1f380e911d6cd84a",
+ "size": 888592,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Mediatheken** – Play SRF, ARD Mediathek, ZDF Mediathek und arte im Bereich «Mediatheken», ohne Konto.\n- Startseiten mit ihren Bereichen (P+/P-), Sendungen A–Z (SRF, ARD), Serien mit Staffeln, Suche (ROT › ganz unten), «Mehr anzeigen …».\n- Bild, Beschreibung, Dauer und Datum zu jedem Video. Angefangene Videos merkt sich die Box: «Weiterschauen» in der Übersicht, OK spielt an der gemerkten Stelle weiter (BLAU: von Anfang).\n- Geo-Sperren werden angezeigt («nur DE», «nur DE/FR»); kommt kein Bild, sagt die Box warum. Kopiergeschützte Videos werden erkannt.\n- Einstellungsseite: «Mediatheken testen» prüft von der Box aus, ob jede Mediathek antwortet und ein Video liefert.\n- Abspielen: Kommt nach 20 Sekunden kein Bild, erscheint ein Hinweis statt eines schwarzen Bildes.\n- Anleitung: neues Kapitel 9 «Mediatheken»; Hilfe auf der Box für den neuen Bereich.",
-  "en": "New: Media libraries - Play SRF, ARD Mediathek, ZDF Mediathek and arte (start pages, A-Z, series, search, continue watching, geo-block hints). Browser: media library self-test."
+  "de": "- Behoben: Unter Filme, Serien oder Mediatheken erschienen manchmal plötzlich die Live-TV-Sender in der Liste (wenn im Hintergrund Logos oder Programmdaten fertig geladen waren).\n- arte: Videos und Serien werden jetzt an ihrer arte-Kennung erkannt (auch ohne Angabe der Dauer).\n- «Mediatheken testen» prüft bis zu vier Bereiche und zeigt genauer, was gefunden wurde. Eine Geo-Sperre wird nur noch genannt, wenn sie dich betrifft.",
+  "en": "Fixed: live channels sometimes appeared in the Movies/Series/Media list. arte: items recognised by programme id. Better media library self-test."
  }
 }
