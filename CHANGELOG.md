@@ -1,5 +1,15 @@
 # Stream-Player – Versionen
 
+## 0.16.0 – 2026-11-14
+
+- Mediatheken neu aufgebaut: Jede Mediathek beginnt mit einem **Menü** – «Sendung verpasst?» (letzte 7 Tage), «Sendungen A–Z», «Suchen …» und die Bereiche ihrer Startseite. Nichts mehr hinter Tasten versteckt.
+- Neu: **«Alle Mediatheken durchsuchen …»** in der Übersicht – alle Sender auf einmal.
+- Neu: **«Weitere Sender»** – ORF, 3sat, ZDFneo, ZDFinfo, NDR, WDR, BR, MDR, HR, SWR, rbb, SR, Radio Bremen, phoenix, KiKA, ARD alpha, ONE, tagesschau24, funk, DW.
+- «Sendung verpasst?», A–Z für ZDF und arte, die Suche über alle und die weiteren Sender kommen von MediathekViewWeb (ohne Bilder).
+- ROT führt in einer Mediathek zurück ins Menü, P+/P- blättert seitenweise.
+- «Mediatheken testen» prüft zusätzlich MediathekViewWeb.
+- Anleitung Kapitel 9 und Hilfe auf der Box nachgeführt.
+
 ## 0.15.1 – 2026-11-14
 
 - Behoben: Unter Filme, Serien oder Mediatheken erschienen manchmal plötzlich die Live-TV-Sender in der Liste (wenn im Hintergrund Logos oder Programmdaten fertig geladen waren).
