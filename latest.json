@@ -1,11 +1,11 @@
 {
- "version": "0.9.7",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.7_all.ipk",
- "sha256": "fe535c199612ad811118132fb731fc76c88a790570299025266732ce3222f8ff",
- "size": 397172,
+ "version": "0.9.8",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.8_all.ipk",
+ "sha256": "118fe6d39539640c71ab66b72f9f97e00bfc5ef76616b1254506ffa22bf9154f",
+ "size": 398818,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Korrektur VPN auf älteren Boxen: Die eigene Routing-Tabelle des Tunnels hat jetzt eine Nummer, die auch das «ip» von busybox annimmt (100–199). Vorher brach der Aufbau mit «invalid argument … to 'table'» ab.",
-  "en": "Fix VPN on older boxes: routing table number accepted by busybox ip."
+  "de": "- Anleitung: neuer Abschnitt «Was die Box braucht» (Kapitel 1) und «Was die Box für VPN braucht» (Kapitel 7) mit allen Paketen, den Befehlen zum Installieren und Prüfen und einem Test, ob der Tunnel wirkt. Dazu Hilfe bei VPN-Problemen in Kapitel 11.\n- «WireGuard installieren» auf der Box findet jetzt auch Kernel-Module, deren Paketname die Kernel-Version enthält.",
+  "en": "Manual: what the box needs (packages and commands), VPN install/test and troubleshooting. WireGuard install finds kernel-specific package names."
  }
 }
