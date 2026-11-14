@@ -1,11 +1,11 @@
 {
- "version": "0.12.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.2_all.ipk",
- "sha256": "c038411fe84dc7f52caceaccebc2fe93d68b5a91540c4b84f547434a899bef74",
- "size": 536200,
+ "version": "0.12.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.3_all.ipk",
+ "sha256": "1fe89565019f9aac83bd7f889dd2eae98642f75b023531b794cc179fdc6c7275",
+ "size": 588034,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Infoleiste «Alles» neu aufgeteilt: laufende Sendung mit Fortschritt, Beschreibung auf zwei Zeilen, eigene Zeile «Danach», darunter der Zustand. Die Tastenhinweise stehen kürzer rechts unten. Vorher war die nächste Sendung abgeschnitten.",
-  "en": "Full info bar re-laid out: now with progress, two-line description, separate 'Next' line, status."
+  "de": "- Programmzeitschrift schöner: statt «18 % vorbei» ein schlanker **Fortschrittsbalken** in Akzentfarbe mit der Restzeit klein daneben («noch 45 Min.») – im Startbildschirm und in beiden Infoleisten.\n- Neu: **Programm eines Senders** – mit der Taste EPG (oder MENU › «Programm von …») die Sendungen ab jetzt, nach Tagen gegliedert, mit Beschreibung und Fortschritt.\n- Im Vollbild öffnet MENU jetzt ein kleines Menü (Programm, VPN für diesen Sender, Hilfe); die Hilfe bleibt auf HELP.\n- Anleitung und Bilder nachgeführt.",
+  "en": "Progress bar with remaining time instead of percent; channel programme screen (EPG key); MENU in full screen opens a small menu."
  }
 }
