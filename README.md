@@ -39,7 +39,9 @@ opkg list "kernel-module-wireguard*"
 opkg install kernel-module-wireguard-<Name aus der Liste> wireguard-tools
 modprobe wireguard && echo "MODUL OK"; wg --version
 ```
-Das Kernel-Modul heisst je nach Box mit Kernel-Version (z.B. `kernel-module-wireguard-4.1.20-1.9`). Bietet das Image kein solches Paket an, gehen VPN-Tunnel auf dieser Box nicht. Stream-Player bringt keine VPN-Zugänge mit; man braucht ein eigenes Konto bei einem Anbieter mit WireGuard.
+Das Kernel-Modul heisst je nach Box mit Kernel-Version (z.B. `kernel-module-wireguard-4.1.20-1.9`).
+
+**Achtung:** Auf einer Testbox (VU+ Duo 4K Lite, openATV 7.6) wurde beim Installieren das Programm `ip` beschädigt (`/sbin/ip.iproute2` war danach 0 Bytes gross); nach dem nächsten Neustart hatte die Box kein Netzwerk mehr. Nach dem Installieren deshalb prüfen: `ls -l /sbin/ip.iproute2` darf nicht 0 Bytes zeigen – sonst `opkg install --force-reinstall iproute2-ip`. Stream-Player warnt im Bereich VPN-Tunnel, wenn er das entdeckt. Reparatur ohne Netzwerk: Anleitung, Kapitel 12. Bietet das Image kein solches Paket an, gehen VPN-Tunnel auf dieser Box nicht. Stream-Player bringt keine VPN-Zugänge mit; man braucht ein eigenes Konto bei einem Anbieter mit WireGuard.
 
 Die ausführliche, bebilderte Anleitung ist im Plugin eingebaut: `http://<Adresse der Box>:8098/anleitung` (Kapitel 1 «Was die Box braucht», Kapitel 8 «VPN-Tunnel»).
 

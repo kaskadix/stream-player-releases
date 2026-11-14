@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.11.1 – 2026-11-14
+
+- Schutz: Stream-Player erkennt, wenn das Programm «ip» der Box beschädigt ist (z.B. leere Datei nach dem Installieren von WireGuard), und warnt im Bereich VPN-Tunnel – auf der Box und im Browser. Ohne Reparatur hat die Box nach dem nächsten Neustart womöglich kein Netzwerk mehr.
+- Anleitung: neuer Abschnitt «Die Box hat nach einem Neustart kein Netzwerk mehr» (Kapitel 12) mit der Reparatur; Hinweis in Kapitel 8 korrigiert.
+
 ## 0.11.0 – 2026-11-14
 
 - Neu: **Erkennen von Länder-Sperren**. Lehnt der Server einen Sender wegen deines Landes ab (oder ist er in der Liste als «[Geo-blocked]» markiert), zeigen kleines Bild und Infoleiste «Vermutlich in deinem Land gesperrt (Sender aus …)» statt nur «Kein Stream erreichbar».
