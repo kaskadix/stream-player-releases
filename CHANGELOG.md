@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.12.0 – 2026-11-14
+
+- Neu: **Programmzeitschrift (EPG)**. In der Senderliste steht unter jedem Sender die laufende Sendung; rechts unten Zeit, Fortschritt, Beschreibung und was danach kommt. Die Infoleiste im Vollbild zeigt Jetzt und Danach.
+- Quellen: die EPG-Adressen der Listen (url-tvg) und eigene XMLTV-Adressen (auch .gz) auf der Einstellungsseite im Browser – mit «Jetzt laden» und einer Übersicht, wie viele Sender gefunden wurden.
+- Geladen wird im Hintergrund als eigener Vorgang mit niedriger Priorität, etwa alle 12 Stunden; auch grosse Programmzeitschriften bremsen die Box nicht.
+- Anleitung: neuer Abschnitt «Programmzeitschrift (EPG)» in Kapitel 3, Bilder und Einstellungen nachgeführt.
+
 ## 0.11.3 – 2026-11-14
 
 - Schnellerer Start bei Sendern mit toten Einträgen: Streams, die beim letzten Versuch gar nichts geliefert haben, probiert Stream-Player einige Stunden lang zuletzt. Ein funktionierender Stream kommt so meist sofort dran.

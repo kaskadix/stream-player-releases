@@ -1,11 +1,11 @@
 {
- "version": "0.11.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.11.3_all.ipk",
- "sha256": "8d23d91ba830fde73a599ba386f94b162894eba92eec9ad9686ab63a9a5e6d89",
- "size": 515082,
+ "version": "0.12.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.0_all.ipk",
+ "sha256": "c9611e26813d7bf7a45c1687740bdffe90d2368e880fef20c6827ba3311d1ec4",
+ "size": 528622,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Schnellerer Start bei Sendern mit toten Einträgen: Streams, die beim letzten Versuch gar nichts geliefert haben, probiert Stream-Player einige Stunden lang zuletzt. Ein funktionierender Stream kommt so meist sofort dran.",
-  "en": "Faster start: streams that delivered nothing last time are tried last for a few hours."
+  "de": "- Neu: **Programmzeitschrift (EPG)**. In der Senderliste steht unter jedem Sender die laufende Sendung; rechts unten Zeit, Fortschritt, Beschreibung und was danach kommt. Die Infoleiste im Vollbild zeigt Jetzt und Danach.\n- Quellen: die EPG-Adressen der Listen (url-tvg) und eigene XMLTV-Adressen (auch .gz) auf der Einstellungsseite im Browser – mit «Jetzt laden» und einer Übersicht, wie viele Sender gefunden wurden.\n- Geladen wird im Hintergrund als eigener Vorgang mit niedriger Priorität, etwa alle 12 Stunden; auch grosse Programmzeitschriften bremsen die Box nicht.\n- Anleitung: neuer Abschnitt «Programmzeitschrift (EPG)» in Kapitel 3, Bilder und Einstellungen nachgeführt.",
+  "en": "New: programme guide (EPG) from XMLTV - now/next in the channel list and info bar; EPG addresses from lists and the browser settings page."
  }
 }
