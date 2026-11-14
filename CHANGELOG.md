@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.11.3 – 2026-11-14
+
+- Schnellerer Start bei Sendern mit toten Einträgen: Streams, die beim letzten Versuch gar nichts geliefert haben, probiert Stream-Player einige Stunden lang zuletzt. Ein funktionierender Stream kommt so meist sofort dran.
+
 ## 0.11.2 – 2026-11-14
 
 - Schnellerer Start: Antwortet ein Stream-Server gar nicht, nimmt Stream-Player schon nach 6 statt 10 Sekunden den nächsten Stream. Das kleine Bild startet etwas früher (nach 0,8 statt 1,2 Sekunden auf einem Sender).
