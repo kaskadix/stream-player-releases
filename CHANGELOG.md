@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.12.4 – 2026-11-14
+
+- Neu: **Sender ohne Programm von Hand zuordnen**. Im Browser zeigt «Sender ohne Programm» alle Sender, für die die EPG-Quellen nichts liefern; mit «EPG zuordnen» sucht man den passenden Eintrag in den EPG-Quellen und wählt ihn. «Kein EPG» blendet das Programm bewusst aus, «Automatisch» hebt die Zuordnung auf. Auch in der Sendersuche bei jedem Sender.
+- Startbildschirm: Beschreibung und «Danach» rechts unten werden nicht mehr abgeschnitten («Danach» hat eine eigene Zeile).
+- Anleitung: neuer Abschnitt «Sender ohne Programm von Hand zuordnen» mit Bild.
+
 ## 0.12.3 – 2026-11-14
 
 - Programmzeitschrift schöner: statt «18 % vorbei» ein schlanker **Fortschrittsbalken** in Akzentfarbe mit der Restzeit klein daneben («noch 45 Min.») – im Startbildschirm und in beiden Infoleisten.

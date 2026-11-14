@@ -1,11 +1,11 @@
 {
- "version": "0.12.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.3_all.ipk",
- "sha256": "1fe89565019f9aac83bd7f889dd2eae98642f75b023531b794cc179fdc6c7275",
- "size": 588034,
+ "version": "0.12.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.4_all.ipk",
+ "sha256": "b1b2aeaec6449f60b75c8b7e2c9e266ac03627487ff722b4db23277bae74ffb6",
+ "size": 663736,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Programmzeitschrift schöner: statt «18 % vorbei» ein schlanker **Fortschrittsbalken** in Akzentfarbe mit der Restzeit klein daneben («noch 45 Min.») – im Startbildschirm und in beiden Infoleisten.\n- Neu: **Programm eines Senders** – mit der Taste EPG (oder MENU › «Programm von …») die Sendungen ab jetzt, nach Tagen gegliedert, mit Beschreibung und Fortschritt.\n- Im Vollbild öffnet MENU jetzt ein kleines Menü (Programm, VPN für diesen Sender, Hilfe); die Hilfe bleibt auf HELP.\n- Anleitung und Bilder nachgeführt.",
-  "en": "Progress bar with remaining time instead of percent; channel programme screen (EPG key); MENU in full screen opens a small menu."
+  "de": "- Neu: **Sender ohne Programm von Hand zuordnen**. Im Browser zeigt «Sender ohne Programm» alle Sender, für die die EPG-Quellen nichts liefern; mit «EPG zuordnen» sucht man den passenden Eintrag in den EPG-Quellen und wählt ihn. «Kein EPG» blendet das Programm bewusst aus, «Automatisch» hebt die Zuordnung auf. Auch in der Sendersuche bei jedem Sender.\n- Startbildschirm: Beschreibung und «Danach» rechts unten werden nicht mehr abgeschnitten («Danach» hat eine eigene Zeile).\n- Anleitung: neuer Abschnitt «Sender ohne Programm von Hand zuordnen» mit Bild.",
+  "en": "New: assign EPG to channels by hand (browser); home screen info no longer cut off."
  }
 }
