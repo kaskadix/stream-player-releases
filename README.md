@@ -41,7 +41,7 @@ modprobe wireguard && echo "MODUL OK"; wg --version
 ```
 Das Kernel-Modul heisst je nach Box mit Kernel-Version (z.B. `kernel-module-wireguard-4.1.20-1.9`). Bietet das Image kein solches Paket an, gehen VPN-Tunnel auf dieser Box nicht. Stream-Player bringt keine VPN-Zugänge mit; man braucht ein eigenes Konto bei einem Anbieter mit WireGuard.
 
-Die ausführliche, bebilderte Anleitung ist im Plugin eingebaut: `http://<Adresse der Box>:8098/anleitung` (Kapitel 1 «Was die Box braucht», Kapitel 7 «VPN-Tunnel»).
+Die ausführliche, bebilderte Anleitung ist im Plugin eingebaut: `http://<Adresse der Box>:8098/anleitung` (Kapitel 1 «Was die Box braucht», Kapitel 8 «VPN-Tunnel»).
 
 ## Inhalt dieses Projekts
 

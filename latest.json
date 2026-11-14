@@ -1,11 +1,11 @@
 {
- "version": "0.9.8",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.8_all.ipk",
- "sha256": "118fe6d39539640c71ab66b72f9f97e00bfc5ef76616b1254506ffa22bf9154f",
- "size": 398818,
+ "version": "0.10.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.10.0_all.ipk",
+ "sha256": "6cef8a6c175f5b8c19407856d9b3d1b62cb8e12d21d3b4fd29608b5dcf800e78",
+ "size": 508490,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Anleitung: neuer Abschnitt «Was die Box braucht» (Kapitel 1) und «Was die Box für VPN braucht» (Kapitel 7) mit allen Paketen, den Befehlen zum Installieren und Prüfen und einem Test, ob der Tunnel wirkt. Dazu Hilfe bei VPN-Problemen in Kapitel 11.\n- «WireGuard installieren» auf der Box findet jetzt auch Kernel-Module, deren Paketname die Kernel-Version enthält.",
-  "en": "Manual: what the box needs (packages and commands), VPN install/test and troubleshooting. WireGuard install finds kernel-specific package names."
+  "de": "- Neu: **Favoriten**. Eigene Gruppen wie «Sport» oder «Nachrichten» – sie stehen in der Senderliste gleich nach «Alle Sender» (P+/P- oder ROT).\n- Auf der Box: MENU › «… zu Favoriten hinzufügen» (auch gleich eine neue Gruppe anlegen), «… aus dieser Favoriten-Gruppe entfernen» und MENU › Favoriten zum Anzeigen, Umbenennen, Verschieben und Löschen.\n- Im Browser: neuer Bereich «Favoriten» mit Gruppen (Reihenfolge, Umbenennen, Löschen) und einer Sendersuche über alle geladenen Listen.\n- VPN pro Favoriten-Gruppe und – neu auch im Browser – pro einzelnem Sender. Rangfolge: Sender vor Favoriten-Gruppe vor Liste vor «alle Sender».\n- Anleitung: neues Kapitel «Favoriten» (mit Bildern), VPN-Kapitel ergänzt, Hilfe auf der Box nachgeführt.",
+  "en": "New: favorites groups (box and browser), channel search in the browser, VPN per favorites group and per channel in the browser."
  }
 }
