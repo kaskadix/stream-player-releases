@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.12.2 – 2026-11-14
+
+- Infoleiste «Alles» neu aufgeteilt: laufende Sendung mit Fortschritt, Beschreibung auf zwei Zeilen, eigene Zeile «Danach», darunter der Zustand. Die Tastenhinweise stehen kürzer rechts unten. Vorher war die nächste Sendung abgeschnitten.
+
 ## 0.12.1 – 2026-11-14
 
 - Browser: «Jetzt laden» bei der Programmzeitschrift speichert die eingetragenen EPG-Adressen zuerst. Vorher ging eine neu eingetragene Adresse verloren, wenn man nicht zuerst «Speichern» klickte.

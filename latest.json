@@ -1,11 +1,11 @@
 {
- "version": "0.12.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.1_all.ipk",
- "sha256": "88fdc846cda95b8597de8e0ba86d52926dbf9aa24113bce941840b5bfcd6690d",
- "size": 528774,
+ "version": "0.12.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.2_all.ipk",
+ "sha256": "c038411fe84dc7f52caceaccebc2fe93d68b5a91540c4b84f547434a899bef74",
+ "size": 536200,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Browser: «Jetzt laden» bei der Programmzeitschrift speichert die eingetragenen EPG-Adressen zuerst. Vorher ging eine neu eingetragene Adresse verloren, wenn man nicht zuerst «Speichern» klickte.",
-  "en": "Browser: 'Load now' for the programme guide saves the EPG addresses first."
+  "de": "- Infoleiste «Alles» neu aufgeteilt: laufende Sendung mit Fortschritt, Beschreibung auf zwei Zeilen, eigene Zeile «Danach», darunter der Zustand. Die Tastenhinweise stehen kürzer rechts unten. Vorher war die nächste Sendung abgeschnitten.",
+  "en": "Full info bar re-laid out: now with progress, two-line description, separate 'Next' line, status."
  }
 }
