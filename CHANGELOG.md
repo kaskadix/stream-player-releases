@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.18.0 – 2026-11-14
+
+- Neu: **VPN pro Mediathek** – Videos mit «nur DE» über einen VPN-Tunnel holen: in der Mediathek MENU › «VPN für …», oder im Browser unter Mediatheken › VPN pro Mediathek.
+- Nur die Videos dieser Mediathek laufen durch den Tunnel; Spulen funktioniert (MP4 und HLS). «Tunnel für alle Sender» gilt für Mediatheken bewusst nicht.
+- Bei gesperrten Videos ohne Tunnel zeigt die Liste «MENU: VPN»; kommt auch über VPN kein Bild, schlägt die Box einen anderen Server vor.
+- Anleitung (Kapitel 9 und 10) und Hilfe nachgeführt.
+
 ## 0.17.0 – 2026-11-14
 
 - Neu: **Meine Sendungen** – Sendungen aus allen Mediatheken merken (MENU › «… merken») und in der Übersicht direkt öffnen. Entfernen ebenfalls über MENU.

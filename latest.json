@@ -1,11 +1,11 @@
 {
- "version": "0.17.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.17.0_all.ipk",
- "sha256": "3c16011219ba97b4fad97b8122345e5cc84eb1dcb4c6e9194ae8c9f131566e72",
- "size": 985156,
+ "version": "0.18.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.18.0_all.ipk",
+ "sha256": "49262e3d94b490ad169c1486e01aa829bbec28d3f36912118af0f7c26a0078e9",
+ "size": 1009634,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Meine Sendungen** – Sendungen aus allen Mediatheken merken (MENU › «… merken») und in der Übersicht direkt öffnen. Entfernen ebenfalls über MENU.\n- Folgen aus MediathekViewWeb heissen wie bei der ARD: «S01E02 Titel» statt «Titel (S01/E02)».\n- Anleitung und Hilfe nachgeführt.",
-  "en": "New: My programmes - remember programmes from all media libraries (MENU). Episode titles unified."
+  "de": "- Neu: **VPN pro Mediathek** – Videos mit «nur DE» über einen VPN-Tunnel holen: in der Mediathek MENU › «VPN für …», oder im Browser unter Mediatheken › VPN pro Mediathek.\n- Nur die Videos dieser Mediathek laufen durch den Tunnel; Spulen funktioniert (MP4 und HLS). «Tunnel für alle Sender» gilt für Mediatheken bewusst nicht.\n- Bei gesperrten Videos ohne Tunnel zeigt die Liste «MENU: VPN»; kommt auch über VPN kein Bild, schlägt die Box einen anderen Server vor.\n- Anleitung (Kapitel 9 und 10) und Hilfe nachgeführt.",
+  "en": "New: VPN per media library - geo-blocked videos through a WireGuard tunnel, with seeking."
  }
 }
