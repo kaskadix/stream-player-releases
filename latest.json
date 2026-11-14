@@ -1,11 +1,11 @@
 {
- "version": "0.12.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.12.5_all.ipk",
- "sha256": "40d99622ad218cb4c417853b6dc532b5c71aacdafb4f150423413de57a16bca9",
- "size": 663728,
+ "version": "0.13.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.0_all.ipk",
+ "sha256": "6460634ce9bb194de0314908272d30a0e7ff6fb6ea1add16bae71f091e85fd1e",
+ "size": 666796,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Startbildschirm: Die orange Fläche des Bereichs «Live-TV» ist links wieder schön rund – der Schriftzug «Stream-Player» hat sie vorher leicht überdeckt.",
-  "en": "Home screen: the orange 'Live TV' tab is no longer clipped on the left."
+  "de": "- Neu: **Senderlogos** in der Senderliste und in beiden Infoleisten. Stream-Player nimmt zuerst Picons, die schon auf der Box liegen, sonst das Logo aus der Liste (tvg-logo).\n- Logos werden einmal im Hintergrund geladen und auf Festplatte/USB-Stick zwischengespeichert (sonst im Arbeitsspeicher). Grosse Logos verkleinert die Box beim Lesen auf die Grösse des Feldes, in kleinen Portionen – die Bedienung bleibt flüssig.\n- Ohne Logo bleibt das Kürzel (z.B. «SRF1»).\n- Anleitung nachgeführt.",
+  "en": "New: channel logos (picons on the box first, else the list logo), downloaded and cached in the background."
  }
 }

@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.13.0 – 2026-11-14
+
+- Neu: **Senderlogos** in der Senderliste und in beiden Infoleisten. Stream-Player nimmt zuerst Picons, die schon auf der Box liegen, sonst das Logo aus der Liste (tvg-logo).
+- Logos werden einmal im Hintergrund geladen und auf Festplatte/USB-Stick zwischengespeichert (sonst im Arbeitsspeicher). Grosse Logos verkleinert die Box beim Lesen auf die Grösse des Feldes, in kleinen Portionen – die Bedienung bleibt flüssig.
+- Ohne Logo bleibt das Kürzel (z.B. «SRF1»).
+- Anleitung nachgeführt.
+
 ## 0.12.5 – 2026-11-14
 
 - Startbildschirm: Die orange Fläche des Bereichs «Live-TV» ist links wieder schön rund – der Schriftzug «Stream-Player» hat sie vorher leicht überdeckt.
