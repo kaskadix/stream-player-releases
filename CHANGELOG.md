@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.26.2 – 2026-11-14
+
+- Podnapisi entfernt: der Dienst ist nicht mehr erreichbar.
+- Anleitung und Einstellungsseite: genauere Schritte für den OpenSubtitles-Schlüssel («NEW CONSUMER», «Allow anonymous» ein, «Under development» aus).
+
 ## 0.26.1 – 2026-11-14
 
 - SubDL: «nichts gefunden» gilt nicht mehr als Fehler («bad_answer»); andere Meldungen von SubDL werden im Klartext angezeigt.

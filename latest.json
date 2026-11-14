@@ -1,11 +1,11 @@
 {
- "version": "0.26.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.26.1_all.ipk",
- "sha256": "47585539651cd967b3c5c272ce427371c61fd15d033a8b0092242886fb237017",
- "size": 1251080,
+ "version": "0.26.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.26.2_all.ipk",
+ "sha256": "32fb531ed822c827ec6f3b3c398469aaf1e4de28bfad29fb7a9d7bc68ea91800",
+ "size": 1252958,
  "date": "2026-11-14",
  "notes": {
-  "de": "- SubDL: «nichts gefunden» gilt nicht mehr als Fehler («bad_answer»); andere Meldungen von SubDL werden im Klartext angezeigt.\n- Podnapisi: Verbindung mit der älteren Verschlüsselung dieses Servers (vorher «Nicht erreichbar»).\n- Einstellungsseite: gespeicherte Schlüssel stehen als «gespeichert: sub…Tc» da (nur angedeutet, aus Sicherheitsgründen).\n- Test der Untertitel-Quellen sucht mit «Inception» und zeigt Fehler mit Einzelheiten.",
-  "en": "Subtitles: SubDL 'not found' is no longer an error, Podnapisi connects with older TLS, saved keys shown as hint."
+  "de": "- Podnapisi entfernt: der Dienst ist nicht mehr erreichbar.\n- Anleitung und Einstellungsseite: genauere Schritte für den OpenSubtitles-Schlüssel («NEW CONSUMER», «Allow anonymous» ein, «Under development» aus).",
+  "en": "Podnapisi removed (offline); clearer OpenSubtitles key instructions."
  }
 }
