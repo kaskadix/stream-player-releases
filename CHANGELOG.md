@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.11.0 – 2026-11-14
+
+- Neu: **Erkennen von Länder-Sperren**. Lehnt der Server einen Sender wegen deines Landes ab (oder ist er in der Liste als «[Geo-blocked]» markiert), zeigen kleines Bild und Infoleiste «Vermutlich in deinem Land gesperrt (Sender aus …)» statt nur «Kein Stream erreichbar».
+- Im Vollbild öffnet **GRÜN** die Tunnel-Wahl für diesen Sender; danach startet er gleich neu über den Tunnel.
+- Läuft der Sender schon über einen Tunnel und ist trotzdem gesperrt, sagt Stream-Player, in welchem Land der VPN-Server stehen muss.
+- Gesperrte Links werden nicht mehr unnötig durch Neuladen der Listen «erneuert».
+- Anleitung: neuer Abschnitt «Wenn ein Sender in deinem Land gesperrt ist» (Kapitel 8), GRÜN im Vollbild, Hilfe nachgeführt.
+
 ## 0.10.0 – 2026-11-14
 
 - Neu: **Favoriten**. Eigene Gruppen wie «Sport» oder «Nachrichten» – sie stehen in der Senderliste gleich nach «Alle Sender» (P+/P- oder ROT).

@@ -1,11 +1,11 @@
 {
- "version": "0.10.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.10.0_all.ipk",
- "sha256": "6cef8a6c175f5b8c19407856d9b3d1b62cb8e12d21d3b4fd29608b5dcf800e78",
- "size": 508490,
+ "version": "0.11.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.11.0_all.ipk",
+ "sha256": "01c1dbad0d46cbc009635a10af0bfb88276e8485a20eeb6fe2fc187d67e1c75b",
+ "size": 512426,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Favoriten**. Eigene Gruppen wie «Sport» oder «Nachrichten» – sie stehen in der Senderliste gleich nach «Alle Sender» (P+/P- oder ROT).\n- Auf der Box: MENU › «… zu Favoriten hinzufügen» (auch gleich eine neue Gruppe anlegen), «… aus dieser Favoriten-Gruppe entfernen» und MENU › Favoriten zum Anzeigen, Umbenennen, Verschieben und Löschen.\n- Im Browser: neuer Bereich «Favoriten» mit Gruppen (Reihenfolge, Umbenennen, Löschen) und einer Sendersuche über alle geladenen Listen.\n- VPN pro Favoriten-Gruppe und – neu auch im Browser – pro einzelnem Sender. Rangfolge: Sender vor Favoriten-Gruppe vor Liste vor «alle Sender».\n- Anleitung: neues Kapitel «Favoriten» (mit Bildern), VPN-Kapitel ergänzt, Hilfe auf der Box nachgeführt.",
-  "en": "New: favorites groups (box and browser), channel search in the browser, VPN per favorites group and per channel in the browser."
+  "de": "- Neu: **Erkennen von Länder-Sperren**. Lehnt der Server einen Sender wegen deines Landes ab (oder ist er in der Liste als «[Geo-blocked]» markiert), zeigen kleines Bild und Infoleiste «Vermutlich in deinem Land gesperrt (Sender aus …)» statt nur «Kein Stream erreichbar».\n- Im Vollbild öffnet **GRÜN** die Tunnel-Wahl für diesen Sender; danach startet er gleich neu über den Tunnel.\n- Läuft der Sender schon über einen Tunnel und ist trotzdem gesperrt, sagt Stream-Player, in welchem Land der VPN-Server stehen muss.\n- Gesperrte Links werden nicht mehr unnötig durch Neuladen der Listen «erneuert».\n- Anleitung: neuer Abschnitt «Wenn ein Sender in deinem Land gesperrt ist» (Kapitel 8), GRÜN im Vollbild, Hilfe nachgeführt.",
+  "en": "New: country block detection with hint; GREEN in full screen picks a VPN tunnel for the channel."
  }
 }
