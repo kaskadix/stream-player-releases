@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.9.3 – 2026-11-14
+
+- Korrektur: GRÜN «Neuer Tunnel» im Bildschirm «VPN-Tunnel» brachte die Box zum Absturz. Das Formular für einen neuen Tunnel öffnet jetzt normal.
+
 ## 0.9.2 – 2026-11-14
 
 - Korrektur: MENU › «VPN-Tunnel» öffnet jetzt den Bildschirm für die Tunnel. Vorher blieb er unsichtbar, weil ein interner Name doppelt vergeben war.

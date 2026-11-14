@@ -1,11 +1,11 @@
 {
- "version": "0.9.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.2_all.ipk",
- "sha256": "4ae188c89b15568adcafaf4abfd879bf0f919c86274aafdf69ae7921db60a4fa",
+ "version": "0.9.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.3_all.ipk",
+ "sha256": "0d6991665601990a0539e7c710525a56181df50cbc1bbecab3e3852beb0a2a5f",
  "size": 394950,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Korrektur: MENU › «VPN-Tunnel» öffnet jetzt den Bildschirm für die Tunnel. Vorher blieb er unsichtbar, weil ein interner Name doppelt vergeben war.",
-  "en": "Fix: MENU > VPN tunnels now opens the tunnel screen (it stayed invisible before)."
+  "de": "- Korrektur: GRÜN «Neuer Tunnel» im Bildschirm «VPN-Tunnel» brachte die Box zum Absturz. Das Formular für einen neuen Tunnel öffnet jetzt normal.",
+  "en": "Fix: GREEN 'New tunnel' in the VPN tunnels screen crashed the box."
  }
 }
