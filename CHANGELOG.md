@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.24.0 – 2026-11-14
+
+- Neu: **Tonspur wählen** mit der AUDIO-Taste (oder MENU › Tonspur) – im Live-TV und bei Filmen/Mediatheken, z.B. Originalton, Dolby oder Audiodeskription.
+- Neu: **Untertitel** ein/aus mit der SUBTITLE-Taste (oder MENU › Untertitel) – DVB, Teletext und Text-Untertitel, angezeigt wie beim normalen Fernsehen.
+- Die Wahl wird **pro Sender** gemerkt (bei Videos pro Mediathek bzw. für Plex) und beim nächsten Mal automatisch wieder eingestellt – auch bei einem anderen Stream desselben Senders.
+- Bei Filmen öffnet MENU jetzt ein kleines Menü (Tonspur, Untertitel, Hilfe).
+- Hilfe auf der Box und Anleitung (Kapitel 5 und 8) nachgeführt.
+
 ## 0.23.0 – 2026-11-14
 
 - Neu: Bereich **Suche** – eine Suche für alles: Live-TV-Sender, Programm der nächsten 24 Stunden, Plex, alle Mediatheken, Xtream und freie Filme gleichzeitig (höchstens 20 Sekunden).
