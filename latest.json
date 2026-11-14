@@ -1,11 +1,11 @@
 {
- "version": "0.13.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.0_all.ipk",
- "sha256": "6460634ce9bb194de0314908272d30a0e7ff6fb6ea1add16bae71f091e85fd1e",
- "size": 666796,
+ "version": "0.13.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.1_all.ipk",
+ "sha256": "7626019f66b425b2b533d7b7cd6ad2dbeb17f607ff05917b056f103401dbcd80",
+ "size": 666898,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Senderlogos** in der Senderliste und in beiden Infoleisten. Stream-Player nimmt zuerst Picons, die schon auf der Box liegen, sonst das Logo aus der Liste (tvg-logo).\n- Logos werden einmal im Hintergrund geladen und auf Festplatte/USB-Stick zwischengespeichert (sonst im Arbeitsspeicher). Grosse Logos verkleinert die Box beim Lesen auf die Grösse des Feldes, in kleinen Portionen – die Bedienung bleibt flüssig.\n- Ohne Logo bleibt das Kürzel (z.B. «SRF1»).\n- Anleitung nachgeführt.",
-  "en": "New: channel logos (picons on the box first, else the list logo), downloaded and cached in the background."
+  "de": "- Senderlogos: Keine schwarzen Balken mehr oben und unten. Passt ein Logo nicht genau ins Feld, wird der Rand jetzt in der Farbe der Logo-Kachel aufgefüllt.",
+  "en": "Channel logos: no more black bars - letterbox filled with the tile colour."
  }
 }

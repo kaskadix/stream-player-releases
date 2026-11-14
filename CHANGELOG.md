@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.13.1 – 2026-11-14
+
+- Senderlogos: Keine schwarzen Balken mehr oben und unten. Passt ein Logo nicht genau ins Feld, wird der Rand jetzt in der Farbe der Logo-Kachel aufgefüllt.
+
 ## 0.13.0 – 2026-11-14
 
 - Neu: **Senderlogos** in der Senderliste und in beiden Infoleisten. Stream-Player nimmt zuerst Picons, die schon auf der Box liegen, sonst das Logo aus der Liste (tvg-logo).
