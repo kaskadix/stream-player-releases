@@ -1,5 +1,17 @@
 # Stream-Player – Versionen
 
+## 0.26.0 – 2026-11-14
+
+- Neu: **Untertitel aus dem Internet** bei Filmen und Serien (Plex, Mediatheken, Xtream, freie Filme): SUBTITLE › «Im Internet suchen» fragt alle Quellen gleichzeitig:
+  - **Plex** (Untertitel-Suche des eigenen Plex-Servers, ohne Konto)
+  - **OpenSubtitles.com** und **SubDL** (mit Gratis-Schlüssel, im Browser einzutragen)
+  - **Podnapisi** und **Addic7ed** (über Gestdown, nur Serien) ohne Konto
+- Separate Untertitel-Dateien auf dem Plex-Server erscheinen jetzt unter SUBTITLE.
+- Eigene Untertitel-Dateien (SRT, WebVTT, ASS) von USB-Stick, Festplatte oder Netzwerk.
+- Untertitel-Zeit anpassen (früher/später); Untertitel und Verschiebung werden pro Video gemerkt.
+- Einstellungsseite: neuer Bereich «Untertitel aus dem Internet» mit Sprache, Schlüsseln und Test.
+- Hilfe auf der Box und Anleitung (Kapitel 8) nachgeführt.
+
 ## 0.25.0 – 2026-11-14
 
 - Neu: **Radio-Kommentar statt TV-Ton** – im Vollbild MENU › Radio-Kommentar: der TV-Ton wird durch einen Radiosender ersetzt, z.B. bei Fussball oder Eishockey.
