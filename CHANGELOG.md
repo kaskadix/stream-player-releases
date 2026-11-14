@@ -1,5 +1,15 @@
 # Stream-Player – Versionen
 
+## 0.14.0 – 2026-11-14
+
+- Neu: **Filme und Serien** von deinem eigenen **Plex-Server** in den Bereichen «Filme» und «Serien» – mit Poster, Beschreibung, Laufzeit und Fortschritt.
+- Verbinden ohne Passwort auf der Box: OK drücken, den angezeigten Code auf plex.tv/link eingeben. Gespeichert wird nur ein Zugangsschlüssel, nur auf der Box.
+- Gruppen: «Weiterschauen», jede Plex-Bibliothek, «Neu: …». Serien öffnen sich in Staffeln und Folgen; EXIT geht eine Ebene zurück.
+- Abspielen an der gemerkten Stelle (BLAU: von Anfang), Pause, Springen mit LINKS/RECHTS und den Zahlentasten. Am Ende einer Folge startet nach 10 Sekunden die nächste.
+- Der Fortschritt geht an Plex: Weiterschauen klappt auch auf Handy und Fernseher.
+- Einstellungsseite: neuer Bereich «Filme und Serien (Plex)» mit Status und «Trennen».
+- Anleitung: neues Kapitel 8 «Filme und Serien (Plex)»; Hilfe auf der Box für Filme/Serien und das Abspielen.
+
 ## 0.13.3 – 2026-11-14
 
 - Senderlogos besser lesbar: Stream-Player prüft im Hintergrund die Helligkeit jedes Logos. Dunkle und farbige Logos stehen jetzt auf einer hellen Kachel, weisse Logos (auf durchsichtigem Grund) auf der dunklen – in der Senderliste und in der Infoleiste.

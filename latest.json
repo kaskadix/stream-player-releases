@@ -1,11 +1,11 @@
 {
- "version": "0.13.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.3_all.ipk",
- "sha256": "7772edd6c74d5d791da3cd818e60c2298d125d208f55299c98812cef52a99267",
- "size": 670872,
+ "version": "0.14.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.14.0_all.ipk",
+ "sha256": "92338cdb4a7fff66a4bb87a4b02753dd9157e79e9933b971eaf2d2373751d4fa",
+ "size": 783594,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Senderlogos besser lesbar: Stream-Player prüft im Hintergrund die Helligkeit jedes Logos. Dunkle und farbige Logos stehen jetzt auf einer hellen Kachel, weisse Logos (auf durchsichtigem Grund) auf der dunklen – in der Senderliste und in der Infoleiste.",
-  "en": "Channel logos easier to read: light tile for dark/coloured logos, dark tile for white logos (detected in the background)."
+  "de": "- Neu: **Filme und Serien** von deinem eigenen **Plex-Server** in den Bereichen «Filme» und «Serien» – mit Poster, Beschreibung, Laufzeit und Fortschritt.\n- Verbinden ohne Passwort auf der Box: OK drücken, den angezeigten Code auf plex.tv/link eingeben. Gespeichert wird nur ein Zugangsschlüssel, nur auf der Box.\n- Gruppen: «Weiterschauen», jede Plex-Bibliothek, «Neu: …». Serien öffnen sich in Staffeln und Folgen; EXIT geht eine Ebene zurück.\n- Abspielen an der gemerkten Stelle (BLAU: von Anfang), Pause, Springen mit LINKS/RECHTS und den Zahlentasten. Am Ende einer Folge startet nach 10 Sekunden die nächste.\n- Der Fortschritt geht an Plex: Weiterschauen klappt auch auf Handy und Fernseher.\n- Einstellungsseite: neuer Bereich «Filme und Serien (Plex)» mit Status und «Trennen».\n- Anleitung: neues Kapitel 8 «Filme und Serien (Plex)»; Hilfe auf der Box für Filme/Serien und das Abspielen.",
+  "en": "New: Movies and series from your own Plex server (connect with a code at plex.tv/link, continue watching, next episode, progress shared with Plex). Browser: Plex status and disconnect."
  }
 }
