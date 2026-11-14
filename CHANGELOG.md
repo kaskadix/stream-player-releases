@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.20.0 – 2026-11-14
+
+- Neu: **Xtream-Zugänge** (IPTV-Anbieter mit Server-Adresse, Benutzername und Passwort) – im Browser eintragen und testen (Abo-Ende, Verbindungen, Anzahl Sender).
+- Live-Sender erscheinen in Live-TV mit den Kategorien des Anbieters als Gruppen; seine Programmzeitschrift wird automatisch geladen. Bei Ausfall gilt die zuletzt geladene Fassung.
+- Filme und Serien des Anbieters unter Mediatheken: Kategorien, Staffeln, Suche, «Neu hinzugefügte Filme», Weiterschauen, Meine Sendungen.
+- VPN-Tunnel auch pro Xtream-Zugang.
+- Datenschutz: Das Passwort bleibt auf der Box (nur für die Box lesbar), wird dem Browser nie gezeigt; Benutzername und Passwort werden in Protokoll und Anzeigen unkenntlich gemacht (auch bei der Programmzeitschrift).
+
 ## 0.19.0 – 2026-11-14
 
 - Neu: **Nachrichten-Livestreams** in der Übersicht der Mediatheken – tagesschau24, Euronews, DW, France 24, Al Jazeera, Bloomberg, NHK World, TRT World, Africanews (Deutsch, Englisch, Französisch, Spanisch). OK startet den Sender im Vollbild, P+/P- wechselt zum nächsten.

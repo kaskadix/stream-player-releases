@@ -1,11 +1,11 @@
 {
- "version": "0.19.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.19.0_all.ipk",
- "sha256": "870fa7de9cccbb0bf1294e4ac0510f5063b28a13ef441dbb46f272c9c0214caa",
- "size": 1014918,
+ "version": "0.20.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.20.0_all.ipk",
+ "sha256": "a8037c31d086201df243ef732518bf97a622fea7ef69d70e9365fb7786602c85",
+ "size": 1078666,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Nachrichten-Livestreams** in der Übersicht der Mediatheken – tagesschau24, Euronews, DW, France 24, Al Jazeera, Bloomberg, NHK World, TRT World, Africanews (Deutsch, Englisch, Französisch, Spanisch). OK startet den Sender im Vollbild, P+/P- wechselt zum nächsten.\n- Nur offizielle Adressen der Sender; die Liste wird gelegentlich aus dem Internet nachgeführt (news.json), sonst gilt die eingebaute Fassung.\n- Anleitung und Hilfe nachgeführt.",
-  "en": "New: News livestreams (official free streams: tagesschau24, DW, France 24, Euronews, Al Jazeera, Bloomberg, NHK World ...)."
+  "de": "- Neu: **Xtream-Zugänge** (IPTV-Anbieter mit Server-Adresse, Benutzername und Passwort) – im Browser eintragen und testen (Abo-Ende, Verbindungen, Anzahl Sender).\n- Live-Sender erscheinen in Live-TV mit den Kategorien des Anbieters als Gruppen; seine Programmzeitschrift wird automatisch geladen. Bei Ausfall gilt die zuletzt geladene Fassung.\n- Filme und Serien des Anbieters unter Mediatheken: Kategorien, Staffeln, Suche, «Neu hinzugefügte Filme», Weiterschauen, Meine Sendungen.\n- VPN-Tunnel auch pro Xtream-Zugang.\n- Datenschutz: Das Passwort bleibt auf der Box (nur für die Box lesbar), wird dem Browser nie gezeigt; Benutzername und Passwort werden in Protokoll und Anzeigen unkenntlich gemacht (auch bei der Programmzeitschrift).",
+  "en": "New: Xtream accounts - live channels in Live TV (with provider EPG), movies and series in Media libraries; credentials stay on the box."
  }
 }
