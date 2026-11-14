@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.21.0 – 2026-11-14
+
+- Neu: **Xtream-Zugänge direkt auf der Box** – MENU › Xtream-Zugänge: in vier Schritten Server-Adresse, Benutzername, Passwort und Name eingeben; die Box prüft den Zugang sofort und lädt die Sender. Klappt die Anmeldung nicht, bleiben die Eingaben für eine Korrektur stehen.
+- Im selben Menü: Zugang testen, ein-/ausschalten, Passwort ändern, umbenennen, löschen.
+- Anleitung und Hilfe nachgeführt.
+
 ## 0.20.0 – 2026-11-14
 
 - Neu: **Xtream-Zugänge** (IPTV-Anbieter mit Server-Adresse, Benutzername und Passwort) – im Browser eintragen und testen (Abo-Ende, Verbindungen, Anzahl Sender).

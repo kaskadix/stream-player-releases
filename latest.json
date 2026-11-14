@@ -1,11 +1,11 @@
 {
- "version": "0.20.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.20.0_all.ipk",
- "sha256": "a8037c31d086201df243ef732518bf97a622fea7ef69d70e9365fb7786602c85",
- "size": 1078666,
+ "version": "0.21.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.21.0_all.ipk",
+ "sha256": "3a919918d5bcd21528e611df6f5d3eb5144a5cac12ea8f967e0e2ce4a5610614",
+ "size": 1081568,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Xtream-Zugänge** (IPTV-Anbieter mit Server-Adresse, Benutzername und Passwort) – im Browser eintragen und testen (Abo-Ende, Verbindungen, Anzahl Sender).\n- Live-Sender erscheinen in Live-TV mit den Kategorien des Anbieters als Gruppen; seine Programmzeitschrift wird automatisch geladen. Bei Ausfall gilt die zuletzt geladene Fassung.\n- Filme und Serien des Anbieters unter Mediatheken: Kategorien, Staffeln, Suche, «Neu hinzugefügte Filme», Weiterschauen, Meine Sendungen.\n- VPN-Tunnel auch pro Xtream-Zugang.\n- Datenschutz: Das Passwort bleibt auf der Box (nur für die Box lesbar), wird dem Browser nie gezeigt; Benutzername und Passwort werden in Protokoll und Anzeigen unkenntlich gemacht (auch bei der Programmzeitschrift).",
-  "en": "New: Xtream accounts - live channels in Live TV (with provider EPG), movies and series in Media libraries; credentials stay on the box."
+  "de": "- Neu: **Xtream-Zugänge direkt auf der Box** – MENU › Xtream-Zugänge: in vier Schritten Server-Adresse, Benutzername, Passwort und Name eingeben; die Box prüft den Zugang sofort und lädt die Sender. Klappt die Anmeldung nicht, bleiben die Eingaben für eine Korrektur stehen.\n- Im selben Menü: Zugang testen, ein-/ausschalten, Passwort ändern, umbenennen, löschen.\n- Anleitung und Hilfe nachgeführt.",
+  "en": "New: add and manage Xtream accounts directly on the box (MENU > Xtream accounts)."
  }
 }
