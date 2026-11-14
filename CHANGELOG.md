@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.9.1 – 2026-11-14
+
+- Korrektur: Menüpunkte (z.B. «VPN-Tunnel») werden erst geöffnet, wenn die Auswahl ganz geschlossen ist. Klappt das Öffnen nicht, erscheint eine Meldung, und die Einzelheiten stehen im Protokoll von Stream-Player (vorher passierte einfach nichts).
+
 ## 0.9.0 – 2026-11-13
 
 - Neu: VPN-Tunnel (WireGuard). Nur die Sender, die du wählst, laufen über den Tunnel – das normale Fernsehen und der Rest der Box bleiben unverändert. Auch die Namensauflösung läuft durch den Tunnel.
