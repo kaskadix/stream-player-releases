@@ -1,5 +1,14 @@
 # Stream-Player – Versionen
 
+## 0.22.0 – 2026-11-14
+
+- Neu: **Freie Filme** in der Übersicht der Mediatheken:
+  - **Blender Open Movies** – 15 Kurzfilme des Blender Studios (CC BY), z.B. Big Buck Bunny, Sintel, Tears of Steel, Spring.
+  - **WikiFlix** – tausende gemeinfreie Filme mit «Neu», «Gut bewertet», «Beliebt», Rubriken und Suche.
+- Abspielen bevorzugt MP4 vom Internet Archive, sonst WebM von Wikimedia Commons (bis 1080p).
+- «Mediatheken testen» prüft auch die freien Filme.
+- Anleitung Kapitel 9 nachgeführt.
+
 ## 0.21.0 – 2026-11-14
 
 - Neu: **Xtream-Zugänge direkt auf der Box** – MENU › Xtream-Zugänge: in vier Schritten Server-Adresse, Benutzername, Passwort und Name eingeben; die Box prüft den Zugang sofort und lädt die Sender. Klappt die Anmeldung nicht, bleiben die Eingaben für eine Korrektur stehen.

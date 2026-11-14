@@ -1,0 +1,112 @@
+{
+ "version": 1,
+ "updated": "2026-11-14",
+ "license": "(CC) Blender Foundation | studio.blender.org",
+ "blender": [
+  {
+   "id": "elephants-dream",
+   "title": "Elephants Dream",
+   "year": 2006,
+   "commons": "",
+   "summary": "Zwei Männer in einer rätselhaften, mechanischen Welt – der allererste offene Film des Blender-Projekts."
+  },
+  {
+   "id": "big-buck-bunny",
+   "title": "Big Buck Bunny",
+   "year": 2008,
+   "commons": "Big_Buck_Bunny_4K.webm",
+   "summary": "Ein gutmütiger Riesenhase lässt sich von drei frechen Nagern nicht länger ärgern. Ohne Dialog."
+  },
+  {
+   "id": "sintel",
+   "title": "Sintel",
+   "year": 2010,
+   "commons": "Sintel_movie_4K.webm",
+   "summary": "Ein Mädchen sucht seinen kleinen Drachen – ein Fantasy-Abenteuer über Verlust und Wiederfinden."
+  },
+  {
+   "id": "tears-of-steel",
+   "title": "Tears of Steel",
+   "year": 2012,
+   "commons": "",
+   "summary": "Science-Fiction in Amsterdam: Eine Gruppe will die Welt vor Robotern retten. Mit echten Schauspielern und Effekten."
+  },
+  {
+   "id": "caminandes-2",
+   "title": "Caminandes 2: Gran Dillama",
+   "year": 2013,
+   "commons": "",
+   "summary": "Lama Koro will in Patagonien an saftiges Gras – ein Zaun steht im Weg."
+  },
+  {
+   "id": "glass-half",
+   "title": "Glass Half",
+   "year": 2015,
+   "commons": "",
+   "summary": "Zwei Kunstkritiker im Museum – und ihre ganz eigenen Ansichten über Kunst."
+  },
+  {
+   "id": "cosmos-laundromat",
+   "title": "Cosmos Laundromat: First Cycle",
+   "year": 2015,
+   "commons": "",
+   "summary": "Ein lebensmüdes Schaf trifft einen seltsamen Verkäufer, der ihm ein anderes Leben verspricht."
+  },
+  {
+   "id": "caminandes-3",
+   "title": "Caminandes 3: Llamigos",
+   "year": 2016,
+   "commons": "",
+   "summary": "Lama Koro und ein Pinguin streiten sich um Beeren – im Winter."
+  },
+  {
+   "id": "agent-327",
+   "title": "Agent 327: Operation Barbershop",
+   "year": 2017,
+   "commons": "",
+   "summary": "Geheimagent 327 ermittelt in einem verdächtigen Friseursalon – nach dem niederländischen Comic."
+  },
+  {
+   "id": "hero",
+   "title": "Hero",
+   "year": 2018,
+   "commons": "",
+   "summary": "Gezeichneter Kurzfilm (2D in Blender): ein Kampf auf Leben und Tod in einer Fantasy-Welt."
+  },
+  {
+   "id": "spring",
+   "title": "Spring",
+   "year": 2019,
+   "commons": "",
+   "summary": "Eine Hirtin und ihr Hund begegnen alten Waldgeistern, um den Kreislauf des Lebens weiterzuführen."
+  },
+  {
+   "id": "coffee-run",
+   "title": "Coffee Run",
+   "year": 2020,
+   "commons": "",
+   "summary": "Eine junge Frau läuft mit ihrem Kaffee durch Erinnerungen an eine Trennung."
+  },
+  {
+   "id": "sprite-fright",
+   "title": "Sprite Fright",
+   "year": 2021,
+   "commons": "",
+   "summary": "Teenager machen einen Ausflug in den Wald und treffen auf kleine Pilzwesen – Horrorkomödie."
+  },
+  {
+   "id": "charge",
+   "title": "Charge",
+   "year": 2022,
+   "commons": "",
+   "summary": "Actionfilm in einer Zukunft mit knapper Energie: eine Kämpferin, ein Kraftwerk, ein Plan."
+  },
+  {
+   "id": "wing-it",
+   "title": "Wing It!",
+   "year": 2023,
+   "commons": "",
+   "summary": "Eine Katze und ein Hund bauen auf dem Bauernhof eine Rakete."
+  }
+ ]
+}

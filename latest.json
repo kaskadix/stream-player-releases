@@ -1,11 +1,11 @@
 {
- "version": "0.21.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.21.0_all.ipk",
- "sha256": "3a919918d5bcd21528e611df6f5d3eb5144a5cac12ea8f967e0e2ce4a5610614",
- "size": 1081568,
+ "version": "0.22.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.22.0_all.ipk",
+ "sha256": "941d2aa32459cf9ba9af4a635b5f3a267920e71ad13cf4f2e2e692195599d821",
+ "size": 1091328,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Xtream-Zugänge direkt auf der Box** – MENU › Xtream-Zugänge: in vier Schritten Server-Adresse, Benutzername, Passwort und Name eingeben; die Box prüft den Zugang sofort und lädt die Sender. Klappt die Anmeldung nicht, bleiben die Eingaben für eine Korrektur stehen.\n- Im selben Menü: Zugang testen, ein-/ausschalten, Passwort ändern, umbenennen, löschen.\n- Anleitung und Hilfe nachgeführt.",
-  "en": "New: add and manage Xtream accounts directly on the box (MENU > Xtream accounts)."
+  "de": "- Neu: **Freie Filme** in der Übersicht der Mediatheken:\n  - **Blender Open Movies** – 15 Kurzfilme des Blender Studios (CC BY), z.B. Big Buck Bunny, Sintel, Tears of Steel, Spring.\n  - **WikiFlix** – tausende gemeinfreie Filme mit «Neu», «Gut bewertet», «Beliebt», Rubriken und Suche.\n- Abspielen bevorzugt MP4 vom Internet Archive, sonst WebM von Wikimedia Commons (bis 1080p).\n- «Mediatheken testen» prüft auch die freien Filme.\n- Anleitung Kapitel 9 nachgeführt.",
+  "en": "New: Free films - Blender Open Movies (CC BY) and WikiFlix (public domain films)."
  }
 }
