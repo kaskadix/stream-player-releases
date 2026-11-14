@@ -1,11 +1,11 @@
 {
- "version": "0.9.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.4_all.ipk",
- "sha256": "d0bad75d7f806176de9293b4e564958d5ee75db362dd21b8d4656d1d03692134",
- "size": 395492,
+ "version": "0.9.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.5_all.ipk",
+ "sha256": "0a75dd4cfef4f78abfe131f8e6bff3123145ae8e7051e45aa792a3b6b3fba1f9",
+ "size": 396276,
  "date": "2026-11-14",
  "notes": {
-  "de": "- VPN im Browser verständlicher: Beim ersten Mal steht oben klar «Wähle eine PIN», «PIN ändern» erscheint erst, wenn es schon eine PIN gibt.\n- Fehlt die PIN, springt die Seite zum PIN-Feld. Ein leeres PIN-Feld zählt nicht mehr als falscher Versuch (vorher konnte das nach 5 Klicks die Eingabe für 5 Minuten sperren).\n- Nach dem Festlegen einer neuen PIN bleibt sie oben eingetragen, damit «Tunnel speichern» gleich klappt. Bei einem Fehler bleibt die eingefügte WireGuard-Datei im Feld stehen.",
-  "en": "VPN in the browser: clearer PIN handling; an empty PIN no longer counts as a wrong attempt."
+  "de": "- Korrektur: Auf openATV 7.6 liess sich der VPN-Tunnel nicht aufbauen («Exec format error: 'ip'»). Stream-Player sucht die nötigen Programme jetzt selbst und nimmt nur solche, die sich wirklich starten lassen.\n- Sicherheit: Ein Sender, der über einen Tunnel laufen soll, wird nie mehr an den Abspieler «direkt» weitergereicht (bisher bei verschlüsselten Streams möglich). Geht er nur direkt, wird er bei VPN nicht abgespielt.",
+  "en": "Fix: VPN tunnel could not start on openATV 7.6 ('Exec format error: ip'). Security: tunnel channels are never handed to the player directly."
  }
 }
