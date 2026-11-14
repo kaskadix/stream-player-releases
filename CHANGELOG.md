@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.12.1 – 2026-11-14
+
+- Browser: «Jetzt laden» bei der Programmzeitschrift speichert die eingetragenen EPG-Adressen zuerst. Vorher ging eine neu eingetragene Adresse verloren, wenn man nicht zuerst «Speichern» klickte.
+
 ## 0.12.0 – 2026-11-14
 
 - Neu: **Programmzeitschrift (EPG)**. In der Senderliste steht unter jedem Sender die laufende Sendung; rechts unten Zeit, Fortschritt, Beschreibung und was danach kommt. Die Infoleiste im Vollbild zeigt Jetzt und Danach.
