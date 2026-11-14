@@ -1,11 +1,11 @@
 {
- "version": "0.13.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.2_all.ipk",
- "sha256": "f942dbe54b45bdfbd8849af405e9f4ef03f48b7e3dccb5a6e9de6001e111b392",
- "size": 667392,
+ "version": "0.13.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.13.3_all.ipk",
+ "sha256": "7772edd6c74d5d791da3cd818e60c2298d125d208f55299c98812cef52a99267",
+ "size": 670872,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Abbrüche nach ein paar Minuten: Lief ein Stream schon eine Weile, verbindet der Relay jetzt immer wieder neu (bis zu 3 Mal hintereinander, dann die anderen Streams) und gibt nicht mehr auf, solange zwischendurch etwas läuft. Vorher war nach wenigen Abbrüchen Schluss.\n- Bricht die Wiedergabe im Vollbild nach Bild trotzdem ab, startet Stream-Player den Sender von selbst neu («Unterbrochen – verbinde neu …»), bis zu 5 Mal hintereinander. Das gilt auch für Streams, die ohne Relay laufen.",
-  "en": "Streams that drop after some minutes reconnect automatically (relay keeps retrying; full screen restarts up to 5 times)."
+  "de": "- Senderlogos besser lesbar: Stream-Player prüft im Hintergrund die Helligkeit jedes Logos. Dunkle und farbige Logos stehen jetzt auf einer hellen Kachel, weisse Logos (auf durchsichtigem Grund) auf der dunklen – in der Senderliste und in der Infoleiste.",
+  "en": "Channel logos easier to read: light tile for dark/coloured logos, dark tile for white logos (detected in the background)."
  }
 }
