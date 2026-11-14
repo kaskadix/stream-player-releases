@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.23.0 – 2026-11-14
+
+- Neu: Bereich **Suche** – eine Suche für alles: Live-TV-Sender, Programm der nächsten 24 Stunden, Plex, alle Mediatheken, Xtream und freie Filme gleichzeitig (höchstens 20 Sekunden).
+- Treffer nach Quelle sortiert, z.B. «ARD Mediathek (30)»; Sender und Sendungen aus dem Programm starten direkt im Vollbild, Videos wie in der Mediathek (mit Weiterschauen).
+- Plex-Treffer laufen mit dem Fortschritt des Plex-Servers.
+- Die letzten 10 Suchbegriffe stehen unter der Eingabe; ROT startet eine neue Suche.
+- Hilfe auf der Box und Anleitung (Kapitel 9) nachgeführt.
+
 ## 0.22.1 – 2026-11-14
 
 - WikiFlix: Filme zeigen jetzt ihren Titel statt «Q244971».

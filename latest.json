@@ -1,11 +1,11 @@
 {
- "version": "0.22.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.22.1_all.ipk",
- "sha256": "9e84864856c641ec7537b8c02697e02ab64d789cab75d03b8fa66c2c9fe340c2",
- "size": 1091730,
+ "version": "0.23.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.23.0_all.ipk",
+ "sha256": "6803cff98648782ae7cdf1092bc73eb56fe0a8c2e83c721c2ecd827ad0663077",
+ "size": 1145324,
  "date": "2026-11-14",
  "notes": {
-  "de": "- WikiFlix: Filme zeigen jetzt ihren Titel statt «Q244971».\n- WikiFlix: Filme, die es nur bei YouTube, Vimeo oder Dailymotion gibt (laufen auf der Box nicht direkt), werden ausgeblendet; Stummfilme sind markiert.\n- WikiFlix-Rubriken: fehlt ein deutscher Name, steht der englische da.",
-  "en": "WikiFlix: real film titles, hide YouTube-only films, section names fallback."
+  "de": "- Neu: Bereich **Suche** – eine Suche für alles: Live-TV-Sender, Programm der nächsten 24 Stunden, Plex, alle Mediatheken, Xtream und freie Filme gleichzeitig (höchstens 20 Sekunden).\n- Treffer nach Quelle sortiert, z.B. «ARD Mediathek (30)»; Sender und Sendungen aus dem Programm starten direkt im Vollbild, Videos wie in der Mediathek (mit Weiterschauen).\n- Plex-Treffer laufen mit dem Fortschritt des Plex-Servers.\n- Die letzten 10 Suchbegriffe stehen unter der Eingabe; ROT startet eine neue Suche.\n- Hilfe auf der Box und Anleitung (Kapitel 9) nachgeführt.",
+  "en": "New Search area: one search across live TV channels, the programme guide (next 24 hours), Plex, all media libraries, Xtream and free films; results grouped by source; search history."
  }
 }
