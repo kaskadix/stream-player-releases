@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.9.4 – 2026-11-14
+
+- VPN im Browser verständlicher: Beim ersten Mal steht oben klar «Wähle eine PIN», «PIN ändern» erscheint erst, wenn es schon eine PIN gibt.
+- Fehlt die PIN, springt die Seite zum PIN-Feld. Ein leeres PIN-Feld zählt nicht mehr als falscher Versuch (vorher konnte das nach 5 Klicks die Eingabe für 5 Minuten sperren).
+- Nach dem Festlegen einer neuen PIN bleibt sie oben eingetragen, damit «Tunnel speichern» gleich klappt. Bei einem Fehler bleibt die eingefügte WireGuard-Datei im Feld stehen.
+
 ## 0.9.3 – 2026-11-14
 
 - Korrektur: GRÜN «Neuer Tunnel» im Bildschirm «VPN-Tunnel» brachte die Box zum Absturz. Das Formular für einen neuen Tunnel öffnet jetzt normal.
