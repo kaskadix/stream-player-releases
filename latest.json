@@ -1,11 +1,11 @@
 {
- "version": "0.22.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.22.0_all.ipk",
- "sha256": "941d2aa32459cf9ba9af4a635b5f3a267920e71ad13cf4f2e2e692195599d821",
- "size": 1091328,
+ "version": "0.22.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.22.1_all.ipk",
+ "sha256": "9e84864856c641ec7537b8c02697e02ab64d789cab75d03b8fa66c2c9fe340c2",
+ "size": 1091730,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **Freie Filme** in der Übersicht der Mediatheken:\n  - **Blender Open Movies** – 15 Kurzfilme des Blender Studios (CC BY), z.B. Big Buck Bunny, Sintel, Tears of Steel, Spring.\n  - **WikiFlix** – tausende gemeinfreie Filme mit «Neu», «Gut bewertet», «Beliebt», Rubriken und Suche.\n- Abspielen bevorzugt MP4 vom Internet Archive, sonst WebM von Wikimedia Commons (bis 1080p).\n- «Mediatheken testen» prüft auch die freien Filme.\n- Anleitung Kapitel 9 nachgeführt.",
-  "en": "New: Free films - Blender Open Movies (CC BY) and WikiFlix (public domain films)."
+  "de": "- WikiFlix: Filme zeigen jetzt ihren Titel statt «Q244971».\n- WikiFlix: Filme, die es nur bei YouTube, Vimeo oder Dailymotion gibt (laufen auf der Box nicht direkt), werden ausgeblendet; Stummfilme sind markiert.\n- WikiFlix-Rubriken: fehlt ein deutscher Name, steht der englische da.",
+  "en": "WikiFlix: real film titles, hide YouTube-only films, section names fallback."
  }
 }

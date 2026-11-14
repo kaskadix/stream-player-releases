@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.22.1 – 2026-11-14
+
+- WikiFlix: Filme zeigen jetzt ihren Titel statt «Q244971».
+- WikiFlix: Filme, die es nur bei YouTube, Vimeo oder Dailymotion gibt (laufen auf der Box nicht direkt), werden ausgeblendet; Stummfilme sind markiert.
+- WikiFlix-Rubriken: fehlt ein deutscher Name, steht der englische da.
+
 ## 0.22.0 – 2026-11-14
 
 - Neu: **Freie Filme** in der Übersicht der Mediatheken:
