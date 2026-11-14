@@ -1,11 +1,11 @@
 {
- "version": "0.9.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.5_all.ipk",
- "sha256": "0a75dd4cfef4f78abfe131f8e6bff3123145ae8e7051e45aa792a3b6b3fba1f9",
- "size": 396276,
+ "version": "0.9.6",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.9.6_all.ipk",
+ "sha256": "9eb836e55948fb96635c495e1535d180a601a0feaaa298d9bd8df74d7276ee09",
+ "size": 397092,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Korrektur: Auf openATV 7.6 liess sich der VPN-Tunnel nicht aufbauen («Exec format error: 'ip'»). Stream-Player sucht die nötigen Programme jetzt selbst und nimmt nur solche, die sich wirklich starten lassen.\n- Sicherheit: Ein Sender, der über einen Tunnel laufen soll, wird nie mehr an den Abspieler «direkt» weitergereicht (bisher bei verschlüsselten Streams möglich). Geht er nur direkt, wird er bei VPN nicht abgespielt.",
-  "en": "Fix: VPN tunnel could not start on openATV 7.6 ('Exec format error: ip'). Security: tunnel channels are never handed to the player directly."
+  "de": "- Korrektur VPN auf älteren Boxen (z.B. VU+ mit openATV 7.6): Das dort installierte neue «ip»-Programm legt keine Tunnel-Schnittstelle an, meldet aber Erfolg. Stream-Player prüft jetzt, ob die Schnittstelle wirklich da ist, und nimmt sonst das «ip» von busybox.\n- Die Weiche «nur Stream-Player durch den Tunnel» hat einen zweiten, unabhängigen Weg (Markierung der Verbindungen), damit sie auf alten und neuen Boxen funktioniert.",
+  "en": "Fix VPN on older boxes (openATV 7.6): fall back to busybox ip; second routing path via connection marks."
  }
 }
