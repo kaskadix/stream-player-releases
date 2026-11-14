@@ -1,11 +1,11 @@
 {
- "version": "0.18.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.18.0_all.ipk",
- "sha256": "49262e3d94b490ad169c1486e01aa829bbec28d3f36912118af0f7c26a0078e9",
- "size": 1009634,
+ "version": "0.19.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.19.0_all.ipk",
+ "sha256": "870fa7de9cccbb0bf1294e4ac0510f5063b28a13ef441dbb46f272c9c0214caa",
+ "size": 1014918,
  "date": "2026-11-14",
  "notes": {
-  "de": "- Neu: **VPN pro Mediathek** – Videos mit «nur DE» über einen VPN-Tunnel holen: in der Mediathek MENU › «VPN für …», oder im Browser unter Mediatheken › VPN pro Mediathek.\n- Nur die Videos dieser Mediathek laufen durch den Tunnel; Spulen funktioniert (MP4 und HLS). «Tunnel für alle Sender» gilt für Mediatheken bewusst nicht.\n- Bei gesperrten Videos ohne Tunnel zeigt die Liste «MENU: VPN»; kommt auch über VPN kein Bild, schlägt die Box einen anderen Server vor.\n- Anleitung (Kapitel 9 und 10) und Hilfe nachgeführt.",
-  "en": "New: VPN per media library - geo-blocked videos through a WireGuard tunnel, with seeking."
+  "de": "- Neu: **Nachrichten-Livestreams** in der Übersicht der Mediatheken – tagesschau24, Euronews, DW, France 24, Al Jazeera, Bloomberg, NHK World, TRT World, Africanews (Deutsch, Englisch, Französisch, Spanisch). OK startet den Sender im Vollbild, P+/P- wechselt zum nächsten.\n- Nur offizielle Adressen der Sender; die Liste wird gelegentlich aus dem Internet nachgeführt (news.json), sonst gilt die eingebaute Fassung.\n- Anleitung und Hilfe nachgeführt.",
+  "en": "New: News livestreams (official free streams: tagesschau24, DW, France 24, Euronews, Al Jazeera, Bloomberg, NHK World ...)."
  }
 }

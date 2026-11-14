@@ -1,0 +1,131 @@
+{
+ "version": 1,
+ "updated": "2026-11-14",
+ "source": "Offizielle Adressen der Sender, geprueft mit iptv-org",
+ "channels": [
+  {
+   "name": "tagesschau24",
+   "group": "Deutsch",
+   "tvg_id": "tagesschau24.de",
+   "urls": [
+    "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+   ]
+  },
+  {
+   "name": "Euronews Deutsch",
+   "group": "Deutsch",
+   "tvg_id": "EuronewsGerman.fr",
+   "urls": [
+    "https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8"
+   ]
+  },
+  {
+   "name": "DW English",
+   "group": "English",
+   "tvg_id": "DW.de",
+   "urls": [
+    "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
+   ]
+  },
+  {
+   "name": "France 24 English",
+   "group": "English",
+   "tvg_id": "France24.fr",
+   "urls": [
+    "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+    "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
+   ]
+  },
+  {
+   "name": "Euronews English",
+   "group": "English",
+   "tvg_id": "EuronewsEnglish.fr",
+   "urls": [
+    "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8"
+   ]
+  },
+  {
+   "name": "Al Jazeera English",
+   "group": "English",
+   "tvg_id": "AlJazeeraEnglish.qa",
+   "urls": [
+    "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+    "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8"
+   ]
+  },
+  {
+   "name": "Bloomberg TV Europe",
+   "group": "English",
+   "tvg_id": "BloombergTVEurope.us",
+   "urls": [
+    "https://bloomberg.com/media-manifest/streams/eu.m3u8"
+   ]
+  },
+  {
+   "name": "NHK World-Japan",
+   "group": "English",
+   "tvg_id": "NHKWorldJapan.jp",
+   "urls": [
+    "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
+    "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8"
+   ]
+  },
+  {
+   "name": "TRT World",
+   "group": "English",
+   "tvg_id": "TRTWorld.tr",
+   "urls": [
+    "https://tv-trtworld.medya.trt.com.tr/master.m3u8"
+   ]
+  },
+  {
+   "name": "Africanews English",
+   "group": "English",
+   "tvg_id": "AfricanewsEnglish.fr",
+   "urls": [
+    "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8"
+   ]
+  },
+  {
+   "name": "France 24 Français",
+   "group": "Français",
+   "tvg_id": "France24French.fr",
+   "urls": [
+    "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+    "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8"
+   ]
+  },
+  {
+   "name": "Euronews Français",
+   "group": "Français",
+   "tvg_id": "EuronewsFrench.fr",
+   "urls": [
+    "https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8"
+   ]
+  },
+  {
+   "name": "Africanews Français",
+   "group": "Français",
+   "tvg_id": "AfricanewsFrench.fr",
+   "urls": [
+    "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8"
+   ]
+  },
+  {
+   "name": "France 24 Español",
+   "group": "Español",
+   "tvg_id": "France24Spanish.fr",
+   "urls": [
+    "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8"
+   ]
+  },
+  {
+   "name": "DW Español",
+   "group": "Español",
+   "tvg_id": "DWEspanol.de",
+   "urls": [
+    "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8"
+   ]
+  }
+ ]
+}
