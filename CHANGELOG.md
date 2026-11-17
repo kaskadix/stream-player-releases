@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.28.4 – 2026-11-17
+
+- Behoben: Live-Aufnahmen konnten bei «Aufnahme wird vorbereitet …» stehen bleiben. Auf langsamen Boxen braucht das Relay beim Start länger; Stream-Player beendete es dann und startete es neu – immer wieder. Jetzt wartet er bis zu 60 Sekunden, bis es bereit ist.
+- «Ab jetzt aufnehmen» öffnet die Aufnahme sofort, statt auf die nächste Prüfung zu warten. Aufträge an den Download-Dienst kommen garantiert in der richtigen Reihenfolge an.
+- Kann eine Aufnahme nicht vorbereitet werden, zeigt der Download-Manager den Grund («Problem: …», z.B. VPN-Tunnel nicht verfügbar).
+- Download-Manager zeigt den vollständigen Dateinamen («Datei: …»), nicht nur den Ordner.
+- Neu: MENU › «Protokoll anzeigen (für die Fehlersuche)» direkt auf der Box.
+
 ## 0.28.3 – 2026-11-17
 
 - Laufwerksliste zeigt genauer, was was ist: Festplatte, USB-Laufwerk (mit Hersteller/Modell und Gerätename wie sdb1), Speicherkarte, Netzwerk (mit Freigabe), freier Platz von Gesamtgrösse; schreibgeschützt eingebundene Laufwerke werden als solche bezeichnet.

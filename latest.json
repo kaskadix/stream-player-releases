@@ -1,11 +1,11 @@
 {
- "version": "0.28.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.3_all.ipk",
- "sha256": "5554a150f4d4b6ee5097606f5752661b671a33477fdc46dad7b51808d163ad10",
- "size": 1375910,
+ "version": "0.28.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.4_all.ipk",
+ "sha256": "ba1a5fc42d4c7deaa77e8cb8403de5af3d59596353c749f11a793595e21539ea",
+ "size": 1377278,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Laufwerksliste zeigt genauer, was was ist: Festplatte, USB-Laufwerk (mit Hersteller/Modell und Gerätename wie sdb1), Speicherkarte, Netzwerk (mit Freigabe), freier Platz von Gesamtgrösse; schreibgeschützt eingebundene Laufwerke werden als solche bezeichnet.\n- Der interne Speicher der Box (Flash) steht immer zuunterst in der Liste, als «nicht empfohlen» markiert. Auch andere Partitionen des eingebauten Speichers (eMMC) gelten als intern.\n- Neu in jedem Ordner: «Vorschlag: Ordner «Stream-Player» hier anlegen und nehmen». Neue Ordner dürfen mehrere Ebenen haben (z.B. Stream-Player/Filme).",
-  "en": "Drive list shows type, model, device and size; internal flash always listed as not recommended; suggested folder Stream-Player."
+  "de": "- Behoben: Live-Aufnahmen konnten bei «Aufnahme wird vorbereitet …» stehen bleiben. Auf langsamen Boxen braucht das Relay beim Start länger; Stream-Player beendete es dann und startete es neu – immer wieder. Jetzt wartet er bis zu 60 Sekunden, bis es bereit ist.\n- «Ab jetzt aufnehmen» öffnet die Aufnahme sofort, statt auf die nächste Prüfung zu warten. Aufträge an den Download-Dienst kommen garantiert in der richtigen Reihenfolge an.\n- Kann eine Aufnahme nicht vorbereitet werden, zeigt der Download-Manager den Grund («Problem: …», z.B. VPN-Tunnel nicht verfügbar).\n- Download-Manager zeigt den vollständigen Dateinamen («Datei: …»), nicht nur den Ordner.\n- Neu: MENU › «Protokoll anzeigen (für die Fehlersuche)» direkt auf der Box.",
+  "en": "Fix: live recordings could hang at 'preparing' (slow relay start was killed repeatedly). Shows the problem and full file name; log viewer in the download manager."
  }
 }
