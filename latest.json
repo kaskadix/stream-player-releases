@@ -1,11 +1,11 @@
 {
- "version": "0.31.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.31.0_all.ipk",
- "sha256": "da8c922783bfa4f6a0bcfcf2140abaca43c00e5700ec21e48f7531772d4db882",
- "size": 1404020,
+ "version": "0.32.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.32.0_all.ipk",
+ "sha256": "ef6bbfafd4ee9c4c21595a0f88c73ad0df2937e2f66b6bb59a07b5a77de135e9",
+ "size": 1407356,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Neu: **Titelbild und Beschreibung** neben jedem Download (poster.jpg bzw. Name.jpg und .nfo) – Plex, Kodi, Jellyfin und das Archiv zeigen sie auch ohne Internet. Aufnahmen bekommen eine .meta-Datei für die Aufnahmeliste der Box.\n- Neu: **Untertitel automatisch** – nach Filmen und Folgen wird ein Untertitel in deiner Sprache gesucht und als Name.de.srt gespeichert.\n- Neu: **Handy-Meldung** über die App ntfy (fertig, fehlgeschlagen, neue Abo-Folgen, aufgeräumt); Test-Meldung im Download-Manager-Menü.\n- Neu: **Speicher aufräumen** – bei zu wenig freiem Platz werden gesehene Videos gelöscht (älteste zuerst, nur nach 2 Tagen, nie Ungesehenes).\n- Archiv: Löschen nimmt auch Titelbild und Beschreibung mit; leere Ordner verschwinden.\n- Alles einzeln ein-/ausschaltbar (Download-Manager › BLAU).",
-  "en": "New: cover picture and description next to downloads, automatic subtitles, phone messages via ntfy, storage cleanup of watched videos."
+  "de": "- Neu: **Untertitel der Mediatheken** – ARD, ZDF, SRF und MediathekViewWeb liefern oft eigene Untertitel; sie stehen bei SUBTITLE als «Deutsch · von der Mediathek». Einmal gewählt, kommen sie bei weiteren Videos dieser Mediathek von selbst.\n- Untertitel im Format TTML/EBU-TT (ARD, ZDF) werden jetzt gelesen.\n- Gespeicherte Videos: Untertitel-Dateien neben dem Video (Name.de.srt) erscheinen bei SUBTITLE als «Datei neben dem Video».\n- Downloads aus Mediatheken speichern deren Untertitel als Name.de.srt mit (wenn «Titelbild und Beschreibung speichern» an ist).",
+  "en": "New: subtitles from the media libraries (ARD, ZDF, SRF, MediathekViewWeb), TTML support, subtitle files next to saved videos."
  }
 }

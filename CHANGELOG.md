@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.32.0 – 2026-11-17
+
+- Neu: **Untertitel der Mediatheken** – ARD, ZDF, SRF und MediathekViewWeb liefern oft eigene Untertitel; sie stehen bei SUBTITLE als «Deutsch · von der Mediathek». Einmal gewählt, kommen sie bei weiteren Videos dieser Mediathek von selbst.
+- Untertitel im Format TTML/EBU-TT (ARD, ZDF) werden jetzt gelesen.
+- Gespeicherte Videos: Untertitel-Dateien neben dem Video (Name.de.srt) erscheinen bei SUBTITLE als «Datei neben dem Video».
+- Downloads aus Mediatheken speichern deren Untertitel als Name.de.srt mit (wenn «Titelbild und Beschreibung speichern» an ist).
+
 ## 0.31.0 – 2026-11-17
 
 - Neu: **Titelbild und Beschreibung** neben jedem Download (poster.jpg bzw. Name.jpg und .nfo) – Plex, Kodi, Jellyfin und das Archiv zeigen sie auch ohne Internet. Aufnahmen bekommen eine .meta-Datei für die Aufnahmeliste der Box.
