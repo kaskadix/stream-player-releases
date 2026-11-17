@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.27.1 – 2026-11-17
+
+- Xtream-Downloads zählen jetzt alle offenen Verbindungen eines Zugangs zusammen: Schauen auf der Box, laufende Downloads und – laut Anbieter – andere Geräte (Handy, zweite Box). Es starten nur so viele Downloads, wie Verbindungen frei sind; alle weiteren desselben Zugangs warten («alle Xtream-Verbindungen belegt (2 von 2)») und starten von selbst, sobald eine frei wird.
+- Neue Grundeinstellung «Downloads pro Xtream-Zugang: so viele, wie der Zugang erlaubt» (vorher fest 1); 1 oder 2 bleiben wählbar.
+- Download-Manager zeigt pro Xtream-Download, wie viele Verbindungen belegt sind.
+
 ## 0.27.0 – 2026-11-17
 
 - Neu: **Download-Manager** (MENU › Download-Manager, oder Mediatheken › Downloads) – Filme und Serien aus Mediatheken, Freie Filme, Xtream und Plex herunterladen:

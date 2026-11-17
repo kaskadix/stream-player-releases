@@ -1,11 +1,11 @@
 {
- "version": "0.27.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.0_all.ipk",
- "sha256": "1a752a945fdf450542a0c88e69bd89dfb24218d9f56aa8ed59f1d4d02ab71c81",
- "size": 1355104,
+ "version": "0.27.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.1_all.ipk",
+ "sha256": "ed60f9d81c2059867f124ec77eb61c550d68e9ccef7d1997417a90de5a49c4e2",
+ "size": 1356688,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Neu: **Download-Manager** (MENU › Download-Manager, oder Mediatheken › Downloads) – Filme und Serien aus Mediatheken, Freie Filme, Xtream und Plex herunterladen:\n  - MENU auf einem Video › «herunterladen»; auf einer Staffel oder Serie › «Alle Videos herunterladen» (zählt die Folgen und fragt nach)\n  - läuft als eigener Hintergrunddienst: weiter bei geschlossenem Plugin, im Standby und nach einem Neustart; macht nach Abbrüchen dort weiter, wo er war; versucht es bei Netzfehlern selbst nochmals\n  - Warteschlange: anhalten, weiter, nach vorne, löschen (mit oder ohne Datei); fertige Downloads mit OK abspielen (mit Weiterschauen)\n  - HLS-Videos: beste Qualität bis zur gewählten Grenze, auch verschlüsselte (AES-128); Live-Streams und DRM werden klar gemeldet\n  - **Xtream-Schutz:** ein Download belegt eine Verbindung – nie mehr als der Zugang erlaubt; schaust du auf demselben Zugang, hält der Download an und läuft danach weiter. Deutlicher Hinweis im Manager.\n  - prüft freien Platz und ob der Ordner (z.B. NAS) erreichbar ist\n  - VPN-Tunnel einer Mediathek gilt auch für ihre Downloads\n- Einstellungen (BLAU im Download-Manager), jede einzeln ein-/ausschaltbar: Ordner frei wählbar (Festplatte, USB, NAS), 1–3 gleichzeitig, Tempo-Bremse, Zeitfenster, höchste Qualität, Downloads pro Xtream-Zugang, Ordner und Namen für Plex/Kodi.\n- Hilfe auf der Box und Anleitung (neues Kapitel 10) nachgeführt.",
-  "en": "New download manager: download films and series from media libraries, free films, Xtream and Plex; background service with resume, queue, parallel downloads, speed limit, time window, Xtream connection protection, Plex/Kodi folder layout."
+  "de": "- Xtream-Downloads zählen jetzt alle offenen Verbindungen eines Zugangs zusammen: Schauen auf der Box, laufende Downloads und – laut Anbieter – andere Geräte (Handy, zweite Box). Es starten nur so viele Downloads, wie Verbindungen frei sind; alle weiteren desselben Zugangs warten («alle Xtream-Verbindungen belegt (2 von 2)») und starten von selbst, sobald eine frei wird.\n- Neue Grundeinstellung «Downloads pro Xtream-Zugang: so viele, wie der Zugang erlaubt» (vorher fest 1); 1 oder 2 bleiben wählbar.\n- Download-Manager zeigt pro Xtream-Download, wie viele Verbindungen belegt sind.",
+  "en": "Xtream downloads count all open connections of an account (watching, downloads, other devices); extra downloads wait until a connection is free."
  }
 }
