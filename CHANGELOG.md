@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.28.8 – 2026-11-17
+
+- Aufnahmen von Sendern mit getrenntem Bild und Ton (z.B. FAST-Sender mit fMP4): ffmpeg setzt beides während der Aufnahme zu einer .ts-Datei zusammen; bricht es ab, startet es von selbst neu.
+- Fehlt ffmpeg, bietet der Download-Manager bei OK an, es einmalig aus der Paketliste des Images zu installieren («ffmpeg jetzt installieren»); danach läuft der Auftrag von selbst wieder an.
+
 ## 0.28.7 – 2026-11-17
 
 - Behoben: Bei Sendern, die das Relay nicht umwandeln kann (z.B. fMP4-Streams wie bei manchen FAST-Sendern), landete in der Aufnahme nur die Adressliste des Senders statt des Videos – die Datei liess sich nicht abspielen. Solche Sender nimmt der Download-Dienst jetzt selbst als HLS auf (laufend neue Abschnitte, lückenlos); fMP4 ergibt eine .mp4-Datei.
