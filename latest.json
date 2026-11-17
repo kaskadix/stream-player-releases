@@ -1,11 +1,11 @@
 {
- "version": "0.28.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.0_all.ipk",
- "sha256": "51d656bd874c32a40aa6ccc4c3c4c9ba417bdfe308f0d213abde960d67d612b0",
- "size": 1367670,
+ "version": "0.28.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.1_all.ipk",
+ "sha256": "15f23ce77867ce47f2f410008a217bbda0d5286da8a09ded66ead3eaa17cacdc",
+ "size": 1372064,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Neu: **Live-TV aufnehmen** – REC auf einem Sender (Senderliste, Vollbild) oder im Programm:\n  - laufende Sendung, ab jetzt für 30 Min bis 3 Std, nächste Sendung, beliebige Sendung aus dem Programm\n  - **Serien-Aufnahme:** alle Folgen einer Sendung, auf Wunsch ohne Wiederholungen; neue Folgen werden bis 48 Std im Voraus eingeplant\n  - laufende Aufnahme jederzeit beenden (Datei bleibt)\n- Aufnahmen laufen über das Relay: bei Ausfällen automatisch auf Ersatz-Streams, mit dem VPN-Tunnel des Senders; einstellbarer Vor- und Nachlauf (2 / 10 Min).\n- Die Box wacht für geplante Aufnahmen aus dem Tiefschlaf auf (abschaltbar).\n- Xtream: Aufnahmen haben Vorrang – ein Download gibt die Verbindung frei und läuft danach weiter.\n- Download-Manager zeigt Aufnahmen (◷ geplant, ● nimmt auf); GRÜN beendet eine laufende Aufnahme. Programm zeigt geplante Aufnahmen mit ●.\n- Hilfe auf der Box und Anleitung (Kapitel 10) nachgeführt.",
-  "en": "Live TV recordings: REC on a channel or in the guide - current programme, from now on, from the guide, series recordings; via the relay with backup streams and VPN; padding; wakes the box from deep standby."
+  "de": "- Behoben: Die Wahl des Download-Ordners in den Einstellungen hing mit Dauer-Spinner. Neue eigene Ordnerauswahl: Laufwerk wählen, in Unterordner wechseln, neuen Ordner anlegen. Jede Abfrage läuft im Hintergrund mit Zeitlimit – antwortet ein NAS nicht, kommt eine klare Meldung statt Hängen.\n- Schutz des internen Speichers: «Automatisch» nimmt nie den kleinen internen Speicher der Box (z.B. ein leeres /media/hdd ohne Festplatte); bei eigener Wahl warnt Stream-Player deutlich. Der Download-Manager zeigt «interner Speicher!» an.\n- Download-Manager: Ordner und freier Platz werden im Hintergrund geprüft – die Anzeige bleibt flüssig, auch wenn das NAS schläft.",
+  "en": "Fix: choosing the download folder hung with an endless spinner. New non-blocking folder picker with timeouts; internal box memory is never chosen automatically and shows a clear warning."
  }
 }

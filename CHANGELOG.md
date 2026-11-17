@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.28.1 – 2026-11-17
+
+- Behoben: Die Wahl des Download-Ordners in den Einstellungen hing mit Dauer-Spinner. Neue eigene Ordnerauswahl: Laufwerk wählen, in Unterordner wechseln, neuen Ordner anlegen. Jede Abfrage läuft im Hintergrund mit Zeitlimit – antwortet ein NAS nicht, kommt eine klare Meldung statt Hängen.
+- Schutz des internen Speichers: «Automatisch» nimmt nie den kleinen internen Speicher der Box (z.B. ein leeres /media/hdd ohne Festplatte); bei eigener Wahl warnt Stream-Player deutlich. Der Download-Manager zeigt «interner Speicher!» an.
+- Download-Manager: Ordner und freier Platz werden im Hintergrund geprüft – die Anzeige bleibt flüssig, auch wenn das NAS schläft.
+
 ## 0.28.0 – 2026-11-17
 
 - Neu: **Live-TV aufnehmen** – REC auf einem Sender (Senderliste, Vollbild) oder im Programm:
