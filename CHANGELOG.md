@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.28.7 – 2026-11-17
+
+- Behoben: Bei Sendern, die das Relay nicht umwandeln kann (z.B. fMP4-Streams wie bei manchen FAST-Sendern), landete in der Aufnahme nur die Adressliste des Senders statt des Videos – die Datei liess sich nicht abspielen. Solche Sender nimmt der Download-Dienst jetzt selbst als HLS auf (laufend neue Abschnitte, lückenlos); fMP4 ergibt eine .mp4-Datei.
+- Sender mit VPN werden dabei nie direkt (am VPN vorbei) aufgenommen; der Download-Manager sagt dann klar, warum.
+- Alte, defekte Aufnahmen erkennt der Download-Manager und sagt, dass man sie löschen und neu aufnehmen soll.
+- Das Protokoll zeigt beim Abspielen Dateityp und Grösse (Fehlersuche).
+
 ## 0.28.6 – 2026-11-17
 
 - Behoben: Aufnahmen spielten aus dem Download-Manager nur ein Bild und sprangen dann zurück. Lokale .ts-Dateien spielt jetzt der eigene Abspieler der Box (wie ihre normalen Aufnahmen). Endet die Wiedergabe nach wenigen Sekunden, versucht Stream-Player automatisch den nächsten Abspieler (GStreamer, exteplayer3).

@@ -1,11 +1,11 @@
 {
- "version": "0.28.6",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.6_all.ipk",
- "sha256": "6126e25927c1e7ae1e9937426e18298a8cbd087d9675e02e0b225364c499b7fa",
- "size": 1380800,
+ "version": "0.28.7",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.7_all.ipk",
+ "sha256": "5494c5b4c4e3b959b2d12591e2969c45b1a073c06f15d313dc8ae6d182afa489",
+ "size": 1382026,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Behoben: Aufnahmen spielten aus dem Download-Manager nur ein Bild und sprangen dann zurück. Lokale .ts-Dateien spielt jetzt der eigene Abspieler der Box (wie ihre normalen Aufnahmen). Endet die Wiedergabe nach wenigen Sekunden, versucht Stream-Player automatisch den nächsten Abspieler (GStreamer, exteplayer3).\n- Ein Ende nach wenigen Sekunden zählt nicht mehr als «gesehen».",
-  "en": "Fix: recordings played only one frame. Local .ts files use the box's own player, with automatic fallback to other players."
+  "de": "- Behoben: Bei Sendern, die das Relay nicht umwandeln kann (z.B. fMP4-Streams wie bei manchen FAST-Sendern), landete in der Aufnahme nur die Adressliste des Senders statt des Videos – die Datei liess sich nicht abspielen. Solche Sender nimmt der Download-Dienst jetzt selbst als HLS auf (laufend neue Abschnitte, lückenlos); fMP4 ergibt eine .mp4-Datei.\n- Sender mit VPN werden dabei nie direkt (am VPN vorbei) aufgenommen; der Download-Manager sagt dann klar, warum.\n- Alte, defekte Aufnahmen erkennt der Download-Manager und sagt, dass man sie löschen und neu aufnehmen soll.\n- Das Protokoll zeigt beim Abspielen Dateityp und Grösse (Fehlersuche).",
+  "en": "Fix: recordings of channels the relay cannot convert (fMP4/HLS) contained only the playlist. Such channels are now recorded as live HLS (never bypassing a VPN)."
  }
 }
