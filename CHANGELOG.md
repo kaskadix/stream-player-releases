@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.28.9 – 2026-11-17
+
+- Download-Manager: Ist ffmpeg schon auf der Box, bietet OK bei einem Auftrag, der wegen getrenntem Bild und Ton fehlschlug, «Jetzt nochmals versuchen» an (vorher fehlte dann jede Option).
+
 ## 0.28.8 – 2026-11-17
 
 - Aufnahmen von Sendern mit getrenntem Bild und Ton (z.B. FAST-Sender mit fMP4): ffmpeg setzt beides während der Aufnahme zu einer .ts-Datei zusammen; bricht es ab, startet es von selbst neu.
