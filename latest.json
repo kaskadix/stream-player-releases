@@ -1,11 +1,11 @@
 {
- "version": "0.28.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.2_all.ipk",
- "sha256": "977fdfc8b25debbf668f5d9cad651a657331d4e50c251a0f85a78aff27393060",
- "size": 1374240,
+ "version": "0.28.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.3_all.ipk",
+ "sha256": "5554a150f4d4b6ee5097606f5752661b671a33477fdc46dad7b51808d163ad10",
+ "size": 1375910,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Ordnerauswahl: **automatische Suche** nach allen Laufwerken – Festplatte, USB, Netzwerk (eingehängte Freigaben, automatisch verbundene Freigaben unter /media/autofs, /media/net) und interner Speicher – mit Art und freiem Platz; nicht erreichbare Laufwerke zeigen «antwortet nicht». Alle werden parallel mit Zeitlimit geprüft.\n- Neu: «Pfad selbst eingeben …» (fehlender Ordner wird auf Wunsch angelegt), «Neu suchen» und «Ganze Box durchsuchen (ab /)».",
-  "en": "Folder picker: automatic search for all drives (disk, USB, network incl. autofs, internal) with free space, manual path entry, browse from /."
+  "de": "- Laufwerksliste zeigt genauer, was was ist: Festplatte, USB-Laufwerk (mit Hersteller/Modell und Gerätename wie sdb1), Speicherkarte, Netzwerk (mit Freigabe), freier Platz von Gesamtgrösse; schreibgeschützt eingebundene Laufwerke werden als solche bezeichnet.\n- Der interne Speicher der Box (Flash) steht immer zuunterst in der Liste, als «nicht empfohlen» markiert. Auch andere Partitionen des eingebauten Speichers (eMMC) gelten als intern.\n- Neu in jedem Ordner: «Vorschlag: Ordner «Stream-Player» hier anlegen und nehmen». Neue Ordner dürfen mehrere Ebenen haben (z.B. Stream-Player/Filme).",
+  "en": "Drive list shows type, model, device and size; internal flash always listed as not recommended; suggested folder Stream-Player."
  }
 }

@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.28.3 – 2026-11-17
+
+- Laufwerksliste zeigt genauer, was was ist: Festplatte, USB-Laufwerk (mit Hersteller/Modell und Gerätename wie sdb1), Speicherkarte, Netzwerk (mit Freigabe), freier Platz von Gesamtgrösse; schreibgeschützt eingebundene Laufwerke werden als solche bezeichnet.
+- Der interne Speicher der Box (Flash) steht immer zuunterst in der Liste, als «nicht empfohlen» markiert. Auch andere Partitionen des eingebauten Speichers (eMMC) gelten als intern.
+- Neu in jedem Ordner: «Vorschlag: Ordner «Stream-Player» hier anlegen und nehmen». Neue Ordner dürfen mehrere Ebenen haben (z.B. Stream-Player/Filme).
+
 ## 0.28.2 – 2026-11-17
 
 - Ordnerauswahl: **automatische Suche** nach allen Laufwerken – Festplatte, USB, Netzwerk (eingehängte Freigaben, automatisch verbundene Freigaben unter /media/autofs, /media/net) und interner Speicher – mit Art und freiem Platz; nicht erreichbare Laufwerke zeigen «antwortet nicht». Alle werden parallel mit Zeitlimit geprüft.
