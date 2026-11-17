@@ -1,11 +1,11 @@
 {
- "version": "0.27.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.1_all.ipk",
- "sha256": "ed60f9d81c2059867f124ec77eb61c550d68e9ccef7d1997417a90de5a49c4e2",
- "size": 1356688,
+ "version": "0.27.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.2_all.ipk",
+ "sha256": "b3ad7278344552d50fcd809061efef4a6abdc15707a2879b506b0f3bc6c29bc0",
+ "size": 1357558,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Xtream-Downloads zählen jetzt alle offenen Verbindungen eines Zugangs zusammen: Schauen auf der Box, laufende Downloads und – laut Anbieter – andere Geräte (Handy, zweite Box). Es starten nur so viele Downloads, wie Verbindungen frei sind; alle weiteren desselben Zugangs warten («alle Xtream-Verbindungen belegt (2 von 2)») und starten von selbst, sobald eine frei wird.\n- Neue Grundeinstellung «Downloads pro Xtream-Zugang: so viele, wie der Zugang erlaubt» (vorher fest 1); 1 oder 2 bleiben wählbar.\n- Download-Manager zeigt pro Xtream-Download, wie viele Verbindungen belegt sind.",
-  "en": "Xtream downloads count all open connections of an account (watching, downloads, other devices); extra downloads wait until a connection is free."
+  "de": "- REC-Taste startet Downloads: in Mediatheken, Suche, Freie Filme, Xtream und Plex öffnet REC ein Menü mit den Download-Möglichkeiten für den gewählten Eintrag (Video, Staffel, Serie) und «Download-Manager öffnen».\n- Beim Schauen eines Videos lädt REC genau dieses Video herunter.\n- Hilfe und Anleitung (Kapitel 10) nachgeführt.",
+  "en": "REC key opens the download options for the selected video, season or series, and downloads the video being watched."
  }
 }

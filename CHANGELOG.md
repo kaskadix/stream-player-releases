@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.27.2 – 2026-11-17
+
+- REC-Taste startet Downloads: in Mediatheken, Suche, Freie Filme, Xtream und Plex öffnet REC ein Menü mit den Download-Möglichkeiten für den gewählten Eintrag (Video, Staffel, Serie) und «Download-Manager öffnen».
+- Beim Schauen eines Videos lädt REC genau dieses Video herunter.
+- Hilfe und Anleitung (Kapitel 10) nachgeführt.
+
 ## 0.27.1 – 2026-11-17
 
 - Xtream-Downloads zählen jetzt alle offenen Verbindungen eines Zugangs zusammen: Schauen auf der Box, laufende Downloads und – laut Anbieter – andere Geräte (Handy, zweite Box). Es starten nur so viele Downloads, wie Verbindungen frei sind; alle weiteren desselben Zugangs warten («alle Xtream-Verbindungen belegt (2 von 2)») und starten von selbst, sobald eine frei wird.
