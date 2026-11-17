@@ -1,11 +1,11 @@
 {
- "version": "0.28.10",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.10_all.ipk",
- "sha256": "bc75c5b099ecffcf4ce270e60aeedba6da94ff818808351d2603070a43bc107c",
- "size": 1383968,
+ "version": "0.29.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.29.0_all.ipk",
+ "sha256": "2b88ecdb2ac7139abc973df7b7d96c93f3b3418ff581818edf59c82434c1b4cb",
+ "size": 1391126,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Behoben: Aufnahmen mit getrenntem Bild und Ton (ffmpeg) liessen sich mit GRÜN nicht vorzeitig beenden – sie liefen bis zur geplanten Endzeit weiter. Jetzt endet die Aufnahme innert einer Sekunde; auch ein hängendes ffmpeg blockiert nichts mehr.\n- Neu: Laufende Aufnahme schon schauen – im Download-Manager OK auf der Aufnahme › «Von Anfang an schauen (Aufnahme läuft weiter)». Am Ende des bisher Aufgenommenen wartet die Wiedergabe kurz und läuft weiter.",
-  "en": "Fix: ffmpeg recordings could not be stopped early. New: watch a running recording from the start."
+  "de": "- Neu: Bereich **Archiv** (zwischen Mediatheken und Suche) mit allen Aufnahmen und Downloads aus dem Download-Ordner:\n  - Weiterschauen (angefangene Videos), Aufnahmen (alle – neueste zuerst – oder nach Sender), Filme, Serien (nach Staffel und Folge), Mediatheken\n  - Beschreibung, Sender, Datum, Länge, Grösse und Bild (wo vorhanden); freier Platz oben\n  - OK: abspielen und dort weiterschauen, wo du aufgehört hast; BLAU: von vorne; bei Serien läuft die nächste Folge von selbst\n  - ROT: Video löschen – auf einem Ordner alle Videos darin (mit Rückfrage), samt Untertitel- und Begleitdateien; leere Ordner verschwinden\n  - MENU: gesehen/ungesehen, Archiv neu einlesen\n  - Einstellung «Archiv: auch andere Videos zeigen»: auch fremde Videos und die normalen Aufnahmen der Box (mit Beschreibung aus der .meta-Datei)\n  - Alles Lesen und Löschen läuft im Hintergrund – ein schlafendes NAS hält die Box nicht auf.\n- Die Bereiche oben sind etwas schmaler, damit sechs Platz haben.",
+  "en": "New: Archive area with all recordings and downloads (continue watching, by channel, films, series by season, delete, watched marks)."
  }
 }

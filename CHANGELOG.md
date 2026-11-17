@@ -1,5 +1,17 @@
 # Stream-Player – Versionen
 
+## 0.29.0 – 2026-11-17
+
+- Neu: Bereich **Archiv** (zwischen Mediatheken und Suche) mit allen Aufnahmen und Downloads aus dem Download-Ordner:
+  - Weiterschauen (angefangene Videos), Aufnahmen (alle – neueste zuerst – oder nach Sender), Filme, Serien (nach Staffel und Folge), Mediatheken
+  - Beschreibung, Sender, Datum, Länge, Grösse und Bild (wo vorhanden); freier Platz oben
+  - OK: abspielen und dort weiterschauen, wo du aufgehört hast; BLAU: von vorne; bei Serien läuft die nächste Folge von selbst
+  - ROT: Video löschen – auf einem Ordner alle Videos darin (mit Rückfrage), samt Untertitel- und Begleitdateien; leere Ordner verschwinden
+  - MENU: gesehen/ungesehen, Archiv neu einlesen
+  - Einstellung «Archiv: auch andere Videos zeigen»: auch fremde Videos und die normalen Aufnahmen der Box (mit Beschreibung aus der .meta-Datei)
+  - Alles Lesen und Löschen läuft im Hintergrund – ein schlafendes NAS hält die Box nicht auf.
+- Die Bereiche oben sind etwas schmaler, damit sechs Platz haben.
+
 ## 0.28.10 – 2026-11-17
 
 - Behoben: Aufnahmen mit getrenntem Bild und Ton (ffmpeg) liessen sich mit GRÜN nicht vorzeitig beenden – sie liefen bis zur geplanten Endzeit weiter. Jetzt endet die Aufnahme innert einer Sekunde; auch ein hängendes ffmpeg blockiert nichts mehr.
