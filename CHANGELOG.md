@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.30.0 – 2026-11-17
+
+- Neu: **Abos** – neue Folgen einer Sendung oder Serie automatisch herunterladen (Mediatheken, Suche, Plex, Xtream): MENU › «Abo: neue Videos von … automatisch herunterladen», wahlweise auch alle bisherigen. Prüfung alle 1–24 Stunden (Standard 6), höchstens 20 neue auf einmal; verwalten unter Download-Manager › MENU › «Abos …».
+- Neu: **Ablaufendes zuerst** – Mediathek-Videos, die innert 7 Tagen offline gehen, kommen in der Warteschlange nach vorne; die Liste zeigt «online bis …» (ARD, ZDF, SRF, arte).
+- Neu: **Box-Schutz** – solange ein Download oder eine Aufnahme läuft, fragt die Box vor Tiefschlaf oder Neustart nach. Für eine Aufnahme geweckt, bleibt die Box im Standby und geht danach zurück in den Tiefschlaf (einstellbar).
+- Alle drei einzeln ein-/ausschaltbar (Download-Manager › BLAU).
+
 ## 0.29.0 – 2026-11-17
 
 - Neu: Bereich **Archiv** (zwischen Mediatheken und Suche) mit allen Aufnahmen und Downloads aus dem Download-Ordner:

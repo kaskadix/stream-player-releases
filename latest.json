@@ -1,11 +1,11 @@
 {
- "version": "0.29.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.29.0_all.ipk",
- "sha256": "2b88ecdb2ac7139abc973df7b7d96c93f3b3418ff581818edf59c82434c1b4cb",
- "size": 1391126,
+ "version": "0.30.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.30.0_all.ipk",
+ "sha256": "177466999dd5c530174524b296155632673f3dc94ab277490401dfa4109d3bee",
+ "size": 1396952,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Neu: Bereich **Archiv** (zwischen Mediatheken und Suche) mit allen Aufnahmen und Downloads aus dem Download-Ordner:\n  - Weiterschauen (angefangene Videos), Aufnahmen (alle – neueste zuerst – oder nach Sender), Filme, Serien (nach Staffel und Folge), Mediatheken\n  - Beschreibung, Sender, Datum, Länge, Grösse und Bild (wo vorhanden); freier Platz oben\n  - OK: abspielen und dort weiterschauen, wo du aufgehört hast; BLAU: von vorne; bei Serien läuft die nächste Folge von selbst\n  - ROT: Video löschen – auf einem Ordner alle Videos darin (mit Rückfrage), samt Untertitel- und Begleitdateien; leere Ordner verschwinden\n  - MENU: gesehen/ungesehen, Archiv neu einlesen\n  - Einstellung «Archiv: auch andere Videos zeigen»: auch fremde Videos und die normalen Aufnahmen der Box (mit Beschreibung aus der .meta-Datei)\n  - Alles Lesen und Löschen läuft im Hintergrund – ein schlafendes NAS hält die Box nicht auf.\n- Die Bereiche oben sind etwas schmaler, damit sechs Platz haben.",
-  "en": "New: Archive area with all recordings and downloads (continue watching, by channel, films, series by season, delete, watched marks)."
+  "de": "- Neu: **Abos** – neue Folgen einer Sendung oder Serie automatisch herunterladen (Mediatheken, Suche, Plex, Xtream): MENU › «Abo: neue Videos von … automatisch herunterladen», wahlweise auch alle bisherigen. Prüfung alle 1–24 Stunden (Standard 6), höchstens 20 neue auf einmal; verwalten unter Download-Manager › MENU › «Abos …».\n- Neu: **Ablaufendes zuerst** – Mediathek-Videos, die innert 7 Tagen offline gehen, kommen in der Warteschlange nach vorne; die Liste zeigt «online bis …» (ARD, ZDF, SRF, arte).\n- Neu: **Box-Schutz** – solange ein Download oder eine Aufnahme läuft, fragt die Box vor Tiefschlaf oder Neustart nach. Für eine Aufnahme geweckt, bleibt die Box im Standby und geht danach zurück in den Tiefschlaf (einstellbar).\n- Alle drei einzeln ein-/ausschaltbar (Download-Manager › BLAU).",
+  "en": "New: subscriptions (new episodes downloaded automatically), expiring videos first, box protection (no deep standby while running, back to deep standby after a wake-up recording)."
  }
 }
