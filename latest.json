@@ -1,11 +1,11 @@
 {
- "version": "0.26.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.26.2_all.ipk",
- "sha256": "32fb531ed822c827ec6f3b3c398469aaf1e4de28bfad29fb7a9d7bc68ea91800",
- "size": 1252958,
- "date": "2026-11-14",
+ "version": "0.27.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.0_all.ipk",
+ "sha256": "1a752a945fdf450542a0c88e69bd89dfb24218d9f56aa8ed59f1d4d02ab71c81",
+ "size": 1355104,
+ "date": "2026-11-17",
  "notes": {
-  "de": "- Podnapisi entfernt: der Dienst ist nicht mehr erreichbar.\n- Anleitung und Einstellungsseite: genauere Schritte für den OpenSubtitles-Schlüssel («NEW CONSUMER», «Allow anonymous» ein, «Under development» aus).",
-  "en": "Podnapisi removed (offline); clearer OpenSubtitles key instructions."
+  "de": "- Neu: **Download-Manager** (MENU › Download-Manager, oder Mediatheken › Downloads) – Filme und Serien aus Mediatheken, Freie Filme, Xtream und Plex herunterladen:\n  - MENU auf einem Video › «herunterladen»; auf einer Staffel oder Serie › «Alle Videos herunterladen» (zählt die Folgen und fragt nach)\n  - läuft als eigener Hintergrunddienst: weiter bei geschlossenem Plugin, im Standby und nach einem Neustart; macht nach Abbrüchen dort weiter, wo er war; versucht es bei Netzfehlern selbst nochmals\n  - Warteschlange: anhalten, weiter, nach vorne, löschen (mit oder ohne Datei); fertige Downloads mit OK abspielen (mit Weiterschauen)\n  - HLS-Videos: beste Qualität bis zur gewählten Grenze, auch verschlüsselte (AES-128); Live-Streams und DRM werden klar gemeldet\n  - **Xtream-Schutz:** ein Download belegt eine Verbindung – nie mehr als der Zugang erlaubt; schaust du auf demselben Zugang, hält der Download an und läuft danach weiter. Deutlicher Hinweis im Manager.\n  - prüft freien Platz und ob der Ordner (z.B. NAS) erreichbar ist\n  - VPN-Tunnel einer Mediathek gilt auch für ihre Downloads\n- Einstellungen (BLAU im Download-Manager), jede einzeln ein-/ausschaltbar: Ordner frei wählbar (Festplatte, USB, NAS), 1–3 gleichzeitig, Tempo-Bremse, Zeitfenster, höchste Qualität, Downloads pro Xtream-Zugang, Ordner und Namen für Plex/Kodi.\n- Hilfe auf der Box und Anleitung (neues Kapitel 10) nachgeführt.",
+  "en": "New download manager: download films and series from media libraries, free films, Xtream and Plex; background service with resume, queue, parallel downloads, speed limit, time window, Xtream connection protection, Plex/Kodi folder layout."
  }
 }

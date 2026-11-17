@@ -1,5 +1,18 @@
 # Stream-Player – Versionen
 
+## 0.27.0 – 2026-11-17
+
+- Neu: **Download-Manager** (MENU › Download-Manager, oder Mediatheken › Downloads) – Filme und Serien aus Mediatheken, Freie Filme, Xtream und Plex herunterladen:
+  - MENU auf einem Video › «herunterladen»; auf einer Staffel oder Serie › «Alle Videos herunterladen» (zählt die Folgen und fragt nach)
+  - läuft als eigener Hintergrunddienst: weiter bei geschlossenem Plugin, im Standby und nach einem Neustart; macht nach Abbrüchen dort weiter, wo er war; versucht es bei Netzfehlern selbst nochmals
+  - Warteschlange: anhalten, weiter, nach vorne, löschen (mit oder ohne Datei); fertige Downloads mit OK abspielen (mit Weiterschauen)
+  - HLS-Videos: beste Qualität bis zur gewählten Grenze, auch verschlüsselte (AES-128); Live-Streams und DRM werden klar gemeldet
+  - **Xtream-Schutz:** ein Download belegt eine Verbindung – nie mehr als der Zugang erlaubt; schaust du auf demselben Zugang, hält der Download an und läuft danach weiter. Deutlicher Hinweis im Manager.
+  - prüft freien Platz und ob der Ordner (z.B. NAS) erreichbar ist
+  - VPN-Tunnel einer Mediathek gilt auch für ihre Downloads
+- Einstellungen (BLAU im Download-Manager), jede einzeln ein-/ausschaltbar: Ordner frei wählbar (Festplatte, USB, NAS), 1–3 gleichzeitig, Tempo-Bremse, Zeitfenster, höchste Qualität, Downloads pro Xtream-Zugang, Ordner und Namen für Plex/Kodi.
+- Hilfe auf der Box und Anleitung (neues Kapitel 10) nachgeführt.
+
 ## 0.26.2 – 2026-11-14
 
 - Podnapisi entfernt: der Dienst ist nicht mehr erreichbar.
