@@ -1,5 +1,17 @@
 # Stream-Player – Versionen
 
+## 0.28.0 – 2026-11-17
+
+- Neu: **Live-TV aufnehmen** – REC auf einem Sender (Senderliste, Vollbild) oder im Programm:
+  - laufende Sendung, ab jetzt für 30 Min bis 3 Std, nächste Sendung, beliebige Sendung aus dem Programm
+  - **Serien-Aufnahme:** alle Folgen einer Sendung, auf Wunsch ohne Wiederholungen; neue Folgen werden bis 48 Std im Voraus eingeplant
+  - laufende Aufnahme jederzeit beenden (Datei bleibt)
+- Aufnahmen laufen über das Relay: bei Ausfällen automatisch auf Ersatz-Streams, mit dem VPN-Tunnel des Senders; einstellbarer Vor- und Nachlauf (2 / 10 Min).
+- Die Box wacht für geplante Aufnahmen aus dem Tiefschlaf auf (abschaltbar).
+- Xtream: Aufnahmen haben Vorrang – ein Download gibt die Verbindung frei und läuft danach weiter.
+- Download-Manager zeigt Aufnahmen (◷ geplant, ● nimmt auf); GRÜN beendet eine laufende Aufnahme. Programm zeigt geplante Aufnahmen mit ●.
+- Hilfe auf der Box und Anleitung (Kapitel 10) nachgeführt.
+
 ## 0.27.3 – 2026-11-17
 
 - Bilder formatgerecht: Querformat-Bilder (Szenenbilder von Folgen, Mediatheken) erscheinen gross im 16:9-Rahmen, Hochformat-Bilder (Film- und Serienplakate, Xtream, Freie Filme) im Plakat-Rahmen. Die Box erkennt das Format am Bild selbst. Vorher erschienen z.B. Folgenbilder von Plex klein in einem Plakat-Rahmen.

@@ -1,11 +1,11 @@
 {
- "version": "0.27.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.27.3_all.ipk",
- "sha256": "c0e916821f616f0077464cad8f074acab81f670a8efe3aea259e8a6474df7b4b",
- "size": 1358726,
+ "version": "0.28.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.0_all.ipk",
+ "sha256": "51d656bd874c32a40aa6ccc4c3c4c9ba417bdfe308f0d213abde960d67d612b0",
+ "size": 1367670,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Bilder formatgerecht: Querformat-Bilder (Szenenbilder von Folgen, Mediatheken) erscheinen gross im 16:9-Rahmen, Hochformat-Bilder (Film- und Serienplakate, Xtream, Freie Filme) im Plakat-Rahmen. Die Box erkennt das Format am Bild selbst. Vorher erschienen z.B. Folgenbilder von Plex klein in einem Plakat-Rahmen.",
-  "en": "Pictures fit their format: landscape stills large in the 16:9 frame, portrait posters in the poster frame."
+  "de": "- Neu: **Live-TV aufnehmen** – REC auf einem Sender (Senderliste, Vollbild) oder im Programm:\n  - laufende Sendung, ab jetzt für 30 Min bis 3 Std, nächste Sendung, beliebige Sendung aus dem Programm\n  - **Serien-Aufnahme:** alle Folgen einer Sendung, auf Wunsch ohne Wiederholungen; neue Folgen werden bis 48 Std im Voraus eingeplant\n  - laufende Aufnahme jederzeit beenden (Datei bleibt)\n- Aufnahmen laufen über das Relay: bei Ausfällen automatisch auf Ersatz-Streams, mit dem VPN-Tunnel des Senders; einstellbarer Vor- und Nachlauf (2 / 10 Min).\n- Die Box wacht für geplante Aufnahmen aus dem Tiefschlaf auf (abschaltbar).\n- Xtream: Aufnahmen haben Vorrang – ein Download gibt die Verbindung frei und läuft danach weiter.\n- Download-Manager zeigt Aufnahmen (◷ geplant, ● nimmt auf); GRÜN beendet eine laufende Aufnahme. Programm zeigt geplante Aufnahmen mit ●.\n- Hilfe auf der Box und Anleitung (Kapitel 10) nachgeführt.",
+  "en": "Live TV recordings: REC on a channel or in the guide - current programme, from now on, from the guide, series recordings; via the relay with backup streams and VPN; padding; wakes the box from deep standby."
  }
 }
