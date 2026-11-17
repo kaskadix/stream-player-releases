@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.28.6 – 2026-11-17
+
+- Behoben: Aufnahmen spielten aus dem Download-Manager nur ein Bild und sprangen dann zurück. Lokale .ts-Dateien spielt jetzt der eigene Abspieler der Box (wie ihre normalen Aufnahmen). Endet die Wiedergabe nach wenigen Sekunden, versucht Stream-Player automatisch den nächsten Abspieler (GStreamer, exteplayer3).
+- Ein Ende nach wenigen Sekunden zählt nicht mehr als «gesehen».
+
 ## 0.28.5 – 2026-11-17
 
 - Behoben: Beim Abspielen einer Aufnahme aus dem Download-Manager erschien nach 20 Sekunden «Die Datei lässt sich nicht abspielen», obwohl sie lief. Bei lokalen Dateien meldet der Abspieler nicht immer «Bild da»; jetzt zählt auch, dass die Wiedergabe-Position läuft.

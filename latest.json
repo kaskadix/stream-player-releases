@@ -1,11 +1,11 @@
 {
- "version": "0.28.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.5_all.ipk",
- "sha256": "cb4b9f5ebc464c74b9b744e4f9495df576fdc0277f88d1cdb8e5ee0c9d709fd4",
- "size": 1380298,
+ "version": "0.28.6",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.6_all.ipk",
+ "sha256": "6126e25927c1e7ae1e9937426e18298a8cbd087d9675e02e0b225364c499b7fa",
+ "size": 1380800,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Behoben: Beim Abspielen einer Aufnahme aus dem Download-Manager erschien nach 20 Sekunden «Die Datei lässt sich nicht abspielen», obwohl sie lief. Bei lokalen Dateien meldet der Abspieler nicht immer «Bild da»; jetzt zählt auch, dass die Wiedergabe-Position läuft.\n- Aufnahmen zeigen beim Abspielen Länge, Fortschrittsbalken und die Beschreibung aus dem Programm.",
-  "en": "Fix: playing a recording showed 'cannot be played' although it was playing; length and description shown."
+  "de": "- Behoben: Aufnahmen spielten aus dem Download-Manager nur ein Bild und sprangen dann zurück. Lokale .ts-Dateien spielt jetzt der eigene Abspieler der Box (wie ihre normalen Aufnahmen). Endet die Wiedergabe nach wenigen Sekunden, versucht Stream-Player automatisch den nächsten Abspieler (GStreamer, exteplayer3).\n- Ein Ende nach wenigen Sekunden zählt nicht mehr als «gesehen».",
+  "en": "Fix: recordings played only one frame. Local .ts files use the box's own player, with automatic fallback to other players."
  }
 }
