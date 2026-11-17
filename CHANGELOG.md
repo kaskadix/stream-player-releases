@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.28.10 – 2026-11-17
+
+- Behoben: Aufnahmen mit getrenntem Bild und Ton (ffmpeg) liessen sich mit GRÜN nicht vorzeitig beenden – sie liefen bis zur geplanten Endzeit weiter. Jetzt endet die Aufnahme innert einer Sekunde; auch ein hängendes ffmpeg blockiert nichts mehr.
+- Neu: Laufende Aufnahme schon schauen – im Download-Manager OK auf der Aufnahme › «Von Anfang an schauen (Aufnahme läuft weiter)». Am Ende des bisher Aufgenommenen wartet die Wiedergabe kurz und läuft weiter.
+
 ## 0.28.9 – 2026-11-17
 
 - Download-Manager: Ist ffmpeg schon auf der Box, bietet OK bei einem Auftrag, der wegen getrenntem Bild und Ton fehlschlug, «Jetzt nochmals versuchen» an (vorher fehlte dann jede Option).

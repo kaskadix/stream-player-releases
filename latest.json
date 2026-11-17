@@ -1,11 +1,11 @@
 {
- "version": "0.28.9",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.9_all.ipk",
- "sha256": "b6172756335e3e23bc8f57d41e035f586de9af19425941d3a839f2d0c1ffe44c",
- "size": 1383558,
+ "version": "0.28.10",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.10_all.ipk",
+ "sha256": "bc75c5b099ecffcf4ce270e60aeedba6da94ff818808351d2603070a43bc107c",
+ "size": 1383968,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Download-Manager: Ist ffmpeg schon auf der Box, bietet OK bei einem Auftrag, der wegen getrenntem Bild und Ton fehlschlug, «Jetzt nochmals versuchen» an (vorher fehlte dann jede Option).",
-  "en": "Download manager: offer 'try again' when ffmpeg is already installed."
+  "de": "- Behoben: Aufnahmen mit getrenntem Bild und Ton (ffmpeg) liessen sich mit GRÜN nicht vorzeitig beenden – sie liefen bis zur geplanten Endzeit weiter. Jetzt endet die Aufnahme innert einer Sekunde; auch ein hängendes ffmpeg blockiert nichts mehr.\n- Neu: Laufende Aufnahme schon schauen – im Download-Manager OK auf der Aufnahme › «Von Anfang an schauen (Aufnahme läuft weiter)». Am Ende des bisher Aufgenommenen wartet die Wiedergabe kurz und läuft weiter.",
+  "en": "Fix: ffmpeg recordings could not be stopped early. New: watch a running recording from the start."
  }
 }
