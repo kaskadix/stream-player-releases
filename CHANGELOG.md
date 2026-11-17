@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.28.2 – 2026-11-17
+
+- Ordnerauswahl: **automatische Suche** nach allen Laufwerken – Festplatte, USB, Netzwerk (eingehängte Freigaben, automatisch verbundene Freigaben unter /media/autofs, /media/net) und interner Speicher – mit Art und freiem Platz; nicht erreichbare Laufwerke zeigen «antwortet nicht». Alle werden parallel mit Zeitlimit geprüft.
+- Neu: «Pfad selbst eingeben …» (fehlender Ordner wird auf Wunsch angelegt), «Neu suchen» und «Ganze Box durchsuchen (ab /)».
+
 ## 0.28.1 – 2026-11-17
 
 - Behoben: Die Wahl des Download-Ordners in den Einstellungen hing mit Dauer-Spinner. Neue eigene Ordnerauswahl: Laufwerk wählen, in Unterordner wechseln, neuen Ordner anlegen. Jede Abfrage läuft im Hintergrund mit Zeitlimit – antwortet ein NAS nicht, kommt eine klare Meldung statt Hängen.

@@ -1,11 +1,11 @@
 {
- "version": "0.28.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.1_all.ipk",
- "sha256": "15f23ce77867ce47f2f410008a217bbda0d5286da8a09ded66ead3eaa17cacdc",
- "size": 1372064,
+ "version": "0.28.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.2_all.ipk",
+ "sha256": "977fdfc8b25debbf668f5d9cad651a657331d4e50c251a0f85a78aff27393060",
+ "size": 1374240,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Behoben: Die Wahl des Download-Ordners in den Einstellungen hing mit Dauer-Spinner. Neue eigene Ordnerauswahl: Laufwerk wählen, in Unterordner wechseln, neuen Ordner anlegen. Jede Abfrage läuft im Hintergrund mit Zeitlimit – antwortet ein NAS nicht, kommt eine klare Meldung statt Hängen.\n- Schutz des internen Speichers: «Automatisch» nimmt nie den kleinen internen Speicher der Box (z.B. ein leeres /media/hdd ohne Festplatte); bei eigener Wahl warnt Stream-Player deutlich. Der Download-Manager zeigt «interner Speicher!» an.\n- Download-Manager: Ordner und freier Platz werden im Hintergrund geprüft – die Anzeige bleibt flüssig, auch wenn das NAS schläft.",
-  "en": "Fix: choosing the download folder hung with an endless spinner. New non-blocking folder picker with timeouts; internal box memory is never chosen automatically and shows a clear warning."
+  "de": "- Ordnerauswahl: **automatische Suche** nach allen Laufwerken – Festplatte, USB, Netzwerk (eingehängte Freigaben, automatisch verbundene Freigaben unter /media/autofs, /media/net) und interner Speicher – mit Art und freiem Platz; nicht erreichbare Laufwerke zeigen «antwortet nicht». Alle werden parallel mit Zeitlimit geprüft.\n- Neu: «Pfad selbst eingeben …» (fehlender Ordner wird auf Wunsch angelegt), «Neu suchen» und «Ganze Box durchsuchen (ab /)».",
+  "en": "Folder picker: automatic search for all drives (disk, USB, network incl. autofs, internal) with free space, manual path entry, browse from /."
  }
 }
