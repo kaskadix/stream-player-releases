@@ -1,11 +1,11 @@
 {
- "version": "0.28.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.4_all.ipk",
- "sha256": "ba1a5fc42d4c7deaa77e8cb8403de5af3d59596353c749f11a793595e21539ea",
- "size": 1377278,
+ "version": "0.28.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.28.5_all.ipk",
+ "sha256": "cb4b9f5ebc464c74b9b744e4f9495df576fdc0277f88d1cdb8e5ee0c9d709fd4",
+ "size": 1380298,
  "date": "2026-11-17",
  "notes": {
-  "de": "- Behoben: Live-Aufnahmen konnten bei «Aufnahme wird vorbereitet …» stehen bleiben. Auf langsamen Boxen braucht das Relay beim Start länger; Stream-Player beendete es dann und startete es neu – immer wieder. Jetzt wartet er bis zu 60 Sekunden, bis es bereit ist.\n- «Ab jetzt aufnehmen» öffnet die Aufnahme sofort, statt auf die nächste Prüfung zu warten. Aufträge an den Download-Dienst kommen garantiert in der richtigen Reihenfolge an.\n- Kann eine Aufnahme nicht vorbereitet werden, zeigt der Download-Manager den Grund («Problem: …», z.B. VPN-Tunnel nicht verfügbar).\n- Download-Manager zeigt den vollständigen Dateinamen («Datei: …»), nicht nur den Ordner.\n- Neu: MENU › «Protokoll anzeigen (für die Fehlersuche)» direkt auf der Box.",
-  "en": "Fix: live recordings could hang at 'preparing' (slow relay start was killed repeatedly). Shows the problem and full file name; log viewer in the download manager."
+  "de": "- Behoben: Beim Abspielen einer Aufnahme aus dem Download-Manager erschien nach 20 Sekunden «Die Datei lässt sich nicht abspielen», obwohl sie lief. Bei lokalen Dateien meldet der Abspieler nicht immer «Bild da»; jetzt zählt auch, dass die Wiedergabe-Position läuft.\n- Aufnahmen zeigen beim Abspielen Länge, Fortschrittsbalken und die Beschreibung aus dem Programm.",
+  "en": "Fix: playing a recording showed 'cannot be played' although it was playing; length and description shown."
  }
 }

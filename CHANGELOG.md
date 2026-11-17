@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.28.5 – 2026-11-17
+
+- Behoben: Beim Abspielen einer Aufnahme aus dem Download-Manager erschien nach 20 Sekunden «Die Datei lässt sich nicht abspielen», obwohl sie lief. Bei lokalen Dateien meldet der Abspieler nicht immer «Bild da»; jetzt zählt auch, dass die Wiedergabe-Position läuft.
+- Aufnahmen zeigen beim Abspielen Länge, Fortschrittsbalken und die Beschreibung aus dem Programm.
+
 ## 0.28.4 – 2026-11-17
 
 - Behoben: Live-Aufnahmen konnten bei «Aufnahme wird vorbereitet …» stehen bleiben. Auf langsamen Boxen braucht das Relay beim Start länger; Stream-Player beendete es dann und startete es neu – immer wieder. Jetzt wartet er bis zu 60 Sekunden, bis es bereit ist.
