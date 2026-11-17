@@ -1,5 +1,14 @@
 # Stream-Player – Versionen
 
+## 0.31.0 – 2026-11-17
+
+- Neu: **Titelbild und Beschreibung** neben jedem Download (poster.jpg bzw. Name.jpg und .nfo) – Plex, Kodi, Jellyfin und das Archiv zeigen sie auch ohne Internet. Aufnahmen bekommen eine .meta-Datei für die Aufnahmeliste der Box.
+- Neu: **Untertitel automatisch** – nach Filmen und Folgen wird ein Untertitel in deiner Sprache gesucht und als Name.de.srt gespeichert.
+- Neu: **Handy-Meldung** über die App ntfy (fertig, fehlgeschlagen, neue Abo-Folgen, aufgeräumt); Test-Meldung im Download-Manager-Menü.
+- Neu: **Speicher aufräumen** – bei zu wenig freiem Platz werden gesehene Videos gelöscht (älteste zuerst, nur nach 2 Tagen, nie Ungesehenes).
+- Archiv: Löschen nimmt auch Titelbild und Beschreibung mit; leere Ordner verschwinden.
+- Alles einzeln ein-/ausschaltbar (Download-Manager › BLAU).
+
 ## 0.30.0 – 2026-11-17
 
 - Neu: **Abos** – neue Folgen einer Sendung oder Serie automatisch herunterladen (Mediatheken, Suche, Plex, Xtream): MENU › «Abo: neue Videos von … automatisch herunterladen», wahlweise auch alle bisherigen. Prüfung alle 1–24 Stunden (Standard 6), höchstens 20 neue auf einmal; verwalten unter Download-Manager › MENU › «Abos …».
