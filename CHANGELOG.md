@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.27.3 – 2026-11-17
+
+- Bilder formatgerecht: Querformat-Bilder (Szenenbilder von Folgen, Mediatheken) erscheinen gross im 16:9-Rahmen, Hochformat-Bilder (Film- und Serienplakate, Xtream, Freie Filme) im Plakat-Rahmen. Die Box erkennt das Format am Bild selbst. Vorher erschienen z.B. Folgenbilder von Plex klein in einem Plakat-Rahmen.
+
 ## 0.27.2 – 2026-11-17
 
 - REC-Taste startet Downloads: in Mediatheken, Suche, Freie Filme, Xtream und Plex öffnet REC ein Menü mit den Download-Möglichkeiten für den gewählten Eintrag (Video, Staffel, Serie) und «Download-Manager öffnen».
