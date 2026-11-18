@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.43.2 – 2026-11-18
+
+- Logos und Poster kommen zuerst auf das Laufwerk des Download-Ordners (dort ist meist am meisten Platz), erst danach auf /media/hdd, /media/usb oder in den Arbeitsspeicher.
+
 ## 0.43.1 – 2026-11-18
 
 - Behoben: Absturz der Box (grüner/blauer Bildschirm) bei Filmen und Serien, wenn das Laufwerk für die Poster voll war («No space left on device»). Ein fehlendes Poster kann die Box nie mehr abstürzen lassen.

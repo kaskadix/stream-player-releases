@@ -1,11 +1,11 @@
 {
- "version": "0.43.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.1_all.ipk",
- "sha256": "72a0a5f298a88e7fb4f29e9350af1ed8b93e07d90c90e448c667d2a0804f4973",
- "size": 1483064,
+ "version": "0.43.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.2_all.ipk",
+ "sha256": "57f34e6ef2ec0081466492779d704cef270f7246c47854dc9a8b435fef11e84e",
+ "size": 1483216,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Behoben: Absturz der Box (grüner/blauer Bildschirm) bei Filmen und Serien, wenn das Laufwerk für die Poster voll war («No space left on device»). Ein fehlendes Poster kann die Box nie mehr abstürzen lassen.\n- Logos und Poster landen nur noch auf einem Laufwerk mit mindestens 500 MB freiem Platz, sonst im Arbeitsspeicher (/tmp). Die Zwischenspeicher räumen sich selbst auf (Logos höchstens 100 MB, Poster höchstens 200 MB, älteste zuerst).",
-  "en": "Fixed: box crash in Movies/Series when the drive for posters was full. Logo and poster caches only on drives with enough free space, and they clean themselves up."
+  "de": "- Logos und Poster kommen zuerst auf das Laufwerk des Download-Ordners (dort ist meist am meisten Platz), erst danach auf /media/hdd, /media/usb oder in den Arbeitsspeicher.",
+  "en": "Logo and poster caches now prefer the drive of the download folder."
  }
 }
