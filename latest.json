@@ -1,11 +1,11 @@
 {
- "version": "0.37.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.37.0_all.ipk",
- "sha256": "a84de548e09a65c8faf60b4f5d8417e89002828a6c9a7c2854b73c987d3905d1",
- "size": 1449324,
+ "version": "0.38.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.38.0_all.ipk",
+ "sha256": "0335ee123dcd308a1d7b3b4a08018d9fbcdf8c39dd21fd6d8c5054e62ff8616a",
+ "size": 1452028,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Warum kein Bild?** Klappt kein Stream, sagt die Infoleiste, woran es liegt: dein Internet, der Anbieter (lehnt ab, Server-Probleme, antwortet nicht), eine veraltete Liste, eine Ländersperre, der VPN-Tunnel, der Abspieler oder ein nicht abspielbares Format. Bei Netzfehlern prüft die Box zuerst ihr eigenes Internet.\n- MENU › «Warum kein Bild?» erklärt die Ursache, was du tun kannst, und was jeder einzelne Stream geantwortet hat.\n- Kommen Daten an, aber kein Bild, probiert Stream-Player von selbst den anderen Abspieler (exteplayer3 ↔ GStreamer).",
-  "en": "New: Why is there no picture? When no stream works, the info bar explains the cause (your internet, provider refuses or has problems, out-of-date list, country block, VPN, player, unplayable format); MENU shows details per stream. If data arrives but no picture, the other player is tried automatically."
+  "de": "- Neu: Gruppe **«Zuletzt gesehen»** gleich nach «Alle Sender» – die zuletzt geschauten Sender, der neueste zuoberst (bis 30). Im MENU einzeln entfernen oder ganz leeren.\n- Neu: **Taste 0 im Vollbild = voriger Sender** – hin und her zwischen zwei Sendern (mit Radio-Kommentar bzw. im Replay bleibt 0 wie bisher).\n- Neu: **Zu Favoriten hinzufügen auch im Vollbild** (MENU). Die zuletzt gewählte Gruppe steht zuoberst.",
+  "en": "New: 'Recently watched' group, key 0 in full screen switches to the previous channel, and 'Add to favorites' also while watching (MENU) with the last used group on top."
  }
 }

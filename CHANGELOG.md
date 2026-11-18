@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.38.0 – 2026-11-18
+
+- Neu: Gruppe **«Zuletzt gesehen»** gleich nach «Alle Sender» – die zuletzt geschauten Sender, der neueste zuoberst (bis 30). Im MENU einzeln entfernen oder ganz leeren.
+- Neu: **Taste 0 im Vollbild = voriger Sender** – hin und her zwischen zwei Sendern (mit Radio-Kommentar bzw. im Replay bleibt 0 wie bisher).
+- Neu: **Zu Favoriten hinzufügen auch im Vollbild** (MENU). Die zuletzt gewählte Gruppe steht zuoberst.
+
 ## 0.37.0 – 2026-11-18
 
 - Neu: **Warum kein Bild?** Klappt kein Stream, sagt die Infoleiste, woran es liegt: dein Internet, der Anbieter (lehnt ab, Server-Probleme, antwortet nicht), eine veraltete Liste, eine Ländersperre, der VPN-Tunnel, der Abspieler oder ein nicht abspielbares Format. Bei Netzfehlern prüft die Box zuerst ihr eigenes Internet.
