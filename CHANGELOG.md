@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.43.3 – 2026-11-18
+
+- Behoben: Absturz beim Abspielen in den Mediatheken (OK auf einem Video) seit 0.43.0 – ein fehlender Programmteil («time»).
+- Behoben: «VPN-Tunnel für eine Liste wählen» stürzte ab.
+- Neu vor jeder Veröffentlichung: automatische Prüfung auf solche Fehler, damit sie nicht mehr bis auf die Box kommen.
+
 ## 0.43.2 – 2026-11-18
 
 - Logos und Poster kommen zuerst auf das Laufwerk des Download-Ordners (dort ist meist am meisten Platz), erst danach auf /media/hdd, /media/usb oder in den Arbeitsspeicher.

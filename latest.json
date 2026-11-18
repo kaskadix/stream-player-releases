@@ -1,11 +1,11 @@
 {
- "version": "0.43.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.2_all.ipk",
- "sha256": "57f34e6ef2ec0081466492779d704cef270f7246c47854dc9a8b435fef11e84e",
- "size": 1483216,
+ "version": "0.43.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.3_all.ipk",
+ "sha256": "f05e571748d1773cfb0edaac72012ae1f8a625462863d837bf3fcd44afafbc90",
+ "size": 1483198,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Logos und Poster kommen zuerst auf das Laufwerk des Download-Ordners (dort ist meist am meisten Platz), erst danach auf /media/hdd, /media/usb oder in den Arbeitsspeicher.",
-  "en": "Logo and poster caches now prefer the drive of the download folder."
+  "de": "- Behoben: Absturz beim Abspielen in den Mediatheken (OK auf einem Video) seit 0.43.0 – ein fehlender Programmteil («time»).\n- Behoben: «VPN-Tunnel für eine Liste wählen» stürzte ab.\n- Neu vor jeder Veröffentlichung: automatische Prüfung auf solche Fehler, damit sie nicht mehr bis auf die Box kommen.",
+  "en": "Fixed: crash when playing a video in the media libraries (since 0.43.0) and when choosing a VPN tunnel for a list. New automatic check before every release."
  }
 }
