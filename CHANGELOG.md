@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.35.0 – 2026-11-18
+
+- Neu: **Sicherung und Umzug** (MENU › Sicherung und Umzug). Alle Einstellungen – Listen, Xtream-Zugänge, Favoriten, Plex, VPN-Tunnel, Abos, Untertitel-Zugänge und Einstellungen – in einer Datei, mit Passwort verschlüsselt.
+- Wiederherstellen auf derselben oder einer neuen Box: die Box sucht Sicherungen auf USB, Festplatte und Netzlaufwerk; VPN-Tunnel werden für die neue Box neu verschlüsselt. Vorher wird der bisherige Stand als Sicherheitskopie abgelegt.
+
 ## 0.34.0 – 2026-11-18
 
 - Neu: **Ganze Sendung von Anfang an** – im Vollbild Taste 2, im Programm OK auf einer Sendung mit ↺. Stream-Player sucht der Reihe nach:

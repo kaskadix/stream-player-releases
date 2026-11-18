@@ -1,11 +1,11 @@
 {
- "version": "0.34.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.34.0_all.ipk",
- "sha256": "0737f73945f2756fe6130a818bc8a8584ddb1cb8e77397fa35f83f71792d065b",
- "size": 1422988,
+ "version": "0.35.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.35.0_all.ipk",
+ "sha256": "4c525aa471e68a0a5cd48a226e881593973806d500c6697821adb564a88fa303",
+ "size": 1429762,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Ganze Sendung von Anfang an** – im Vollbild Taste 2, im Programm OK auf einer Sendung mit ↺. Stream-Player sucht der Reihe nach:\n  1. im **Archiv des Anbieters** (Catch-up: Xtream «tv_archive», M3U-Listen mit catchup/catchup-source wie in Kodi/TiviMate) – auch laufende Sendungen, Sender mit VPN nur über ihr VPN;\n  2. in der **Mediathek** (über MediathekViewWeb: gleicher Sender, passender Titel und Beginn) – für ARD, ZDF, 3sat, arte, SRF, ORF, die Dritten u.a., meist etwa 1 Stunde nach Sendungsende; mit Untertiteln der Mediathek;\n  3. im eigenen **Replay-Speicher**, wenn eingeschaltet.\n- Das Programm (EPG) zeigt bei solchen Sendern auch die Sendungen der letzten 7 Tage (grau), ↺ = lässt sich nachschauen.\n- Klare Meldung, wenn nichts gefunden wird (z.B. «Noch nicht in der Mediathek»).",
-  "en": "New: watch the whole programme from the start - provider archive (catch-up), media library via MediathekViewWeb, or replay memory; past programmes in the guide."
+  "de": "- Neu: **Sicherung und Umzug** (MENU › Sicherung und Umzug). Alle Einstellungen – Listen, Xtream-Zugänge, Favoriten, Plex, VPN-Tunnel, Abos, Untertitel-Zugänge und Einstellungen – in einer Datei, mit Passwort verschlüsselt.\n- Wiederherstellen auf derselben oder einer neuen Box: die Box sucht Sicherungen auf USB, Festplatte und Netzlaufwerk; VPN-Tunnel werden für die neue Box neu verschlüsselt. Vorher wird der bisherige Stand als Sicherheitskopie abgelegt.",
+  "en": "New: Backup and move (MENU > Backup and move). All settings - lists, Xtream accounts, favorites, Plex, VPN tunnels, subscriptions - in one password-encrypted file. Restore on the same or a new box; VPN tunnels are re-encrypted for the new box, and a safety copy of the previous state is kept."
  }
 }
