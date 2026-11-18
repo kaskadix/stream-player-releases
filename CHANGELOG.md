@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.43.6 – 2026-11-19
+
+- «TV live» bei SRF, RTS und RSI entfernt: die SRG-Sender sind als Livestream kopiergeschützt (DRM) und laufen auf keiner Box. SRF 1, SRF zwei und SRF info laufen weiter über die eigenen Senderlisten.
+- Hat ein Video sowohl eine geschützte als auch eine ungeschützte Fassung, nimmt Stream-Player jetzt die ungeschützte, statt «kopiergeschützt» zu melden.
+
 ## 0.43.5 – 2026-11-19
 
 - Live- und Sport-Liste dreizeilig: oben klein (orange) Sportart und Wettbewerb, in der Mitte gross die Paarung bzw. das Rennen, unten die Zeit – bei laufenden Übertragungen rot.
