@@ -1,5 +1,14 @@
 # Stream-Player – Versionen
 
+## 0.34.0 – 2026-11-18
+
+- Neu: **Ganze Sendung von Anfang an** – im Vollbild Taste 2, im Programm OK auf einer Sendung mit ↺. Stream-Player sucht der Reihe nach:
+  1. im **Archiv des Anbieters** (Catch-up: Xtream «tv_archive», M3U-Listen mit catchup/catchup-source wie in Kodi/TiviMate) – auch laufende Sendungen, Sender mit VPN nur über ihr VPN;
+  2. in der **Mediathek** (über MediathekViewWeb: gleicher Sender, passender Titel und Beginn) – für ARD, ZDF, 3sat, arte, SRF, ORF, die Dritten u.a., meist etwa 1 Stunde nach Sendungsende; mit Untertiteln der Mediathek;
+  3. im eigenen **Replay-Speicher**, wenn eingeschaltet.
+- Das Programm (EPG) zeigt bei solchen Sendern auch die Sendungen der letzten 7 Tage (grau), ↺ = lässt sich nachschauen.
+- Klare Meldung, wenn nichts gefunden wird (z.B. «Noch nicht in der Mediathek»).
+
 ## 0.33.0 – 2026-11-18
 
 - Neu: **Replay für jeden Sender** – Live-TV anhalten, zurückspulen und die laufende Sendung von Anfang an schauen, bei jeder Quelle. Einschalten: Einstellungen › «Replay (Live-TV pausieren und zurückspulen)», Dauer 30 Minuten bis 4 Stunden (Standard 2 h).
