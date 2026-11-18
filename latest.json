@@ -1,11 +1,11 @@
 {
- "version": "0.32.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.32.0_all.ipk",
- "sha256": "ef6bbfafd4ee9c4c21595a0f88c73ad0df2937e2f66b6bb59a07b5a77de135e9",
- "size": 1407356,
- "date": "2026-11-17",
+ "version": "0.33.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.33.0_all.ipk",
+ "sha256": "8f792fc76a0e40018c3ce6563ba82d8818637b2fa22413fc7ceb112311cadfe8",
+ "size": 1415306,
+ "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Untertitel der Mediatheken** – ARD, ZDF, SRF und MediathekViewWeb liefern oft eigene Untertitel; sie stehen bei SUBTITLE als «Deutsch · von der Mediathek». Einmal gewählt, kommen sie bei weiteren Videos dieser Mediathek von selbst.\n- Untertitel im Format TTML/EBU-TT (ARD, ZDF) werden jetzt gelesen.\n- Gespeicherte Videos: Untertitel-Dateien neben dem Video (Name.de.srt) erscheinen bei SUBTITLE als «Datei neben dem Video».\n- Downloads aus Mediatheken speichern deren Untertitel als Name.de.srt mit (wenn «Titelbild und Beschreibung speichern» an ist).",
-  "en": "New: subtitles from the media libraries (ARD, ZDF, SRF, MediathekViewWeb), TTML support, subtitle files next to saved videos."
+  "de": "- Neu: **Replay für jeden Sender** – Live-TV anhalten, zurückspulen und die laufende Sendung von Anfang an schauen, bei jeder Quelle. Einschalten: Einstellungen › «Replay (Live-TV pausieren und zurückspulen)», Dauer 30 Minuten bis 4 Stunden (Standard 2 h).\n  - Tasten: 5/PAUSE anhalten und weiter, 4/6 bzw. <</>> 30 Sekunden, 1/3 fünf Minuten, 2 Sendung von Anfang an, 0/STOP zurück zu Live; Infoleiste zeigt «Zeitversetzt: 3:12 hinter Live».\n  - Das Relay speichert den Sender laufend in einem versteckten Ordner .replay im Download-Ordner (nie im internen Speicher), Älteres wird laufend gelöscht (Ringspeicher), beim Umschalten verschwindet alles. Unter 1 GB frei wird nicht weiter gespeichert.\n  - Streams, die das Relay nicht speichern kann, laufen ohne Replay (Hinweis in der Infoleiste).",
+  "en": "New: replay for every channel - pause, rewind and watch the current programme from the start (relay ring buffer in the download folder)."
  }
 }

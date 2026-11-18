@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.33.0 – 2026-11-18
+
+- Neu: **Replay für jeden Sender** – Live-TV anhalten, zurückspulen und die laufende Sendung von Anfang an schauen, bei jeder Quelle. Einschalten: Einstellungen › «Replay (Live-TV pausieren und zurückspulen)», Dauer 30 Minuten bis 4 Stunden (Standard 2 h).
+  - Tasten: 5/PAUSE anhalten und weiter, 4/6 bzw. <</>> 30 Sekunden, 1/3 fünf Minuten, 2 Sendung von Anfang an, 0/STOP zurück zu Live; Infoleiste zeigt «Zeitversetzt: 3:12 hinter Live».
+  - Das Relay speichert den Sender laufend in einem versteckten Ordner .replay im Download-Ordner (nie im internen Speicher), Älteres wird laufend gelöscht (Ringspeicher), beim Umschalten verschwindet alles. Unter 1 GB frei wird nicht weiter gespeichert.
+  - Streams, die das Relay nicht speichern kann, laufen ohne Replay (Hinweis in der Infoleiste).
+
 ## 0.32.0 – 2026-11-17
 
 - Neu: **Untertitel der Mediatheken** – ARD, ZDF, SRF und MediathekViewWeb liefern oft eigene Untertitel; sie stehen bei SUBTITLE als «Deutsch · von der Mediathek». Einmal gewählt, kommen sie bei weiteren Videos dieser Mediathek von selbst.
