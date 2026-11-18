@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.37.0 – 2026-11-18
+
+- Neu: **Warum kein Bild?** Klappt kein Stream, sagt die Infoleiste, woran es liegt: dein Internet, der Anbieter (lehnt ab, Server-Probleme, antwortet nicht), eine veraltete Liste, eine Ländersperre, der VPN-Tunnel, der Abspieler oder ein nicht abspielbares Format. Bei Netzfehlern prüft die Box zuerst ihr eigenes Internet.
+- MENU › «Warum kein Bild?» erklärt die Ursache, was du tun kannst, und was jeder einzelne Stream geantwortet hat.
+- Kommen Daten an, aber kein Bild, probiert Stream-Player von selbst den anderen Abspieler (exteplayer3 ↔ GStreamer).
+
 ## 0.36.0 – 2026-11-18
 
 - Neu: **Box-Check** (MENU › Box-Check). Prüft Python und seine Teile, Uhrzeit, Internet und Zertifikate, Abspieler exteplayer3, GStreamer für HLS, ffmpeg, WireGuard, Relay, Download-Ordner und Arbeitsspeicher. Zu jeder Zeile steht, warum sie gebraucht wird.
