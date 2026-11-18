@@ -1,11 +1,11 @@
 {
- "version": "0.40.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.40.2_all.ipk",
- "sha256": "49ab2bb1174480d91e3bf8711e71aeed0ae4078991c6c7d192ca53b58e4a8d2d",
- "size": 1471944,
+ "version": "0.41.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.41.0_all.ipk",
+ "sha256": "9dcad51abfdba5bd9fe7148eceaeaf80f872473cd788754f8600fb95036f13a4",
+ "size": 1474076,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Behoben: Ist ServiceApp installiert, lässt sich aber im Image nicht laden (z.B. openATV 8: «undefined symbol: _ZTI9eAutoInit» – das Paket gehört zu einer anderen Enigma2-Version), wollte Stream-Player trotzdem exteplayer3 nehmen. Jetzt nimmt er dann GStreamer.\n- Box-Check zeigt diesen Fall verständlich an (mit Befehl zum Entfernen) und bietet ServiceApp nicht mehr zum Installieren an. Direkt nach dem Installieren steht «aktiv nach einem Neustart der Oberfläche».",
-  "en": "Fixed: if ServiceApp is installed but cannot be loaded by the image (e.g. openATV 8, undefined symbol), Stream-Player now uses GStreamer instead of exteplayer3; the box check explains it."
+  "de": "- Neu: **Update-Kanal** (Einstellungen oder im Browser bei «Updates»): «Normal» bekommt nur geprüfte Versionen, «Beta» neue Versionen früher zum Testen. Testversionen sind im Update als «Beta» gekennzeichnet.\n- Neu: **Zurück zu einer früheren Version** – unter MENU › Update mit BLAU «Andere Version» die letzten Versionen wählen, falls eine neue einen Fehler hat. Listen und Einstellungen bleiben.\n- Anleitung: Stream-Player braucht ein Image, dessen Oberfläche Python 3 nutzt (geprüft openATV 7.6 und 8.0); VTi wird nicht unterstützt.",
+  "en": "New: update channel (normal or beta for testers) and going back to an earlier version (Update > BLUE 'Other version')."
  }
 }

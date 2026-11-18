@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.41.0 – 2026-11-18
+
+- Neu: **Update-Kanal** (Einstellungen oder im Browser bei «Updates»): «Normal» bekommt nur geprüfte Versionen, «Beta» neue Versionen früher zum Testen. Testversionen sind im Update als «Beta» gekennzeichnet.
+- Neu: **Zurück zu einer früheren Version** – unter MENU › Update mit BLAU «Andere Version» die letzten Versionen wählen, falls eine neue einen Fehler hat. Listen und Einstellungen bleiben.
+- Anleitung: Stream-Player braucht ein Image, dessen Oberfläche Python 3 nutzt (geprüft openATV 7.6 und 8.0); VTi wird nicht unterstützt.
+
 ## 0.40.2 – 2026-11-18
 
 - Behoben: Ist ServiceApp installiert, lässt sich aber im Image nicht laden (z.B. openATV 8: «undefined symbol: _ZTI9eAutoInit» – das Paket gehört zu einer anderen Enigma2-Version), wollte Stream-Player trotzdem exteplayer3 nehmen. Jetzt nimmt er dann GStreamer.
