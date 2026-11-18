@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.40.1 – 2026-11-18
+
+- Behoben: Auf einem frisch installierten Image hielt Stream-Player einen leeren Ordner wie /media/hdd (ohne eingesteckte Festplatte, nur im Arbeitsspeicher) für ein Laufwerk – der Box-Check meldete «Download-Ordner: Nur 0.0 GB frei». Solche Ordner gelten jetzt als «kein Laufwerk» und erscheinen auch nicht mehr in der Ordner-Auswahl.
+- Getestet: Installation mit dem neuen Installations-Befehl auf openATV 8 (Python 3.14).
+
 ## 0.40.0 – 2026-11-18
 
 - Neu: **Jellyfin und Emby** als Quelle für Filme und Serien – neben Plex, auch mehrere Server zusammen. Bibliotheken, Weiterschauen (über alle Server), Neu hinzugefügt, Staffeln und Folgen, Poster, Fortsetzen an der letzten Stelle, nächste Folge.

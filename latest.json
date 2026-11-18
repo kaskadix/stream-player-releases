@@ -1,11 +1,11 @@
 {
- "version": "0.40.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.40.0_all.ipk",
- "sha256": "7dc967c4d6c14ad87a3d89c83aae3418fd2e25341733457b7bb2ebec84cf6cc4",
- "size": 1470948,
+ "version": "0.40.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.40.1_all.ipk",
+ "sha256": "6e16781f31ef5a329890788b415d64089fcaf0547038abec206b5976b4178f54",
+ "size": 1471052,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Jellyfin und Emby** als Quelle für Filme und Serien – neben Plex, auch mehrere Server zusammen. Bibliotheken, Weiterschauen (über alle Server), Neu hinzugefügt, Staffeln und Folgen, Poster, Fortsetzen an der letzten Stelle, nächste Folge.\n- Verbinden auf der Box (MENU › Jellyfin / Emby): Server im Heimnetz wird selbst gefunden; Jellyfin mit **Quick Connect** (Code in der App bestätigen, kein Passwort auf der Box) oder Benutzername und Passwort, Emby mit Benutzername und Passwort. Oder bequem im Browser auf der Einstellungsseite.\n- Das Passwort wird nie gespeichert, nur der Zugangsschlüssel des Servers (nur auf der Box, nur für root lesbar, kommt verschlüsselt in die Sicherung).\n- Fortschritt und «gesehen» gehen an den Server – Weiterschauen klappt auch in den Jellyfin-/Emby-Apps. Externe Untertitel-Dateien des Servers bei SUBTITLE. Suche und Downloads (REC) gehen auch mit Jellyfin/Emby.",
-  "en": "New: Jellyfin and Emby as source for movies and series (besides Plex, several servers at once): libraries, continue watching, seasons and episodes, resume, progress sync, subtitles, search and downloads. Connect on the box (auto discovery, Jellyfin Quick Connect without password) or in the browser. Passwords are never stored."
+  "de": "- Behoben: Auf einem frisch installierten Image hielt Stream-Player einen leeren Ordner wie /media/hdd (ohne eingesteckte Festplatte, nur im Arbeitsspeicher) für ein Laufwerk – der Box-Check meldete «Download-Ordner: Nur 0.0 GB frei». Solche Ordner gelten jetzt als «kein Laufwerk» und erscheinen auch nicht mehr in der Ordner-Auswahl.\n- Getestet: Installation mit dem neuen Installations-Befehl auf openATV 8 (Python 3.14).",
+  "en": "Fixed: on a fresh image an empty /media/hdd folder in RAM (no disk plugged in) was taken for a drive (box check: 0.0 GB free). Tested: install command on openATV 8 (Python 3.14)."
  }
 }

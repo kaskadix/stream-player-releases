@@ -6,7 +6,7 @@ BASE="https://raw.githubusercontent.com/kaskadix/stream-player-releases/main"
 TMP="/tmp/streamplayer.ipk"
 
 echo "== Stream-Player: Installation =="
-if [ -f /etc/issue ]; then echo "Image: $(head -n 1 /etc/issue | sed 's/\\[nl]//g')"; fi
+if [ -f /etc/issue ]; then echo "Image: $(head -n 2 /etc/issue | sed 's/\\[nlh]//g; s/%[a-z]//g; s/^Welcome to //' | tr '\n' ' ')"; fi
 if ! command -v python3 >/dev/null 2>&1; then
 	echo "FEHLER: Dieses Image hat kein Python 3. Stream-Player braucht ein aktuelles Image (z.B. openATV 7/8, OpenPLi 9, OpenViX 6)."
 	exit 1
