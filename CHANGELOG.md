@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.36.0 – 2026-11-18
+
+- Neu: **Box-Check** (MENU › Box-Check). Prüft Python und seine Teile, Uhrzeit, Internet und Zertifikate, Abspieler exteplayer3, GStreamer für HLS, ffmpeg, WireGuard, Relay, Download-Ordner und Arbeitsspeicher. Zu jeder Zeile steht, warum sie gebraucht wird.
+- Fehlendes installiert die Box nach Rückfrage selbst (GRÜN: alles Nötige und Empfohlene, OK: einzelne Zeile).
+- Beim ersten Öffnen nach der Installation prüft Stream-Player die Box einmal und zeigt den Box-Check nur, wenn etwas fehlt.
+- Fehlt ein Teil von Python so, dass Stream-Player nicht starten kann, sagt die Box das klar und bietet die Installation an.
+
 ## 0.35.0 – 2026-11-18
 
 - Neu: **Sicherung und Umzug** (MENU › Sicherung und Umzug). Alle Einstellungen – Listen, Xtream-Zugänge, Favoriten, Plex, VPN-Tunnel, Abos, Untertitel-Zugänge und Einstellungen – in einer Datei, mit Passwort verschlüsselt.

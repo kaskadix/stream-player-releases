@@ -1,11 +1,11 @@
 {
- "version": "0.35.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.35.0_all.ipk",
- "sha256": "4c525aa471e68a0a5cd48a226e881593973806d500c6697821adb564a88fa303",
- "size": 1429762,
+ "version": "0.36.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.36.0_all.ipk",
+ "sha256": "3e2fad8f9ecfc1667a4f06cc877e22f506a950c8abb3487c30e0b087bdc6df8c",
+ "size": 1441750,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Sicherung und Umzug** (MENU › Sicherung und Umzug). Alle Einstellungen – Listen, Xtream-Zugänge, Favoriten, Plex, VPN-Tunnel, Abos, Untertitel-Zugänge und Einstellungen – in einer Datei, mit Passwort verschlüsselt.\n- Wiederherstellen auf derselben oder einer neuen Box: die Box sucht Sicherungen auf USB, Festplatte und Netzlaufwerk; VPN-Tunnel werden für die neue Box neu verschlüsselt. Vorher wird der bisherige Stand als Sicherheitskopie abgelegt.",
-  "en": "New: Backup and move (MENU > Backup and move). All settings - lists, Xtream accounts, favorites, Plex, VPN tunnels, subscriptions - in one password-encrypted file. Restore on the same or a new box; VPN tunnels are re-encrypted for the new box, and a safety copy of the previous state is kept."
+  "de": "- Neu: **Box-Check** (MENU › Box-Check). Prüft Python und seine Teile, Uhrzeit, Internet und Zertifikate, Abspieler exteplayer3, GStreamer für HLS, ffmpeg, WireGuard, Relay, Download-Ordner und Arbeitsspeicher. Zu jeder Zeile steht, warum sie gebraucht wird.\n- Fehlendes installiert die Box nach Rückfrage selbst (GRÜN: alles Nötige und Empfohlene, OK: einzelne Zeile).\n- Beim ersten Öffnen nach der Installation prüft Stream-Player die Box einmal und zeigt den Box-Check nur, wenn etwas fehlt.\n- Fehlt ein Teil von Python so, dass Stream-Player nicht starten kann, sagt die Box das klar und bietet die Installation an.",
+  "en": "New: Box check (MENU > Box check) - checks Python parts, time, internet and certificates, exteplayer3, GStreamer HLS, ffmpeg, WireGuard, relay, download folder and memory, explains why each is needed and installs what is missing after confirmation. Runs once automatically on the first start after installation."
  }
 }
