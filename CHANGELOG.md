@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.43.1 – 2026-11-18
+
+- Behoben: Absturz der Box (grüner/blauer Bildschirm) bei Filmen und Serien, wenn das Laufwerk für die Poster voll war («No space left on device»). Ein fehlendes Poster kann die Box nie mehr abstürzen lassen.
+- Logos und Poster landen nur noch auf einem Laufwerk mit mindestens 500 MB freiem Platz, sonst im Arbeitsspeicher (/tmp). Die Zwischenspeicher räumen sich selbst auf (Logos höchstens 100 MB, Poster höchstens 200 MB, älteste zuerst).
+
 ## 0.43.0 – 2026-11-18
 
 - Neu: **Sport live** bei Play SRF – die Sport-Livestreams, auch die zusätzlichen, die nicht im normalen Programm laufen (Ski, Tennis, Eishockey, Fussball …). Laufende zuerst mit LIVE, dann die kommenden der nächsten 3 Tage mit Startzeit. Dazu **TV live** mit den SRG-Sendern.
