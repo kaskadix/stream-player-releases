@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.39.0 – 2026-11-18
+
+- Neu: **Multi-EPG** – das Programm aller Sender einer Gruppe nebeneinander als Zeitraster (2 Stunden, orange Linie = jetzt), z.B. alle Sender einer Favoriten-Gruppe. MENU › «Multi-EPG: Programm aller Sender dieser Gruppe», im Programm eines Senders mit BLAU, im Vollbild über MENU.
+- Im Multi-EPG: ◀ ▶ Sendung, ▲ ▼ Sender, P+/P− Seite, ROT/GELB 2 Stunden zurück/vor, GRÜN jetzt, BLAU andere Gruppe, OK schauen / von Anfang an / aufnehmen, REC aufnehmen, EPG ganzes Programm des Senders. ● = Aufnahme geplant, ↺ = nachschauen möglich.
+- Neue Einstellung «EPG-Taste in der Senderliste öffnet»: Programm des Senders oder Multi-EPG der Gruppe.
+
 ## 0.38.0 – 2026-11-18
 
 - Neu: Gruppe **«Zuletzt gesehen»** gleich nach «Alle Sender» – die zuletzt geschauten Sender, der neueste zuoberst (bis 30). Im MENU einzeln entfernen oder ganz leeren.

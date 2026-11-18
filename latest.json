@@ -1,11 +1,11 @@
 {
- "version": "0.38.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.38.0_all.ipk",
- "sha256": "0335ee123dcd308a1d7b3b4a08018d9fbcdf8c39dd21fd6d8c5054e62ff8616a",
- "size": 1452028,
+ "version": "0.39.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.39.0_all.ipk",
+ "sha256": "0c63daaf1e0c280882d503c6a2272c97ce7be25e5eca4d76acb72286a40e3486",
+ "size": 1458054,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: Gruppe **«Zuletzt gesehen»** gleich nach «Alle Sender» – die zuletzt geschauten Sender, der neueste zuoberst (bis 30). Im MENU einzeln entfernen oder ganz leeren.\n- Neu: **Taste 0 im Vollbild = voriger Sender** – hin und her zwischen zwei Sendern (mit Radio-Kommentar bzw. im Replay bleibt 0 wie bisher).\n- Neu: **Zu Favoriten hinzufügen auch im Vollbild** (MENU). Die zuletzt gewählte Gruppe steht zuoberst.",
-  "en": "New: 'Recently watched' group, key 0 in full screen switches to the previous channel, and 'Add to favorites' also while watching (MENU) with the last used group on top."
+  "de": "- Neu: **Multi-EPG** – das Programm aller Sender einer Gruppe nebeneinander als Zeitraster (2 Stunden, orange Linie = jetzt), z.B. alle Sender einer Favoriten-Gruppe. MENU › «Multi-EPG: Programm aller Sender dieser Gruppe», im Programm eines Senders mit BLAU, im Vollbild über MENU.\n- Im Multi-EPG: ◀ ▶ Sendung, ▲ ▼ Sender, P+/P− Seite, ROT/GELB 2 Stunden zurück/vor, GRÜN jetzt, BLAU andere Gruppe, OK schauen / von Anfang an / aufnehmen, REC aufnehmen, EPG ganzes Programm des Senders. ● = Aufnahme geplant, ↺ = nachschauen möglich.\n- Neue Einstellung «EPG-Taste in der Senderliste öffnet»: Programm des Senders oder Multi-EPG der Gruppe.",
+  "en": "New: Multi EPG - the programme of all channels of a group side by side as a time grid (e.g. a favorites group); watch, watch from the start or record from it. New setting: what the EPG key opens."
  }
 }
