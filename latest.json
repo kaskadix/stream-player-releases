@@ -1,11 +1,11 @@
 {
- "version": "0.40.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.40.1_all.ipk",
- "sha256": "6e16781f31ef5a329890788b415d64089fcaf0547038abec206b5976b4178f54",
- "size": 1471052,
+ "version": "0.40.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.40.2_all.ipk",
+ "sha256": "49ab2bb1174480d91e3bf8711e71aeed0ae4078991c6c7d192ca53b58e4a8d2d",
+ "size": 1471944,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Behoben: Auf einem frisch installierten Image hielt Stream-Player einen leeren Ordner wie /media/hdd (ohne eingesteckte Festplatte, nur im Arbeitsspeicher) für ein Laufwerk – der Box-Check meldete «Download-Ordner: Nur 0.0 GB frei». Solche Ordner gelten jetzt als «kein Laufwerk» und erscheinen auch nicht mehr in der Ordner-Auswahl.\n- Getestet: Installation mit dem neuen Installations-Befehl auf openATV 8 (Python 3.14).",
-  "en": "Fixed: on a fresh image an empty /media/hdd folder in RAM (no disk plugged in) was taken for a drive (box check: 0.0 GB free). Tested: install command on openATV 8 (Python 3.14)."
+  "de": "- Behoben: Ist ServiceApp installiert, lässt sich aber im Image nicht laden (z.B. openATV 8: «undefined symbol: _ZTI9eAutoInit» – das Paket gehört zu einer anderen Enigma2-Version), wollte Stream-Player trotzdem exteplayer3 nehmen. Jetzt nimmt er dann GStreamer.\n- Box-Check zeigt diesen Fall verständlich an (mit Befehl zum Entfernen) und bietet ServiceApp nicht mehr zum Installieren an. Direkt nach dem Installieren steht «aktiv nach einem Neustart der Oberfläche».",
+  "en": "Fixed: if ServiceApp is installed but cannot be loaded by the image (e.g. openATV 8, undefined symbol), Stream-Player now uses GStreamer instead of exteplayer3; the box check explains it."
  }
 }
