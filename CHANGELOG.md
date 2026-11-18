@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.43.4 – 2026-11-18
+
+- «Sport live» zeigt nur noch Sport (eigene Sport-Liste der SRG). Die übrigen geplanten Livestreams, z.B. Sendungen in Gebärdensprache, stehen neu unter «Weitere Livestreams».
+- Übersichtlichere Darstellung: kurzer Titel ohne Datum, laufende mit ●; Zeit in der zweiten Zeile («LIVE bis 21:30», «morgen 18:50 – 20:45»).
+
 ## 0.43.3 – 2026-11-18
 
 - Behoben: Absturz beim Abspielen in den Mediatheken (OK auf einem Video) seit 0.43.0 – ein fehlender Programmteil («time»).
