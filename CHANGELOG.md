@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.40.0 – 2026-11-18
+
+- Neu: **Jellyfin und Emby** als Quelle für Filme und Serien – neben Plex, auch mehrere Server zusammen. Bibliotheken, Weiterschauen (über alle Server), Neu hinzugefügt, Staffeln und Folgen, Poster, Fortsetzen an der letzten Stelle, nächste Folge.
+- Verbinden auf der Box (MENU › Jellyfin / Emby): Server im Heimnetz wird selbst gefunden; Jellyfin mit **Quick Connect** (Code in der App bestätigen, kein Passwort auf der Box) oder Benutzername und Passwort, Emby mit Benutzername und Passwort. Oder bequem im Browser auf der Einstellungsseite.
+- Das Passwort wird nie gespeichert, nur der Zugangsschlüssel des Servers (nur auf der Box, nur für root lesbar, kommt verschlüsselt in die Sicherung).
+- Fortschritt und «gesehen» gehen an den Server – Weiterschauen klappt auch in den Jellyfin-/Emby-Apps. Externe Untertitel-Dateien des Servers bei SUBTITLE. Suche und Downloads (REC) gehen auch mit Jellyfin/Emby.
+
 ## 0.39.0 – 2026-11-18
 
 - Neu: **Multi-EPG** – das Programm aller Sender einer Gruppe nebeneinander als Zeitraster (2 Stunden, orange Linie = jetzt), z.B. alle Sender einer Favoriten-Gruppe. MENU › «Multi-EPG: Programm aller Sender dieser Gruppe», im Programm eines Senders mit BLAU, im Vollbild über MENU.
