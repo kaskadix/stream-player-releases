@@ -1,11 +1,11 @@
 {
- "version": "0.41.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.41.0_all.ipk",
- "sha256": "9dcad51abfdba5bd9fe7148eceaeaf80f872473cd788754f8600fb95036f13a4",
- "size": 1474076,
+ "version": "0.42.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.42.0_all.ipk",
+ "sha256": "230201ce229b420a2a0a8bda8da3cab1f8d42827c11992cb0d8f98278e0faad3",
+ "size": 1479910,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Update-Kanal** (Einstellungen oder im Browser bei «Updates»): «Normal» bekommt nur geprüfte Versionen, «Beta» neue Versionen früher zum Testen. Testversionen sind im Update als «Beta» gekennzeichnet.\n- Neu: **Zurück zu einer früheren Version** – unter MENU › Update mit BLAU «Andere Version» die letzten Versionen wählen, falls eine neue einen Fehler hat. Listen und Einstellungen bleiben.\n- Anleitung: Stream-Player braucht ein Image, dessen Oberfläche Python 3 nutzt (geprüft openATV 7.6 und 8.0); VTi wird nicht unterstützt.",
-  "en": "New: update channel (normal or beta for testers) and going back to an earlier version (Update > BLUE 'Other version')."
+  "de": "- Neu: **Weiterschauen an einer Stelle** (MENU › Weiterschauen): alles Angefangene – Filme und Folgen von Plex, Jellyfin und Emby, Videos aus den Mediatheken und dem Archiv – in einer Liste, zuletzt geschaut zuerst, mit Fortschritt und Restzeit. OK schaut weiter, BLAU von Anfang an.\n- Neu: Einstellung **«Wenn Stream-Player öffnet»**: zuletzt gewählte Gruppe, alle Sender, erste Favoriten-Gruppe, Zuletzt gesehen, Weiterschauen oder gleich der letzte Sender im Vollbild.\n- Neu: Einstellung **«Nächste Folge automatisch»** – ausgeschaltet wartet die Box am Ende einer Folge, BLAU startet die nächste.",
+  "en": "New: Continue watching in one place (Plex, Jellyfin, Emby, media libraries, archive); setting for what opens first (incl. last channel in full screen); next episode automatically on/off."
  }
 }

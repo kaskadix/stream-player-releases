@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.42.0 – 2026-11-18
+
+- Neu: **Weiterschauen an einer Stelle** (MENU › Weiterschauen): alles Angefangene – Filme und Folgen von Plex, Jellyfin und Emby, Videos aus den Mediatheken und dem Archiv – in einer Liste, zuletzt geschaut zuerst, mit Fortschritt und Restzeit. OK schaut weiter, BLAU von Anfang an.
+- Neu: Einstellung **«Wenn Stream-Player öffnet»**: zuletzt gewählte Gruppe, alle Sender, erste Favoriten-Gruppe, Zuletzt gesehen, Weiterschauen oder gleich der letzte Sender im Vollbild.
+- Neu: Einstellung **«Nächste Folge automatisch»** – ausgeschaltet wartet die Box am Ende einer Folge, BLAU startet die nächste.
+
 ## 0.41.0 – 2026-11-18
 
 - Neu: **Update-Kanal** (Einstellungen oder im Browser bei «Updates»): «Normal» bekommt nur geprüfte Versionen, «Beta» neue Versionen früher zum Testen. Testversionen sind im Update als «Beta» gekennzeichnet.
