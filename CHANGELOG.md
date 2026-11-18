@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.43.0 – 2026-11-18
+
+- Neu: **Sport live** bei Play SRF – die Sport-Livestreams, auch die zusätzlichen, die nicht im normalen Programm laufen (Ski, Tennis, Eishockey, Fussball …). Laufende zuerst mit LIVE, dann die kommenden der nächsten 3 Tage mit Startzeit. Dazu **TV live** mit den SRG-Sendern.
+- Neu: **Play RTS** und **Play RSI** als Mediatheken, jeweils mit «Sport en direct» / «Sport in diretta» und Live-TV.
+- Geplante Livestreams in den normalen Listen von Play SRF erscheinen jetzt auch (mit Startzeit), statt ausgeblendet zu werden. Live-Streams werden nicht bei «Weiterschauen» gemerkt. Meist nur in der Schweiz verfügbar.
+
 ## 0.42.0 – 2026-11-18
 
 - Neu: **Weiterschauen an einer Stelle** (MENU › Weiterschauen): alles Angefangene – Filme und Folgen von Plex, Jellyfin und Emby, Videos aus den Mediatheken und dem Archiv – in einer Liste, zuletzt geschaut zuerst, mit Fortschritt und Restzeit. OK schaut weiter, BLAU von Anfang an.

@@ -1,11 +1,11 @@
 {
- "version": "0.42.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.42.0_all.ipk",
- "sha256": "230201ce229b420a2a0a8bda8da3cab1f8d42827c11992cb0d8f98278e0faad3",
- "size": 1479910,
+ "version": "0.43.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.0_all.ipk",
+ "sha256": "f9d478293b0d72f23e98e842ca81286b04043f1762bc3e57602ae9b232561a2b",
+ "size": 1482154,
  "date": "2026-11-18",
  "notes": {
-  "de": "- Neu: **Weiterschauen an einer Stelle** (MENU › Weiterschauen): alles Angefangene – Filme und Folgen von Plex, Jellyfin und Emby, Videos aus den Mediatheken und dem Archiv – in einer Liste, zuletzt geschaut zuerst, mit Fortschritt und Restzeit. OK schaut weiter, BLAU von Anfang an.\n- Neu: Einstellung **«Wenn Stream-Player öffnet»**: zuletzt gewählte Gruppe, alle Sender, erste Favoriten-Gruppe, Zuletzt gesehen, Weiterschauen oder gleich der letzte Sender im Vollbild.\n- Neu: Einstellung **«Nächste Folge automatisch»** – ausgeschaltet wartet die Box am Ende einer Folge, BLAU startet die nächste.",
-  "en": "New: Continue watching in one place (Plex, Jellyfin, Emby, media libraries, archive); setting for what opens first (incl. last channel in full screen); next episode automatically on/off."
+  "de": "- Neu: **Sport live** bei Play SRF – die Sport-Livestreams, auch die zusätzlichen, die nicht im normalen Programm laufen (Ski, Tennis, Eishockey, Fussball …). Laufende zuerst mit LIVE, dann die kommenden der nächsten 3 Tage mit Startzeit. Dazu **TV live** mit den SRG-Sendern.\n- Neu: **Play RTS** und **Play RSI** als Mediatheken, jeweils mit «Sport en direct» / «Sport in diretta» und Live-TV.\n- Geplante Livestreams in den normalen Listen von Play SRF erscheinen jetzt auch (mit Startzeit), statt ausgeblendet zu werden. Live-Streams werden nicht bei «Weiterschauen» gemerkt. Meist nur in der Schweiz verfügbar.",
+  "en": "New: Sport live at Play SRF (running and upcoming sport livestreams incl. extra streams) and TV live; Play RTS and Play RSI as media libraries with their sport livestreams. Mostly Switzerland only."
  }
 }
