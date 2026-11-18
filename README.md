@@ -8,6 +8,14 @@ Stream-Player spielt Live-TV aus eigenen Listen ab, fasst gleiche Sender zusamme
 
 ## Installation
 
+**Am einfachsten** – auf der Box per Telnet/SSH (lädt immer die neueste Version, prüft die Datei und installiert sie):
+```
+wget -qO- https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/install.sh | sh
+```
+Danach die Oberfläche der Box neu starten und Stream-Player öffnen – der **Box-Check** zeigt, ob dem Image noch etwas fehlt, und installiert es auf Wunsch.
+
+**Oder von Hand:**
+
 1. Das neueste Paket aus dem Ordner [`packages`](packages) herunterladen.
 2. Die Datei nach `/tmp` auf der Box kopieren (z.B. per FTP).
 3. Auf der Box installieren – über das Menü (lokale Erweiterungen installieren) oder per SSH:
