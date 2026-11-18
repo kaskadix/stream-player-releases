@@ -12,6 +12,12 @@ if ! command -v python3 >/dev/null 2>&1; then
 	exit 1
 fi
 echo "Python: $(python3 -c 'import sys; print(sys.version.split()[0])')"
+# Die Oberflaeche (Enigma2) kann ein anderes Python haben als die Kommandozeile (z.B. VTi: Enigma2 mit Python 2.7)
+if [ -f /usr/bin/enigma2 ] && grep -q "libpython2\." /usr/bin/enigma2 2>/dev/null && ! grep -q "libpython3\." /usr/bin/enigma2 2>/dev/null; then
+	echo "FEHLER: Die Oberflaeche dieses Images (Enigma2) laeuft noch mit Python 2.7."
+	echo "Stream-Player braucht ein Image, dessen Oberflaeche Python 3 nutzt (z.B. openATV 7/8, OpenPLi 9, OpenViX 6)."
+	exit 1
+fi
 
 INFO=$(wget -qO- "$BASE/latest.json") || { echo "FEHLER: Keine Verbindung zu GitHub. Ist die Box im Internet und stimmt die Uhrzeit?"; exit 1; }
 URL=$(echo "$INFO" | sed -n 's/.*"url": *"\([^"]*\)".*/\1/p' | head -n 1)

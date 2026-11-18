@@ -29,7 +29,7 @@ Danach findet Stream-Player neue Versionen selbst (Menüpunkt **Update**) und in
 
 | Was | Wofür | Nötig? |
 | --- | --- | --- |
-| Image mit Python 3 (z.B. openATV 7.x) | Stream-Player selbst | ja |
+| Image, dessen Oberfläche (Enigma2) Python 3 nutzt (z.B. openATV 7.x/8.x) – **nicht** VTi (Enigma2 dort noch Python 2.7) | Stream-Player selbst | ja |
 | GStreamer | Abspielen | in jedem Image enthalten |
 | ServiceApp mit exteplayer3 | stabilere Wiedergabe | empfohlen |
 | WireGuard: Kernel-Modul + `wireguard-tools` | VPN-Tunnel | nur für VPN |
