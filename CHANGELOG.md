@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.43.5 – 2026-11-19
+
+- Live- und Sport-Liste dreizeilig: oben klein (orange) Sportart und Wettbewerb, in der Mitte gross die Paarung bzw. das Rennen, unten die Zeit – bei laufenden Übertragungen rot.
+
 ## 0.43.4 – 2026-11-18
 
 - «Sport live» zeigt nur noch Sport (eigene Sport-Liste der SRG). Die übrigen geplanten Livestreams, z.B. Sendungen in Gebärdensprache, stehen neu unter «Weitere Livestreams».

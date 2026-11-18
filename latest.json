@@ -1,11 +1,11 @@
 {
- "version": "0.43.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.4_all.ipk",
- "sha256": "2d13375db266f21fd2a02b8e8cf950b030f8c1cefcb7399dc512ef14377efd7e",
- "size": 1483586,
- "date": "2026-11-18",
+ "version": "0.43.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.5_all.ipk",
+ "sha256": "b01a1be3931691612b56be66f68a7b780e16c4ffb8b6e01c91471945b72cf951",
+ "size": 1484062,
+ "date": "2026-11-19",
  "notes": {
-  "de": "- «Sport live» zeigt nur noch Sport (eigene Sport-Liste der SRG). Die übrigen geplanten Livestreams, z.B. Sendungen in Gebärdensprache, stehen neu unter «Weitere Livestreams».\n- Übersichtlichere Darstellung: kurzer Titel ohne Datum, laufende mit ●; Zeit in der zweiten Zeile («LIVE bis 21:30», «morgen 18:50 – 20:45»).",
-  "en": "Sport live now shows only sport; other scheduled livestreams under 'More livestreams'. Cleaner layout with time on the second line."
+  "de": "- Live- und Sport-Liste dreizeilig: oben klein (orange) Sportart und Wettbewerb, in der Mitte gross die Paarung bzw. das Rennen, unten die Zeit – bei laufenden Übertragungen rot.",
+  "en": "Live and sport list in three lines: sport and competition, match, time."
  }
 }
