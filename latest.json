@@ -1,11 +1,11 @@
 {
- "version": "0.43.6",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.43.6_all.ipk",
- "sha256": "72a667325bc04162eca267aa4b1f2b4025934ce5b72eacfe95b7d52c45fb1301",
- "size": 1484216,
+ "version": "0.44.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.44.0_all.ipk",
+ "sha256": "deb9491236e987fbe312b2e04c4e5603b418cf947cc6e841ce5e94dcd37c92e5",
+ "size": 1489048,
  "date": "2026-11-19",
  "notes": {
-  "de": "- «TV live» bei SRF, RTS und RSI entfernt: die SRG-Sender sind als Livestream kopiergeschützt (DRM) und laufen auf keiner Box. SRF 1, SRF zwei und SRF info laufen weiter über die eigenen Senderlisten.\n- Hat ein Video sowohl eine geschützte als auch eine ungeschützte Fassung, nimmt Stream-Player jetzt die ungeschützte, statt «kopiergeschützt» zu melden.",
-  "en": "Removed 'TV live' for SRG (the channel livestreams are DRM-protected). Videos with an unprotected version now play instead of reporting copy protection."
+  "de": "- Neu: **Erinnern** – im Programm, im Multi-EPG oder bei «Sport live» OK auf einer kommenden Sendung (oder REC › Erinnern). Kurz vor Beginn kommt eine Meldung auf den Fernseher und aufs Handy (wenn die Handy-Meldung eingerichtet ist), z.B. «HCD – ZSC · beginnt in 10 Min. (19:45) auf SRF zwei». Gesetzte Erinnerungen haben » vor dem Titel; nochmals OK entfernt sie.\n- Neu: MENU › **Meine Erinnerungen** (ansehen und löschen). In den Einstellungen: wie viele Minuten vorher (5/10/15/30) und ob auch auf dem Fernseher.\n- Im Multi-EPG setzt OK auf einer späteren Sendung jetzt eine Erinnerung; Aufnehmen weiterhin mit REC.",
+  "en": "New: reminders - OK on a coming programme (programme guide, multi EPG, Sport live) sends a message to the TV and your phone before it starts; MENU > My reminders."
  }
 }

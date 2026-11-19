@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.44.0 – 2026-11-19
+
+- Neu: **Erinnern** – im Programm, im Multi-EPG oder bei «Sport live» OK auf einer kommenden Sendung (oder REC › Erinnern). Kurz vor Beginn kommt eine Meldung auf den Fernseher und aufs Handy (wenn die Handy-Meldung eingerichtet ist), z.B. «HCD – ZSC · beginnt in 10 Min. (19:45) auf SRF zwei». Gesetzte Erinnerungen haben » vor dem Titel; nochmals OK entfernt sie.
+- Neu: MENU › **Meine Erinnerungen** (ansehen und löschen). In den Einstellungen: wie viele Minuten vorher (5/10/15/30) und ob auch auf dem Fernseher.
+- Im Multi-EPG setzt OK auf einer späteren Sendung jetzt eine Erinnerung; Aufnehmen weiterhin mit REC.
+
 ## 0.43.6 – 2026-11-19
 
 - «TV live» bei SRF, RTS und RSI entfernt: die SRG-Sender sind als Livestream kopiergeschützt (DRM) und laufen auf keiner Box. SRF 1, SRF zwei und SRF info laufen weiter über die eigenen Senderlisten.
