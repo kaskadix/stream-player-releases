@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.45.0 – 2026-11-19
+
+- Neu: **Sender-Ampel** – in der Senderliste steht vor dem Namen ein Punkt: grün = ging zuletzt, gelb = nur ein Teil der Streams geht, rot = ging zuletzt nicht. Die Punkte entstehen von selbst beim Schauen.
+- Neu: MENU › **Sender dieser Gruppe prüfen (Ampel)** – die Box fragt im Hintergrund jeden Sender kurz an (wenige Kilobyte) und zeigt unten rechts, wie weit sie ist. Sender mit VPN-Tunnel werden nicht geprüft (sonst ginge die Anfrage am VPN vorbei), Xtream-Sender nacheinander.
+- Selbstheilend: Streams, die beim Prüfen nicht gingen, probiert die Box beim nächsten Mal zuletzt. Einstellung «Sender, die nicht gingen»: rote Sender auf Wunsch ans Ende der Gruppe.
+
 ## 0.44.0 – 2026-11-19
 
 - Neu: **Erinnern** – im Programm, im Multi-EPG oder bei «Sport live» OK auf einer kommenden Sendung (oder REC › Erinnern). Kurz vor Beginn kommt eine Meldung auf den Fernseher und aufs Handy (wenn die Handy-Meldung eingerichtet ist), z.B. «HCD – ZSC · beginnt in 10 Min. (19:45) auf SRF zwei». Gesetzte Erinnerungen haben » vor dem Titel; nochmals OK entfernt sie.
