@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.46.2 – 2026-11-20
+
+- BLAU (anderer Stream) im Vollbild und im kleinen Bild: Das Relay schaltet jetzt intern um, der Abspieler bleibt verbunden. Schneller, ohne schwarzes Bild dazwischen – und der Abspieler muss nicht mehr stoppen und neu starten (dort ist die Box einmal hängengeblieben). Klappt das interne Umschalten nicht, startet die Box nach 6 Sekunden wie bisher neu.
+
 ## 0.46.1 – 2026-11-20
 
 - Einstellungen (auch Download-Einstellungen): Auswahlwerte nur noch in deiner Sprache (z.B. «aus» statt «aus / off»), grösseres Fenster, keine halb abgeschnittene Zeile mehr unten in der Liste, mehr Platz für den Erklärtext.

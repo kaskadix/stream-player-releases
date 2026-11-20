@@ -1,11 +1,11 @@
 {
- "version": "0.46.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.1_all.ipk",
- "sha256": "7eacbb85665623299f3685af41745c339443a30f5b813155a88cd565fd7f4e2f",
- "size": 1500848,
+ "version": "0.46.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.2_all.ipk",
+ "sha256": "fba57a5d2ed5aa639216cf6c149cee885fe4ddaf0840ecf8acd28eed0127cf7b",
+ "size": 1501832,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Einstellungen (auch Download-Einstellungen): Auswahlwerte nur noch in deiner Sprache (z.B. «aus» statt «aus / off»), grösseres Fenster, keine halb abgeschnittene Zeile mehr unten in der Liste, mehr Platz für den Erklärtext.",
-  "en": "Settings: choices shown only in your language, larger window, no half-cut line at the bottom."
+  "de": "- BLAU (anderer Stream) im Vollbild und im kleinen Bild: Das Relay schaltet jetzt intern um, der Abspieler bleibt verbunden. Schneller, ohne schwarzes Bild dazwischen – und der Abspieler muss nicht mehr stoppen und neu starten (dort ist die Box einmal hängengeblieben). Klappt das interne Umschalten nicht, startet die Box nach 6 Sekunden wie bisher neu.",
+  "en": "BLUE (other stream) now switches inside the relay: the player stays connected - faster, no black picture, no player restart. Falls back to the old restart after 6 s if needed."
  }
 }
