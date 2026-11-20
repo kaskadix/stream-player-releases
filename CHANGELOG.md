@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.48.2 – 2026-11-20
+
+- Film-Infos funktionieren jetzt ohne eigenen Schlüssel: Stream-Player bringt einen eingebauten TMDB-Schlüssel mit. Ein eigener Schlüssel (Browser) hat weiterhin Vorrang.
+
 ## 0.48.1 – 2026-11-20
 
 - Browser, Film-Infos: «Testen» speichert einen eingetippten Schlüssel jetzt zuerst (vorher wurde der noch nicht gespeicherte Schlüssel nicht geprüft).
