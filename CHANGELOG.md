@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.0 – 2026-11-20
+
+- Neu: **Jugendschutz** (MENU › Jugendschutz): eigene PIN (4–8 Ziffern, nur als Prüfwert gespeichert); **Erwachsenen-Inhalte ausblenden** (von Anfang an an – Sender, Gruppen, Kategorien, Filme und Serien mit «XXX», «Adult», «18+», «Erotik» usw. verschwinden aus Senderliste, Mediatheken, Xtream und Suche; Ausschalten nur mit PIN); einzelne **Sender und Gruppen mit PIN sperren** (MENU auf einem Sender); «Gesperrtes zeigen (PIN)» bis Stream-Player geschlossen wird; auf Wunsch **Einstellungen, Listen, Xtream, VPN, Update und Sicherung nur mit PIN**.
+
 ## 0.49.1 – 2026-11-20
 
 - In jedem MENU (Vollbild, Film/Folge, Download-Manager, VPN-Tunnel) steht zuunterst «» Hauptmenü von Stream-Player»: schliesst die offenen Fenster (auch Programm, Multi-EPG, Weiterschauen dazwischen) und öffnet das Hauptmenü.
