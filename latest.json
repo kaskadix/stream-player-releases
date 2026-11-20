@@ -1,11 +1,11 @@
 {
- "version": "0.45.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.3_all.ipk",
- "sha256": "69321960fa5c73feaa69ba42399315683354ede557b81f9e6febb211fb0938f6",
- "size": 1495390,
+ "version": "0.46.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.0_all.ipk",
+ "sha256": "f31ad3e0047535e2af1db36a558000983424ffe802bd582e26c73507e942302e",
+ "size": 1500182,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Anleitung und Hilfe auf der Box: erklären jetzt genau, was GRÜN «Neu laden» in der Senderliste macht (Listen und Xtream frisch laden, EPG nur wenn älter als 12 Stunden, gespeicherte Fassung bei Ausfall).",
-  "en": "Manual and box help explain exactly what GREEN Reload does in the channel list."
+  "de": "- Neu: **Hinweise zur Programmzeitschrift** – hat ein Sender kein Programm, sagt das Infofeld, warum: Sender in der EPG-Quelle nicht gefunden, Quelle veraltet, von Hand ausgeschaltet, EPG-Quelle beim Laden fehlgeschlagen.\n- Neu: MENU › **Programmzeitschrift zuordnen** direkt auf der Box – mit Vorschlägen der ähnlichsten Sender aus deinen EPG-Quellen (z.B. «ORF eins» → «ORF 1»), Suche nach Namen, «keine Programmzeitschrift» und «wieder automatisch». Danach lädt das Programm von selbst neu.",
+  "en": "Programme guide hints: the info field says why a channel has no programme. New MENU > Assign programme guide on the box with name-based suggestions and search."
  }
 }

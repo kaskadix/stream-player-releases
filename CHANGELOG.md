@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.46.0 – 2026-11-20
+
+- Neu: **Hinweise zur Programmzeitschrift** – hat ein Sender kein Programm, sagt das Infofeld, warum: Sender in der EPG-Quelle nicht gefunden, Quelle veraltet, von Hand ausgeschaltet, EPG-Quelle beim Laden fehlgeschlagen.
+- Neu: MENU › **Programmzeitschrift zuordnen** direkt auf der Box – mit Vorschlägen der ähnlichsten Sender aus deinen EPG-Quellen (z.B. «ORF eins» → «ORF 1»), Suche nach Namen, «keine Programmzeitschrift» und «wieder automatisch». Danach lädt das Programm von selbst neu.
+
 ## 0.45.3 – 2026-11-20
 
 - Anleitung und Hilfe auf der Box: erklären jetzt genau, was GRÜN «Neu laden» in der Senderliste macht (Listen und Xtream frisch laden, EPG nur wenn älter als 12 Stunden, gespeicherte Fassung bei Ausfall).
