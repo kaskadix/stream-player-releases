@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.2 – 2026-11-20
+
+- Neu: Gruppe **«Liste: Name»** je Liste bzw. Xtream-Zugang (ab zwei Quellen, nach den Favoriten) – alle Sender genau dieser Liste, auch im Multi-EPG.
+
 ## 0.50.1 – 2026-11-20
 
 - **Schneller Start:** Beim Öffnen erscheint die Senderliste sofort aus der zuletzt geladenen Fassung. Sind die Listen älter als 15 Minuten, lädt Stream-Player sie danach im Hintergrund frisch und führt die Senderliste still nach («Listen aktualisiert: … neu, … entfernt, … mit neuen Adressen»).
