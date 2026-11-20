@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.45.1 – 2026-11-20
+
+- Die Sender-Ampel lässt sich ganz ausschalten: Einstellungen › «Sender-Ampel» › aus (keine Punkte, keine Prüfung).
+- Xtream-Sender werden beim Prüfen nie mehr angefragt – viele Anbieter erlauben nur wenige Verbindungen gleichzeitig, eine Prüfung könnte dein Schauen stören. Ihr Punkt entsteht nur beim normalen Schauen.
+
 ## 0.45.0 – 2026-11-19
 
 - Neu: **Sender-Ampel** – in der Senderliste steht vor dem Namen ein Punkt: grün = ging zuletzt, gelb = nur ein Teil der Streams geht, rot = ging zuletzt nicht. Die Punkte entstehen von selbst beim Schauen.

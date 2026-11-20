@@ -1,11 +1,11 @@
 {
- "version": "0.45.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.0_all.ipk",
- "sha256": "c29886422421a1e1fc5f788ce7db6798d989ccfe2e170df1aa23f825dc534460",
- "size": 1494372,
- "date": "2026-11-19",
+ "version": "0.45.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.1_all.ipk",
+ "sha256": "2315dbbe9057329a0a114e4fef57c408a9cc2fdccaf40df50bf5f4726363d336",
+ "size": 1494934,
+ "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: **Sender-Ampel** – in der Senderliste steht vor dem Namen ein Punkt: grün = ging zuletzt, gelb = nur ein Teil der Streams geht, rot = ging zuletzt nicht. Die Punkte entstehen von selbst beim Schauen.\n- Neu: MENU › **Sender dieser Gruppe prüfen (Ampel)** – die Box fragt im Hintergrund jeden Sender kurz an (wenige Kilobyte) und zeigt unten rechts, wie weit sie ist. Sender mit VPN-Tunnel werden nicht geprüft (sonst ginge die Anfrage am VPN vorbei), Xtream-Sender nacheinander.\n- Selbstheilend: Streams, die beim Prüfen nicht gingen, probiert die Box beim nächsten Mal zuletzt. Einstellung «Sender, die nicht gingen»: rote Sender auf Wunsch ans Ende der Gruppe.",
-  "en": "Channel traffic light: green/yellow/red dot before each channel, background check of a whole group (MENU), dead streams tried last next time, optional: move dead channels to the end."
+  "de": "- Die Sender-Ampel lässt sich ganz ausschalten: Einstellungen › «Sender-Ampel» › aus (keine Punkte, keine Prüfung).\n- Xtream-Sender werden beim Prüfen nie mehr angefragt – viele Anbieter erlauben nur wenige Verbindungen gleichzeitig, eine Prüfung könnte dein Schauen stören. Ihr Punkt entsteht nur beim normalen Schauen.",
+  "en": "Channel traffic light can be switched off (Settings). Xtream channels are never probed by the group check (connection limits)."
  }
 }
