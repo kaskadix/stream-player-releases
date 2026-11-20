@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.48.0 – 2026-11-20
+
+- Neu: **Film-Infos von TMDB** für Filme und Serien aus Xtream, WikiFlix und dem Archiv: Bewertung, Genre und Jahr im Infofeld, fehlende Beschreibungen auf Deutsch. MENU › «Film-Infos (TMDB)» zeigt Beschreibung, Besetzung, Regie und einen QR-Code für den Trailer (auf dem Handy).
+- Neu: **IMDb-Bewertung** (einschaltbar): Die Box lädt die offizielle Bewertungsliste von IMDb etwa wöchentlich auf Festplatte/USB.
+- Eigener TMDB-Schlüssel auf der Einstellungsseite im Browser (Bereich «Film-Infos (TMDB)», mit Test). Ohne eigenen gilt der eingebaute Schlüssel von Stream-Player.
+
 ## 0.47.1 – 2026-11-20
 
 - REC › «Ab jetzt aufnehmen für …»: auch kurze Aufnahmen (5, 10, 15, 45 Minuten), jeweils mit Endzeit, und «Eigene Dauer»: Minuten mit den Zifferntasten eingeben (1 bis 720).
