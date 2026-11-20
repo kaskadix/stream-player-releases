@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.49.1 – 2026-11-20
+
+- In jedem MENU (Vollbild, Film/Folge, Download-Manager, VPN-Tunnel) steht zuunterst «» Hauptmenü von Stream-Player»: schliesst die offenen Fenster (auch Programm, Multi-EPG, Weiterschauen dazwischen) und öffnet das Hauptmenü.
+
 ## 0.49.0 – 2026-11-20
 
 - Neu: **Eigene Ordner (NAS, USB) im Archiv** – Filme und Serien direkt aus einem Ordner auf dem NAS oder einer USB-Festplatte, ohne Plex oder Jellyfin: Archiv › MENU › «Eigene Ordner (NAS, USB) …». Pro Ordner wählbar: Filme, Serien (erster Unterordner = Serie, Staffel-Ordner und SxxEyy erkannt) oder gemischt. Mit Film-Infos, Weiterschauen und Suche. Stream-Player löscht dort nie etwas; ein ausgeschaltetes NAS wird nach höchstens 5 Sekunden übersprungen.

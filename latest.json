@@ -1,13 +1,13 @@
 {
- "version": "0.49.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.49.0_all.ipk",
- "sha256": "3f00b73d7359b073b55d7e50cd3a16a5610f6a072f493022e2db8287f2ff9199",
- "size": 1522924,
- "installed_kb": 3120,
- "need_kb": 7264,
+ "version": "0.49.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.49.1_all.ipk",
+ "sha256": "9b278cc54aac1aa72b978d668cba3ef60dba0ca895d3e276179ff94b710bc213",
+ "size": 1523646,
+ "installed_kb": 3124,
+ "need_kb": 7272,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: **Eigene Ordner (NAS, USB) im Archiv** – Filme und Serien direkt aus einem Ordner auf dem NAS oder einer USB-Festplatte, ohne Plex oder Jellyfin: Archiv › MENU › «Eigene Ordner (NAS, USB) …». Pro Ordner wählbar: Filme, Serien (erster Unterordner = Serie, Staffel-Ordner und SxxEyy erkannt) oder gemischt. Mit Film-Infos, Weiterschauen und Suche. Stream-Player löscht dort nie etwas; ein ausgeschaltetes NAS wird nach höchstens 5 Sekunden übersprungen.",
-  "en": "Own folders (NAS, USB) in the archive: films and series straight from a folder, without a media server - with film info, continue watching and search. Never deletes there."
+  "de": "- In jedem MENU (Vollbild, Film/Folge, Download-Manager, VPN-Tunnel) steht zuunterst «» Hauptmenü von Stream-Player»: schliesst die offenen Fenster (auch Programm, Multi-EPG, Weiterschauen dazwischen) und öffnet das Hauptmenü.",
+  "en": "Every MENU now ends with 'Stream-Player main menu': closes the open windows and opens the main menu."
  }
 }
