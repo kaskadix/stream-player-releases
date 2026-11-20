@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.50.1 – 2026-11-20
+
+- **Schneller Start:** Beim Öffnen erscheint die Senderliste sofort aus der zuletzt geladenen Fassung. Sind die Listen älter als 15 Minuten, lädt Stream-Player sie danach im Hintergrund frisch und führt die Senderliste still nach («Listen aktualisiert: … neu, … entfernt, … mit neuen Adressen»).
+- Mehrere Listen werden gleichzeitig geladen (bis zu 4), und das Zusammenfassen gleicher Sender läuft im Hintergrund – die Bedienung bleibt dabei flüssig.
+
 ## 0.50.0 – 2026-11-20
 
 - Neu: **Jugendschutz** (MENU › Jugendschutz): eigene PIN (4–8 Ziffern, nur als Prüfwert gespeichert); **Erwachsenen-Inhalte ausblenden** (von Anfang an an – Sender, Gruppen, Kategorien, Filme und Serien mit «XXX», «Adult», «18+», «Erotik» usw. verschwinden aus Senderliste, Mediatheken, Xtream und Suche; Ausschalten nur mit PIN); einzelne **Sender und Gruppen mit PIN sperren** (MENU auf einem Sender); «Gesperrtes zeigen (PIN)» bis Stream-Player geschlossen wird; auf Wunsch **Einstellungen, Listen, Xtream, VPN, Update und Sicherung nur mit PIN**.

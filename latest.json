@@ -1,13 +1,13 @@
 {
- "version": "0.50.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.0_all.ipk",
- "sha256": "e39b2f81d9c72a67201ccdac933512e3c2a66598b9a6c629933a6c6938fb12ee",
- "size": 1529370,
- "installed_kb": 3144,
- "need_kb": 7312,
+ "version": "0.50.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.1_all.ipk",
+ "sha256": "5df4e217b87898b60959fe167e9d45d912a7595f2bca8cb5ca987ef077292847",
+ "size": 1531354,
+ "installed_kb": 3156,
+ "need_kb": 7336,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: **Jugendschutz** (MENU › Jugendschutz): eigene PIN (4–8 Ziffern, nur als Prüfwert gespeichert); **Erwachsenen-Inhalte ausblenden** (von Anfang an an – Sender, Gruppen, Kategorien, Filme und Serien mit «XXX», «Adult», «18+», «Erotik» usw. verschwinden aus Senderliste, Mediatheken, Xtream und Suche; Ausschalten nur mit PIN); einzelne **Sender und Gruppen mit PIN sperren** (MENU auf einem Sender); «Gesperrtes zeigen (PIN)» bis Stream-Player geschlossen wird; auf Wunsch **Einstellungen, Listen, Xtream, VPN, Update und Sicherung nur mit PIN**.",
-  "en": "Youth protection: PIN, adult content hidden by default (channels, groups, categories, films, search), lock single channels/groups, settings only with PIN."
+  "de": "- **Schneller Start:** Beim Öffnen erscheint die Senderliste sofort aus der zuletzt geladenen Fassung. Sind die Listen älter als 15 Minuten, lädt Stream-Player sie danach im Hintergrund frisch und führt die Senderliste still nach («Listen aktualisiert: … neu, … entfernt, … mit neuen Adressen»).\n- Mehrere Listen werden gleichzeitig geladen (bis zu 4), und das Zusammenfassen gleicher Sender läuft im Hintergrund – die Bedienung bleibt dabei flüssig.",
+  "en": "Quick start: channel list appears at once from the last loaded version, lists refresh in the background; several lists load in parallel."
  }
 }
