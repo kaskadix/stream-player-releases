@@ -1,11 +1,11 @@
 {
- "version": "0.46.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.2_all.ipk",
- "sha256": "fba57a5d2ed5aa639216cf6c149cee885fe4ddaf0840ecf8acd28eed0127cf7b",
- "size": 1501832,
+ "version": "0.46.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.3_all.ipk",
+ "sha256": "32fd8d546ab134e1065ccb8b1da1b4c835070fa83fe970899a61dec48c6ad8e0",
+ "size": 1502266,
  "date": "2026-11-20",
  "notes": {
-  "de": "- BLAU (anderer Stream) im Vollbild und im kleinen Bild: Das Relay schaltet jetzt intern um, der Abspieler bleibt verbunden. Schneller, ohne schwarzes Bild dazwischen – und der Abspieler muss nicht mehr stoppen und neu starten (dort ist die Box einmal hängengeblieben). Klappt das interne Umschalten nicht, startet die Box nach 6 Sekunden wie bisher neu.",
-  "en": "BLUE (other stream) now switches inside the relay: the player stays connected - faster, no black picture, no player restart. Falls back to the old restart after 6 s if needed."
+  "de": "- Nach einem Update ohne Neustart: Die Einstellungsseite startet erst, wenn der alte Server den Port freigegeben hat (keine Meldungen «Port belegt» mehr).\n- Die Browser-Seite lädt die Listen nicht mehr ein zweites Mal, während der Startbildschirm sie gerade lädt – sie wartet darauf.\n- Protokoll: Die Vorschau meldet kein «Bild» mehr, das in Wahrheit zum Vollbild gehörte.",
+  "en": "Cleanups: settings page starts only after the old server freed the port; browser page waits instead of loading lists twice; preview no longer logs pictures of the full-screen player."
  }
 }
