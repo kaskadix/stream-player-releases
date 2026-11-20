@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.48.1 – 2026-11-20
+
+- Browser, Film-Infos: «Testen» speichert einen eingetippten Schlüssel jetzt zuerst (vorher wurde der noch nicht gespeicherte Schlüssel nicht geprüft).
+
 ## 0.48.0 – 2026-11-20
 
 - Neu: **Film-Infos von TMDB** für Filme und Serien aus Xtream, WikiFlix und dem Archiv: Bewertung, Genre und Jahr im Infofeld, fehlende Beschreibungen auf Deutsch. MENU › «Film-Infos (TMDB)» zeigt Beschreibung, Besetzung, Regie und einen QR-Code für den Trailer (auf dem Handy).

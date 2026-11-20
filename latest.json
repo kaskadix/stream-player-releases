@@ -1,11 +1,11 @@
 {
- "version": "0.48.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.48.0_all.ipk",
- "sha256": "73026c02dd649b9c4f52ee18df40ad55694c813afb42ed512a0632b963711507",
- "size": 1518048,
+ "version": "0.48.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.48.1_all.ipk",
+ "sha256": "8e040ee13c323b03b8e60dbbdf2e5d045a4440964f17536566857cb970d5c120",
+ "size": 1518102,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: **Film-Infos von TMDB** für Filme und Serien aus Xtream, WikiFlix und dem Archiv: Bewertung, Genre und Jahr im Infofeld, fehlende Beschreibungen auf Deutsch. MENU › «Film-Infos (TMDB)» zeigt Beschreibung, Besetzung, Regie und einen QR-Code für den Trailer (auf dem Handy).\n- Neu: **IMDb-Bewertung** (einschaltbar): Die Box lädt die offizielle Bewertungsliste von IMDb etwa wöchentlich auf Festplatte/USB.\n- Eigener TMDB-Schlüssel auf der Einstellungsseite im Browser (Bereich «Film-Infos (TMDB)», mit Test). Ohne eigenen gilt der eingebaute Schlüssel von Stream-Player.",
-  "en": "Film information from TMDB for Xtream films/series, WikiFlix and the archive (rating, genre, German description, cast, trailer QR). Optional IMDb rating from the official dataset. Own TMDB key on the browser page."
+  "de": "- Browser, Film-Infos: «Testen» speichert einen eingetippten Schlüssel jetzt zuerst (vorher wurde der noch nicht gespeicherte Schlüssel nicht geprüft).",
+  "en": "Browser: Test saves a typed TMDB key first."
  }
 }
