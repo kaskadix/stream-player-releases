@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.45.2 – 2026-11-20
+
+- Die Sender-Ampel ist jetzt anfangs **aus**. Einschalten unter Einstellungen › «Sender-Ampel».
+
 ## 0.45.1 – 2026-11-20
 
 - Die Sender-Ampel lässt sich ganz ausschalten: Einstellungen › «Sender-Ampel» › aus (keine Punkte, keine Prüfung).

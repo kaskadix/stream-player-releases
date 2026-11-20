@@ -1,11 +1,11 @@
 {
- "version": "0.45.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.1_all.ipk",
- "sha256": "2315dbbe9057329a0a114e4fef57c408a9cc2fdccaf40df50bf5f4726363d336",
- "size": 1494934,
+ "version": "0.45.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.2_all.ipk",
+ "sha256": "64193b3e97502111b6581042e938200ca26448ffa330121cf3a4eadcfa34956b",
+ "size": 1494984,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Die Sender-Ampel lässt sich ganz ausschalten: Einstellungen › «Sender-Ampel» › aus (keine Punkte, keine Prüfung).\n- Xtream-Sender werden beim Prüfen nie mehr angefragt – viele Anbieter erlauben nur wenige Verbindungen gleichzeitig, eine Prüfung könnte dein Schauen stören. Ihr Punkt entsteht nur beim normalen Schauen.",
-  "en": "Channel traffic light can be switched off (Settings). Xtream channels are never probed by the group check (connection limits)."
+  "de": "- Die Sender-Ampel ist jetzt anfangs **aus**. Einschalten unter Einstellungen › «Sender-Ampel».",
+  "en": "Channel traffic light is now off by default (Settings > Channel traffic light)."
  }
 }
