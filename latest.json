@@ -1,11 +1,11 @@
 {
- "version": "0.47.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.47.0_all.ipk",
- "sha256": "f02dffc3d6f84ee540115887a2cc5fbc11260c620ecfbf08306838ecea4dcd54",
- "size": 1504844,
+ "version": "0.47.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.47.1_all.ipk",
+ "sha256": "a64d37ae261abf67ee832f91963532bef7874554b45d02cd9934063a92ecb8c9",
+ "size": 1505312,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: Die **Suche** findet jetzt auch **vergangene Sendungen zum Nachschauen** (letzte 7 Tage, aus dem Archiv deines Anbieters oder der Mediathek des Senders – OK spielt die ganze Sendung) und **dein Archiv** (eigene Aufnahmen und Downloads – OK spielt weiter, wo du aufgehört hast).\n- Programmzeitschrift: Bei Sendern mit Archiv (Catch-up) behält Stream-Player die Sendungen so viele Tage zurück, wie das Archiv reicht (höchstens 7; bei sehr vielen Sendern mit Archiv weniger, damit der Arbeitsspeicher der Box reicht) – damit sind sie auch im Programm des Senders und im Multi-EPG zum Nachschauen da. Andere Sender wie bisher 3 Stunden.",
-  "en": "Search now also finds past programmes to watch again (last 7 days, provider archive or media library) and your own recordings and downloads. EPG keeps past days for channels with catch-up."
+  "de": "- REC › «Ab jetzt aufnehmen für …»: auch kurze Aufnahmen (5, 10, 15, 45 Minuten), jeweils mit Endzeit, und «Eigene Dauer»: Minuten mit den Zifferntasten eingeben (1 bis 720).",
+  "en": "Record from now: short durations (5-15 min) with end time, and an own duration in minutes."
  }
 }

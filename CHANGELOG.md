@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.47.1 – 2026-11-20
+
+- REC › «Ab jetzt aufnehmen für …»: auch kurze Aufnahmen (5, 10, 15, 45 Minuten), jeweils mit Endzeit, und «Eigene Dauer»: Minuten mit den Zifferntasten eingeben (1 bis 720).
+
 ## 0.47.0 – 2026-11-20
 
 - Neu: Die **Suche** findet jetzt auch **vergangene Sendungen zum Nachschauen** (letzte 7 Tage, aus dem Archiv deines Anbieters oder der Mediathek des Senders – OK spielt die ganze Sendung) und **dein Archiv** (eigene Aufnahmen und Downloads – OK spielt weiter, wo du aufgehört hast).
