@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.3 – 2026-11-21
+
+- Neu: **Ähnliche Gruppen zusammenführen** (von Anfang an an): «DE: Sport», «|DE| SPORT HD» und «DE ► Sport ★» werden eine Gruppe «DE: Sport»; auch «News»/«Nachrichten», «Kids»/«Kinder», «Filme»/«Movies». Ländervorsätze bleiben getrennt. Abschaltbar in den Einstellungen.
+
 ## 0.50.2 – 2026-11-20
 
 - Neu: Gruppe **«Liste: Name»** je Liste bzw. Xtream-Zugang (ab zwei Quellen, nach den Favoriten) – alle Sender genau dieser Liste, auch im Multi-EPG.

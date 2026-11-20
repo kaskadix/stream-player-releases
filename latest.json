@@ -1,13 +1,13 @@
 {
- "version": "0.50.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.2_all.ipk",
- "sha256": "b4d02a61104bd59b2588c7762fa620bde1b3e200d2e7a778ba8d8569a835e5eb",
- "size": 1531900,
- "installed_kb": 3156,
- "need_kb": 7336,
- "date": "2026-11-20",
+ "version": "0.50.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.3_all.ipk",
+ "sha256": "e9635babf331b402a3bfcc470908195f5e15ba92afc75489564956448b89a462",
+ "size": 1533758,
+ "installed_kb": 3164,
+ "need_kb": 7352,
+ "date": "2026-11-21",
  "notes": {
-  "de": "- Neu: Gruppe **«Liste: Name»** je Liste bzw. Xtream-Zugang (ab zwei Quellen, nach den Favoriten) – alle Sender genau dieser Liste, auch im Multi-EPG.",
-  "en": "New group 'List: name' per list / Xtream account with all its channels."
+  "de": "- Neu: **Ähnliche Gruppen zusammenführen** (von Anfang an an): «DE: Sport», «|DE| SPORT HD» und «DE ► Sport ★» werden eine Gruppe «DE: Sport»; auch «News»/«Nachrichten», «Kids»/«Kinder», «Filme»/«Movies». Ländervorsätze bleiben getrennt. Abschaltbar in den Einstellungen.",
+  "en": "Similar group names are merged (e.g. 'DE: Sport', '|DE| SPORT HD', 'DE ► Sport'), country prefixes stay apart. Can be switched off."
  }
 }
