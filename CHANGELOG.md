@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.47.0 – 2026-11-20
+
+- Neu: Die **Suche** findet jetzt auch **vergangene Sendungen zum Nachschauen** (letzte 7 Tage, aus dem Archiv deines Anbieters oder der Mediathek des Senders – OK spielt die ganze Sendung) und **dein Archiv** (eigene Aufnahmen und Downloads – OK spielt weiter, wo du aufgehört hast).
+- Programmzeitschrift: Bei Sendern mit Archiv (Catch-up) behält Stream-Player die Sendungen so viele Tage zurück, wie das Archiv reicht (höchstens 7; bei sehr vielen Sendern mit Archiv weniger, damit der Arbeitsspeicher der Box reicht) – damit sind sie auch im Programm des Senders und im Multi-EPG zum Nachschauen da. Andere Sender wie bisher 3 Stunden.
+
 ## 0.46.3 – 2026-11-20
 
 - Nach einem Update ohne Neustart: Die Einstellungsseite startet erst, wenn der alte Server den Port freigegeben hat (keine Meldungen «Port belegt» mehr).

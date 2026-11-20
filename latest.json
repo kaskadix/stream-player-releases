@@ -1,11 +1,11 @@
 {
- "version": "0.46.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.3_all.ipk",
- "sha256": "32fd8d546ab134e1065ccb8b1da1b4c835070fa83fe970899a61dec48c6ad8e0",
- "size": 1502266,
+ "version": "0.47.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.47.0_all.ipk",
+ "sha256": "f02dffc3d6f84ee540115887a2cc5fbc11260c620ecfbf08306838ecea4dcd54",
+ "size": 1504844,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Nach einem Update ohne Neustart: Die Einstellungsseite startet erst, wenn der alte Server den Port freigegeben hat (keine Meldungen «Port belegt» mehr).\n- Die Browser-Seite lädt die Listen nicht mehr ein zweites Mal, während der Startbildschirm sie gerade lädt – sie wartet darauf.\n- Protokoll: Die Vorschau meldet kein «Bild» mehr, das in Wahrheit zum Vollbild gehörte.",
-  "en": "Cleanups: settings page starts only after the old server freed the port; browser page waits instead of loading lists twice; preview no longer logs pictures of the full-screen player."
+  "de": "- Neu: Die **Suche** findet jetzt auch **vergangene Sendungen zum Nachschauen** (letzte 7 Tage, aus dem Archiv deines Anbieters oder der Mediathek des Senders – OK spielt die ganze Sendung) und **dein Archiv** (eigene Aufnahmen und Downloads – OK spielt weiter, wo du aufgehört hast).\n- Programmzeitschrift: Bei Sendern mit Archiv (Catch-up) behält Stream-Player die Sendungen so viele Tage zurück, wie das Archiv reicht (höchstens 7; bei sehr vielen Sendern mit Archiv weniger, damit der Arbeitsspeicher der Box reicht) – damit sind sie auch im Programm des Senders und im Multi-EPG zum Nachschauen da. Andere Sender wie bisher 3 Stunden.",
+  "en": "Search now also finds past programmes to watch again (last 7 days, provider archive or media library) and your own recordings and downloads. EPG keeps past days for channels with catch-up."
  }
 }
