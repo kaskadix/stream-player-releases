@@ -25,6 +25,13 @@ Danach die Oberfläche der Box neu starten und Stream-Player öffnen – der **B
 
 Danach findet Stream-Player neue Versionen selbst (Menüpunkt **Update**) und installiert sie per Knopfdruck.
 
+## Platzbedarf
+
+- **Plugin:** etwa **7 MB** im internen Speicher (Flash) der Box – rund 3 MB Dateien plus der von Python übersetzte Code. Die Installation prüft vorher, ob genug Platz frei ist, und bricht sonst mit einer klaren Meldung ab (nichts wird halb installiert).
+- **Einstellungen und Listen:** wenige hundert KB unter `/etc/enigma2/streamplayer`.
+- **Zwischenspeicher** für Senderlogos, Poster und Film-Infos: auf Festplatte, USB-Stick oder NAS (nie im Flash), höchstens rund 300 MB; die IMDb-Bewertungen (falls eingeschaltet) brauchen zusätzlich etwa 10 MB.
+- **Aufnahmen, Downloads, Replay:** nur im gewählten Ordner auf Festplatte, USB oder NAS – nie im internen Speicher.
+
 ## Voraussetzungen
 
 | Was | Wofür | Nötig? |

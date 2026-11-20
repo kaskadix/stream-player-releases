@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.48.3 – 2026-11-20
+
+- Platzbedarf: Das Paket nennt seine Grösse (etwa 3 MB Dateien, rund 7 MB frei nötig). Installation und Update prüfen vorher, ob im Speicher der Box (Flash) und in /tmp genug Platz frei ist, und brechen sonst mit einer klaren Meldung ab – nichts wird halb installiert.
+
 ## 0.48.2 – 2026-11-20
 
 - Film-Infos funktionieren jetzt ohne eigenen Schlüssel: Stream-Player bringt einen eingebauten TMDB-Schlüssel mit. Ein eigener Schlüssel (Browser) hat weiterhin Vorrang.

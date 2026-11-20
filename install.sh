@@ -25,6 +25,33 @@ SUM=$(echo "$INFO" | sed -n 's/.*"sha256": *"\([0-9a-f]*\)".*/\1/p' | head -n 1)
 VER=$(echo "$INFO" | sed -n 's/.*"version": *"\([^"]*\)".*/\1/p' | head -n 1)
 [ -n "$URL" ] || { echo "FEHLER: Neueste Version nicht gefunden."; exit 1; }
 
+# Platz pruefen: Flash (Plugin-Ordner) und /tmp (Download)
+NEED_KB=$(echo "$INFO" | sed -n 's/.*"need_kb": *\([0-9]*\).*/\1/p' | head -n 1)
+SIZE=$(echo "$INFO" | sed -n 's/.*"size": *\([0-9]*\).*/\1/p' | head -n 1)
+[ -n "$NEED_KB" ] || NEED_KB=8192
+free_kb() { df -k "$1" 2>/dev/null | tail -n 1 | awk '{print $(NF-2)}'; }
+FLASH=$(free_kb /usr/lib/enigma2/python/Plugins)
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/StreamPlayer ]; then
+	NEED_KB=$((NEED_KB / 4 + 1024))  # Update: alte Dateien werden ersetzt
+fi
+echo "Platzbedarf: ca. $(( (NEED_KB + 1023) / 1024 )) MB im Speicher der Box, frei: $(( ${FLASH:-0} / 1024 )) MB"
+case "$FLASH" in
+	''|*[!0-9]*) ;;
+	*) if [ "$FLASH" -lt "$NEED_KB" ]; then
+		echo "FEHLER: Zu wenig Platz im Speicher der Box (Flash)."
+		echo "Bitte nicht benoetigte Plugins, Picons oder Sprachdateien entfernen und nochmals versuchen."
+		exit 1
+	fi ;;
+esac
+TMPFREE=$(free_kb /tmp)
+case "$TMPFREE" in
+	''|*[!0-9]*) ;;
+	*) if [ -n "$SIZE" ] && [ "$TMPFREE" -lt $(( SIZE / 1024 + 1024 )) ]; then
+		echo "FEHLER: Zu wenig freier Arbeitsspeicher (/tmp) zum Herunterladen. Box neu starten und nochmals versuchen."
+		exit 1
+	fi ;;
+esac
+
 echo "Lade Version $VER ..."
 rm -f "$TMP"
 wget -qO "$TMP" "$URL" || { echo "FEHLER: Herunterladen ging nicht."; exit 1; }
