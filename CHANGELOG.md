@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.46.1 – 2026-11-20
+
+- Einstellungen (auch Download-Einstellungen): Auswahlwerte nur noch in deiner Sprache (z.B. «aus» statt «aus / off»), grösseres Fenster, keine halb abgeschnittene Zeile mehr unten in der Liste, mehr Platz für den Erklärtext.
+
 ## 0.46.0 – 2026-11-20
 
 - Neu: **Hinweise zur Programmzeitschrift** – hat ein Sender kein Programm, sagt das Infofeld, warum: Sender in der EPG-Quelle nicht gefunden, Quelle veraltet, von Hand ausgeschaltet, EPG-Quelle beim Laden fehlgeschlagen.

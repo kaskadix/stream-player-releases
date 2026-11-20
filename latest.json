@@ -1,11 +1,11 @@
 {
- "version": "0.46.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.0_all.ipk",
- "sha256": "f31ad3e0047535e2af1db36a558000983424ffe802bd582e26c73507e942302e",
- "size": 1500182,
+ "version": "0.46.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.46.1_all.ipk",
+ "sha256": "7eacbb85665623299f3685af41745c339443a30f5b813155a88cd565fd7f4e2f",
+ "size": 1500848,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Neu: **Hinweise zur Programmzeitschrift** – hat ein Sender kein Programm, sagt das Infofeld, warum: Sender in der EPG-Quelle nicht gefunden, Quelle veraltet, von Hand ausgeschaltet, EPG-Quelle beim Laden fehlgeschlagen.\n- Neu: MENU › **Programmzeitschrift zuordnen** direkt auf der Box – mit Vorschlägen der ähnlichsten Sender aus deinen EPG-Quellen (z.B. «ORF eins» → «ORF 1»), Suche nach Namen, «keine Programmzeitschrift» und «wieder automatisch». Danach lädt das Programm von selbst neu.",
-  "en": "Programme guide hints: the info field says why a channel has no programme. New MENU > Assign programme guide on the box with name-based suggestions and search."
+  "de": "- Einstellungen (auch Download-Einstellungen): Auswahlwerte nur noch in deiner Sprache (z.B. «aus» statt «aus / off»), grösseres Fenster, keine halb abgeschnittene Zeile mehr unten in der Liste, mehr Platz für den Erklärtext.",
+  "en": "Settings: choices shown only in your language, larger window, no half-cut line at the bottom."
  }
 }
