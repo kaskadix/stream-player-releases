@@ -1,11 +1,11 @@
 {
- "version": "0.45.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.2_all.ipk",
- "sha256": "64193b3e97502111b6581042e938200ca26448ffa330121cf3a4eadcfa34956b",
- "size": 1494984,
+ "version": "0.45.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.45.3_all.ipk",
+ "sha256": "69321960fa5c73feaa69ba42399315683354ede557b81f9e6febb211fb0938f6",
+ "size": 1495390,
  "date": "2026-11-20",
  "notes": {
-  "de": "- Die Sender-Ampel ist jetzt anfangs **aus**. Einschalten unter Einstellungen › «Sender-Ampel».",
-  "en": "Channel traffic light is now off by default (Settings > Channel traffic light)."
+  "de": "- Anleitung und Hilfe auf der Box: erklären jetzt genau, was GRÜN «Neu laden» in der Senderliste macht (Listen und Xtream frisch laden, EPG nur wenn älter als 12 Stunden, gespeicherte Fassung bei Ausfall).",
+  "en": "Manual and box help explain exactly what GREEN Reload does in the channel list."
  }
 }

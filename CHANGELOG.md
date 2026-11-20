@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.45.3 – 2026-11-20
+
+- Anleitung und Hilfe auf der Box: erklären jetzt genau, was GRÜN «Neu laden» in der Senderliste macht (Listen und Xtream frisch laden, EPG nur wenn älter als 12 Stunden, gespeicherte Fassung bei Ausfall).
+
 ## 0.45.2 – 2026-11-20
 
 - Die Sender-Ampel ist jetzt anfangs **aus**. Einschalten unter Einstellungen › «Sender-Ampel».
