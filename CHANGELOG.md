@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.49.0 – 2026-11-20
+
+- Neu: **Eigene Ordner (NAS, USB) im Archiv** – Filme und Serien direkt aus einem Ordner auf dem NAS oder einer USB-Festplatte, ohne Plex oder Jellyfin: Archiv › MENU › «Eigene Ordner (NAS, USB) …». Pro Ordner wählbar: Filme, Serien (erster Unterordner = Serie, Staffel-Ordner und SxxEyy erkannt) oder gemischt. Mit Film-Infos, Weiterschauen und Suche. Stream-Player löscht dort nie etwas; ein ausgeschaltetes NAS wird nach höchstens 5 Sekunden übersprungen.
+
 ## 0.48.3 – 2026-11-20
 
 - Platzbedarf: Das Paket nennt seine Grösse (etwa 3 MB Dateien, rund 7 MB frei nötig). Installation und Update prüfen vorher, ob im Speicher der Box (Flash) und in /tmp genug Platz frei ist, und brechen sonst mit einer klaren Meldung ab – nichts wird halb installiert.
