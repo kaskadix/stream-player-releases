@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.8 – 2026-11-21
+
+- Mediatheken mit separater Tonspur (SRF): neuer Anlauf für die beste Qualität. Verkleinerte Übersichtsliste (beste Bildstufe + Tonspur) über das Relay – jetzt ohne zusätzlichen Zugangsschlüssel in den Adressen (die SRG trägt ihn schon im Pfad; vermutlich der Grund für «kein Bild» in 0.50.5) und erst, nachdem Bild- und Ton-Liste erfolgreich abgerufen wurden. Das Relay protokolliert, wenn der Abspieler die Liste holt.
+
 ## 0.50.7 – 2026-11-21
 
 - SRF/RTS/RSI Sport live: keine falschen Endzeiten mehr. Die SRG nennt nur das Ende des Sendefensters (oft Stunden später oder 23:59) – jetzt steht «LIVE seit 10:00» bzw. «heute 13:15».

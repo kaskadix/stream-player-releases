@@ -1,13 +1,13 @@
 {
- "version": "0.50.7",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.7_all.ipk",
- "sha256": "e4171776986141bc724cc058f006402d5d3d070c52f3b1c592bc7e0b0e73b282",
- "size": 1536126,
+ "version": "0.50.8",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.8_all.ipk",
+ "sha256": "6f8dba41a685aef448d029f1a77a12e013a01abd31cee3a681f389115c9de600",
+ "size": 1536496,
  "installed_kb": 3176,
  "need_kb": 7376,
  "date": "2026-11-21",
  "notes": {
-  "de": "- SRF/RTS/RSI Sport live: keine falschen Endzeiten mehr. Die SRG nennt nur das Ende des Sendefensters (oft Stunden später oder 23:59) – jetzt steht «LIVE seit 10:00» bzw. «heute 13:15».\n- Mediatheken mit eigener Tonspur (SRF): Stream-Player prüft, ob der Ton auch im Bild-Stream steckt; wenn ja, spielt er direkt die beste Qualität (bis 1080p), sonst bleibt es wie bisher.",
-  "en": "SRG sport live: no misleading end times. Streams with separate audio: best quality when the audio is also inside the video stream."
+  "de": "- Mediatheken mit separater Tonspur (SRF): neuer Anlauf für die beste Qualität. Verkleinerte Übersichtsliste (beste Bildstufe + Tonspur) über das Relay – jetzt ohne zusätzlichen Zugangsschlüssel in den Adressen (die SRG trägt ihn schon im Pfad; vermutlich der Grund für «kein Bild» in 0.50.5) und erst, nachdem Bild- und Ton-Liste erfolgreich abgerufen wurden. Das Relay protokolliert, wenn der Abspieler die Liste holt.",
+  "en": "Separate audio (SRF): best quality via a reduced master playlist through the relay, now without an extra token and only after both playlists were fetched successfully."
  }
 }
