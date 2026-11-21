@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.50.7 – 2026-11-21
+
+- SRF/RTS/RSI Sport live: keine falschen Endzeiten mehr. Die SRG nennt nur das Ende des Sendefensters (oft Stunden später oder 23:59) – jetzt steht «LIVE seit 10:00» bzw. «heute 13:15».
+- Mediatheken mit eigener Tonspur (SRF): Stream-Player prüft, ob der Ton auch im Bild-Stream steckt; wenn ja, spielt er direkt die beste Qualität (bis 1080p), sonst bleibt es wie bisher.
+
 ## 0.50.6 – 2026-11-21
 
 - Mediatheken mit eigener Tonspur (SRF): wieder wie vor 0.50.5 – die verkleinerte Liste über das Relay ergab auf der Box kein Bild und keinen Ton. Die beste Qualität folgt, sobald die Ursache klar ist.

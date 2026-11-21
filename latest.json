@@ -1,13 +1,13 @@
 {
- "version": "0.50.6",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.6_all.ipk",
- "sha256": "4c322e30f4f26b4dcdf8ddf20b421dcd6e20c9594a70b8c161066fa4be006d61",
- "size": 1535508,
- "installed_kb": 3172,
- "need_kb": 7368,
+ "version": "0.50.7",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.7_all.ipk",
+ "sha256": "e4171776986141bc724cc058f006402d5d3d070c52f3b1c592bc7e0b0e73b282",
+ "size": 1536126,
+ "installed_kb": 3176,
+ "need_kb": 7376,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken mit eigener Tonspur (SRF): wieder wie vor 0.50.5 – die verkleinerte Liste über das Relay ergab auf der Box kein Bild und keinen Ton. Die beste Qualität folgt, sobald die Ursache klar ist.",
-  "en": "SRF and other streams with a separate audio track: back to the previous behaviour (0.50.5 gave no picture)."
+  "de": "- SRF/RTS/RSI Sport live: keine falschen Endzeiten mehr. Die SRG nennt nur das Ende des Sendefensters (oft Stunden später oder 23:59) – jetzt steht «LIVE seit 10:00» bzw. «heute 13:15».\n- Mediatheken mit eigener Tonspur (SRF): Stream-Player prüft, ob der Ton auch im Bild-Stream steckt; wenn ja, spielt er direkt die beste Qualität (bis 1080p), sonst bleibt es wie bisher.",
+  "en": "SRG sport live: no misleading end times. Streams with separate audio: best quality when the audio is also inside the video stream."
  }
 }
