@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.6 – 2026-11-21
+
+- Mediatheken mit eigener Tonspur (SRF): wieder wie vor 0.50.5 – die verkleinerte Liste über das Relay ergab auf der Box kein Bild und keinen Ton. Die beste Qualität folgt, sobald die Ursache klar ist.
+
 ## 0.50.5 – 2026-11-21
 
 - Mediatheken mit eigener Tonspur (z.B. SRF): Auch hier jetzt die beste Bildqualität. Stream-Player baut eine kleine Übersichtsliste mit nur der besten Variante und ihrer Tonspur und gibt sie dem Abspieler über das Relay.

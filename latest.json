@@ -1,13 +1,13 @@
 {
- "version": "0.50.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.5_all.ipk",
- "sha256": "a6bd938d326da005472da297ec6bacd375ee0b8e086f78e978054fe3ad90a00a",
- "size": 1535314,
+ "version": "0.50.6",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.6_all.ipk",
+ "sha256": "4c322e30f4f26b4dcdf8ddf20b421dcd6e20c9594a70b8c161066fa4be006d61",
+ "size": 1535508,
  "installed_kb": 3172,
  "need_kb": 7368,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken mit eigener Tonspur (z.B. SRF): Auch hier jetzt die beste Bildqualität. Stream-Player baut eine kleine Übersichtsliste mit nur der besten Variante und ihrer Tonspur und gibt sie dem Abspieler über das Relay.",
-  "en": "Media libraries with a separate audio track (e.g. SRF): best picture too - a reduced master playlist (best variant + its audio) is served to the player via the relay."
+  "de": "- Mediatheken mit eigener Tonspur (SRF): wieder wie vor 0.50.5 – die verkleinerte Liste über das Relay ergab auf der Box kein Bild und keinen Ton. Die beste Qualität folgt, sobald die Ursache klar ist.",
+  "en": "SRF and other streams with a separate audio track: back to the previous behaviour (0.50.5 gave no picture)."
  }
 }
