@@ -1,13 +1,13 @@
 {
- "version": "0.54.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.54.1_all.ipk",
- "sha256": "360cca198372255603e87fdc9a045b77962fdd69493b1967efe98a9e93f5bccd",
- "size": 1577852,
+ "version": "0.54.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.54.2_all.ipk",
+ "sha256": "745cb6d9db83cfa50e8ef7b283c84849ba846a0664a705b16d9191862a93f71f",
+ "size": 1578132,
  "installed_kb": 3320,
  "need_kb": 7664,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Infoleiste «Alles»: Symbole jetzt als gut lesbare Zeile unten rechts mit Wort (Programm, Archiv, Aufnahme, Untertitel); was fehlt, grau und durchgestrichen. Die kleine Zeile mit dem Grund entfällt, die Tastenhilfe steht neben «Läuft».\n- Weisse Logos (z.B. FIFA+) bei den Mediatheken-Sendern auf dunkler Kachel statt unsichtbar auf heller; Plex-Titel ohne überflüssiges «|» am Ende.\n- Logos der Mediatheken-Sender auch mit einer älteren, auf der Box gespeicherten Senderliste; im Vollbild wird ein fehlendes Logo geholt und gleich angezeigt.",
-  "en": "Info bar: readable availability row bottom right; logos for media library channels with the right tile; cleaner Plex titles."
+  "de": "- Mediatheken, Live-Sender: rechts oben das Senderlogo mittelgross und zentriert auf einer Kachel statt riesig und angeschnitten.\n- Logos von Wikimedia (z.B. France 24, NHK World, TRT World, CBS News, FIFA+) werden jetzt geladen.",
+  "en": "Media library live channels: centered logo card instead of stretched still; Wikimedia logos load."
  }
 }

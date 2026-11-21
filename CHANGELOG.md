@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.54.2 – 2026-11-21
+
+- Mediatheken, Live-Sender: rechts oben das Senderlogo mittelgross und zentriert auf einer Kachel statt riesig und angeschnitten.
+- Logos von Wikimedia (z.B. France 24, NHK World, TRT World, CBS News, FIFA+) werden jetzt geladen.
+
 ## 0.54.1 – 2026-11-21
 
 - Infoleiste «Alles»: Symbole jetzt als gut lesbare Zeile unten rechts mit Wort (Programm, Archiv, Aufnahme, Untertitel); was fehlt, grau und durchgestrichen. Die kleine Zeile mit dem Grund entfällt, die Tastenhilfe steht neben «Läuft».
