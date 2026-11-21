@@ -1,13 +1,13 @@
 {
- "version": "0.51.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.3_all.ipk",
- "sha256": "1a31c77632d1691593e48615fa4cb06eac5012af833e6fccf0587ba730eb32b9",
- "size": 1541178,
- "installed_kb": 3188,
- "need_kb": 7400,
+ "version": "0.51.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.4_all.ipk",
+ "sha256": "3df3f853b8a29b5430fd341d6bfde1886048a2cec388ed5cac45e2f08c1f4d2e",
+ "size": 1542316,
+ "installed_kb": 3192,
+ "need_kb": 7408,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken, laufende Übertragungen (z.B. SRF Sport live): **BLAU = von Anfang an** (Re-Live) – die Übertragung ab ihrem Beginn schauen, soweit die SRG sie bereithält; Infoleiste «1:12:05 seit Beginn». OK schaut wie bisher live.",
-  "en": "Media library live broadcasts: BLUE plays from the start of the broadcast (re-live), OK stays live."
+  "de": "- Sport live (SRF, RTS, RSI): ganz unten neu **«↺ Vorbei – noch zum Nachschauen»** – Übertragungen der letzten zwei Tage, die zu Ende sind, aber noch abrufbar (die SRG nimmt sie sonst sofort aus der Liste). OK spielt sie von Anfang an. Oben bleiben die laufenden und kommenden.",
+  "en": "Sport live: new folder 'Over - still available' with finished broadcasts of the last two days that can still be played (from the start)."
  }
 }

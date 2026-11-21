@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.51.4 – 2026-11-21
+
+- Sport live (SRF, RTS, RSI): ganz unten neu **«↺ Vorbei – noch zum Nachschauen»** – Übertragungen der letzten zwei Tage, die zu Ende sind, aber noch abrufbar (die SRG nimmt sie sonst sofort aus der Liste). OK spielt sie von Anfang an. Oben bleiben die laufenden und kommenden.
+
 ## 0.51.3 – 2026-11-21
 
 - Mediatheken, laufende Übertragungen (z.B. SRF Sport live): **BLAU = von Anfang an** (Re-Live) – die Übertragung ab ihrem Beginn schauen, soweit die SRG sie bereithält; Infoleiste «1:12:05 seit Beginn». OK schaut wie bisher live.
