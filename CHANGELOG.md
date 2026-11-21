@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.51.3 – 2026-11-21
+
+- Mediatheken, laufende Übertragungen (z.B. SRF Sport live): **BLAU = von Anfang an** (Re-Live) – die Übertragung ab ihrem Beginn schauen, soweit die SRG sie bereithält; Infoleiste «1:12:05 seit Beginn». OK schaut wie bisher live.
+
 ## 0.51.2 – 2026-11-21
 
 - Mediatheken, Livestreams (z.B. SRF Sport live): Die Box spielt jetzt wirklich live. Die SRG liefert die Übertragung mit einem Zeitfenster ab Beginn (zum Zurückspulen), und die Abspieler starteten am Anfang dieses Fensters – also Stunden hinter Live. Das Relay gibt dem Abspieler nur noch das Ende des Fensters. Die Infoleiste zeigt dabei «● LIVE» statt der Fenster-Länge.

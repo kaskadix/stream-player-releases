@@ -1,13 +1,13 @@
 {
- "version": "0.51.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.2_all.ipk",
- "sha256": "96d7521d233d08474d83a226bae74e08801bae7ec6c6031fd9b0bf3f1f368d82",
- "size": 1540760,
+ "version": "0.51.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.3_all.ipk",
+ "sha256": "1a31c77632d1691593e48615fa4cb06eac5012af833e6fccf0587ba730eb32b9",
+ "size": 1541178,
  "installed_kb": 3188,
  "need_kb": 7400,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken, Livestreams (z.B. SRF Sport live): Die Box spielt jetzt wirklich live. Die SRG liefert die Übertragung mit einem Zeitfenster ab Beginn (zum Zurückspulen), und die Abspieler starteten am Anfang dieses Fensters – also Stunden hinter Live. Das Relay gibt dem Abspieler nur noch das Ende des Fensters. Die Infoleiste zeigt dabei «● LIVE» statt der Fenster-Länge.",
-  "en": "Media library livestreams (e.g. SRF sport live) now really play live: the relay trims the DVR window to the live edge; info bar shows LIVE."
+  "de": "- Mediatheken, laufende Übertragungen (z.B. SRF Sport live): **BLAU = von Anfang an** (Re-Live) – die Übertragung ab ihrem Beginn schauen, soweit die SRG sie bereithält; Infoleiste «1:12:05 seit Beginn». OK schaut wie bisher live.",
+  "en": "Media library live broadcasts: BLUE plays from the start of the broadcast (re-live), OK stays live."
  }
 }
