@@ -1,13 +1,13 @@
 {
- "version": "0.50.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.4_all.ipk",
- "sha256": "f5819bdd4c6e3b3e2b40f902f3beb5b39ad90dfa29f7160f721df78a2277aff6",
- "size": 1534560,
- "installed_kb": 3168,
- "need_kb": 7360,
+ "version": "0.50.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.5_all.ipk",
+ "sha256": "a6bd938d326da005472da297ec6bacd375ee0b8e086f78e978054fe3ad90a00a",
+ "size": 1535314,
+ "installed_kb": 3172,
+ "need_kb": 7368,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken (z.B. SRF Sport live): bessere Bildqualität. Der Abspieler nahm von der Übersichtsliste oft die erste und damit schlechteste Variante; jetzt wählt Stream-Player selbst die beste (bis 1080p). Im Protokoll steht, welche gewählt wurde.",
-  "en": "Media libraries (e.g. SRF sport live): better picture - Stream-Player now picks the best HLS variant itself (up to 1080p) instead of the player taking the first, lowest one."
+  "de": "- Mediatheken mit eigener Tonspur (z.B. SRF): Auch hier jetzt die beste Bildqualität. Stream-Player baut eine kleine Übersichtsliste mit nur der besten Variante und ihrer Tonspur und gibt sie dem Abspieler über das Relay.",
+  "en": "Media libraries with a separate audio track (e.g. SRF): best picture too - a reduced master playlist (best variant + its audio) is served to the player via the relay."
  }
 }

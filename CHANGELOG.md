@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.5 – 2026-11-21
+
+- Mediatheken mit eigener Tonspur (z.B. SRF): Auch hier jetzt die beste Bildqualität. Stream-Player baut eine kleine Übersichtsliste mit nur der besten Variante und ihrer Tonspur und gibt sie dem Abspieler über das Relay.
+
 ## 0.50.4 – 2026-11-21
 
 - Mediatheken (z.B. SRF Sport live): bessere Bildqualität. Der Abspieler nahm von der Übersichtsliste oft die erste und damit schlechteste Variante; jetzt wählt Stream-Player selbst die beste (bis 1080p). Im Protokoll steht, welche gewählt wurde.
