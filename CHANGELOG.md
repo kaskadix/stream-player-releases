@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.55.0 – 2026-11-21
+
+- Neue Übersicht der Live-Sender in den Mediatheken (Nachrichten, Sport-Kanäle, Plex Live TV): rechts Logo, Sendername, JETZT mit Balken, Zeit und Beschreibung, darunter DANACH mit den nächsten vier Sendungen. Ohne Programm ein kurzer Hinweis, wie man eines bekommt.
+- Grössere, abgerundete Logo-Kacheln in den Senderlisten (Live-TV und Mediatheken); die helle Kachel ist abgetönt statt grellweiss.
+
 ## 0.54.2 – 2026-11-21
 
 - Mediatheken, Live-Sender: rechts oben das Senderlogo mittelgross und zentriert auf einer Kachel statt riesig und angeschnitten.
