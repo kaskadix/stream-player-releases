@@ -1,13 +1,13 @@
 {
- "version": "0.50.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.3_all.ipk",
- "sha256": "e9635babf331b402a3bfcc470908195f5e15ba92afc75489564956448b89a462",
- "size": 1533758,
- "installed_kb": 3164,
- "need_kb": 7352,
+ "version": "0.50.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.4_all.ipk",
+ "sha256": "f5819bdd4c6e3b3e2b40f902f3beb5b39ad90dfa29f7160f721df78a2277aff6",
+ "size": 1534560,
+ "installed_kb": 3168,
+ "need_kb": 7360,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Neu: **Ähnliche Gruppen zusammenführen** (von Anfang an an): «DE: Sport», «|DE| SPORT HD» und «DE ► Sport ★» werden eine Gruppe «DE: Sport»; auch «News»/«Nachrichten», «Kids»/«Kinder», «Filme»/«Movies». Ländervorsätze bleiben getrennt. Abschaltbar in den Einstellungen.",
-  "en": "Similar group names are merged (e.g. 'DE: Sport', '|DE| SPORT HD', 'DE ► Sport'), country prefixes stay apart. Can be switched off."
+  "de": "- Mediatheken (z.B. SRF Sport live): bessere Bildqualität. Der Abspieler nahm von der Übersichtsliste oft die erste und damit schlechteste Variante; jetzt wählt Stream-Player selbst die beste (bis 1080p). Im Protokoll steht, welche gewählt wurde.",
+  "en": "Media libraries (e.g. SRF sport live): better picture - Stream-Player now picks the best HLS variant itself (up to 1080p) instead of the player taking the first, lowest one."
  }
 }

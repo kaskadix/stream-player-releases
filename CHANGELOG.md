@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.4 – 2026-11-21
+
+- Mediatheken (z.B. SRF Sport live): bessere Bildqualität. Der Abspieler nahm von der Übersichtsliste oft die erste und damit schlechteste Variante; jetzt wählt Stream-Player selbst die beste (bis 1080p). Im Protokoll steht, welche gewählt wurde.
+
 ## 0.50.3 – 2026-11-21
 
 - Neu: **Ähnliche Gruppen zusammenführen** (von Anfang an an): «DE: Sport», «|DE| SPORT HD» und «DE ► Sport ★» werden eine Gruppe «DE: Sport»; auch «News»/«Nachrichten», «Kids»/«Kinder», «Filme»/«Movies». Ländervorsätze bleiben getrennt. Abschaltbar in den Einstellungen.
