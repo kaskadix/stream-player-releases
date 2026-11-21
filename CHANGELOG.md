@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.50.9 – 2026-11-21
+
+- Mediatheken mit separater Tonspur (SRF): Das Relay holt jetzt alle Listen und Videostücke selbst und gibt dem Abspieler nur die beste Bildstufe (bis 1080p) mit ihrer Tonspur. Grund: Die SRG lehnte die Abrufe des Abspielers für diese Listen ab (403), die des Relays nicht.
+
 ## 0.50.8 – 2026-11-21
 
 - Mediatheken mit separater Tonspur (SRF): neuer Anlauf für die beste Qualität. Verkleinerte Übersichtsliste (beste Bildstufe + Tonspur) über das Relay – jetzt ohne zusätzlichen Zugangsschlüssel in den Adressen (die SRG trägt ihn schon im Pfad; vermutlich der Grund für «kein Bild» in 0.50.5) und erst, nachdem Bild- und Ton-Liste erfolgreich abgerufen wurden. Das Relay protokolliert, wenn der Abspieler die Liste holt.
