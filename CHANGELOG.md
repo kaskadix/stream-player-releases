@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.51.2 – 2026-11-21
+
+- Mediatheken, Livestreams (z.B. SRF Sport live): Die Box spielt jetzt wirklich live. Die SRG liefert die Übertragung mit einem Zeitfenster ab Beginn (zum Zurückspulen), und die Abspieler starteten am Anfang dieses Fensters – also Stunden hinter Live. Das Relay gibt dem Abspieler nur noch das Ende des Fensters. Die Infoleiste zeigt dabei «● LIVE» statt der Fenster-Länge.
+
 ## 0.51.1 – 2026-11-21
 
 - Filme, Folgen und Mediatheken: Bild- und Tonqualität stehen jetzt in einer eigenen Zeile rechts unter dem Titel – auch während «Pause» oder anderen Meldungen – und werden alle paar Sekunden aufgefrischt.
