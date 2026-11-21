@@ -1,5 +1,15 @@
 # Stream-Player – Versionen
 
+## 0.53.0 – 2026-11-21
+
+- Neuer Bereich «Sport» in den Mediatheken, getrennt von Nachrichten und dem Rest: «● Jetzt live» zeigt alle laufenden Sport-Übertragungen von Play SRF, RTS, RSI und RTR zusammen, dazu «Demnächst live», «Vorbei – noch zum Nachschauen», «Sport-Kanäle rund um die Uhr» und «Sport-Sender von Plex».
+- Sport-Kanäle rund um die Uhr: Red Bull TV, Eurovision Sport, FIFA+, Tennis Channel, Motorvision, MotoGP, Real Madrid TV und weitere, dazu US-Sportkanäle (beIN SPORTS XTRA, CBS Sports Golazo, NHL Network, Team USA ...). Nur offizielle Adressen.
+- Play RTR (rätoromanisch) als weitere SRG-Mediathek, mit «Sport live».
+- Plex Live TV: Hunderte Gratis-Sender von Plex nach Kategorien, auch ohne Plex-Konto. Nur Sender, die für dein Land freigegeben sind und keinen Kopierschutz haben.
+- Nachrichten-Livestreams: neu auch US-Sender (CBS News 24/7, ABC News Live, LiveNOW from FOX, Bloomberg US, Cheddar, FOX Weather).
+- Test der Ländersperren per Telnet: geotest.py zeigt pro Sender OK, GESPERRT, KOPIERSCHUTZ oder FEHLER.
+- Schlüssel in Adressen (z.B. von Plex) erscheinen im Protokoll nur noch als ***.
+
 ## 0.52.1 – 2026-11-21
 
 - Live-Infoleiste kompakter und besser lesbar: rund ein Viertel weniger hoch, Schild und Titel in einer Zeile, Sportart · Sender · Beginn als eine Zeile, grössere Schrift, Titel ohne «●». Bei «von Anfang an» steht «… seit Beginn · … hinter Live» rechts neben dem Balken; Meldungen wie «Pause» unten rechts.

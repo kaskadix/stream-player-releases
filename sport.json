@@ -1,0 +1,192 @@
+{
+ "version": 1,
+ "updated": "2026-11-21",
+ "source": "Offizielle Adressen der Sender bzw. ihrer Ausspielpartner, geprueft mit iptv-org",
+ "channels": [
+  {
+   "name": "Red Bull TV",
+   "group": "Europa & weltweit",
+   "tvg_id": "RedBullTV.at",
+   "urls": [
+    "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+   ]
+  },
+  {
+   "name": "Eurovision Sport",
+   "group": "Europa & weltweit",
+   "tvg_id": "EurovisionSport.uk",
+   "urls": [
+    "https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "FIFA+ Deutsch",
+   "group": "Europa & weltweit",
+   "tvg_id": "FIFAPlus.uk",
+   "urls": [
+    "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "FIFA+ English",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://ba3e2e93.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Tennis Channel Deutschland",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://tennischanneldeu-rakuten.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Tennis Channel International",
+   "group": "Europa & weltweit",
+   "tvg_id": "TennisChannel.us",
+   "urls": [
+    "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Motorvision",
+   "group": "Europa & weltweit",
+   "tvg_id": "Motorvision.de",
+   "urls": [
+    "https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8"
+   ]
+  },
+  {
+   "name": "MotoGP Channel",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://d1kqz1q7knpsue.cloudfront.net/MotoGP.m3u8"
+   ]
+  },
+  {
+   "name": "Real Madrid TV",
+   "group": "Europa & weltweit",
+   "tvg_id": "RealMadridTV.es",
+   "urls": [
+    "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
+   ]
+  },
+  {
+   "name": "Strongman Champions League",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Racer Select",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "FloRacing 24/7",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "FloHockey 24/7",
+   "group": "Europa & weltweit",
+   "tvg_id": "",
+   "urls": [
+    "https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Fight Network",
+   "group": "Europa & weltweit",
+   "tvg_id": "FightNetwork.ca",
+   "urls": [
+    "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8"
+   ]
+  },
+  {
+   "name": "beIN SPORTS XTRA",
+   "group": "USA",
+   "tvg_id": "beINSPORTSXTRA.us",
+   "urls": [
+    "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+    "https://bein-xtra-xumo.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "CBS Sports Golazo Network",
+   "group": "USA",
+   "tvg_id": "CBSSportsGolazoNetwork.us",
+   "urls": [
+    "https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8"
+   ]
+  },
+  {
+   "name": "CBS Sports HQ",
+   "group": "USA",
+   "tvg_id": "CBSSportsHQ.us",
+   "urls": [
+    "https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8"
+   ]
+  },
+  {
+   "name": "NHL Network",
+   "group": "USA",
+   "tvg_id": "",
+   "urls": [
+    "https://nhl-firetv.amagi.tv/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "ESPN8 The Ocho",
+   "group": "USA",
+   "tvg_id": "ESPN8TheOcho.us",
+   "urls": [
+    "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8"
+   ]
+  },
+  {
+   "name": "Team USA TV",
+   "group": "USA",
+   "tvg_id": "",
+   "urls": [
+    "https://d8b6mh9us4zvx.cloudfront.net/TEAM_USA_TV.m3u8"
+   ]
+  },
+  {
+   "name": "Women's Sports Network",
+   "group": "USA",
+   "tvg_id": "WomensSportsNetwork.us",
+   "urls": [
+    "https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8"
+   ]
+  },
+  {
+   "name": "Willow Sports (Cricket)",
+   "group": "USA",
+   "tvg_id": "WillowSports.us",
+   "urls": [
+    "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
+   ]
+  },
+  {
+   "name": "Outside TV",
+   "group": "USA",
+   "tvg_id": "OutsideTV.us",
+   "urls": [
+    "https://outsidetv-firetv.amagi.tv/playlist.m3u8"
+   ]
+  }
+ ]
+}

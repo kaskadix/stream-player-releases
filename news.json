@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-14",
+ "updated": "2026-11-21",
  "source": "Offizielle Adressen der Sender, geprueft mit iptv-org",
  "channels": [
   {
@@ -84,6 +84,55 @@
    "tvg_id": "AfricanewsEnglish.fr",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8"
+   ]
+  },
+  {
+   "name": "CBS News 24/7",
+   "group": "USA",
+   "tvg_id": "CBSNews247.us",
+   "urls": [
+    "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+    "https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8"
+   ]
+  },
+  {
+   "name": "ABC News Live",
+   "group": "USA",
+   "tvg_id": "ABCNewsLive1.us",
+   "urls": [
+    "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8"
+   ]
+  },
+  {
+   "name": "LiveNOW from FOX",
+   "group": "USA",
+   "tvg_id": "LiveNOWfromFOX.us",
+   "urls": [
+    "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "Bloomberg TV US",
+   "group": "USA",
+   "tvg_id": "BloombergTV.us",
+   "urls": [
+    "https://bloomberg.com/media-manifest/streams/us.m3u8"
+   ]
+  },
+  {
+   "name": "Cheddar News",
+   "group": "USA",
+   "tvg_id": "CheddarNews.us",
+   "urls": [
+    "https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8"
+   ]
+  },
+  {
+   "name": "FOX Weather",
+   "group": "USA",
+   "tvg_id": "FoxWeather.us",
+   "urls": [
+    "https://247wlive.foxweather.com/stream/index.m3u8"
    ]
   },
   {
