@@ -1,13 +1,13 @@
 {
- "version": "0.51.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.0_all.ipk",
- "sha256": "a57e43604bd84f204ad72b3e24b960303e939e171415bd0d28a4f6151439531d",
- "size": 1539678,
+ "version": "0.51.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.1_all.ipk",
+ "sha256": "99507206e692d27b398cfc38ba021a1036ba69e019c1dae9a47397ceb32f7c71",
+ "size": 1539666,
  "installed_kb": 3184,
  "need_kb": 7392,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Infoleiste: **Bild- und Tonqualität**. Im Vollbild (Stufe «Alles») neu die Zeile «Ton» (z.B. «AAC · Deutsch (1/2)») und beim Bild zusätzlich die Stufe («Full HD», «HD», «SD», «4K»). Bei Filmen, Folgen und Mediatheken unter dem Fortschrittsbalken: «Bild: 1920×1080 · 50 fps · Full HD · Ton: AAC · Deutsch».",
-  "en": "Info bar shows picture and sound quality (resolution, fps, Full HD/HD/SD, audio codec and language)."
+  "de": "- Filme, Folgen und Mediatheken: Bild- und Tonqualität stehen jetzt in einer eigenen Zeile rechts unter dem Titel – auch während «Pause» oder anderen Meldungen – und werden alle paar Sekunden aufgefrischt.",
+  "en": "Films and media libraries: picture/sound quality in its own line, also while paused."
  }
 }

@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.51.1 – 2026-11-21
+
+- Filme, Folgen und Mediatheken: Bild- und Tonqualität stehen jetzt in einer eigenen Zeile rechts unter dem Titel – auch während «Pause» oder anderen Meldungen – und werden alle paar Sekunden aufgefrischt.
+
 ## 0.51.0 – 2026-11-21
 
 - Infoleiste: **Bild- und Tonqualität**. Im Vollbild (Stufe «Alles») neu die Zeile «Ton» (z.B. «AAC · Deutsch (1/2)») und beim Bild zusätzlich die Stufe («Full HD», «HD», «SD», «4K»). Bei Filmen, Folgen und Mediatheken unter dem Fortschrittsbalken: «Bild: 1920×1080 · 50 fps · Full HD · Ton: AAC · Deutsch».
