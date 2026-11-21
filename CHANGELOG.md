@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.52.0 – 2026-11-21
+
+- Neu: **Infoleiste für Live-Übertragungen** der Mediatheken (nach der Skizze): Schild «● LIVE» bzw. «↺ VON ANFANG AN», Sportart, Sender und Beginn, Bild und Ton kurz (z.B. «Full HD · 50 fps · AAC · DE»), grosser Titel; live ein roter Balken, von Anfang an ein Balken vom Beginn bis jetzt mit «… seit Beginn · … hinter Live». **BLAU** wechselt während des Schauens zwischen live und von Anfang an.
+
 ## 0.51.4 – 2026-11-21
 
 - Sport live (SRF, RTS, RSI): ganz unten neu **«↺ Vorbei – noch zum Nachschauen»** – Übertragungen der letzten zwei Tage, die zu Ende sind, aber noch abrufbar (die SRG nimmt sie sonst sofort aus der Liste). OK spielt sie von Anfang an. Oben bleiben die laufenden und kommenden.

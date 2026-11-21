@@ -1,13 +1,13 @@
 {
- "version": "0.51.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.4_all.ipk",
- "sha256": "3df3f853b8a29b5430fd341d6bfde1886048a2cec388ed5cac45e2f08c1f4d2e",
- "size": 1542316,
- "installed_kb": 3192,
- "need_kb": 7408,
+ "version": "0.52.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.52.0_all.ipk",
+ "sha256": "a83df2ad52c5ce590ad50046438afb7ae91008d3d2f62d0eb0d9db2644b778b0",
+ "size": 1544268,
+ "installed_kb": 3200,
+ "need_kb": 7424,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Sport live (SRF, RTS, RSI): ganz unten neu **«↺ Vorbei – noch zum Nachschauen»** – Übertragungen der letzten zwei Tage, die zu Ende sind, aber noch abrufbar (die SRG nimmt sie sonst sofort aus der Liste). OK spielt sie von Anfang an. Oben bleiben die laufenden und kommenden.",
-  "en": "Sport live: new folder 'Over - still available' with finished broadcasts of the last two days that can still be played (from the start)."
+  "de": "- Neu: **Infoleiste für Live-Übertragungen** der Mediatheken (nach der Skizze): Schild «● LIVE» bzw. «↺ VON ANFANG AN», Sportart, Sender und Beginn, Bild und Ton kurz (z.B. «Full HD · 50 fps · AAC · DE»), grosser Titel; live ein roter Balken, von Anfang an ein Balken vom Beginn bis jetzt mit «… seit Beginn · … hinter Live». **BLAU** wechselt während des Schauens zwischen live und von Anfang an.",
+  "en": "New info bar for media library live broadcasts: LIVE / FROM THE START badge, sport, channel and start, short picture/sound info, live bar or position since start; BLUE switches between live and from the start while watching."
  }
 }
