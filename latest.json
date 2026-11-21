@@ -1,13 +1,13 @@
 {
- "version": "0.54.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.54.0_all.ipk",
- "sha256": "c7f61d5a5db6533a197e13442fd41ca38b397e01f81c6fefe50727a06e32e4f5",
- "size": 1577268,
- "installed_kb": 3324,
- "need_kb": 7672,
+ "version": "0.54.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.54.1_all.ipk",
+ "sha256": "360cca198372255603e87fdc9a045b77962fdd69493b1967efe98a9e93f5bccd",
+ "size": 1577852,
+ "installed_kb": 3320,
+ "need_kb": 7664,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Programmzeitschrift für die Live-Sender unter Mediatheken: Nachrichten-Livestreams, Sport-Kanäle und Plex Live TV zeigen in der Liste «Jetzt: … (bis …)», rechts Beschreibung und «Danach», im Vollbild die Infoleiste wie bei Live-TV. Programm der Quelle (Plex, SRG «Sport live») hat Vorrang, sonst die normale Programmzeitschrift; MENU › «Programmzeitschrift zuordnen …» bei den Mediatheken-Sendern.\n- Logos für die Live-Sender der Mediatheken: Nachrichten, Sport-Kanäle und Plex Live TV zeigen in der Liste wie Live-TV die Logo-Kachel links, im Vollbild das Logo in der Infoleiste.\n- Infoleiste, Stufe «Alles»: kleine Symbole oben rechts für Programmdaten, Nachschauen, Aufnahme und Untertitel; fehlt etwas, gedämpft mit Schrägstrich und der Grund darunter.",
-  "en": "Programme guide and logos for the live channels in media libraries (news, sport channels, Plex Live TV, source guide first); availability symbols in the full info bar."
+  "de": "- Infoleiste «Alles»: Symbole jetzt als gut lesbare Zeile unten rechts mit Wort (Programm, Archiv, Aufnahme, Untertitel); was fehlt, grau und durchgestrichen. Die kleine Zeile mit dem Grund entfällt, die Tastenhilfe steht neben «Läuft».\n- Weisse Logos (z.B. FIFA+) bei den Mediatheken-Sendern auf dunkler Kachel statt unsichtbar auf heller; Plex-Titel ohne überflüssiges «|» am Ende.\n- Logos der Mediatheken-Sender auch mit einer älteren, auf der Box gespeicherten Senderliste; im Vollbild wird ein fehlendes Logo geholt und gleich angezeigt.",
+  "en": "Info bar: readable availability row bottom right; logos for media library channels with the right tile; cleaner Plex titles."
  }
 }

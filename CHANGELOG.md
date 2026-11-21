@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.54.1 – 2026-11-21
+
+- Infoleiste «Alles»: Symbole jetzt als gut lesbare Zeile unten rechts mit Wort (Programm, Archiv, Aufnahme, Untertitel); was fehlt, grau und durchgestrichen. Die kleine Zeile mit dem Grund entfällt, die Tastenhilfe steht neben «Läuft».
+- Weisse Logos (z.B. FIFA+) bei den Mediatheken-Sendern auf dunkler Kachel statt unsichtbar auf heller; Plex-Titel ohne überflüssiges «|» am Ende.
+- Logos der Mediatheken-Sender auch mit einer älteren, auf der Box gespeicherten Senderliste; im Vollbild wird ein fehlendes Logo geholt und gleich angezeigt.
+
 ## 0.54.0 – 2026-11-21
 
 - Programmzeitschrift für die Live-Sender unter Mediatheken: Nachrichten-Livestreams, Sport-Kanäle und Plex Live TV zeigen in der Liste «Jetzt: … (bis …)», rechts Beschreibung und «Danach», im Vollbild die Infoleiste wie bei Live-TV. Programm der Quelle (Plex, SRG «Sport live») hat Vorrang, sonst die normale Programmzeitschrift; MENU › «Programmzeitschrift zuordnen …» bei den Mediatheken-Sendern.
