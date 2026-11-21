@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.51.0 – 2026-11-21
+
+- Infoleiste: **Bild- und Tonqualität**. Im Vollbild (Stufe «Alles») neu die Zeile «Ton» (z.B. «AAC · Deutsch (1/2)») und beim Bild zusätzlich die Stufe («Full HD», «HD», «SD», «4K»). Bei Filmen, Folgen und Mediatheken unter dem Fortschrittsbalken: «Bild: 1920×1080 · 50 fps · Full HD · Ton: AAC · Deutsch».
+
 ## 0.50.9 – 2026-11-21
 
 - Mediatheken mit separater Tonspur (SRF): Das Relay holt jetzt alle Listen und Videostücke selbst und gibt dem Abspieler nur die beste Bildstufe (bis 1080p) mit ihrer Tonspur. Grund: Die SRG lehnte die Abrufe des Abspielers für diese Listen ab (403), die des Relays nicht.

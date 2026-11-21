@@ -1,13 +1,13 @@
 {
- "version": "0.50.9",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.50.9_all.ipk",
- "sha256": "b070819d8cd348ad7e8942c6bea4f8855a4aee68c39a0c22d28ba0d26db2b4e3",
- "size": 1537646,
- "installed_kb": 3176,
- "need_kb": 7376,
+ "version": "0.51.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.51.0_all.ipk",
+ "sha256": "a57e43604bd84f204ad72b3e24b960303e939e171415bd0d28a4f6151439531d",
+ "size": 1539678,
+ "installed_kb": 3184,
+ "need_kb": 7392,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Mediatheken mit separater Tonspur (SRF): Das Relay holt jetzt alle Listen und Videostücke selbst und gibt dem Abspieler nur die beste Bildstufe (bis 1080p) mit ihrer Tonspur. Grund: Die SRG lehnte die Abrufe des Abspielers für diese Listen ab (403), die des Relays nicht.",
-  "en": "Separate audio (SRF): the relay now fetches all playlists and segments itself and gives the player only the best variant with its audio (the CDN refused the player's own requests with 403)."
+  "de": "- Infoleiste: **Bild- und Tonqualität**. Im Vollbild (Stufe «Alles») neu die Zeile «Ton» (z.B. «AAC · Deutsch (1/2)») und beim Bild zusätzlich die Stufe («Full HD», «HD», «SD», «4K»). Bei Filmen, Folgen und Mediatheken unter dem Fortschrittsbalken: «Bild: 1920×1080 · 50 fps · Full HD · Ton: AAC · Deutsch».",
+  "en": "Info bar shows picture and sound quality (resolution, fps, Full HD/HD/SD, audio codec and language)."
  }
 }
