@@ -1,12 +1,13 @@
 {
  "version": 1,
  "updated": "2026-11-21",
- "source": "Offizielle Adressen der Sender, geprueft mit iptv-org",
+ "source": "Offizielle Adressen der Sender, geprueft mit iptv-org; Logos aus der iptv-org-Datenbank",
  "channels": [
   {
    "name": "tagesschau24",
    "group": "Deutsch",
    "tvg_id": "tagesschau24.de",
+   "logo": "https://i.imgur.com/LH0Gctv.png",
    "urls": [
     "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
    ]
@@ -15,6 +16,7 @@
    "name": "Euronews Deutsch",
    "group": "Deutsch",
    "tvg_id": "EuronewsGerman.fr",
+   "logo": "https://i.imgur.com/8t9mdg9.png",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8"
    ]
@@ -23,6 +25,7 @@
    "name": "DW English",
    "group": "English",
    "tvg_id": "DW.de",
+   "logo": "https://i.imgur.com/8MRNFb9.png",
    "urls": [
     "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8"
    ]
@@ -31,6 +34,7 @@
    "name": "France 24 English",
    "group": "English",
    "tvg_id": "France24.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/960px-France_24_logo_%282013%29.svg.png",
    "urls": [
     "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
     "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8"
@@ -40,6 +44,7 @@
    "name": "Euronews English",
    "group": "English",
    "tvg_id": "EuronewsEnglish.fr",
+   "logo": "https://i.imgur.com/8t9mdg9.png",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8"
    ]
@@ -48,6 +53,7 @@
    "name": "Al Jazeera English",
    "group": "English",
    "tvg_id": "AlJazeeraEnglish.qa",
+   "logo": "https://i.imgur.com/7bRVpnu.png",
    "urls": [
     "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
     "https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8"
@@ -57,6 +63,7 @@
    "name": "Bloomberg TV Europe",
    "group": "English",
    "tvg_id": "BloombergTVEurope.us",
+   "logo": "https://i.imgur.com/OuogLHx.png",
    "urls": [
     "https://bloomberg.com/media-manifest/streams/eu.m3u8"
    ]
@@ -65,6 +72,7 @@
    "name": "NHK World-Japan",
    "group": "English",
    "tvg_id": "NHKWorldJapan.jp",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/NHK_World.svg/960px-NHK_World.svg.png",
    "urls": [
     "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
     "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8"
@@ -74,6 +82,7 @@
    "name": "TRT World",
    "group": "English",
    "tvg_id": "TRTWorld.tr",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png",
    "urls": [
     "https://tv-trtworld.medya.trt.com.tr/master.m3u8"
    ]
@@ -82,6 +91,7 @@
    "name": "Africanews English",
    "group": "English",
    "tvg_id": "AfricanewsEnglish.fr",
+   "logo": "https://i.imgur.com/5UxU4zc.png",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8"
    ]
@@ -90,6 +100,7 @@
    "name": "CBS News 24/7",
    "group": "USA",
    "tvg_id": "CBSNews247.us",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",
    "urls": [
     "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
     "https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8"
@@ -99,6 +110,7 @@
    "name": "ABC News Live",
    "group": "USA",
    "tvg_id": "ABCNewsLive1.us",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
    "urls": [
     "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8"
    ]
@@ -107,6 +119,7 @@
    "name": "LiveNOW from FOX",
    "group": "USA",
    "tvg_id": "LiveNOWfromFOX.us",
+   "logo": "https://i.imgur.com/1JnyzHv.png",
    "urls": [
     "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8"
    ]
@@ -115,6 +128,7 @@
    "name": "Bloomberg TV US",
    "group": "USA",
    "tvg_id": "BloombergTV.us",
+   "logo": "https://i.imgur.com/OuogLHx.png",
    "urls": [
     "https://bloomberg.com/media-manifest/streams/us.m3u8"
    ]
@@ -123,6 +137,7 @@
    "name": "Cheddar News",
    "group": "USA",
    "tvg_id": "CheddarNews.us",
+   "logo": "https://i.imgur.com/tuP9GW8.png",
    "urls": [
     "https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8"
    ]
@@ -131,6 +146,7 @@
    "name": "FOX Weather",
    "group": "USA",
    "tvg_id": "FoxWeather.us",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png",
    "urls": [
     "https://247wlive.foxweather.com/stream/index.m3u8"
    ]
@@ -139,6 +155,7 @@
    "name": "France 24 Français",
    "group": "Français",
    "tvg_id": "France24French.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/960px-France_24_logo_%282013%29.svg.png",
    "urls": [
     "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
     "https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8"
@@ -148,6 +165,7 @@
    "name": "Euronews Français",
    "group": "Français",
    "tvg_id": "EuronewsFrench.fr",
+   "logo": "https://i.imgur.com/8t9mdg9.png",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8"
    ]
@@ -156,6 +174,7 @@
    "name": "Africanews Français",
    "group": "Français",
    "tvg_id": "AfricanewsFrench.fr",
+   "logo": "https://i.imgur.com/5UxU4zc.png",
    "urls": [
     "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8"
    ]
@@ -164,6 +183,7 @@
    "name": "France 24 Español",
    "group": "Español",
    "tvg_id": "France24Spanish.fr",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/France_24_logo_%282013%29.svg/960px-France_24_logo_%282013%29.svg.png",
    "urls": [
     "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8"
    ]
@@ -172,6 +192,7 @@
    "name": "DW Español",
    "group": "Español",
    "tvg_id": "DWEspanol.de",
+   "logo": "https://i.imgur.com/8MRNFb9.png",
    "urls": [
     "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8"
    ]

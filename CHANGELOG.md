@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.54.0 – 2026-11-21
+
+- Programmzeitschrift für die Live-Sender unter Mediatheken: Nachrichten-Livestreams, Sport-Kanäle und Plex Live TV zeigen in der Liste «Jetzt: … (bis …)», rechts Beschreibung und «Danach», im Vollbild die Infoleiste wie bei Live-TV. Programm der Quelle (Plex, SRG «Sport live») hat Vorrang, sonst die normale Programmzeitschrift; MENU › «Programmzeitschrift zuordnen …» bei den Mediatheken-Sendern.
+- Infoleiste, Stufe «Alles»: kleine Symbole oben rechts für Programmdaten, Nachschauen, Aufnahme und Untertitel; fehlt etwas, gedämpft mit Schrägstrich und der Grund darunter.
+
 ## 0.53.0 – 2026-11-21
 
 - Neuer Bereich «Sport» in den Mediatheken, getrennt von Nachrichten und dem Rest: «● Jetzt live» zeigt alle laufenden Sport-Übertragungen von Play SRF, RTS, RSI und RTR zusammen, dazu «Demnächst live», «Vorbei – noch zum Nachschauen», «Sport-Kanäle rund um die Uhr» und «Sport-Sender von Plex».

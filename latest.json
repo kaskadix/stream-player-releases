@@ -1,13 +1,13 @@
 {
- "version": "0.53.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.53.0_all.ipk",
- "sha256": "7bd64b6f9eb8b5e2f38d5c1f1cdc2b44e2b358b4cb6be6cc3743db040c59b71d",
- "size": 1553012,
- "installed_kb": 3228,
- "need_kb": 7480,
+ "version": "0.54.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.54.0_all.ipk",
+ "sha256": "c7f61d5a5db6533a197e13442fd41ca38b397e01f81c6fefe50727a06e32e4f5",
+ "size": 1577268,
+ "installed_kb": 3324,
+ "need_kb": 7672,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Neuer Bereich «Sport» in den Mediatheken, getrennt von Nachrichten und dem Rest: «● Jetzt live» zeigt alle laufenden Sport-Übertragungen von Play SRF, RTS, RSI und RTR zusammen, dazu «Demnächst live», «Vorbei – noch zum Nachschauen», «Sport-Kanäle rund um die Uhr» und «Sport-Sender von Plex».\n- Sport-Kanäle rund um die Uhr: Red Bull TV, Eurovision Sport, FIFA+, Tennis Channel, Motorvision, MotoGP, Real Madrid TV und weitere, dazu US-Sportkanäle (beIN SPORTS XTRA, CBS Sports Golazo, NHL Network, Team USA ...). Nur offizielle Adressen.\n- Play RTR (rätoromanisch) als weitere SRG-Mediathek, mit «Sport live».\n- Plex Live TV: Hunderte Gratis-Sender von Plex nach Kategorien, auch ohne Plex-Konto. Nur Sender, die für dein Land freigegeben sind und keinen Kopierschutz haben.\n- Nachrichten-Livestreams: neu auch US-Sender (CBS News 24/7, ABC News Live, LiveNOW from FOX, Bloomberg US, Cheddar, FOX Weather).\n- Test der Ländersperren per Telnet: geotest.py zeigt pro Sender OK, GESPERRT, KOPIERSCHUTZ oder FEHLER.\n- Schlüssel in Adressen (z.B. von Plex) erscheinen im Protokoll nur noch als ***.",
-  "en": "New Sport area (live now from SRF/RTS/RSI/RTR, sport channels around the clock, Plex sport), Play RTR, Plex Live TV, US news channels, geotest.py for geo-blocking checks, tokens hidden in the log."
+  "de": "- Programmzeitschrift für die Live-Sender unter Mediatheken: Nachrichten-Livestreams, Sport-Kanäle und Plex Live TV zeigen in der Liste «Jetzt: … (bis …)», rechts Beschreibung und «Danach», im Vollbild die Infoleiste wie bei Live-TV. Programm der Quelle (Plex, SRG «Sport live») hat Vorrang, sonst die normale Programmzeitschrift; MENU › «Programmzeitschrift zuordnen …» bei den Mediatheken-Sendern.\n- Logos für die Live-Sender der Mediatheken: Nachrichten, Sport-Kanäle und Plex Live TV zeigen in der Liste wie Live-TV die Logo-Kachel links, im Vollbild das Logo in der Infoleiste.\n- Infoleiste, Stufe «Alles»: kleine Symbole oben rechts für Programmdaten, Nachschauen, Aufnahme und Untertitel; fehlt etwas, gedämpft mit Schrägstrich und der Grund darunter.",
+  "en": "Programme guide and logos for the live channels in media libraries (news, sport channels, Plex Live TV, source guide first); availability symbols in the full info bar."
  }
 }

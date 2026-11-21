@@ -1,12 +1,13 @@
 {
  "version": 1,
  "updated": "2026-11-21",
- "source": "Offizielle Adressen der Sender bzw. ihrer Ausspielpartner, geprueft mit iptv-org",
+ "source": "Offizielle Adressen der Sender bzw. ihrer Ausspielpartner, geprueft mit iptv-org; Logos aus der iptv-org-Datenbank",
  "channels": [
   {
    "name": "Red Bull TV",
    "group": "Europa & weltweit",
    "tvg_id": "RedBullTV.at",
+   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
    "urls": [
     "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
    ]
@@ -15,6 +16,7 @@
    "name": "Eurovision Sport",
    "group": "Europa & weltweit",
    "tvg_id": "EurovisionSport.uk",
+   "logo": "https://images.ctfassets.net/2b1dkanupt14/1A1Z8Gcn2NkbJRzTjxuj6h/2c14436cdc5b78e746a256e9f0c11a70/eurovision-icon.png",
    "urls": [
     "https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8"
    ]
@@ -23,6 +25,7 @@
    "name": "FIFA+ Deutsch",
    "group": "Europa & weltweit",
    "tvg_id": "FIFAPlus.uk",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png",
    "urls": [
     "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8"
    ]
@@ -31,6 +34,7 @@
    "name": "FIFA+ English",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png",
    "urls": [
     "https://ba3e2e93.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8"
    ]
@@ -39,6 +43,7 @@
    "name": "Tennis Channel Deutschland",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://i.imgur.com/tsljAnY.png",
    "urls": [
     "https://tennischanneldeu-rakuten.amagi.tv/playlist.m3u8"
    ]
@@ -47,6 +52,7 @@
    "name": "Tennis Channel International",
    "group": "Europa & weltweit",
    "tvg_id": "TennisChannel.us",
+   "logo": "https://i.imgur.com/tsljAnY.png",
    "urls": [
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8"
    ]
@@ -55,6 +61,7 @@
    "name": "Motorvision",
    "group": "Europa & weltweit",
    "tvg_id": "Motorvision.de",
+   "logo": "https://i.imgur.com/v4kj8pI.png",
    "urls": [
     "https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8"
    ]
@@ -63,6 +70,7 @@
    "name": "MotoGP Channel",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "",
    "urls": [
     "https://d1kqz1q7knpsue.cloudfront.net/MotoGP.m3u8"
    ]
@@ -71,6 +79,7 @@
    "name": "Strongman Champions League",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/30ccc088-dca7-4458-ad5a-328fef06e1ca-width200-quality90.png",
    "urls": [
     "https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8"
    ]
@@ -79,6 +88,7 @@
    "name": "Racer Select",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://i.imgur.com/4eaKYJu.png",
    "urls": [
     "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8"
    ]
@@ -87,6 +97,7 @@
    "name": "FloRacing 24/7",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://a.jsrdn.com/hls/22883/floracing-247/logo_20231219_225054_24.png",
    "urls": [
     "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
    ]
@@ -95,6 +106,7 @@
    "name": "FloHockey 24/7",
    "group": "Europa & weltweit",
    "tvg_id": "",
+   "logo": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png",
    "urls": [
     "https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8"
    ]
@@ -103,6 +115,7 @@
    "name": "Fight Network",
    "group": "Europa & weltweit",
    "tvg_id": "FightNetwork.ca",
+   "logo": "https://i.imgur.com/vlKPZHR.png",
    "urls": [
     "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8"
    ]
@@ -111,6 +124,7 @@
    "name": "beIN SPORTS XTRA",
    "group": "USA",
    "tvg_id": "beINSPORTSXTRA.us",
+   "logo": "https://i.imgur.com/uJosqHh.png",
    "urls": [
     "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
     "https://bein-xtra-xumo.amagi.tv/playlist.m3u8"
@@ -120,6 +134,7 @@
    "name": "CBS Sports Golazo Network",
    "group": "USA",
    "tvg_id": "CBSSportsGolazoNetwork.us",
+   "logo": "https://i.imgur.com/eMjutHS.png",
    "urls": [
     "https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8"
    ]
@@ -128,6 +143,7 @@
    "name": "CBS Sports HQ",
    "group": "USA",
    "tvg_id": "CBSSportsHQ.us",
+   "logo": "https://i.imgur.com/q8BENJg.png",
    "urls": [
     "https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8"
    ]
@@ -136,6 +152,7 @@
    "name": "NHL Network",
    "group": "USA",
    "tvg_id": "",
+   "logo": "https://i.imgur.com/UNZ8bef.png",
    "urls": [
     "https://nhl-firetv.amagi.tv/playlist.m3u8"
    ]
@@ -144,6 +161,7 @@
    "name": "ESPN8 The Ocho",
    "group": "USA",
    "tvg_id": "ESPN8TheOcho.us",
+   "logo": "https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png",
    "urls": [
     "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8"
    ]
@@ -152,6 +170,7 @@
    "name": "Team USA TV",
    "group": "USA",
    "tvg_id": "",
+   "logo": "",
    "urls": [
     "https://d8b6mh9us4zvx.cloudfront.net/TEAM_USA_TV.m3u8"
    ]
@@ -160,6 +179,7 @@
    "name": "Women's Sports Network",
    "group": "USA",
    "tvg_id": "WomensSportsNetwork.us",
+   "logo": "https://i.imgur.com/rhIwUcQ.png",
    "urls": [
     "https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network.m3u8"
    ]
@@ -168,6 +188,7 @@
    "name": "Willow Sports (Cricket)",
    "group": "USA",
    "tvg_id": "WillowSports.us",
+   "logo": "https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png",
    "urls": [
     "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
    ]
@@ -176,6 +197,7 @@
    "name": "Outside TV",
    "group": "USA",
    "tvg_id": "OutsideTV.us",
+   "logo": "https://i.imgur.com/0UMmG41.png",
    "urls": [
     "https://outsidetv-firetv.amagi.tv/playlist.m3u8"
    ]
