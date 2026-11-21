@@ -1,13 +1,13 @@
 {
- "version": "0.52.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.52.0_all.ipk",
- "sha256": "a83df2ad52c5ce590ad50046438afb7ae91008d3d2f62d0eb0d9db2644b778b0",
- "size": 1544268,
+ "version": "0.52.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.52.1_all.ipk",
+ "sha256": "8d8eeadc04e680c2730938d13aaa14353951ed79deb54d349bf87943a036ca19",
+ "size": 1544200,
  "installed_kb": 3200,
  "need_kb": 7424,
  "date": "2026-11-21",
  "notes": {
-  "de": "- Neu: **Infoleiste für Live-Übertragungen** der Mediatheken (nach der Skizze): Schild «● LIVE» bzw. «↺ VON ANFANG AN», Sportart, Sender und Beginn, Bild und Ton kurz (z.B. «Full HD · 50 fps · AAC · DE»), grosser Titel; live ein roter Balken, von Anfang an ein Balken vom Beginn bis jetzt mit «… seit Beginn · … hinter Live». **BLAU** wechselt während des Schauens zwischen live und von Anfang an.",
-  "en": "New info bar for media library live broadcasts: LIVE / FROM THE START badge, sport, channel and start, short picture/sound info, live bar or position since start; BLUE switches between live and from the start while watching."
+  "de": "- Live-Infoleiste kompakter und besser lesbar: rund ein Viertel weniger hoch, Schild und Titel in einer Zeile, Sportart · Sender · Beginn als eine Zeile, grössere Schrift, Titel ohne «●». Bei «von Anfang an» steht «… seit Beginn · … hinter Live» rechts neben dem Balken; Meldungen wie «Pause» unten rechts.",
+  "en": "Live info bar more compact and readable."
  }
 }

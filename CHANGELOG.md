@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.52.1 – 2026-11-21
+
+- Live-Infoleiste kompakter und besser lesbar: rund ein Viertel weniger hoch, Schild und Titel in einer Zeile, Sportart · Sender · Beginn als eine Zeile, grössere Schrift, Titel ohne «●». Bei «von Anfang an» steht «… seit Beginn · … hinter Live» rechts neben dem Balken; Meldungen wie «Pause» unten rechts.
+
 ## 0.52.0 – 2026-11-21
 
 - Neu: **Infoleiste für Live-Übertragungen** der Mediatheken (nach der Skizze): Schild «● LIVE» bzw. «↺ VON ANFANG AN», Sportart, Sender und Beginn, Bild und Ton kurz (z.B. «Full HD · 50 fps · AAC · DE»), grosser Titel; live ein roter Balken, von Anfang an ein Balken vom Beginn bis jetzt mit «… seit Beginn · … hinter Live». **BLAU** wechselt während des Schauens zwischen live und von Anfang an.
