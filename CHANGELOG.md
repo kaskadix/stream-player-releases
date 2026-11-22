@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.57.2 – 2026-11-22
+
+- Auch Oberflächen grösser als Full HD (WQHD 2560 × 1440, UHD 3840 × 2160) werden erkannt: Stream-Player rechnet alle Grössen um und bringt passende Bilder mit (bisher blieb er dort in Full-HD-Grösse).
+
 ## 0.57.1 – 2026-11-22
 
 - Wechselt die Oberfläche der Box (z.B. von HD auf Full HD), erzeugt Stream-Player die Senderlogos von selbst in den neuen Grössen.
