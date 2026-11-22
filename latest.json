@@ -1,13 +1,13 @@
 {
- "version": "0.57.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.2_all.ipk",
- "sha256": "a841bbf32566d71c6088c96a7cf59ced5afb662a3867e061d9da1ccf1d280277",
- "size": 1818630,
+ "version": "0.57.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.3_all.ipk",
+ "sha256": "d5ec90f111a2ff9dc44f46cf677a7214b3f595f4c1c46fe1eca85fe825b556ab",
+ "size": 1818772,
  "installed_kb": 3924,
  "need_kb": 8872,
  "date": "2026-11-22",
  "notes": {
-  "de": "- Auch Oberflächen grösser als Full HD (WQHD 2560 × 1440, UHD 3840 × 2160) werden erkannt: Stream-Player rechnet alle Grössen um und bringt passende Bilder mit (bisher blieb er dort in Full-HD-Grösse).",
-  "en": "WQHD and UHD GUI resolutions are now supported (scaled layout and matching images)."
+  "de": "- Fairness gegenüber den Diensten: Stream-Player meldet sich bei MediathekViewWeb und OpenSubtitles mit eigenem Namen und Version (bisher bei MediathekViewWeb als Browser, bei OpenSubtitles ohne App-Namen).",
+  "en": "Stream-Player now identifies itself to MediathekViewWeb and OpenSubtitles with its own name and version."
  }
 }

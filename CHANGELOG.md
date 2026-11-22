@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.57.3 – 2026-11-22
+
+- Fairness gegenüber den Diensten: Stream-Player meldet sich bei MediathekViewWeb und OpenSubtitles mit eigenem Namen und Version (bisher bei MediathekViewWeb als Browser, bei OpenSubtitles ohne App-Namen).
+
 ## 0.57.2 – 2026-11-22
 
 - Auch Oberflächen grösser als Full HD (WQHD 2560 × 1440, UHD 3840 × 2160) werden erkannt: Stream-Player rechnet alle Grössen um und bringt passende Bilder mit (bisher blieb er dort in Full-HD-Grösse).
