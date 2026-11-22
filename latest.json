@@ -1,13 +1,13 @@
 {
- "version": "0.55.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.55.2_all.ipk",
- "sha256": "d2bf6fc18d20e325cbf1dd5de63e685a6c5039af12cacfb798ac94f9f57729f5",
- "size": 1603512,
- "installed_kb": 3400,
- "need_kb": 7824,
+ "version": "0.56.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.56.0_all.ipk",
+ "sha256": "3d134f850ba676b0e4d4ab6d581f44470cdd980aedc3a29def2f923b66f3f4f8",
+ "size": 1608360,
+ "installed_kb": 3412,
+ "need_kb": 7848,
  "date": "2026-11-22",
  "notes": {
-  "de": "- Logos bleiben auch ohne Festplatte/USB-Stick nach einem Neustart da: kleine Logos (bis 80 KB) kommen in einen eigenen Ordner im Box-Speicher (höchstens 6 MB). Logos von Wikimedia werden in einer kleineren Fassung geladen.\n- Logos in den Senderlisten schärfer: kein nachträgliches Vergrössern mehr in der Liste.",
-  "en": "Logos survive restarts without a drive (small persistent store); sharper logos in channel lists."
+  "de": "- Senderlogos werden einmal im Hintergrund aufbereitet: eigener einfarbiger Hintergrund (z.B. weisser Kasten) weg, leere Ränder ab – das Logo füllt die Kachel –, sauber verkleinert. Ergebnis viel schärfer, besonders in den Senderlisten.\n- Die aufbereiteten Logos sind klein (meist 5–20 KB) und bleiben im Box-Speicher (höchstens 5 MB), auch nach einem Neustart; die Originale werden danach nicht mehr gebraucht.",
+  "en": "Channel logos are prepared once in the background (own background removed, borders trimmed, cleanly downscaled) and kept small on the box."
  }
 }

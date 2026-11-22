@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.56.0 – 2026-11-22
+
+- Senderlogos werden einmal im Hintergrund aufbereitet: eigener einfarbiger Hintergrund (z.B. weisser Kasten) weg, leere Ränder ab – das Logo füllt die Kachel –, sauber verkleinert. Ergebnis viel schärfer, besonders in den Senderlisten.
+- Die aufbereiteten Logos sind klein (meist 5–20 KB) und bleiben im Box-Speicher (höchstens 5 MB), auch nach einem Neustart; die Originale werden danach nicht mehr gebraucht.
+
 ## 0.55.2 – 2026-11-22
 
 - Logos bleiben auch ohne Festplatte/USB-Stick nach einem Neustart da: kleine Logos (bis 80 KB) kommen in einen eigenen Ordner im Box-Speicher (höchstens 6 MB). Logos von Wikimedia werden in einer kleineren Fassung geladen.
