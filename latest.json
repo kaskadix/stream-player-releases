@@ -1,13 +1,13 @@
 {
- "version": "0.56.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.56.2_all.ipk",
- "sha256": "c865864b8ba143e0cb4b97eb4b387aff97652f49b1fd58fa972905003c39592b",
- "size": 1609810,
+ "version": "0.57.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.0_all.ipk",
+ "sha256": "7287a80947aa01a4d10eb2f764fbfe336abf98b356110a2cec0caa3002f0412f",
+ "size": 1610494,
  "installed_kb": 3416,
  "need_kb": 7856,
  "date": "2026-11-22",
  "notes": {
-  "de": "- Senderlogos: wieder sichtbar in den Listen und ohne hellen Kasten. Die fertigen Logos haben jetzt genau die Feldgrösse und die Kachelfarbe eingebaut – der Bildlader der Box muss nichts mehr füllen oder umrechnen. Nur noch die drei Logo-Grössen werden erzeugt (nicht mehr die grossen Plakat-Grössen).\n- Grosse Logo-Vorlagen (z.B. Plex, 1500 Pixel) werden jetzt auch geladen (bis 2 MB, danach aufbereitet).",
-  "en": "Logos visible again in lists and without the light box: exact-size logos with the tile colour baked in; big logo sources load."
+  "de": "- Schärfere Senderlogos: grössere Logo-Kacheln in den Senderlisten (Live-TV und Mediatheken), kleine Logos werden nach dem Verkleinern sanft nachgeschärft, weniger Rand.\n- Einheitliche, saubere Logos für die eingebauten Nachrichten- und Sport-Kanäle aus der Sammlung tv-logo/tv-logos (z.B. NHL Network, Red Bull TV, Tennis Channel, CBS News, France 24, DW).",
+  "en": "Sharper channel logos: larger tiles, gentle sharpening, consistent logos for built-in channels from tv-logo/tv-logos."
  }
 }

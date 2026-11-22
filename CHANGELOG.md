@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.57.0 – 2026-11-22
+
+- Schärfere Senderlogos: grössere Logo-Kacheln in den Senderlisten (Live-TV und Mediatheken), kleine Logos werden nach dem Verkleinern sanft nachgeschärft, weniger Rand.
+- Einheitliche, saubere Logos für die eingebauten Nachrichten- und Sport-Kanäle aus der Sammlung tv-logo/tv-logos (z.B. NHL Network, Red Bull TV, Tennis Channel, CBS News, France 24, DW).
+
 ## 0.56.2 – 2026-11-22
 
 - Senderlogos: wieder sichtbar in den Listen und ohne hellen Kasten. Die fertigen Logos haben jetzt genau die Feldgrösse und die Kachelfarbe eingebaut – der Bildlader der Box muss nichts mehr füllen oder umrechnen. Nur noch die drei Logo-Grössen werden erzeugt (nicht mehr die grossen Plakat-Grössen).

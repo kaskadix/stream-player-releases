@@ -1,13 +1,13 @@
 {
  "version": 1,
- "updated": "2026-11-21",
- "source": "Offizielle Adressen der Sender bzw. ihrer Ausspielpartner, geprueft mit iptv-org; Logos aus der iptv-org-Datenbank",
+ "updated": "2026-11-22",
+ "source": "Offizielle Adressen der Sender bzw. ihrer Ausspielpartner; Logos von tv-logo/tv-logos bzw. iptv-org",
  "channels": [
   {
    "name": "Red Bull TV",
    "group": "Europa & weltweit",
    "tvg_id": "RedBullTV.at",
-   "logo": "https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/red-bull-tv-int.png",
    "urls": [
     "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
    ]
@@ -43,7 +43,7 @@
    "name": "Tennis Channel Deutschland",
    "group": "Europa & weltweit",
    "tvg_id": "",
-   "logo": "https://i.imgur.com/tsljAnY.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/tennis-channel-hz-us.png",
    "urls": [
     "https://tennischanneldeu-rakuten.amagi.tv/playlist.m3u8"
    ]
@@ -52,7 +52,7 @@
    "name": "Tennis Channel International",
    "group": "Europa & weltweit",
    "tvg_id": "TennisChannel.us",
-   "logo": "https://i.imgur.com/tsljAnY.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/tennis-channel-hz-us.png",
    "urls": [
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8"
    ]
@@ -61,7 +61,7 @@
    "name": "Motorvision",
    "group": "Europa & weltweit",
    "tvg_id": "Motorvision.de",
-   "logo": "https://i.imgur.com/v4kj8pI.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/motorvision-tv-de.png",
    "urls": [
     "https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8"
    ]
@@ -79,7 +79,7 @@
    "name": "Strongman Champions League",
    "group": "Europa & weltweit",
    "tvg_id": "",
-   "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/30ccc088-dca7-4458-ad5a-328fef06e1ca-width200-quality90.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/misc/vod/strongman-champions-league-vod.png",
    "urls": [
     "https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8"
    ]
@@ -115,7 +115,7 @@
    "name": "Fight Network",
    "group": "Europa & weltweit",
    "tvg_id": "FightNetwork.ca",
-   "logo": "https://i.imgur.com/vlKPZHR.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fight-network-us.png",
    "urls": [
     "https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8"
    ]
@@ -124,7 +124,7 @@
    "name": "beIN SPORTS XTRA",
    "group": "USA",
    "tvg_id": "beINSPORTSXTRA.us",
-   "logo": "https://i.imgur.com/uJosqHh.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bein-sports-xtra-us.png",
    "urls": [
     "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
     "https://bein-xtra-xumo.amagi.tv/playlist.m3u8"
@@ -134,7 +134,7 @@
    "name": "CBS Sports Golazo Network",
    "group": "USA",
    "tvg_id": "CBSSportsGolazoNetwork.us",
-   "logo": "https://i.imgur.com/eMjutHS.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-sports-golazo-network-us.png",
    "urls": [
     "https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8"
    ]
@@ -143,7 +143,7 @@
    "name": "CBS Sports HQ",
    "group": "USA",
    "tvg_id": "CBSSportsHQ.us",
-   "logo": "https://i.imgur.com/q8BENJg.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-sports-hq-us.png",
    "urls": [
     "https://propee33f9c2.airspace-cdn.cbsivideo.com/index.m3u8"
    ]
@@ -152,7 +152,7 @@
    "name": "NHL Network",
    "group": "USA",
    "tvg_id": "",
-   "logo": "https://i.imgur.com/UNZ8bef.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nhl-network-us.png",
    "urls": [
     "https://nhl-firetv.amagi.tv/playlist.m3u8"
    ]
@@ -188,7 +188,7 @@
    "name": "Willow Sports (Cricket)",
    "group": "USA",
    "tvg_id": "WillowSports.us",
-   "logo": "https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/willow-us.png",
    "urls": [
     "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
    ]
@@ -197,7 +197,7 @@
    "name": "Outside TV",
    "group": "USA",
    "tvg_id": "OutsideTV.us",
-   "logo": "https://i.imgur.com/0UMmG41.png",
+   "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/outside-tv-us.png",
    "urls": [
     "https://outsidetv-firetv.amagi.tv/playlist.m3u8"
    ]
