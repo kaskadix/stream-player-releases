@@ -1,13 +1,13 @@
 {
- "version": "0.57.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.0_all.ipk",
- "sha256": "7287a80947aa01a4d10eb2f764fbfe336abf98b356110a2cec0caa3002f0412f",
- "size": 1610494,
+ "version": "0.57.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.1_all.ipk",
+ "sha256": "b4fa53e84b5dbcdf736ce4980298fb278f6e5c3e6dfd95f7d04238407591d289",
+ "size": 1610618,
  "installed_kb": 3416,
  "need_kb": 7856,
  "date": "2026-11-22",
  "notes": {
-  "de": "- Schärfere Senderlogos: grössere Logo-Kacheln in den Senderlisten (Live-TV und Mediatheken), kleine Logos werden nach dem Verkleinern sanft nachgeschärft, weniger Rand.\n- Einheitliche, saubere Logos für die eingebauten Nachrichten- und Sport-Kanäle aus der Sammlung tv-logo/tv-logos (z.B. NHL Network, Red Bull TV, Tennis Channel, CBS News, France 24, DW).",
-  "en": "Sharper channel logos: larger tiles, gentle sharpening, consistent logos for built-in channels from tv-logo/tv-logos."
+  "de": "- Wechselt die Oberfläche der Box (z.B. von HD auf Full HD), erzeugt Stream-Player die Senderlogos von selbst in den neuen Grössen.",
+  "en": "Logos are re-generated automatically when the box switches GUI resolution (e.g. HD to Full HD)."
  }
 }

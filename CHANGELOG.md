@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.57.1 – 2026-11-22
+
+- Wechselt die Oberfläche der Box (z.B. von HD auf Full HD), erzeugt Stream-Player die Senderlogos von selbst in den neuen Grössen.
+
 ## 0.57.0 – 2026-11-22
 
 - Schärfere Senderlogos: grössere Logo-Kacheln in den Senderlisten (Live-TV und Mediatheken), kleine Logos werden nach dem Verkleinern sanft nachgeschärft, weniger Rand.
