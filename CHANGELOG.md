@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.56.2 – 2026-11-22
+
+- Senderlogos: wieder sichtbar in den Listen und ohne hellen Kasten. Die fertigen Logos haben jetzt genau die Feldgrösse und die Kachelfarbe eingebaut – der Bildlader der Box muss nichts mehr füllen oder umrechnen. Nur noch die drei Logo-Grössen werden erzeugt (nicht mehr die grossen Plakat-Grössen).
+- Grosse Logo-Vorlagen (z.B. Plex, 1500 Pixel) werden jetzt auch geladen (bis 2 MB, danach aufbereitet).
+
 ## 0.56.1 – 2026-11-22
 
 - Senderlogos ohne hellen Kasten: Der Bildlader der Box füllte durchsichtige Stellen weiss. Stream-Player erzeugt die Logos jetzt selbst in genau den gebrauchten Grössen (Liste, rechte Seite, Infoleiste) mit durchsichtigem Grund und lädt sie direkt – sie sitzen sauber auf der Kachel und sind scharf.
