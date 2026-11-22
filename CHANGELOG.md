@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.55.2 – 2026-11-22
+
+- Logos bleiben auch ohne Festplatte/USB-Stick nach einem Neustart da: kleine Logos (bis 80 KB) kommen in einen eigenen Ordner im Box-Speicher (höchstens 6 MB). Logos von Wikimedia werden in einer kleineren Fassung geladen.
+- Logos in den Senderlisten schärfer: kein nachträgliches Vergrössern mehr in der Liste.
+
 ## 0.55.1 – 2026-11-22
 
 - Mediatheken, Live-Sender: Logos, die erst später geladen werden, erscheinen jetzt auch links in der Senderliste (bisher nur rechts und in der Infoleiste).
