@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.58.0 – 2026-11-23
+
+- Untertitel von OpenSubtitles funktionieren jetzt sofort, ohne eigenen API-Schlüssel (5 Untertitel pro Tag). Wer mehr braucht, meldet sich freiwillig mit dem eigenen Gratis-Konto an.
+- Das Feld für einen eigenen OpenSubtitles-Schlüssel ist weg; ein alter eigener Schlüssel wird automatisch entfernt.
+- Quellenangabe «Subtitles provided by OpenSubtitles.com» auf der Einstellungsseite, in der Trefferliste und in der Anleitung.
+- Rücksicht auf die Anbieter: Stream-Player beachtet deren Grenzen (wartet bei «zu viele Anfragen») und nutzt eine Anmeldung 24 Stunden lang, statt sich jedes Mal neu anzumelden.
+
 ## 0.57.3 – 2026-11-22
 
 - Fairness gegenüber den Diensten: Stream-Player meldet sich bei MediathekViewWeb und OpenSubtitles mit eigenem Namen und Version (bisher bei MediathekViewWeb als Browser, bei OpenSubtitles ohne App-Namen).

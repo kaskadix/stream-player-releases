@@ -1,13 +1,13 @@
 {
- "version": "0.57.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.57.3_all.ipk",
- "sha256": "d5ec90f111a2ff9dc44f46cf677a7214b3f595f4c1c46fe1eca85fe825b556ab",
- "size": 1818772,
- "installed_kb": 3924,
- "need_kb": 8872,
- "date": "2026-11-22",
+ "version": "0.58.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.58.0_all.ipk",
+ "sha256": "0273449d83205be87d44a9532d6a2f3bf17333333ed42ee5d8db12e751b4bad5",
+ "size": 1820262,
+ "installed_kb": 3928,
+ "need_kb": 8880,
+ "date": "2026-11-23",
  "notes": {
-  "de": "- Fairness gegenüber den Diensten: Stream-Player meldet sich bei MediathekViewWeb und OpenSubtitles mit eigenem Namen und Version (bisher bei MediathekViewWeb als Browser, bei OpenSubtitles ohne App-Namen).",
-  "en": "Stream-Player now identifies itself to MediathekViewWeb and OpenSubtitles with its own name and version."
+  "de": "- Untertitel von OpenSubtitles funktionieren jetzt sofort, ohne eigenen API-Schlüssel (5 Untertitel pro Tag). Wer mehr braucht, meldet sich freiwillig mit dem eigenen Gratis-Konto an.\n- Das Feld für einen eigenen OpenSubtitles-Schlüssel ist weg; ein alter eigener Schlüssel wird automatisch entfernt.\n- Quellenangabe «Subtitles provided by OpenSubtitles.com» auf der Einstellungsseite, in der Trefferliste und in der Anleitung.\n- Rücksicht auf die Anbieter: Stream-Player beachtet deren Grenzen (wartet bei «zu viele Anfragen») und nutzt eine Anmeldung 24 Stunden lang, statt sich jedes Mal neu anzumelden.",
+  "en": "OpenSubtitles works out of the box with a built-in app key (5 subtitles per day); own free account optional for more. Credit 'Subtitles provided by OpenSubtitles.com'. Respects rate limits and reuses the login token for 24 hours."
  }
 }
