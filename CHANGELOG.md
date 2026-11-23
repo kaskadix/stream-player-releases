@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.59.2 – 2026-11-23
+
+- Wird Stream-Player schnell geschlossen und wieder geöffnet, laufen nicht mehr zwei Ladevorgänge gleichzeitig (das hat beide halb so schnell gemacht); das zweite Öffnen übernimmt das Ergebnis des ersten.
+- Protokoll: Die Ladezeit der Listen wird aufgeteilt (lesen, zusammenfassen), um weitere Bremsen zu finden.
+
 ## 0.59.1 – 2026-11-23
 
 - Der schnelle Start mit den gespeicherten Listen griff beim Öffnen nie: Ein früherer Aufruf lud die Listen jedes Mal komplett aus dem Internet. Jetzt erscheinen die Sender sofort, frisch geladen wird im Hintergrund.

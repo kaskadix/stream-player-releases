@@ -1,13 +1,13 @@
 {
- "version": "0.59.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.1_all.ipk",
- "sha256": "11ec0459b4432e285c7def9a6c3bcf560a6ba8779dab9907e3661bdfa3835826",
- "size": 1822986,
+ "version": "0.59.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.2_all.ipk",
+ "sha256": "f3c2977dd01094fd5db2a93619d433130f2d303e02f9be223ce8d72bee3c5818",
+ "size": 1823224,
  "installed_kb": 3932,
  "need_kb": 8888,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Der schnelle Start mit den gespeicherten Listen griff beim Öffnen nie: Ein früherer Aufruf lud die Listen jedes Mal komplett aus dem Internet. Jetzt erscheinen die Sender sofort, frisch geladen wird im Hintergrund.",
-  "en": "Quick start from the saved lists now really works when opening the plugin (an earlier call always reloaded all lists from the internet)."
+  "de": "- Wird Stream-Player schnell geschlossen und wieder geöffnet, laufen nicht mehr zwei Ladevorgänge gleichzeitig (das hat beide halb so schnell gemacht); das zweite Öffnen übernimmt das Ergebnis des ersten.\n- Protokoll: Die Ladezeit der Listen wird aufgeteilt (lesen, zusammenfassen), um weitere Bremsen zu finden.",
+  "en": "No two list loads at the same time anymore when the plugin is closed and reopened quickly; the second open reuses the first result. Log shows load time split into reading and merging."
  }
 }
