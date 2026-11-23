@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.0 – 2026-11-23
+
+- Download-Laufwerk wird an seiner Kennung (UUID) wiedererkannt: Hängt die Box die gleiche SSD, Festplatte oder den gleichen USB-Stick unter einem anderen Namen ein (z.B. /media/hdd statt /media/sda1), stellt Stream-Player den Ordner von selbst um – beim Öffnen und während Aufnahmen oder Downloads auf das Laufwerk warten.
+
 ## 0.61.1 – 2026-11-23
 
 - Hinweis «Laufwerk fehlt» kommt jetzt nach wenigen Sekunden (wartete beim Start manchmal minutenlang auf andere Arbeiten) und hat einen kurzen Titel.
