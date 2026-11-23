@@ -1,13 +1,13 @@
 {
- "version": "0.60.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.60.0_all.ipk",
- "sha256": "9348b8dc7cde4ba21dafcb246d503186432d70e013ecd6c9ed16fe8acbbff672",
- "size": 1824462,
- "installed_kb": 3936,
- "need_kb": 8896,
+ "version": "0.61.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.61.0_all.ipk",
+ "sha256": "3bdc41c4b0a1c5134be7fb62608ea4512740a82b9fa48be6f51d2d794dedca0b",
+ "size": 1829596,
+ "installed_kb": 3956,
+ "need_kb": 8936,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Neu pro Liste: «Bei jedem Öffnen frisch laden» – für Listen mit rasch wechselnden Stream-Adressen (z.B. Sport-Events). Im Browser als Häkchen bei der Liste, auf der Box unter MENU › Listen mit der MENU-Taste (Zeichen ⟳). Nur diese Listen werden dann bei jedem Öffnen im Hintergrund frisch geladen, die anderen bleiben schnell.",
-  "en": "New per list: 'Always load fresh when opening' for lists whose stream addresses change quickly (browser checkbox, on the box MENU key in the list screen). Only these lists are reloaded in the background on every open; the others stay fast."
+  "de": "- Fehlender USB-Stick, Festplatte oder NAS: Stream-Player startet normal und meldet beim Öffnen, was fehlt – mit Auswahl: nochmals prüfen, anderen Ordner für Aufnahmen und Downloads wählen, bis zum Neustart ignorieren oder nicht mehr fragen (Einstellungen › «Hinweis, wenn ein Laufwerk fehlt»).\n- Aufnahmen und Downloads warten auf das fehlende Laufwerk und laufen danach von selbst weiter – mit einem Hinweis auf dem Fernseher und aufs Handy. Nie mehr in den leeren Ordner /media/usb im internen Speicher oder Arbeitsspeicher; auch nicht, wenn der Stick mitten im Download abgezogen wird.\n- Archiv: Fehlende Ordner stehen als «⚠ Nicht erreichbar» oben (OK schaut nochmals nach), statt dass das Archiv einfach leer ist.\n- Logos und Poster im Arbeitsspeicher (wenn kein Laufwerk da ist): höchstens rund 50 MB statt bis 300 MB.\n- Ein nicht erreichbares NAS kann die Oberfläche beim Wählen des Logo-Speichers nicht mehr einfrieren (Abfrage mit Zeitgrenze, später im Hintergrund).",
+  "en": "Missing USB stick, hard disk or NAS: the plugin starts normally and says what is missing, with options (check again, choose another folder, ignore, don't ask again). Recordings and downloads wait for the drive and resume by themselves, with a TV and phone notice; never written to the empty mount folder in internal memory or RAM. Archive shows unreachable folders. Logo/poster cache in RAM limited to about 50 MB. A dead NAS can no longer freeze the UI when choosing the logo cache."
  }
 }

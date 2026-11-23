@@ -1,5 +1,13 @@
 # Stream-Player – Versionen
 
+## 0.61.0 – 2026-11-23
+
+- Fehlender USB-Stick, Festplatte oder NAS: Stream-Player startet normal und meldet beim Öffnen, was fehlt – mit Auswahl: nochmals prüfen, anderen Ordner für Aufnahmen und Downloads wählen, bis zum Neustart ignorieren oder nicht mehr fragen (Einstellungen › «Hinweis, wenn ein Laufwerk fehlt»).
+- Aufnahmen und Downloads warten auf das fehlende Laufwerk und laufen danach von selbst weiter – mit einem Hinweis auf dem Fernseher und aufs Handy. Nie mehr in den leeren Ordner /media/usb im internen Speicher oder Arbeitsspeicher; auch nicht, wenn der Stick mitten im Download abgezogen wird.
+- Archiv: Fehlende Ordner stehen als «⚠ Nicht erreichbar» oben (OK schaut nochmals nach), statt dass das Archiv einfach leer ist.
+- Logos und Poster im Arbeitsspeicher (wenn kein Laufwerk da ist): höchstens rund 50 MB statt bis 300 MB.
+- Ein nicht erreichbares NAS kann die Oberfläche beim Wählen des Logo-Speichers nicht mehr einfrieren (Abfrage mit Zeitgrenze, später im Hintergrund).
+
 ## 0.60.0 – 2026-11-23
 
 - Neu pro Liste: «Bei jedem Öffnen frisch laden» – für Listen mit rasch wechselnden Stream-Adressen (z.B. Sport-Events). Im Browser als Häkchen bei der Liste, auf der Box unter MENU › Listen mit der MENU-Taste (Zeichen ⟳). Nur diese Listen werden dann bei jedem Öffnen im Hintergrund frisch geladen, die anderen bleiben schnell.
