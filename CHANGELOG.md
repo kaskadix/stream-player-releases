@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.58.3 – 2026-11-23
+
+- Untertitel: Kein falsches «Tageslimit erreicht» mehr. OpenSubtitles meldet nach einer Suche oft «für diese Sekunde keine Anfrage mehr frei»; Stream-Player wartet jetzt diese kurze Zeit ab und lädt dann normal.
+
 ## 0.58.2 – 2026-11-23
 
 - WikiFlix und Blender-Filme laufen wieder: Wikimedia Commons lehnt Abspieler ohne erkennbaren Namen seit Kurzem ab (HTTP 429). Stream-Player gibt dem Abspieler jetzt seinen eigenen Namen mit – auch beim Herunterladen.
