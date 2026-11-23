@@ -1,13 +1,13 @@
 {
- "version": "0.62.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.1_all.ipk",
- "sha256": "f15993edcc409df3b40049e1ed214e0ce5e47b2127a552e571dfc83cab5ba3e2",
- "size": 1832066,
+ "version": "0.62.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.2_all.ipk",
+ "sha256": "635a534aeaf8c96348d07080e0551146b514bd5ddb69772cda6b7c8c33d07610",
+ "size": 1832310,
  "installed_kb": 3960,
  "need_kb": 8944,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Schlägt eine Aufnahme fehl, erscheint der Grund gleich als Meldung auf dem Fernseher (nicht erst im Download-Manager). Klarere Meldung bei Sendern mit verschlüsseltem Stream über VPN: «Aufnahme nicht möglich … am VPN-Tunnel vorbei – das macht Stream-Player nie.»",
-  "en": "If a recording fails, the reason now pops up on the TV right away. Clearer message for VPN channels with an encrypted stream (it could only be saved past the VPN - never done)."
+  "de": "- «» Stream-Player Hauptmenü» tat nach einem Update ohne Neustart der Oberfläche manchmal nichts (z.B. beim Abspielen einer Aufnahme aus dem Download-Manager). Der Weg zum Hauptmenü übersteht jetzt das Neuladen nach einem Update.",
+  "en": "'Stream-Player main menu' sometimes did nothing after an update without GUI restart (e.g. while playing a recording from the download manager). The way to the main menu now survives the module reload after an update."
  }
 }

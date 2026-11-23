@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.2 – 2026-11-23
+
+- «» Stream-Player Hauptmenü» tat nach einem Update ohne Neustart der Oberfläche manchmal nichts (z.B. beim Abspielen einer Aufnahme aus dem Download-Manager). Der Weg zum Hauptmenü übersteht jetzt das Neuladen nach einem Update.
+
 ## 0.62.1 – 2026-11-23
 
 - Schlägt eine Aufnahme fehl, erscheint der Grund gleich als Meldung auf dem Fernseher (nicht erst im Download-Manager). Klarere Meldung bei Sendern mit verschlüsseltem Stream über VPN: «Aufnahme nicht möglich … am VPN-Tunnel vorbei – das macht Stream-Player nie.»
