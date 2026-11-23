@@ -1,13 +1,13 @@
 {
- "version": "0.59.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.0_all.ipk",
- "sha256": "86b3cd4c5b4828d5f8c55cf18a8c9e66a3d9d05c075f521730de6840e581b486",
- "size": 1823006,
+ "version": "0.59.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.1_all.ipk",
+ "sha256": "11ec0459b4432e285c7def9a6c3bcf560a6ba8779dab9907e3661bdfa3835826",
+ "size": 1822986,
  "installed_kb": 3932,
  "need_kb": 8888,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Viel schnellerer Start mit vielen Listen: Das Zusammenfassen gleicher Sender war bei Sendern mit sehr vielen Streams extrem langsam (im Test 30-mal schneller).\n- Wird Stream-Player in derselben Sitzung nochmals geöffnet und die Listen sind unverändert, erscheinen die Sender sofort.\n- Flüssigere Bedienung bei grossen Gruppen (z.B. «Alle Sender» mit Tausenden Sendern): Logos werden nur noch rund um die Auswahl vorbereitet und nachgezeichnet, statt immer wieder für die ganze Liste.",
-  "en": "Much faster start with many lists (channel merging was quadratic for channels with many streams). Reopening in the same session shows the channels instantly when lists are unchanged. Smoother handling of large groups: logos are only prepared around the selection."
+  "de": "- Der schnelle Start mit den gespeicherten Listen griff beim Öffnen nie: Ein früherer Aufruf lud die Listen jedes Mal komplett aus dem Internet. Jetzt erscheinen die Sender sofort, frisch geladen wird im Hintergrund.",
+  "en": "Quick start from the saved lists now really works when opening the plugin (an earlier call always reloaded all lists from the internet)."
  }
 }

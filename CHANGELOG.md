@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.59.1 – 2026-11-23
+
+- Der schnelle Start mit den gespeicherten Listen griff beim Öffnen nie: Ein früherer Aufruf lud die Listen jedes Mal komplett aus dem Internet. Jetzt erscheinen die Sender sofort, frisch geladen wird im Hintergrund.
+
 ## 0.59.0 – 2026-11-23
 
 - Viel schnellerer Start mit vielen Listen: Das Zusammenfassen gleicher Sender war bei Sendern mit sehr vielen Streams extrem langsam (im Test 30-mal schneller).
