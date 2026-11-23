@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.58.2 – 2026-11-23
+
+- WikiFlix und Blender-Filme laufen wieder: Wikimedia Commons lehnt Abspieler ohne erkennbaren Namen seit Kurzem ab (HTTP 429). Stream-Player gibt dem Abspieler jetzt seinen eigenen Namen mit – auch beim Herunterladen.
+- WikiFlix: Filme, von denen es nur einen Trailer gibt, erscheinen nicht mehr in den Listen.
+
 ## 0.58.1 – 2026-11-23
 
 - Untertitel: Meldet OpenSubtitles ein erreichtes Limit, zeigt Stream-Player jetzt die genaue Begründung des Dienstes an (z.B. wann es wieder geht) und schreibt sie ins Protokoll.

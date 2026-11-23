@@ -1,13 +1,13 @@
 {
- "version": "0.58.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.58.1_all.ipk",
- "sha256": "f82634e5eff6a6d3b725f85958949954055ad0b8f0caf56aabae0bb7b2d6bd72",
- "size": 1820690,
+ "version": "0.58.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.58.2_all.ipk",
+ "sha256": "c6487f8e694920e01b549485077bb371c0c7e25a48f4668e533f3cbafad799e1",
+ "size": 1821200,
  "installed_kb": 3928,
  "need_kb": 8880,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Untertitel: Meldet OpenSubtitles ein erreichtes Limit, zeigt Stream-Player jetzt die genaue Begründung des Dienstes an (z.B. wann es wieder geht) und schreibt sie ins Protokoll.\n- «Zu viele Anfragen kurz hintereinander» wird nicht mehr als Tageslimit angezeigt.",
-  "en": "Subtitles: when OpenSubtitles reports a limit, the service's exact reason is shown and logged. 'Too many requests' is no longer shown as the daily limit."
+  "de": "- WikiFlix und Blender-Filme laufen wieder: Wikimedia Commons lehnt Abspieler ohne erkennbaren Namen seit Kurzem ab (HTTP 429). Stream-Player gibt dem Abspieler jetzt seinen eigenen Namen mit – auch beim Herunterladen.\n- WikiFlix: Filme, von denen es nur einen Trailer gibt, erscheinen nicht mehr in den Listen.",
+  "en": "WikiFlix and Blender films play again: Wikimedia Commons now rejects players without an identifiable User-Agent (HTTP 429); Stream-Player passes its own name to the player and downloads. WikiFlix titles that only have a trailer are hidden."
  }
 }
