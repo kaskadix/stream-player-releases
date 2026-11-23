@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.59.0 – 2026-11-23
+
+- Viel schnellerer Start mit vielen Listen: Das Zusammenfassen gleicher Sender war bei Sendern mit sehr vielen Streams extrem langsam (im Test 30-mal schneller).
+- Wird Stream-Player in derselben Sitzung nochmals geöffnet und die Listen sind unverändert, erscheinen die Sender sofort.
+- Flüssigere Bedienung bei grossen Gruppen (z.B. «Alle Sender» mit Tausenden Sendern): Logos werden nur noch rund um die Auswahl vorbereitet und nachgezeichnet, statt immer wieder für die ganze Liste.
+
 ## 0.58.3 – 2026-11-23
 
 - Untertitel: Kein falsches «Tageslimit erreicht» mehr. OpenSubtitles meldet nach einer Suche oft «für diese Sekunde keine Anfrage mehr frei»; Stream-Player wartet jetzt diese kurze Zeit ab und lädt dann normal.
