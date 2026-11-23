@@ -67,3 +67,8 @@ Die ausführliche, bebilderte Anleitung ist im Plugin eingebaut: `http://<Adress
 | `latest.json` | Angaben zur neuesten Version (Versionsnummer, Download-Adresse, Prüfsumme, Neuerungen). Wird vom Plugin gelesen. |
 | `packages/` | Alle veröffentlichten Pakete |
 | `CHANGELOG.md` | Neuerungen je Version |
+
+## Quellen und Dank
+
+- Untertitel: [Subtitles provided by OpenSubtitles.com](https://opensubtitles.com) – funktioniert ohne Einrichten (5 Untertitel pro Tag); mit eigenem Gratis-Konto mehr.
+- Film- und Serien-Infos: [TMDB](https://www.themoviedb.org) (This product uses the TMDB API but is not endorsed or certified by TMDB.)
