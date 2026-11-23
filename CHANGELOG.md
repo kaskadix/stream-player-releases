@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.61.1 – 2026-11-23
+
+- Hinweis «Laufwerk fehlt» kommt jetzt nach wenigen Sekunden (wartete beim Start manchmal minutenlang auf andere Arbeiten) und hat einen kurzen Titel.
+- Wird ein Laufwerk neu eingesteckt und von der Box unter anderem Namen eingehängt (z.B. /media/sdb1 statt /media/sda1), schlägt der Hinweis gleich den gleichen Ordner am neuen Ort vor.
+
 ## 0.61.0 – 2026-11-23
 
 - Fehlender USB-Stick, Festplatte oder NAS: Stream-Player startet normal und meldet beim Öffnen, was fehlt – mit Auswahl: nochmals prüfen, anderen Ordner für Aufnahmen und Downloads wählen, bis zum Neustart ignorieren oder nicht mehr fragen (Einstellungen › «Hinweis, wenn ein Laufwerk fehlt»).
