@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.58.1 – 2026-11-23
+
+- Untertitel: Meldet OpenSubtitles ein erreichtes Limit, zeigt Stream-Player jetzt die genaue Begründung des Dienstes an (z.B. wann es wieder geht) und schreibt sie ins Protokoll.
+- «Zu viele Anfragen kurz hintereinander» wird nicht mehr als Tageslimit angezeigt.
+
 ## 0.58.0 – 2026-11-23
 
 - Untertitel von OpenSubtitles funktionieren jetzt sofort, ohne eigenen API-Schlüssel (5 Untertitel pro Tag). Wer mehr braucht, meldet sich freiwillig mit dem eigenen Gratis-Konto an.
