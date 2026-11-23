@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.1 – 2026-11-23
+
+- Schlägt eine Aufnahme fehl, erscheint der Grund gleich als Meldung auf dem Fernseher (nicht erst im Download-Manager). Klarere Meldung bei Sendern mit verschlüsseltem Stream über VPN: «Aufnahme nicht möglich … am VPN-Tunnel vorbei – das macht Stream-Player nie.»
+
 ## 0.62.0 – 2026-11-23
 
 - Download-Laufwerk wird an seiner Kennung (UUID) wiedererkannt: Hängt die Box die gleiche SSD, Festplatte oder den gleichen USB-Stick unter einem anderen Namen ein (z.B. /media/hdd statt /media/sda1), stellt Stream-Player den Ordner von selbst um – beim Öffnen und während Aufnahmen oder Downloads auf das Laufwerk warten.
