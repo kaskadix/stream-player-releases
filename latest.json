@@ -1,13 +1,13 @@
 {
- "version": "0.59.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.2_all.ipk",
- "sha256": "f3c2977dd01094fd5db2a93619d433130f2d303e02f9be223ce8d72bee3c5818",
- "size": 1823224,
- "installed_kb": 3932,
- "need_kb": 8888,
+ "version": "0.60.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.60.0_all.ipk",
+ "sha256": "9348b8dc7cde4ba21dafcb246d503186432d70e013ecd6c9ed16fe8acbbff672",
+ "size": 1824462,
+ "installed_kb": 3936,
+ "need_kb": 8896,
  "date": "2026-11-23",
  "notes": {
-  "de": "- Wird Stream-Player schnell geschlossen und wieder geöffnet, laufen nicht mehr zwei Ladevorgänge gleichzeitig (das hat beide halb so schnell gemacht); das zweite Öffnen übernimmt das Ergebnis des ersten.\n- Protokoll: Die Ladezeit der Listen wird aufgeteilt (lesen, zusammenfassen), um weitere Bremsen zu finden.",
-  "en": "No two list loads at the same time anymore when the plugin is closed and reopened quickly; the second open reuses the first result. Log shows load time split into reading and merging."
+  "de": "- Neu pro Liste: «Bei jedem Öffnen frisch laden» – für Listen mit rasch wechselnden Stream-Adressen (z.B. Sport-Events). Im Browser als Häkchen bei der Liste, auf der Box unter MENU › Listen mit der MENU-Taste (Zeichen ⟳). Nur diese Listen werden dann bei jedem Öffnen im Hintergrund frisch geladen, die anderen bleiben schnell.",
+  "en": "New per list: 'Always load fresh when opening' for lists whose stream addresses change quickly (browser checkbox, on the box MENU key in the list screen). Only these lists are reloaded in the background on every open; the others stay fast."
  }
 }

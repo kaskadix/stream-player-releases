@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.60.0 – 2026-11-23
+
+- Neu pro Liste: «Bei jedem Öffnen frisch laden» – für Listen mit rasch wechselnden Stream-Adressen (z.B. Sport-Events). Im Browser als Häkchen bei der Liste, auf der Box unter MENU › Listen mit der MENU-Taste (Zeichen ⟳). Nur diese Listen werden dann bei jedem Öffnen im Hintergrund frisch geladen, die anderen bleiben schnell.
+
 ## 0.59.2 – 2026-11-23
 
 - Wird Stream-Player schnell geschlossen und wieder geöffnet, laufen nicht mehr zwei Ladevorgänge gleichzeitig (das hat beide halb so schnell gemacht); das zweite Öffnen übernimmt das Ergebnis des ersten.
