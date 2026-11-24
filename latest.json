@@ -1,13 +1,13 @@
 {
- "version": "0.62.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.5_all.ipk",
- "sha256": "43f0a24d66d74dbbec87bb1298128e5974bcbd4c043cc5662fef428165ae3093",
- "size": 1833006,
+ "version": "0.62.6",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.6_all.ipk",
+ "sha256": "d1d96dd663a4b0649cfd777bb8db8642d732e494d37bde4805130596a2a19e12",
+ "size": 1833120,
  "installed_kb": 3964,
  "need_kb": 8952,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Sicherung/Wiederherstellen: läuft im eigenen Hintergrund-Faden, und jeder Fehler wird jetzt ins Protokoll geschrieben und angezeigt (statt still zu verschwinden).",
-  "en": "Backup/restore runs in its own thread, and every error is now logged and shown instead of disappearing silently."
+  "de": "- OpenPLi: Wiederherstellen einer Sicherung blieb nach der Suche stehen («modal open … only from a screen which is modal»). Die Warte-Meldung wird jetzt zuerst geschlossen, erst danach öffnet sich die Auswahl – auf allen Images.",
+  "en": "OpenPLi: restoring a backup stopped after the search ('modal open ... only from a screen which is modal'). The wait message is now closed first and the choice opens afterwards - on all images."
  }
 }

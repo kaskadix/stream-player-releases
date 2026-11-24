@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.6 – 2026-11-24
+
+- OpenPLi: Wiederherstellen einer Sicherung blieb nach der Suche stehen («modal open … only from a screen which is modal»). Die Warte-Meldung wird jetzt zuerst geschlossen, erst danach öffnet sich die Auswahl – auf allen Images.
+
 ## 0.62.5 – 2026-11-24
 
 - Sicherung/Wiederherstellen: läuft im eigenen Hintergrund-Faden, und jeder Fehler wird jetzt ins Protokoll geschrieben und angezeigt (statt still zu verschwinden).
