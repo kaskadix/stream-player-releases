@@ -1,13 +1,13 @@
 {
- "version": "0.66.4",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.4_all.ipk",
- "sha256": "41e726f530d232a034a8990674f40226e4d4e34eb9cca08893afc31ded03cc13",
- "size": 1852128,
+ "version": "0.66.5",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.5_all.ipk",
+ "sha256": "e15d0a63a7b79a5b71a531fb4140948c08c38ebb7019d6605db6afc22b4c16b6",
+ "size": 1852160,
  "installed_kb": 4024,
  "need_kb": 9072,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Kein Ton bei manchen Sendern (z.B. ARD): Liefert ein Sender Bild und Ton als getrennte Spuren, ging der Ton im Relay verloren. Solche Sender spielt jetzt der Abspieler direkt, mit Ton. Gibt es eine Bildstufe mit Ton im Bild-Stream, nimmt das Relay diese.\n- Schärferes Bild bei Sendern, die direkt laufen (z.B. verschlüsselte): Das Relay gibt dem Abspieler nur noch die beste Bildstufe weiter. Vorher nahmen die Abspieler oft die erste, meist die schlechteste (verpixelt).\n- Listen-Link auf eine GitHub- oder GitLab-Seite (…/blob/…): Stream-Player holt jetzt die Datei dahinter. Vorher wurde die Webseite als Liste gelesen und es gab Sender, die nie liefen. Ist hinter einem Link eine Webseite, steht jetzt «Webseite statt Liste».\n- Zeilen aus Webseiten werden nicht mehr als Sender-Adresse gelesen.",
-  "en": "No sound with some channels (e.g. ARD): streams with separate audio renditions are now played directly by the player (muxed variants preferred in the relay). Sharper picture for direct-only streams: the relay hands the player only the best variant. GitHub/GitLab page links (/blob/) are converted to the raw file; web pages are reported as 'web page instead of list'. HTML lines are no longer read as stream addresses."
+  "de": "- Diagnose-Bericht: Längere Meldungen aus Stream-Player (z.B. «Webseite statt Liste») bleiben lesbar. Ein Listenname, der als Beispiel im Programmcode stand, ist entfernt, er erschien deshalb lesbar im Bericht.",
+  "en": "Diagnosis report: longer plugin messages stay readable; removed an example list name from the code."
  }
 }

@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.66.5 – 2026-11-24
+
+- Diagnose-Bericht: Längere Meldungen aus Stream-Player (z.B. «Webseite statt Liste») bleiben lesbar. Ein Listenname, der als Beispiel im Programmcode stand, ist entfernt, er erschien deshalb lesbar im Bericht.
+
 ## 0.66.4 – 2026-11-24
 
 - Kein Ton bei manchen Sendern (z.B. ARD): Liefert ein Sender Bild und Ton als getrennte Spuren, ging der Ton im Relay verloren. Solche Sender spielt jetzt der Abspieler direkt, mit Ton. Gibt es eine Bildstufe mit Ton im Bild-Stream, nimmt das Relay diese.
