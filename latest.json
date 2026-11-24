@@ -1,13 +1,13 @@
 {
- "version": "0.65.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.65.1_all.ipk",
- "sha256": "9d0349fe7453cdbbd86a5291a7a8770fb7941c3f33819dd48acb8b99a6f4d1f1",
- "size": 1844648,
- "installed_kb": 4000,
- "need_kb": 9024,
+ "version": "0.66.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.0_all.ipk",
+ "sha256": "88a9aaf6a1e40cc40ee1aee3e65418e06919146a0c30aa0fc414cb67fee3366e",
+ "size": 1847320,
+ "installed_kb": 4008,
+ "need_kb": 9040,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Diagnose-Bericht: Der Box-Check darin prüft jetzt genau wie auf der Box auch Relay, WireGuard und Download-Ordner (vorher stand dort fälschlich «WireGuard nicht installiert», «Relay ausgeschaltet» und «Download-Ordner nicht geprüft»).",
-  "en": "Diagnosis report: its box check now checks relay, WireGuard and download folder exactly like on the box (before it wrongly showed WireGuard missing, relay off and download folder not checked)."
+  "de": "- Diagnose-Bericht schützt die Privatsphäre: Er enthält nichts mehr darüber, was du schaust. Sendernamen, Titel, Suchbegriffe und Adressen werden im Protokoll durch Platzhalter wie ‹3› und ‹URL› ersetzt (gleicher Sender = gleicher Platzhalter, damit man den Ablauf noch versteht). Von den Listen steht nur die Anzahl drin. Zeilen, die sich nicht sicher zuordnen lassen, werden ausgelassen.\n- Einstellungsseite im Browser: Oben rechts «Diagnose-Bericht» lädt ihn direkt herunter.\n- Anleitung: Wo man den Bericht findet (auch die eigene Browser-Adresse der Box) und warum er für Hilfe gebraucht wird.",
+  "en": "Diagnosis report protects privacy: nothing about what you watch. Channel names, titles, search terms and addresses are replaced by placeholders in the log (same channel = same placeholder); for lists only the count. Lines that cannot be matched safely are left out. Settings page: 'Diagnosis report' link top right downloads it. Manual explains where to find it and why it is needed for help."
  }
 }

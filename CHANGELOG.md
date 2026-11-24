@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.66.0 – 2026-11-24
+
+- Diagnose-Bericht schützt die Privatsphäre: Er enthält nichts mehr darüber, was du schaust. Sendernamen, Titel, Suchbegriffe und Adressen werden im Protokoll durch Platzhalter wie ‹3› und ‹URL› ersetzt (gleicher Sender = gleicher Platzhalter, damit man den Ablauf noch versteht). Von den Listen steht nur die Anzahl drin. Zeilen, die sich nicht sicher zuordnen lassen, werden ausgelassen.
+- Einstellungsseite im Browser: Oben rechts «Diagnose-Bericht» lädt ihn direkt herunter.
+- Anleitung: Wo man den Bericht findet (auch die eigene Browser-Adresse der Box) und warum er für Hilfe gebraucht wird.
+
 ## 0.65.1 – 2026-11-24
 
 - Diagnose-Bericht: Der Box-Check darin prüft jetzt genau wie auf der Box auch Relay, WireGuard und Download-Ordner (vorher stand dort fälschlich «WireGuard nicht installiert», «Relay ausgeschaltet» und «Download-Ordner nicht geprüft»).
