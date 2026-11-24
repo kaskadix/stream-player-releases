@@ -1,13 +1,13 @@
 {
- "version": "0.63.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.2_all.ipk",
- "sha256": "dfc90e93f5b5ea51a3963273e5edc7c0b767e9765ac78c322d05acb39bdff905",
- "size": 1834994,
+ "version": "0.63.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.3_all.ipk",
+ "sha256": "df85b04f5b3e43f974f02b25c13d15458b4206593316ea62757ae959f6b4904b",
+ "size": 1834992,
  "installed_kb": 3972,
  "need_kb": 8968,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Lehnt Enigma2 das Öffnen eines Fensters der Sicherung kurz ab, versucht Stream-Player es gleich nochmals – statt ein halb offenes Fenster zu hinterlassen, das sich mit keiner Taste mehr schliessen lässt.\n- Sicherung/Wiederherstellen auf openATV 8 und OpenPLi: Der nächste Schritt öffnet sich jetzt erst, wenn Enigma2 das Schliessen der Warte-Meldung ganz abgeschlossen hat (statt nach einer festen kurzen Wartezeit). Vorher blieb die Wiederherstellung nach der Suche stehen.",
-  "en": "Backup/restore on openATV 8 and OpenPLi: the next step opens only after Enigma2 has fully closed the wait message; if Enigma2 still refuses to open a window, it is retried instead of leaving a half-open window that no key closes."
+  "de": "- Sicherung/Wiederherstellen: Fehler «_open() got an unexpected keyword argument 'hold'» aus 0.63.2 behoben (zwei Hilfsfunktionen hatten denselben Namen). Neuer Test spielt die Wiederherstellung mit einem nachgebauten, strengen Enigma2 durch, und ein Test verhindert doppelte Funktionsnamen.",
+  "en": "Backup/restore: fixed error '_open() got an unexpected keyword argument hold' from 0.63.2 (two helpers had the same name). A new test runs the restore flow against a simulated strict Enigma2, another prevents duplicate function names."
  }
 }

@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.63.3 – 2026-11-24
+
+- Sicherung/Wiederherstellen: Fehler «_open() got an unexpected keyword argument 'hold'» aus 0.63.2 behoben (zwei Hilfsfunktionen hatten denselben Namen). Neuer Test spielt die Wiederherstellung mit einem nachgebauten, strengen Enigma2 durch, und ein Test verhindert doppelte Funktionsnamen.
+
 ## 0.63.2 – 2026-11-24
 
 - Sicherung/Wiederherstellen auf openATV 8 und OpenPLi: Der nächste Schritt öffnet sich jetzt erst, wenn Enigma2 das Schliessen der Warte-Meldung ganz abgeschlossen hat (statt nach einer festen kurzen Wartezeit). Vorher blieb die Wiederherstellung nach der Suche stehen.
