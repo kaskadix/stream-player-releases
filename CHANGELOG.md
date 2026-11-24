@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.5 – 2026-11-24
+
+- Sicherung/Wiederherstellen: läuft im eigenen Hintergrund-Faden, und jeder Fehler wird jetzt ins Protokoll geschrieben und angezeigt (statt still zu verschwinden).
+
 ## 0.62.4 – 2026-11-24
 
 - Wiederherstellen: Die Suche nach Sicherungen durchsucht alle Laufwerke gleichzeitig. Ein langsames oder hängendes Netzlaufwerk (z.B. /media/autofs) verhindert nicht mehr, dass die Sicherung auf der Festplatte gefunden wird (z.B. unter OpenPLi in /media/dreambox-storage). Das Ergebnis steht im Protokoll.
