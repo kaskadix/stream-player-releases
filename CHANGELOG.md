@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.66.1 – 2026-11-24
+
+- Umschalten ruhiger: Liegt kurz vor dem Live-Ende ein Wechsel im Stream (z.B. zu Werbung oder einer anderen Sendung), beginnt das Relay gleich danach. Vorher kam oft kurz Bild, dann Schwarz und erst dann das bleibende Bild.
+- Neu verbinden ohne Rücksprung: Bricht ein Live-Stream kurz ab, macht das Relay beim selben Stream genau nach dem zuletzt gelieferten Abschnitt weiter, statt die letzten Sekunden nochmals zu schicken (das gab kurz Schwarz oder ein Ruckeln).
+- Springt die Nummerierung der Abschnitte beim Anbieter zurück (z.B. anderer Server), knüpft das Relay nach wenigen Sekunden wieder an, statt auf den Abbruch nach 14 Sekunden zu warten.
+
 ## 0.66.0 – 2026-11-24
 
 - Diagnose-Bericht schützt die Privatsphäre: Er enthält nichts mehr darüber, was du schaust. Sendernamen, Titel, Suchbegriffe und Adressen werden im Protokoll durch Platzhalter wie ‹3› und ‹URL› ersetzt (gleicher Sender = gleicher Platzhalter, damit man den Ablauf noch versteht). Von den Listen steht nur die Anzahl drin. Zeilen, die sich nicht sicher zuordnen lassen, werden ausgelassen.
