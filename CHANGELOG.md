@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.65.1 – 2026-11-24
+
+- Diagnose-Bericht: Der Box-Check darin prüft jetzt genau wie auf der Box auch Relay, WireGuard und Download-Ordner (vorher stand dort fälschlich «WireGuard nicht installiert», «Relay ausgeschaltet» und «Download-Ordner nicht geprüft»).
+
 ## 0.65.0 – 2026-11-24
 
 - Neue Version? Stream-Player fragt jetzt gleich beim Öffnen – mit den wichtigsten Neuerungen in Kürze und der Wahl: jetzt installieren, zuerst anzeigen was neu ist, später (morgen wieder fragen) oder diese Version überspringen. Abschaltbar unter Einstellungen › «Beim Öffnen auf neue Version hinweisen».

@@ -1,13 +1,13 @@
 {
- "version": "0.65.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.65.0_all.ipk",
- "sha256": "7caaa2da4b9afd0cd6fbe16d0d5a3db1629c86ae0463d71cb42c2870e87844e4",
- "size": 1844602,
+ "version": "0.65.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.65.1_all.ipk",
+ "sha256": "9d0349fe7453cdbbd86a5291a7a8770fb7941c3f33819dd48acb8b99a6f4d1f1",
+ "size": 1844648,
  "installed_kb": 4000,
  "need_kb": 9024,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Neue Version? Stream-Player fragt jetzt gleich beim Öffnen – mit den wichtigsten Neuerungen in Kürze und der Wahl: jetzt installieren, zuerst anzeigen was neu ist, später (morgen wieder fragen) oder diese Version überspringen. Abschaltbar unter Einstellungen › «Beim Öffnen auf neue Version hinweisen».\n- Neu: Diagnose-Bericht für den Entwickler (MENU › Diagnose-Bericht erstellen, oder im Browser unter /diagnose). Enthält Version, Image, Box, wichtige Pakete, Box-Check, Einstellungen, Listen-Namen, letzten Absturz und Protokoll – Benutzernamen, Passwörter, Schlüssel und Token sind unkenntlich gemacht, auch in Xtream-Adressen.\n- Beim Öffnen schreibt Stream-Player eine Zeile mit Version, Image, Box, Python, Kernel und Abspieler ins Protokoll. Ist die Oberfläche abgestürzt und war Stream-Player beteiligt, bietet es beim nächsten Öffnen den Bericht an.\n- Protokoll: Auch Benutzer/Passwort in Xtream-Adressen und in user:pass@-Adressen werden unkenntlich gemacht.",
-  "en": "New version? Stream-Player now asks when opening, with a short summary: install now, first show what is new, later (ask tomorrow) or skip this version. New: diagnosis report for the developer (MENU > Create diagnosis report, or /diagnose in the browser) with version, image, box, packages, box check, settings, list names, last crash and log - user names, passwords, keys and tokens are removed. Each start writes a header line with version, image and box to the log; after a crash involving Stream-Player the report is offered."
+  "de": "- Diagnose-Bericht: Der Box-Check darin prüft jetzt genau wie auf der Box auch Relay, WireGuard und Download-Ordner (vorher stand dort fälschlich «WireGuard nicht installiert», «Relay ausgeschaltet» und «Download-Ordner nicht geprüft»).",
+  "en": "Diagnosis report: its box check now checks relay, WireGuard and download folder exactly like on the box (before it wrongly showed WireGuard missing, relay off and download folder not checked)."
  }
 }
