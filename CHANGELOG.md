@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.64.2 – 2026-11-24
+
+- Infoleiste: Die Zeile unten links (z.B. «Aufnahme bis 12:26: …») bricht nie mehr in eine abgeschnittene zweite Zeile um; die Stream-Nummer steht nur noch rechts bei «Stream».
+
 ## 0.64.1 – 2026-11-24
 
 - Box-Check erkennt jetzt auch eine falsch gehende Uhr (Vergleich mit der Zeit aus dem Internet, nicht nur «Jahr vor 2024»). GRÜN stellt die Uhr einmal richtig – danach klappen auch sichere Verbindungen und das Nachinstallieren wieder. Hinweis, wie die Uhr dauerhaft stimmt (NTP statt Transponder).

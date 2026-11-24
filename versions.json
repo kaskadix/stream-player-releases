@@ -1,6 +1,14 @@
 {
  "versions": [
   {
+   "version": "0.64.2",
+   "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.64.2_all.ipk",
+   "sha256": "b50fe17051bf8d1a4ab3624d5645ab91ed59d29235056160b286be8a09ea1252",
+   "size": 1836900,
+   "date": "2026-11-24",
+   "beta": false
+  },
+  {
    "version": "0.64.1",
    "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.64.1_all.ipk",
    "sha256": "ef8d1e6fc529a9235d8385a933d03b787aa8ccb132e728f2931eb4d7b1e4d03e",
@@ -149,14 +157,6 @@
    "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.60.0_all.ipk",
    "sha256": "9348b8dc7cde4ba21dafcb246d503186432d70e013ecd6c9ed16fe8acbbff672",
    "size": 1824462,
-   "date": "2026-11-23",
-   "beta": false
-  },
-  {
-   "version": "0.59.2",
-   "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.59.2_all.ipk",
-   "sha256": "f3c2977dd01094fd5db2a93619d433130f2d303e02f9be223ce8d72bee3c5818",
-   "size": 1823224,
    "date": "2026-11-23",
    "beta": false
   }
