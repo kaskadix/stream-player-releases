@@ -1,13 +1,13 @@
 {
- "version": "0.62.6",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.6_all.ipk",
- "sha256": "d1d96dd663a4b0649cfd777bb8db8642d732e494d37bde4805130596a2a19e12",
- "size": 1833120,
- "installed_kb": 3964,
- "need_kb": 8952,
+ "version": "0.62.7",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.7_all.ipk",
+ "sha256": "fad6fde90d1684a9efa4aea647f301bd4a8b09d315c9e797a02fc9d1c966611f",
+ "size": 1833408,
+ "installed_kb": 3968,
+ "need_kb": 8960,
  "date": "2026-11-24",
  "notes": {
-  "de": "- OpenPLi: Wiederherstellen einer Sicherung blieb nach der Suche stehen («modal open … only from a screen which is modal»). Die Warte-Meldung wird jetzt zuerst geschlossen, erst danach öffnet sich die Auswahl – auf allen Images.",
-  "en": "OpenPLi: restoring a backup stopped after the search ('modal open ... only from a screen which is modal'). The wait message is now closed first and the choice opens afterwards - on all images."
+  "de": "- OpenPLi: Absturz beim Blättern in der Senderliste behoben. OpenPLi bringt das Python-Teil «difflib» nicht von Haus aus mit; Stream-Player rechnet jetzt auch ohne es, und der Box-Check prüft es (Paket python3-difflib). Ein Fehler beim Programm-Hinweis kann die Oberfläche nicht mehr abstürzen lassen.",
+  "en": "OpenPLi: crash when moving through the channel list fixed. OpenPLi does not ship the Python part 'difflib' by default; Stream-Player now works without it and the box check tests for it (package python3-difflib). An error in the programme hint can no longer crash the GUI."
  }
 }
