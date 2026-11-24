@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.62.8 – 2026-11-24
+
+- Relay startete nach Abstürzen oder mehreren Updates manchmal nicht mehr («kein freier Port»): Alte Relays früherer Versionen überleben einen Absturz der Oberfläche und belegten alle Ports. Stream-Player beendet sie jetzt und übernimmt den Port.
+- Startfehler des Relays stehen jetzt im Protokoll.
+
 ## 0.62.7 – 2026-11-24
 
 - OpenPLi: Absturz beim Blättern in der Senderliste behoben. OpenPLi bringt das Python-Teil «difflib» nicht von Haus aus mit; Stream-Player rechnet jetzt auch ohne es, und der Box-Check prüft es (Paket python3-difflib). Ein Fehler beim Programm-Hinweis kann die Oberfläche nicht mehr abstürzen lassen.

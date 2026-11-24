@@ -1,13 +1,13 @@
 {
- "version": "0.62.7",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.7_all.ipk",
- "sha256": "fad6fde90d1684a9efa4aea647f301bd4a8b09d315c9e797a02fc9d1c966611f",
- "size": 1833408,
- "installed_kb": 3968,
- "need_kb": 8960,
+ "version": "0.62.8",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.8_all.ipk",
+ "sha256": "79c42ca3d91881e54465508f1cc41814ba4e03215979e81935f7017cc87a2b47",
+ "size": 1833924,
+ "installed_kb": 3972,
+ "need_kb": 8968,
  "date": "2026-11-24",
  "notes": {
-  "de": "- OpenPLi: Absturz beim Blättern in der Senderliste behoben. OpenPLi bringt das Python-Teil «difflib» nicht von Haus aus mit; Stream-Player rechnet jetzt auch ohne es, und der Box-Check prüft es (Paket python3-difflib). Ein Fehler beim Programm-Hinweis kann die Oberfläche nicht mehr abstürzen lassen.",
-  "en": "OpenPLi: crash when moving through the channel list fixed. OpenPLi does not ship the Python part 'difflib' by default; Stream-Player now works without it and the box check tests for it (package python3-difflib). An error in the programme hint can no longer crash the GUI."
+  "de": "- Relay startete nach Abstürzen oder mehreren Updates manchmal nicht mehr («kein freier Port»): Alte Relays früherer Versionen überleben einen Absturz der Oberfläche und belegten alle Ports. Stream-Player beendet sie jetzt und übernimmt den Port.\n- Startfehler des Relays stehen jetzt im Protokoll.",
+  "en": "The relay sometimes did not start after crashes or several updates ('no free port'): old relays of earlier versions survive a GUI crash and occupied all ports. Stream-Player now ends them and takes over the port. Relay start errors are logged."
  }
 }
