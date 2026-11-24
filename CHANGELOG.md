@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.66.2 – 2026-11-24
+
+- Schneller umschalten bei Sendern, die nur direkt laufen (z.B. verschlüsselte Streams): Das Relay merkt sich das einige Stunden und schickt den Abspieler beim nächsten Mal sofort dorthin. Vorher probierte es jedes Mal zuerst alle Streams (bis zu 9 Sekunden bis zum Bild).
+- Live-Sender brachen bei manchen Anbietern nach 20–30 Sekunden ab («Keine neuen Abschnitte»): Das Relay erkennt die einzelnen Abschnitte jetzt an ihrer Adresse und nicht nur an der Nummer. Manche Anbieter nummerieren nicht oder zählen auf ihren Servern unterschiedlich.
+- Diagnose-Bericht: Listennamen in Anführungszeichen und Sendernamen in anderen Schriften (z.B. kyrillisch) werden jetzt auch durch Platzhalter ersetzt. Dafür bleiben technische Meldungen wie «Server meldet Fehler 403» lesbar. Abstürze, mit denen Stream-Player nichts zu tun hat, kommen nicht mehr in den Bericht. Der Box-Check steht in deiner Sprache. Harmlose «Broken pipe»-Meldungen (beim Umschalten) fallen weg.
+
 ## 0.66.1 – 2026-11-24
 
 - Umschalten ruhiger: Liegt kurz vor dem Live-Ende ein Wechsel im Stream (z.B. zu Werbung oder einer anderen Sendung), beginnt das Relay gleich danach. Vorher kam oft kurz Bild, dann Schwarz und erst dann das bleibende Bild.
