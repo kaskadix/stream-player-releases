@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.66.7 – 2026-11-24
+
+- Einzelner Sender statt Liste: Trägt man den .m3u8-Link eines einzelnen Senders als Liste ein (z.B. einen Link, der am PC läuft), kam bisher «Liste leer». Jetzt wird daraus eine Liste mit diesem einen Sender. Der Name der Liste wird zum Sendernamen.
+
 ## 0.66.6 – 2026-11-24
 
 - Bild bei Sendern, die direkt laufen (z.B. Das Erste mit getrennter Tonspur), war oft schlecht: Das Relay gab dem Abspieler die beste Bildstufe nur, wenn der Sender nur einen Stream hatte. Jetzt klappt das auch bei Sendern mit mehreren Streams.
