@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.66.4 – 2026-11-24
+
+- Kein Ton bei manchen Sendern (z.B. ARD): Liefert ein Sender Bild und Ton als getrennte Spuren, ging der Ton im Relay verloren. Solche Sender spielt jetzt der Abspieler direkt, mit Ton. Gibt es eine Bildstufe mit Ton im Bild-Stream, nimmt das Relay diese.
+- Schärferes Bild bei Sendern, die direkt laufen (z.B. verschlüsselte): Das Relay gibt dem Abspieler nur noch die beste Bildstufe weiter. Vorher nahmen die Abspieler oft die erste, meist die schlechteste (verpixelt).
+- Listen-Link auf eine GitHub- oder GitLab-Seite (…/blob/…): Stream-Player holt jetzt die Datei dahinter. Vorher wurde die Webseite als Liste gelesen und es gab Sender, die nie liefen. Ist hinter einem Link eine Webseite, steht jetzt «Webseite statt Liste».
+- Zeilen aus Webseiten werden nicht mehr als Sender-Adresse gelesen.
+
 ## 0.66.3 – 2026-11-24
 
 - VPN-Tunnel testen im Browser: Auf der Einstellungsseite gibt es im Bereich VPN-Tunnel bei jedem Tunnel den Knopf «Testen». Die Box baut den Tunnel auf, auch ohne laufenden Sender, und zeigt, in welchem Land sie über diesen Tunnel ist (zum Vergleich auch ohne VPN). Antwortet der VPN-Server nicht, steht dort, was zu tun ist.

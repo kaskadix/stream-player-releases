@@ -1,13 +1,13 @@
 {
- "version": "0.66.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.3_all.ipk",
- "sha256": "e958d354be93419ecaa42875d4ba2a40d68a34acd8c328e6d60858f2825cbbd2",
- "size": 1851030,
- "installed_kb": 4016,
- "need_kb": 9056,
+ "version": "0.66.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.4_all.ipk",
+ "sha256": "41e726f530d232a034a8990674f40226e4d4e34eb9cca08893afc31ded03cc13",
+ "size": 1852128,
+ "installed_kb": 4024,
+ "need_kb": 9072,
  "date": "2026-11-24",
  "notes": {
-  "de": "- VPN-Tunnel testen im Browser: Auf der Einstellungsseite gibt es im Bereich VPN-Tunnel bei jedem Tunnel den Knopf «Testen». Die Box baut den Tunnel auf, auch ohne laufenden Sender, und zeigt, in welchem Land sie über diesen Tunnel ist (zum Vergleich auch ohne VPN). Antwortet der VPN-Server nicht, steht dort, was zu tun ist.\n- Anleitung: Was tun, wenn die VPN-PIN vergessen ist. Und: Beim Umzug per Sicherung kommt die VPN-PIN der alten Box mit.",
-  "en": "VPN tunnels: new 'Test' button on the settings page builds the tunnel and shows the country the box appears in through it (and without VPN). Manual: forgotten VPN PIN."
+  "de": "- Kein Ton bei manchen Sendern (z.B. ARD): Liefert ein Sender Bild und Ton als getrennte Spuren, ging der Ton im Relay verloren. Solche Sender spielt jetzt der Abspieler direkt, mit Ton. Gibt es eine Bildstufe mit Ton im Bild-Stream, nimmt das Relay diese.\n- Schärferes Bild bei Sendern, die direkt laufen (z.B. verschlüsselte): Das Relay gibt dem Abspieler nur noch die beste Bildstufe weiter. Vorher nahmen die Abspieler oft die erste, meist die schlechteste (verpixelt).\n- Listen-Link auf eine GitHub- oder GitLab-Seite (…/blob/…): Stream-Player holt jetzt die Datei dahinter. Vorher wurde die Webseite als Liste gelesen und es gab Sender, die nie liefen. Ist hinter einem Link eine Webseite, steht jetzt «Webseite statt Liste».\n- Zeilen aus Webseiten werden nicht mehr als Sender-Adresse gelesen.",
+  "en": "No sound with some channels (e.g. ARD): streams with separate audio renditions are now played directly by the player (muxed variants preferred in the relay). Sharper picture for direct-only streams: the relay hands the player only the best variant. GitHub/GitLab page links (/blob/) are converted to the raw file; web pages are reported as 'web page instead of list'. HTML lines are no longer read as stream addresses."
  }
 }
