@@ -1,13 +1,13 @@
 {
- "version": "0.63.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.0_all.ipk",
- "sha256": "24638efb247182ef50e319745b199a8f33377b2aff6f33a8a18bc8a2815c52b2",
- "size": 1834368,
+ "version": "0.63.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.1_all.ipk",
+ "sha256": "9afaa393c628587592672679c0bd538f64c4b57254bd388be9ba39d1f271ab24",
+ "size": 1834586,
  "installed_kb": 3972,
  "need_kb": 8968,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Infoleiste: Kommt ein Sender nicht, steht der Grund links in einer Zeile und die Tasten (MENU: warum? · BLAU: nochmals · P+/P-) rechts – vorher wurde die zweite Zeile abgeschnitten.\n- VPN: Ein laufender Tunnel wird nach einem Update (Neuladen ohne Neustart) nicht mehr neu aufgebaut. Das unterbrach sonst alles, was gerade durch ihn lief – z.B. das Bild beim Start einer Sofortaufnahme.",
-  "en": "Info bar: when a channel fails, the reason is on the left in one line and the keys on the right (second line was cut off). VPN: a running tunnel is no longer rebuilt after an update without restart, which interrupted everything running through it (e.g. the picture when starting an instant recording)."
+  "de": "- Sicherung/Wiederherstellen (openATV 8, OpenPLi): Zwischen den Schritten wartet Stream-Player kurz, bis das vorherige Fenster ganz geschlossen ist; die Auswahl ist auf allen Images in den ersten Sekunden gegen einen nachwirkenden OK-Druck gesperrt. Jeder Schritt steht im Protokoll.",
+  "en": "Backup/restore (openATV 8, OpenPLi): waits briefly between steps until the previous window is fully closed; the choice is locked against a lingering OK press on all images. Every step is logged."
  }
 }

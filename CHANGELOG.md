@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.63.1 – 2026-11-24
+
+- Sicherung/Wiederherstellen (openATV 8, OpenPLi): Zwischen den Schritten wartet Stream-Player kurz, bis das vorherige Fenster ganz geschlossen ist; die Auswahl ist auf allen Images in den ersten Sekunden gegen einen nachwirkenden OK-Druck gesperrt. Jeder Schritt steht im Protokoll.
+
 ## 0.63.0 – 2026-11-24
 
 - Infoleiste: Kommt ein Sender nicht, steht der Grund links in einer Zeile und die Tasten (MENU: warum? · BLAU: nochmals · P+/P-) rechts – vorher wurde die zweite Zeile abgeschnitten.
