@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.3 – 2026-11-24
+
+- Sicherung: Die Meldung «Sicherung gespeichert» bleibt mindestens 5 Sekunden stehen (ein noch nachwirkender OK-Tastendruck aus der Passworteingabe schloss sie sonst sofort wieder). Danach schliesst sie OK wie gewohnt.
+
 ## 0.62.2 – 2026-11-23
 
 - «» Stream-Player Hauptmenü» tat nach einem Update ohne Neustart der Oberfläche manchmal nichts (z.B. beim Abspielen einer Aufnahme aus dem Download-Manager). Der Weg zum Hauptmenü übersteht jetzt das Neuladen nach einem Update.

@@ -1,13 +1,13 @@
 {
- "version": "0.62.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.2_all.ipk",
- "sha256": "635a534aeaf8c96348d07080e0551146b514bd5ddb69772cda6b7c8c33d07610",
- "size": 1832310,
+ "version": "0.62.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.3_all.ipk",
+ "sha256": "48876ea7e42ae1cd5da10fe842f06ec6950b9d4fcf00e9a68d98c83626569d5f",
+ "size": 1832466,
  "installed_kb": 3960,
  "need_kb": 8944,
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "notes": {
-  "de": "- «» Stream-Player Hauptmenü» tat nach einem Update ohne Neustart der Oberfläche manchmal nichts (z.B. beim Abspielen einer Aufnahme aus dem Download-Manager). Der Weg zum Hauptmenü übersteht jetzt das Neuladen nach einem Update.",
-  "en": "'Stream-Player main menu' sometimes did nothing after an update without GUI restart (e.g. while playing a recording from the download manager). The way to the main menu now survives the module reload after an update."
+  "de": "- Sicherung: Die Meldung «Sicherung gespeichert» bleibt mindestens 5 Sekunden stehen (ein noch nachwirkender OK-Tastendruck aus der Passworteingabe schloss sie sonst sofort wieder). Danach schliesst sie OK wie gewohnt.",
+  "en": "Backup: the 'Backup saved' message stays at least 5 seconds (a lingering OK press from the password entry closed it at once)."
  }
 }
