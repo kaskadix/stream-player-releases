@@ -1,13 +1,13 @@
 {
- "version": "0.66.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.2_all.ipk",
- "sha256": "2d28d22a661cf5cdf72f0e24974b80621b9eeeb149a6be2cb215fb4d4db69440",
- "size": 1849602,
- "installed_kb": 4008,
- "need_kb": 9040,
+ "version": "0.66.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.3_all.ipk",
+ "sha256": "e958d354be93419ecaa42875d4ba2a40d68a34acd8c328e6d60858f2825cbbd2",
+ "size": 1851030,
+ "installed_kb": 4016,
+ "need_kb": 9056,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Schneller umschalten bei Sendern, die nur direkt laufen (z.B. verschlüsselte Streams): Das Relay merkt sich das einige Stunden und schickt den Abspieler beim nächsten Mal sofort dorthin. Vorher probierte es jedes Mal zuerst alle Streams (bis zu 9 Sekunden bis zum Bild).\n- Live-Sender brachen bei manchen Anbietern nach 20–30 Sekunden ab («Keine neuen Abschnitte»): Das Relay erkennt die einzelnen Abschnitte jetzt an ihrer Adresse und nicht nur an der Nummer. Manche Anbieter nummerieren nicht oder zählen auf ihren Servern unterschiedlich.\n- Diagnose-Bericht: Listennamen in Anführungszeichen und Sendernamen in anderen Schriften (z.B. kyrillisch) werden jetzt auch durch Platzhalter ersetzt. Dafür bleiben technische Meldungen wie «Server meldet Fehler 403» lesbar. Abstürze, mit denen Stream-Player nichts zu tun hat, kommen nicht mehr in den Bericht. Der Box-Check steht in deiner Sprache. Harmlose «Broken pipe»-Meldungen (beim Umschalten) fallen weg.",
-  "en": "Faster zapping for direct-only streams (remembered for some hours). Live HLS no longer stalls after 20-30 s with providers whose segment numbering is missing or inconsistent (segments are tracked by address). Diagnosis report: quoted list names and non-Latin channel names are anonymised, technical error messages stay readable, unrelated crashes left out, box check in the user's language."
+  "de": "- VPN-Tunnel testen im Browser: Auf der Einstellungsseite gibt es im Bereich VPN-Tunnel bei jedem Tunnel den Knopf «Testen». Die Box baut den Tunnel auf, auch ohne laufenden Sender, und zeigt, in welchem Land sie über diesen Tunnel ist (zum Vergleich auch ohne VPN). Antwortet der VPN-Server nicht, steht dort, was zu tun ist.\n- Anleitung: Was tun, wenn die VPN-PIN vergessen ist. Und: Beim Umzug per Sicherung kommt die VPN-PIN der alten Box mit.",
+  "en": "VPN tunnels: new 'Test' button on the settings page builds the tunnel and shows the country the box appears in through it (and without VPN). Manual: forgotten VPN PIN."
  }
 }

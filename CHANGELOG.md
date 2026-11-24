@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.66.3 – 2026-11-24
+
+- VPN-Tunnel testen im Browser: Auf der Einstellungsseite gibt es im Bereich VPN-Tunnel bei jedem Tunnel den Knopf «Testen». Die Box baut den Tunnel auf, auch ohne laufenden Sender, und zeigt, in welchem Land sie über diesen Tunnel ist (zum Vergleich auch ohne VPN). Antwortet der VPN-Server nicht, steht dort, was zu tun ist.
+- Anleitung: Was tun, wenn die VPN-PIN vergessen ist. Und: Beim Umzug per Sicherung kommt die VPN-PIN der alten Box mit.
+
 ## 0.66.2 – 2026-11-24
 
 - Schneller umschalten bei Sendern, die nur direkt laufen (z.B. verschlüsselte Streams): Das Relay merkt sich das einige Stunden und schickt den Abspieler beim nächsten Mal sofort dorthin. Vorher probierte es jedes Mal zuerst alle Streams (bis zu 9 Sekunden bis zum Bild).
