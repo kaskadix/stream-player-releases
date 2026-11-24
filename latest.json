@@ -1,13 +1,13 @@
 {
- "version": "0.62.8",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.8_all.ipk",
- "sha256": "79c42ca3d91881e54465508f1cc41814ba4e03215979e81935f7017cc87a2b47",
- "size": 1833924,
+ "version": "0.62.9",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.9_all.ipk",
+ "sha256": "afece3742f06c9afe143b19af80cb9f806eb542981827bdb6bedd82e3279cfce",
+ "size": 1834004,
  "installed_kb": 3972,
  "need_kb": 8968,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Relay startete nach Abstürzen oder mehreren Updates manchmal nicht mehr («kein freier Port»): Alte Relays früherer Versionen überleben einen Absturz der Oberfläche und belegten alle Ports. Stream-Player beendet sie jetzt und übernimmt den Port.\n- Startfehler des Relays stehen jetzt im Protokoll.",
-  "en": "The relay sometimes did not start after crashes or several updates ('no free port'): old relays of earlier versions survive a GUI crash and occupied all ports. Stream-Player now ends them and takes over the port. Relay start errors are logged."
+  "de": "- Relay: Ein bereits laufendes Relay derselben Version wird weiterverwendet statt neu gestartet.",
+  "en": "Relay: an already running relay of the same version is reused instead of restarted."
  }
 }

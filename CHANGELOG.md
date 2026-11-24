@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.62.9 – 2026-11-24
+
+- Relay: Ein bereits laufendes Relay derselben Version wird weiterverwendet statt neu gestartet.
+
 ## 0.62.8 – 2026-11-24
 
 - Relay startete nach Abstürzen oder mehreren Updates manchmal nicht mehr («kein freier Port»): Alte Relays früherer Versionen überleben einen Absturz der Oberfläche und belegten alle Ports. Stream-Player beendet sie jetzt und übernimmt den Port.
