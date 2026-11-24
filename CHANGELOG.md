@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.63.0 – 2026-11-24
+
+- Infoleiste: Kommt ein Sender nicht, steht der Grund links in einer Zeile und die Tasten (MENU: warum? · BLAU: nochmals · P+/P-) rechts – vorher wurde die zweite Zeile abgeschnitten.
+- VPN: Ein laufender Tunnel wird nach einem Update (Neuladen ohne Neustart) nicht mehr neu aufgebaut. Das unterbrach sonst alles, was gerade durch ihn lief – z.B. das Bild beim Start einer Sofortaufnahme.
+
 ## 0.62.9 – 2026-11-24
 
 - Relay: Ein bereits laufendes Relay derselben Version wird weiterverwendet statt neu gestartet.
