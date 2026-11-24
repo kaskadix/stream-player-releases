@@ -1,13 +1,13 @@
 {
- "version": "0.64.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.64.0_all.ipk",
- "sha256": "5c72b24231e9c95f87b960d97343891c8c15413b187d5a6f75db2bdbc8867838",
- "size": 1835666,
+ "version": "0.64.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.64.1_all.ipk",
+ "sha256": "ef8d1e6fc529a9235d8385a933d03b787aa8ccb132e728f2931eb4d7b1e4d03e",
+ "size": 1836840,
  "installed_kb": 3976,
  "need_kb": 8976,
  "date": "2026-11-24",
  "notes": {
-  "de": "- openATV 8: Verzögerte Schritte der Oberfläche (z.B. nach einer Auswahl das nächste Fenster öffnen) liefen manchmal erst beim nächsten Tastendruck – Sicherung/Wiederherstellen sprang deshalb scheinbar zurück und blieb dann bei «Sicherungen werden gesucht …» hängen. Alle Bildschirme von Stream-Player nutzen dafür jetzt den Zeitgeber von Enigma2 selbst (eTimer) statt den von Twisted.",
-  "en": "openATV 8: delayed GUI steps (e.g. opening the next window after a choice) sometimes ran only at the next key press - backup/restore seemed to jump back and then hung at 'Looking for backups'. All Stream-Player screens now use Enigma2's own timer (eTimer) instead of Twisted's."
+  "de": "- Box-Check erkennt jetzt auch eine falsch gehende Uhr (Vergleich mit der Zeit aus dem Internet, nicht nur «Jahr vor 2024»). GRÜN stellt die Uhr einmal richtig – danach klappen auch sichere Verbindungen und das Nachinstallieren wieder. Hinweis, wie die Uhr dauerhaft stimmt (NTP statt Transponder).",
+  "en": "Box check now detects a wrong clock (compared with internet time, not only 'year before 2024'). GREEN sets the clock once; then secure connections and installing work again. Hint how to keep it right (NTP instead of transponder)."
  }
 }

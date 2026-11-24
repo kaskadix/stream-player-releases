@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.64.1 – 2026-11-24
+
+- Box-Check erkennt jetzt auch eine falsch gehende Uhr (Vergleich mit der Zeit aus dem Internet, nicht nur «Jahr vor 2024»). GRÜN stellt die Uhr einmal richtig – danach klappen auch sichere Verbindungen und das Nachinstallieren wieder. Hinweis, wie die Uhr dauerhaft stimmt (NTP statt Transponder).
+
 ## 0.64.0 – 2026-11-24
 
 - openATV 8: Verzögerte Schritte der Oberfläche (z.B. nach einer Auswahl das nächste Fenster öffnen) liefen manchmal erst beim nächsten Tastendruck – Sicherung/Wiederherstellen sprang deshalb scheinbar zurück und blieb dann bei «Sicherungen werden gesucht …» hängen. Alle Bildschirme von Stream-Player nutzen dafür jetzt den Zeitgeber von Enigma2 selbst (eTimer) statt den von Twisted.
