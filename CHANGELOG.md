@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.64.0 – 2026-11-24
+
+- openATV 8: Verzögerte Schritte der Oberfläche (z.B. nach einer Auswahl das nächste Fenster öffnen) liefen manchmal erst beim nächsten Tastendruck – Sicherung/Wiederherstellen sprang deshalb scheinbar zurück und blieb dann bei «Sicherungen werden gesucht …» hängen. Alle Bildschirme von Stream-Player nutzen dafür jetzt den Zeitgeber von Enigma2 selbst (eTimer) statt den von Twisted.
+
 ## 0.63.3 – 2026-11-24
 
 - Sicherung/Wiederherstellen: Fehler «_open() got an unexpected keyword argument 'hold'» aus 0.63.2 behoben (zwei Hilfsfunktionen hatten denselben Namen). Neuer Test spielt die Wiederherstellung mit einem nachgebauten, strengen Enigma2 durch, und ein Test verhindert doppelte Funktionsnamen.

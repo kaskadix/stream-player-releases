@@ -1,13 +1,13 @@
 {
- "version": "0.63.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.3_all.ipk",
- "sha256": "df85b04f5b3e43f974f02b25c13d15458b4206593316ea62757ae959f6b4904b",
- "size": 1834992,
- "installed_kb": 3972,
- "need_kb": 8968,
+ "version": "0.64.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.64.0_all.ipk",
+ "sha256": "5c72b24231e9c95f87b960d97343891c8c15413b187d5a6f75db2bdbc8867838",
+ "size": 1835666,
+ "installed_kb": 3976,
+ "need_kb": 8976,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Sicherung/Wiederherstellen: Fehler «_open() got an unexpected keyword argument 'hold'» aus 0.63.2 behoben (zwei Hilfsfunktionen hatten denselben Namen). Neuer Test spielt die Wiederherstellung mit einem nachgebauten, strengen Enigma2 durch, und ein Test verhindert doppelte Funktionsnamen.",
-  "en": "Backup/restore: fixed error '_open() got an unexpected keyword argument hold' from 0.63.2 (two helpers had the same name). A new test runs the restore flow against a simulated strict Enigma2, another prevents duplicate function names."
+  "de": "- openATV 8: Verzögerte Schritte der Oberfläche (z.B. nach einer Auswahl das nächste Fenster öffnen) liefen manchmal erst beim nächsten Tastendruck – Sicherung/Wiederherstellen sprang deshalb scheinbar zurück und blieb dann bei «Sicherungen werden gesucht …» hängen. Alle Bildschirme von Stream-Player nutzen dafür jetzt den Zeitgeber von Enigma2 selbst (eTimer) statt den von Twisted.",
+  "en": "openATV 8: delayed GUI steps (e.g. opening the next window after a choice) sometimes ran only at the next key press - backup/restore seemed to jump back and then hung at 'Looking for backups'. All Stream-Player screens now use Enigma2's own timer (eTimer) instead of Twisted's."
  }
 }
