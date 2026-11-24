@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.62.4 – 2026-11-24
+
+- Wiederherstellen: Die Suche nach Sicherungen durchsucht alle Laufwerke gleichzeitig. Ein langsames oder hängendes Netzlaufwerk (z.B. /media/autofs) verhindert nicht mehr, dass die Sicherung auf der Festplatte gefunden wird (z.B. unter OpenPLi in /media/dreambox-storage). Das Ergebnis steht im Protokoll.
+- Die Auswahl der Sicherungen und Fehlermeldungen lassen sich in den ersten Sekunden nicht versehentlich mit einem nachwirkenden OK-Druck schliessen.
+
 ## 0.62.3 – 2026-11-24
 
 - Sicherung: Die Meldung «Sicherung gespeichert» bleibt mindestens 5 Sekunden stehen (ein noch nachwirkender OK-Tastendruck aus der Passworteingabe schloss sie sonst sofort wieder). Danach schliesst sie OK wie gewohnt.

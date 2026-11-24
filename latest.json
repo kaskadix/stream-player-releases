@@ -1,13 +1,13 @@
 {
- "version": "0.62.3",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.3_all.ipk",
- "sha256": "48876ea7e42ae1cd5da10fe842f06ec6950b9d4fcf00e9a68d98c83626569d5f",
- "size": 1832466,
- "installed_kb": 3960,
- "need_kb": 8944,
+ "version": "0.62.4",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.62.4_all.ipk",
+ "sha256": "2a118aff9ff99c4d6e64f34566968cac7e5ce83a2057fa8a9d1e73f894443f86",
+ "size": 1832758,
+ "installed_kb": 3964,
+ "need_kb": 8952,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Sicherung: Die Meldung «Sicherung gespeichert» bleibt mindestens 5 Sekunden stehen (ein noch nachwirkender OK-Tastendruck aus der Passworteingabe schloss sie sonst sofort wieder). Danach schliesst sie OK wie gewohnt.",
-  "en": "Backup: the 'Backup saved' message stays at least 5 seconds (a lingering OK press from the password entry closed it at once)."
+  "de": "- Wiederherstellen: Die Suche nach Sicherungen durchsucht alle Laufwerke gleichzeitig. Ein langsames oder hängendes Netzlaufwerk (z.B. /media/autofs) verhindert nicht mehr, dass die Sicherung auf der Festplatte gefunden wird (z.B. unter OpenPLi in /media/dreambox-storage). Das Ergebnis steht im Protokoll.\n- Die Auswahl der Sicherungen und Fehlermeldungen lassen sich in den ersten Sekunden nicht versehentlich mit einem nachwirkenden OK-Druck schliessen.",
+  "en": "Restore: backups are searched on all drives at the same time; a slow or hanging network drive no longer prevents finding the backup on the hard disk. Choice and error boxes can no longer be closed by a lingering OK press."
  }
 }
