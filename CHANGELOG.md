@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.66.6 – 2026-11-24
+
+- Bild bei Sendern, die direkt laufen (z.B. Das Erste mit getrennter Tonspur), war oft schlecht: Das Relay gab dem Abspieler die beste Bildstufe nur, wenn der Sender nur einen Stream hatte. Jetzt klappt das auch bei Sendern mit mehreren Streams.
+- Diagnose-Bericht wahlweise **mit Sender- und Listennamen**: Auf der Box fragt Stream-Player beim Erstellen «ohne Namen (empfohlen)» oder «mit Namen». Im Browser gibt es neben «Diagnose-Bericht» den kleinen Link «(mit Sender- und Listennamen)». Zugangsdaten sind in beiden Fällen unkenntlich.
+
 ## 0.66.5 – 2026-11-24
 
 - Diagnose-Bericht: Längere Meldungen aus Stream-Player (z.B. «Webseite statt Liste») bleiben lesbar. Ein Listenname, der als Beispiel im Programmcode stand, ist entfernt, er erschien deshalb lesbar im Bericht.

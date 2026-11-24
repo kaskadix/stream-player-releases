@@ -1,13 +1,13 @@
 {
- "version": "0.66.5",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.5_all.ipk",
- "sha256": "e15d0a63a7b79a5b71a531fb4140948c08c38ebb7019d6605db6afc22b4c16b6",
- "size": 1852160,
- "installed_kb": 4024,
- "need_kb": 9072,
+ "version": "0.66.6",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.6_all.ipk",
+ "sha256": "82d14ee741a413c8cb97a52b2f85aeb186ecdb15d28fc648ef8b39ea1c4325ee",
+ "size": 1853284,
+ "installed_kb": 4028,
+ "need_kb": 9080,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Diagnose-Bericht: Längere Meldungen aus Stream-Player (z.B. «Webseite statt Liste») bleiben lesbar. Ein Listenname, der als Beispiel im Programmcode stand, ist entfernt, er erschien deshalb lesbar im Bericht.",
-  "en": "Diagnosis report: longer plugin messages stay readable; removed an example list name from the code."
+  "de": "- Bild bei Sendern, die direkt laufen (z.B. Das Erste mit getrennter Tonspur), war oft schlecht: Das Relay gab dem Abspieler die beste Bildstufe nur, wenn der Sender nur einen Stream hatte. Jetzt klappt das auch bei Sendern mit mehreren Streams.\n- Diagnose-Bericht wahlweise **mit Sender- und Listennamen**: Auf der Box fragt Stream-Player beim Erstellen «ohne Namen (empfohlen)» oder «mit Namen». Im Browser gibt es neben «Diagnose-Bericht» den kleinen Link «(mit Sender- und Listennamen)». Zugangsdaten sind in beiden Fällen unkenntlich.",
+  "en": "Direct playback now gets the best variant also for channels with several streams (e.g. Das Erste with separate audio). Diagnosis report optionally with channel and list names (box asks; browser link '(with channel and list names)'); credentials stay hidden."
  }
 }
