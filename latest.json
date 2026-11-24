@@ -1,13 +1,13 @@
 {
- "version": "0.63.1",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.1_all.ipk",
- "sha256": "9afaa393c628587592672679c0bd538f64c4b57254bd388be9ba39d1f271ab24",
- "size": 1834586,
+ "version": "0.63.2",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.63.2_all.ipk",
+ "sha256": "8eaf5788810c6ec9c956c443f7e40da0b2e19ba2cb71df7372fef5850619593b",
+ "size": 1834742,
  "installed_kb": 3972,
  "need_kb": 8968,
  "date": "2026-11-24",
  "notes": {
-  "de": "- Sicherung/Wiederherstellen (openATV 8, OpenPLi): Zwischen den Schritten wartet Stream-Player kurz, bis das vorherige Fenster ganz geschlossen ist; die Auswahl ist auf allen Images in den ersten Sekunden gegen einen nachwirkenden OK-Druck gesperrt. Jeder Schritt steht im Protokoll.",
-  "en": "Backup/restore (openATV 8, OpenPLi): waits briefly between steps until the previous window is fully closed; the choice is locked against a lingering OK press on all images. Every step is logged."
+  "de": "- Sicherung/Wiederherstellen auf openATV 8 und OpenPLi: Der nächste Schritt öffnet sich jetzt erst, wenn Enigma2 das Schliessen der Warte-Meldung ganz abgeschlossen hat (statt nach einer festen kurzen Wartezeit). Vorher blieb die Wiederherstellung nach der Suche stehen.",
+  "en": "Backup/restore on openATV 8 and OpenPLi: the next step now opens only after Enigma2 has fully closed the wait message (instead of after a fixed delay). Before, restoring stopped after the search."
  }
 }

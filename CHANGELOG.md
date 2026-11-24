@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.63.2 – 2026-11-24
+
+- Sicherung/Wiederherstellen auf openATV 8 und OpenPLi: Der nächste Schritt öffnet sich jetzt erst, wenn Enigma2 das Schliessen der Warte-Meldung ganz abgeschlossen hat (statt nach einer festen kurzen Wartezeit). Vorher blieb die Wiederherstellung nach der Suche stehen.
+
 ## 0.63.1 – 2026-11-24
 
 - Sicherung/Wiederherstellen (openATV 8, OpenPLi): Zwischen den Schritten wartet Stream-Player kurz, bis das vorherige Fenster ganz geschlossen ist; die Auswahl ist auf allen Images in den ersten Sekunden gegen einen nachwirkenden OK-Druck gesperrt. Jeder Schritt steht im Protokoll.
