@@ -1,5 +1,12 @@
 # Stream-Player – Versionen
 
+## 0.65.0 – 2026-11-24
+
+- Neue Version? Stream-Player fragt jetzt gleich beim Öffnen – mit den wichtigsten Neuerungen in Kürze und der Wahl: jetzt installieren, zuerst anzeigen was neu ist, später (morgen wieder fragen) oder diese Version überspringen. Abschaltbar unter Einstellungen › «Beim Öffnen auf neue Version hinweisen».
+- Neu: Diagnose-Bericht für den Entwickler (MENU › Diagnose-Bericht erstellen, oder im Browser unter /diagnose). Enthält Version, Image, Box, wichtige Pakete, Box-Check, Einstellungen, Listen-Namen, letzten Absturz und Protokoll – Benutzernamen, Passwörter, Schlüssel und Token sind unkenntlich gemacht, auch in Xtream-Adressen.
+- Beim Öffnen schreibt Stream-Player eine Zeile mit Version, Image, Box, Python, Kernel und Abspieler ins Protokoll. Ist die Oberfläche abgestürzt und war Stream-Player beteiligt, bietet es beim nächsten Öffnen den Bericht an.
+- Protokoll: Auch Benutzer/Passwort in Xtream-Adressen und in user:pass@-Adressen werden unkenntlich gemacht.
+
 ## 0.64.2 – 2026-11-24
 
 - Infoleiste: Die Zeile unten links (z.B. «Aufnahme bis 12:26: …») bricht nie mehr in eine abgeschnittene zweite Zeile um; die Stream-Nummer steht nur noch rechts bei «Stream».
