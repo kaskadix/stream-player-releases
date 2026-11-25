@@ -1,13 +1,13 @@
 {
- "version": "0.66.7",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.7_all.ipk",
- "sha256": "bdb20645b0ba338a9dc8b5567330144b94078608903774e76644bf15ae629ef8",
- "size": 1854026,
- "installed_kb": 4032,
- "need_kb": 9088,
- "date": "2026-11-24",
+ "version": "0.66.8",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.8_all.ipk",
+ "sha256": "fbecd9a3fc4efe7295590b89df6018eda546b7161c098e0a5184c7554b71e322",
+ "size": 1854338,
+ "installed_kb": 4036,
+ "need_kb": 9096,
+ "date": "2026-11-26",
  "notes": {
-  "de": "- Einzelner Sender statt Liste: Trägt man den .m3u8-Link eines einzelnen Senders als Liste ein (z.B. einen Link, der am PC läuft), kam bisher «Liste leer». Jetzt wird daraus eine Liste mit diesem einen Sender. Der Name der Liste wird zum Sendernamen.",
-  "en": "A single channel .m3u8 link added as a list now becomes a list with that one channel (was: 'list empty')."
+  "de": "- Umschalten: Stream-Player startet zuerst den Stream und zeigt erst danach Logo und Programm an. Bisher war es umgekehrt, das kostete bei jedem Umschalten etwas Zeit.\n- Vorschau in der Senderliste startet schneller: Bleibt die Auswahl auf einem Sender stehen, beginnt die Vorschau nach 0,45 statt 0,8 Sekunden.\n- Messung im Protokoll: «Vollbild: Bild nach …» nennt jetzt auch die Zeit ab dem Tastendruck. So sehen wir genau, wo beim Umschalten Zeit verloren geht.",
+  "en": "Zapping: start the stream before drawing logo/EPG; list preview starts after 0.45 s instead of 0.8 s; log shows time from key press to picture."
  }
 }

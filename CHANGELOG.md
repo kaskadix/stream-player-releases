@@ -1,5 +1,11 @@
 # Stream-Player – Versionen
 
+## 0.66.8 – 2026-11-26
+
+- Umschalten: Stream-Player startet zuerst den Stream und zeigt erst danach Logo und Programm an. Bisher war es umgekehrt, das kostete bei jedem Umschalten etwas Zeit.
+- Vorschau in der Senderliste startet schneller: Bleibt die Auswahl auf einem Sender stehen, beginnt die Vorschau nach 0,45 statt 0,8 Sekunden.
+- Messung im Protokoll: «Vollbild: Bild nach …» nennt jetzt auch die Zeit ab dem Tastendruck. So sehen wir genau, wo beim Umschalten Zeit verloren geht.
+
 ## 0.66.7 – 2026-11-24
 
 - Einzelner Sender statt Liste: Trägt man den .m3u8-Link eines einzelnen Senders als Liste ein (z.B. einen Link, der am PC läuft), kam bisher «Liste leer». Jetzt wird daraus eine Liste mit diesem einen Sender. Der Name der Liste wird zum Sendernamen.
