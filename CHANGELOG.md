@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.67.0 – 2026-11-26
+
+- **Streams eines Senders im Überblick:** Im Vollbild zeigt MENU › «Streams dieses Senders» bei Sendern mit mehreren Streams alle Streams mit Bildqualität (Auflösung, Bildformat, Datenrate), Ton (Format, Sprachen, getrennte Tonspur), Zustand (wann zuletzt gelaufen oder woran gescheitert) und Liste. OK spielt den gewählten Stream. Läuft er, nimmt Stream-Player ihn beim nächsten Mal zuerst. Xtream-Streams werden dafür nie geöffnet, und Streams mit VPN-Tunnel werden durch den Tunnel gelesen.
+- **Schneller umschalten:** Stream-Player merkt sich die Übersicht von HLS-Sendern kurz und holt bei ruhig laufendem Sender schon die Sender davor und danach (P+/P-) im Voraus. Das gilt auch für die Vorschau in der Senderliste. Beim Umschalten fällt dadurch eine Anfrage weg.
+
 ## 0.66.8 – 2026-11-26
 
 - Umschalten: Stream-Player startet zuerst den Stream und zeigt erst danach Logo und Programm an. Bisher war es umgekehrt, das kostete bei jedem Umschalten etwas Zeit.

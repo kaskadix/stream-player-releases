@@ -1,13 +1,13 @@
 {
- "version": "0.66.8",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.66.8_all.ipk",
- "sha256": "fbecd9a3fc4efe7295590b89df6018eda546b7161c098e0a5184c7554b71e322",
- "size": 1854338,
- "installed_kb": 4036,
- "need_kb": 9096,
+ "version": "0.67.0",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.67.0_all.ipk",
+ "sha256": "e7c9c29ad3d36dd8f653faf0afe20ab299d14150e28170086af9039fbd405ef0",
+ "size": 1860898,
+ "installed_kb": 4064,
+ "need_kb": 9152,
  "date": "2026-11-26",
  "notes": {
-  "de": "- Umschalten: Stream-Player startet zuerst den Stream und zeigt erst danach Logo und Programm an. Bisher war es umgekehrt, das kostete bei jedem Umschalten etwas Zeit.\n- Vorschau in der Senderliste startet schneller: Bleibt die Auswahl auf einem Sender stehen, beginnt die Vorschau nach 0,45 statt 0,8 Sekunden.\n- Messung im Protokoll: «Vollbild: Bild nach …» nennt jetzt auch die Zeit ab dem Tastendruck. So sehen wir genau, wo beim Umschalten Zeit verloren geht.",
-  "en": "Zapping: start the stream before drawing logo/EPG; list preview starts after 0.45 s instead of 0.8 s; log shows time from key press to picture."
+  "de": "- **Streams eines Senders im Überblick:** Im Vollbild zeigt MENU › «Streams dieses Senders» bei Sendern mit mehreren Streams alle Streams mit Bildqualität (Auflösung, Bildformat, Datenrate), Ton (Format, Sprachen, getrennte Tonspur), Zustand (wann zuletzt gelaufen oder woran gescheitert) und Liste. OK spielt den gewählten Stream. Läuft er, nimmt Stream-Player ihn beim nächsten Mal zuerst. Xtream-Streams werden dafür nie geöffnet, und Streams mit VPN-Tunnel werden durch den Tunnel gelesen.\n- **Schneller umschalten:** Stream-Player merkt sich die Übersicht von HLS-Sendern kurz und holt bei ruhig laufendem Sender schon die Sender davor und danach (P+/P-) im Voraus. Das gilt auch für die Vorschau in der Senderliste. Beim Umschalten fällt dadurch eine Anfrage weg.",
+  "en": "Streams overview: MENU > Streams of this channel lists every stream with picture/audio quality, last state and list; OK plays it. Faster zapping: HLS master playlists are cached briefly and the neighbouring channels (P+/P-, list preview) are prewarmed."
  }
 }
