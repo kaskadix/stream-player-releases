@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.67.1 – 2026-11-27
+
+- Absturz behoben: Wurde Stream-Player kurz nach dem Öffnen wieder geschlossen (oder schloss sich beim Umschalten), konnte ein verspäteter Zeitgeber auf das schon geschlossene Fenster zugreifen. Enigma2 stürzte dann ab (grünes Bild). Fehler in solchen Zeitgebern landen jetzt nur noch im Protokoll, die Oberfläche läuft weiter.
+
 ## 0.67.0 – 2026-11-26
 
 - **Streams eines Senders im Überblick:** Im Vollbild zeigt MENU › «Streams dieses Senders» bei Sendern mit mehreren Streams alle Streams mit Bildqualität (Auflösung, Bildformat, Datenrate), Ton (Format, Sprachen, getrennte Tonspur), Zustand (wann zuletzt gelaufen oder woran gescheitert) und Liste. OK spielt den gewählten Stream. Läuft er, nimmt Stream-Player ihn beim nächsten Mal zuerst. Xtream-Streams werden dafür nie geöffnet, und Streams mit VPN-Tunnel werden durch den Tunnel gelesen.

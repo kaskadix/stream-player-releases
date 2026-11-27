@@ -1,13 +1,13 @@
 {
- "version": "0.67.0",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.67.0_all.ipk",
- "sha256": "e7c9c29ad3d36dd8f653faf0afe20ab299d14150e28170086af9039fbd405ef0",
- "size": 1860898,
+ "version": "0.67.1",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.67.1_all.ipk",
+ "sha256": "bbc895049be459df086ceb1f20e875a574953ad5b8b71fff1175a0f5f2020177",
+ "size": 1861004,
  "installed_kb": 4064,
  "need_kb": 9152,
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "notes": {
-  "de": "- **Streams eines Senders im Überblick:** Im Vollbild zeigt MENU › «Streams dieses Senders» bei Sendern mit mehreren Streams alle Streams mit Bildqualität (Auflösung, Bildformat, Datenrate), Ton (Format, Sprachen, getrennte Tonspur), Zustand (wann zuletzt gelaufen oder woran gescheitert) und Liste. OK spielt den gewählten Stream. Läuft er, nimmt Stream-Player ihn beim nächsten Mal zuerst. Xtream-Streams werden dafür nie geöffnet, und Streams mit VPN-Tunnel werden durch den Tunnel gelesen.\n- **Schneller umschalten:** Stream-Player merkt sich die Übersicht von HLS-Sendern kurz und holt bei ruhig laufendem Sender schon die Sender davor und danach (P+/P-) im Voraus. Das gilt auch für die Vorschau in der Senderliste. Beim Umschalten fällt dadurch eine Anfrage weg.",
-  "en": "Streams overview: MENU > Streams of this channel lists every stream with picture/audio quality, last state and list; OK plays it. Faster zapping: HLS master playlists are cached briefly and the neighbouring channels (P+/P-, list preview) are prewarmed."
+  "de": "- Absturz behoben: Wurde Stream-Player kurz nach dem Öffnen wieder geschlossen (oder schloss sich beim Umschalten), konnte ein verspäteter Zeitgeber auf das schon geschlossene Fenster zugreifen. Enigma2 stürzte dann ab (grünes Bild). Fehler in solchen Zeitgebern landen jetzt nur noch im Protokoll, die Oberfläche läuft weiter.",
+  "en": "Fix crash: a delayed UI timer could touch an already closed window (AttributeError -> Enigma2 crash). Errors in UI timers are now logged instead of crashing."
  }
 }
