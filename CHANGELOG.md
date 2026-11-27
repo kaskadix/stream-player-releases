@@ -1,5 +1,10 @@
 # Stream-Player – Versionen
 
+## 0.67.2 – 2026-11-27
+
+- Diagnose-Bericht: Beim letzten Absturz zeigt er jetzt die entscheidende Stelle (Fehlermeldung bzw. die letzten Zeilen davor) statt der langen Tuner-Liste.
+- Protokoll: Die Zeit ab dem Tastendruck bleibt im Diagnose-Bericht lesbar.
+
 ## 0.67.1 – 2026-11-27
 
 - Absturz behoben: Wurde Stream-Player kurz nach dem Öffnen wieder geschlossen (oder schloss sich beim Umschalten), konnte ein verspäteter Zeitgeber auf das schon geschlossene Fenster zugreifen. Enigma2 stürzte dann ab (grünes Bild). Fehler in solchen Zeitgebern landen jetzt nur noch im Protokoll, die Oberfläche läuft weiter.
