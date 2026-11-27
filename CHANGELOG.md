@@ -1,5 +1,9 @@
 # Stream-Player – Versionen
 
+## 0.67.3 – 2026-11-27
+
+- Weitere Abstürze aus 0.67.0 behoben: Wer das Vollbild kurz nach dem Umschalten mit EXIT verliess, löste einige Sekunden später einen Absturz aus. Das Merken der Bildqualität für die Streams-Übersicht griff auf das schon geschlossene Fenster zu. Seit 0.67.1 verhindert ein allgemeiner Schutz solche Abstürze, jetzt prüfen auch die betroffenen Stellen selbst, ob das Fenster noch offen ist.
+
 ## 0.67.2 – 2026-11-27
 
 - Diagnose-Bericht: Beim letzten Absturz zeigt er jetzt die entscheidende Stelle (Fehlermeldung bzw. die letzten Zeilen davor) statt der langen Tuner-Liste.

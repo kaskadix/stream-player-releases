@@ -1,13 +1,13 @@
 {
- "version": "0.67.2",
- "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.67.2_all.ipk",
- "sha256": "82a65098195e8e45f6902f61d171e9840d46c5b0f9f25558c67d4d10731a748f",
- "size": 1861400,
+ "version": "0.67.3",
+ "url": "https://raw.githubusercontent.com/kaskadix/stream-player-releases/main/packages/enigma2-plugin-extensions-streamplayer_0.67.3_all.ipk",
+ "sha256": "99cd29e334c6c80bf722fab1d2219115b229a1ba999e69e47e0f02eb751ecb3d",
+ "size": 1861418,
  "installed_kb": 4068,
  "need_kb": 9160,
  "date": "2026-11-27",
  "notes": {
-  "de": "- Diagnose-Bericht: Beim letzten Absturz zeigt er jetzt die entscheidende Stelle (Fehlermeldung bzw. die letzten Zeilen davor) statt der langen Tuner-Liste.\n- Protokoll: Die Zeit ab dem Tastendruck bleibt im Diagnose-Bericht lesbar.",
-  "en": "Diagnosis report shows the relevant part of the last crash log; zap timing stays readable."
+  "de": "- Weitere Abstürze aus 0.67.0 behoben: Wer das Vollbild kurz nach dem Umschalten mit EXIT verliess, löste einige Sekunden später einen Absturz aus. Das Merken der Bildqualität für die Streams-Übersicht griff auf das schon geschlossene Fenster zu. Seit 0.67.1 verhindert ein allgemeiner Schutz solche Abstürze, jetzt prüfen auch die betroffenen Stellen selbst, ob das Fenster noch offen ist.",
+  "en": "Fix crashes from 0.67.0: delayed quality note / prewarm / first start no longer touch a closed window."
  }
 }
